@@ -1,0 +1,43 @@
+{
+  "parent": "izzybizzy:recipes/root",
+  "rewards": {
+    "recipes": [
+      "izzybizzy:elytra"
+    ]
+  },
+  "criteria": {
+    "has_golden_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:elytra"
+          }
+        ]
+      }
+    },
+	"has_dbreath": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dragon_breath"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "izzybizzy:elytra"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_golden_apple",
+	  "has_dbreath",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "izzybizzy:recipes/root",
+  "rewards": {
+    "recipes": [
+      "izzybizzy:trident"
+    ]
+  },
+  "criteria": {
+    "has_golden_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:trident"
+          }
+        ]
+      }
+    },
+	"has_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "izzybizzy:trident"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_golden_apple",
+	    "has_diamond",
+      "has_the_recipe"
+    ]
+  ]
+}

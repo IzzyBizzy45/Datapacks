@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:gold_block"
+        },
+        {
+            "item": "minecraft:enchanted_book"
+        },
+        {
+            "item": "minecraft:yellow_wool"
+        }
+    ],
+    "result": {
+        "item": "minecraft:sponge",
+        "count": 1
+    }
+}

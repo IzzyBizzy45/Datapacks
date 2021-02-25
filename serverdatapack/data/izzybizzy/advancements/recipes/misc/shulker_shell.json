@@ -1,0 +1,32 @@
+{
+  "parent": "izzybizzy:recipes/root",
+  "rewards": {
+    "recipes": [
+      "izzybizzy:shulker_shell"
+    ]
+  },
+  "criteria": {
+    "has_fruit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:popped_chorus_fruit"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "izzybizzy:shulker_shell"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_fruit",
+      "has_the_recipe"
+    ]
+  ]
+}

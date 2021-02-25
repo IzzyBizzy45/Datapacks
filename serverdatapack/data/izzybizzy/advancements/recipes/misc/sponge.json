@@ -1,0 +1,54 @@
+{
+  "parent": "izzybizzy:recipes/root",
+  "rewards": {
+    "recipes": [
+      "izzybizzy:sponge"
+    ]
+  },
+  "criteria": {
+    "has_golden_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:sponge"
+          }
+        ]
+      }
+    },
+	"has_dbreath": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:wet_sponge"
+          }
+        ]
+      }
+    },
+	"has_skull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:enchanted_book"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "izzybizzy:sponge"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_golden_apple",
+	  "has_dbreath",
+	  "has_skull",
+      "has_the_recipe"
+    ]
+  ]
+}

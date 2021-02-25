@@ -1,0 +1,43 @@
+{
+  "parent": "izzybizzy:recipes/root",
+  "rewards": {
+    "recipes": [
+      "izzybizzy:packed_ice"
+    ]
+  },
+  "criteria": {
+    "has_golden_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:packed_ice"
+          }
+        ]
+      }
+    },
+	"has_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:ice"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "izzybizzy:packed_ice"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_golden_apple",
+	  "has_diamond",
+      "has_the_recipe"
+    ]
+  ]
+}

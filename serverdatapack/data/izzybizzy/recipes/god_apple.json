@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "ded",
+    "#X#",
+    "ded"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_ingot"
+    },
+    "X": {
+      "item": "minecraft:golden_apple"
+    },
+	  "d": {
+	    "item": "minecraft:diamond"
+	  },
+	  "e": {
+	    "item": "minecraft:enchanted_book"
+	  }
+  },
+  "result": {
+    "item": "minecraft:enchanted_golden_apple"
+  }
+}

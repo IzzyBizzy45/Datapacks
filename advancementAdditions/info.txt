@@ -1,0 +1,5 @@
+Please note that the Minecraft advancements included in this pack are made and owned by Mojang, and are used to ensure that I can control the flow of what advancement comes after each one.
+I have done my best to only include any advancements that I need to change for this datapack to work as I want it to.
+
+Thanks,
+IzzyBizzy45

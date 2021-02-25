@@ -1,0 +1,43 @@
+{
+  "parent": "izzybizzy:recipes/root",
+  "rewards": {
+    "recipes": [
+      "izzybizzy:mycelium"
+    ]
+  },
+  "criteria": {
+    "has_golden_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:mycelium"
+          }
+        ]
+      }
+    },
+	"has_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:grass_block"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "izzybizzy:mycelium"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_golden_apple",
+	  "has_diamond",
+      "has_the_recipe"
+    ]
+  ]
+}

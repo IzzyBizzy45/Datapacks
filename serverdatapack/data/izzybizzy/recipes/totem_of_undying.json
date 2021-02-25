@@ -1,0 +1,26 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        " # ",
+        "DGD",
+        " g "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "D": {
+            "item": "minecraft:dragon_breath"
+        },
+        "G": {
+            "item": "minecraft:gold_block"
+        },
+        "g": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:totem_of_undying",
+        "count": 1
+    }
+}

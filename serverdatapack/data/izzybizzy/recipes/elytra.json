@@ -1,0 +1,29 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "#E#",
+        "FLF",
+        " D "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:phantom_membrane"
+        },
+        "E": {
+            "item": "minecraft:enchanted_book"
+        },
+        "F": {
+            "item": "minecraft:firework_rocket"
+        },
+        "L": {
+            "item": "minecraft:leather_chestplate"
+        },
+        "D": {
+            "item": "minecraft:dragon_breath"
+        }
+    },
+    "result": {
+        "item": "minecraft:elytra",
+        "count": 1
+    }
+}

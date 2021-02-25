@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+	"ppp",
+	"p p"
+  ],
+  "key": {
+    "p": {
+	  "item": "minecraft:popped_chorus_fruit"
+	}
+  },
+  "result": {
+    "item": "minecraft:shulker_shell"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "parent": "izzybizzy:recipes/root",
+  "rewards": {
+    "recipes": [
+      "izzybizzy:totem_of_undying"
+    ]
+  },
+  "criteria": {
+    "has_golden_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:totem_of_undying"
+          }
+        ]
+      }
+    },
+	"has_dbreath": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dragon_breath"
+          }
+        ]
+      }
+    },
+	"has_skull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:wither_skeleton_skull"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "izzybizzy:totem_of_undying"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_golden_apple",
+	    "has_dbreath",
+	    "has_skull",
+      "has_the_recipe"
+    ]
+  ]
+}

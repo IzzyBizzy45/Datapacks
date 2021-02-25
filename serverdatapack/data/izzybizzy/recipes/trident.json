@@ -1,0 +1,26 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "#D#",
+        " P ",
+        " / "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:sea_lantern"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "P": {
+            "item": "minecraft:prismarine"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:trident",
+        "count": 1
+    }
+}

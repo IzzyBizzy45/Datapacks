@@ -1,0 +1,23 @@
+{
+    "display": {
+        
+        "icon": {
+            "item": "minecraft:cyan_wool"
+        },
+        "title": {
+			"text": "An IzzyBizzy Server",
+            "color": "dark_aqua"
+		},
+        "description": {"translate": "You've Joined a IzzyBizzy made server, any server advancements will go here!"},
+		"background": "minecraft:textures/block/stone.png",
+		"announce_to_chat": false
+    },
+	"criteria": {
+        "air": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:air"
+            }
+        }
+    }
+}
