@@ -7,7 +7,7 @@
       "translate": "advancements.adventure.root.title"
     },
     "description": {
-      "translate": "advancements.adventure.root.description"
+      "translate": "Village, Pillage and Dungeoning!"
     },
     "frame": "task",
     "show_toast": false,

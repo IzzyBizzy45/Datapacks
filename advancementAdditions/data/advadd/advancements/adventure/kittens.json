@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cat_spawn_egg"
+        },
+        "title": {"translate": "If only cats were kittens forever"},
+        "description": {"translate": "Breed 2 cats together for a kitty"}
+    },
+    "parent": "advadd:adventure/cat_lady",
+    "criteria": {
+        "breed": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "parent": {
+                    "type": "minecraft:cat"
+                },
+                "partner": {
+                    "type": "minecraft:cat"
+                }
+            }
+        }
+    }
+}

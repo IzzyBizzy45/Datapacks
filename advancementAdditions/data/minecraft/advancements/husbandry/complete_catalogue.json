@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:husbandry/tame_an_animal",
+  "parent": "advadd:adventure/kittens",
   "display": {
     "icon": {
       "item": "minecraft:cod"

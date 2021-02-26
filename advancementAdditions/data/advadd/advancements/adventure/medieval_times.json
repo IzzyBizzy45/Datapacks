@@ -1,0 +1,58 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chainmail_helmet"
+        },
+        "title": {"translate": "Medieval Times Once Again"},
+        "description": {"translate": "Trade for a full set of chain armor from an armorer villager"}
+    },
+    "parent": "advadd:adventure/chanined_up",
+    "criteria": {
+        "chainmail_helmet": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:chainmail_helmet"
+				}
+			}
+        },
+        "chainmail_chestplate": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:chainmail_chestplate"
+				}
+			}
+        },
+        "chainmail_leggings": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:chainmail_leggings"
+				}
+			}
+        },
+        "chainmail_boots": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"item": "minecraft:chainmail_boots"
+				}
+			}
+        }		
+    },
+	"requirements": [
+		[
+            "chainmail_helmet"
+        ],
+        [
+            "chainmail_chestplate"
+        ],
+        [
+            "chainmail_leggings"
+        ],
+        [
+            "chainmail_boots"
+        ]
+	]
+}

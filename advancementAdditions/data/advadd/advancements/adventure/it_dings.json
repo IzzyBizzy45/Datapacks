@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bell"
+        },
+        "title": {"translate": "Oh look, it dings!"},
+        "description": {"translate": "Ring a bell in a village"}
+    },
+    "parent": "advadd:strike_a_deal",
+    "criteria": {
+        "ding": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "block": "minecraft:bell"
+                    },
+                    "feature": "village"
+                }
+            }
+        }
+    }
+}

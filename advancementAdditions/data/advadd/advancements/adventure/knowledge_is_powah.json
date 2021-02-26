@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "title": {"translate": "Knowledge is Powah"},
+        "description": {"translate": "Trade for an Enchanted Book"}
+    },
+    "parent": "advadd:adventure/strike_a_deal",
+    "criteria": {
+        "trade": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:enchanted_book"
+                }
+            }
+        }
+    }
+}

@@ -2,7 +2,7 @@
   "parent": "minecraft:adventure/trade",
   "display": {
     "icon": {
-      "item": "minecraft:carved_pumpkin"
+      "item": "minecraft:iron_block"
     },
     "title": {
       "translate": "advancements.adventure.summon_iron_golem.title"

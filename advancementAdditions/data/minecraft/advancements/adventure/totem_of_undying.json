@@ -1,8 +1,9 @@
 {
-  "parent": "minecraft:adventure/kill_a_mob",
+  "parent": "advadd:adventure/wololo",
   "display": {
     "icon": {
-      "item": "minecraft:totem_of_undying"
+      "item": "minecraft:totem_of_undying",
+      "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
     },
     "title": {
       "translate": "advancements.adventure.totem_of_undying.title"

@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:guardian_spawn_egg"
+        },
+        "title": {"translate": "Guardian Destroyer"},
+        "description": {"translate": "Obtain a stack of prismarine shards and crystals"},
+        "frame": "goal"
+    },
+    "parent": "advadd:adventure/spear_fishing",
+    "criteria": {
+        "shards": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:prismarine_shard",
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "crystal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:prismarine_crystals",
+                        "count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

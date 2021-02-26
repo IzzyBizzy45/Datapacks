@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:map"
+        },
+        "title": {"translate": "Mapper"},
+        "description": {"translate": "Craft or trade an empty map"}
+    },
+    "parent": "advadd:adventure/knowledge_is_powah",
+    "criteria": {
+        "trade": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:map"
+                }
+            }
+        },
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:map"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "trade",
+            "craft"
+        ]
+    ]
+}

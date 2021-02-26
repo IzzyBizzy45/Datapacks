@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:light_blue_banner"
+        },
+        "title": {"translate": "Not lost Anymore"},
+        "description": {"translate": "Right-click a banner with a map"}
+    },
+    "parent": "advadd:adventure/mapmaker_table",
+    "criteria": {
+        "right": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "tag": "minecraft:banners"
+                    }
+                },
+                "item": {
+                    "item": "minecraft:filled_map"
+                }
+            }
+        }
+    }
+}

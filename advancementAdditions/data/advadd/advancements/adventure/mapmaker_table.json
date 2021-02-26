@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cartography_table"
+        },
+        "title": {"translate": "The Mapmaker's Table"},
+        "description": {"translate": "Create a cartography table with paper and planks"}
+    },
+    "parent": "advadd:adventure/mapper",
+    "criteria": {
+        "table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cartography_table"
+                    }
+                ]
+            }
+        }
+    }
+}

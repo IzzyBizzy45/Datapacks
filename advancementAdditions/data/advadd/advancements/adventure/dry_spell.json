@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wet_sponge"
+        },
+        "title": {"translate": "Dry Spell"},
+        "description": {"translate": "Dry a sponge in a furnace"}
+    },
+    "parent": "advadd:adventure/deep_end",
+    "criteria": {
+        "sponge": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sponge"
+                    }
+                ]
+            }
+        }
+    }
+}

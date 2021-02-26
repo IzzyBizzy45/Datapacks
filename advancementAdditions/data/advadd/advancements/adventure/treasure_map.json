@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:filled_map"
+        },
+        "title": {"translate": "Treasure Map"},
+        "description": {"translate": "Trade for a Explorer's Map"},
+        "frame": "goal"
+    },
+    "parent": "advadd:adventure/mapper",
+    "criteria": {
+        "trade": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:filled_map"
+                }
+            }
+        }
+    }
+}

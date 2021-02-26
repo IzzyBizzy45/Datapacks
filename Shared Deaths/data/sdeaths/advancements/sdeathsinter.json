@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:skeleton_skull"
         },
-        "title": "Shared Deaths",
-        "description": "When one person dies, everybody dies.",
+        "title": {"translate": "Shared Deaths"},
+        "description": {"translate": "When one person dies, everybody dies."},
         "announce_to_chat": false,
         "hidden": true,
         "show_toast": false
