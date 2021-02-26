@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:oak_log"
+        },
+        "title": {
+            "translate": "Did you want to Trade?"
+        },
+        "description": {
+            "translate": "Find a village"
+        }
+    },
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "village": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "village"
+            }
+        }
+    }
+}
