@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blue_carpet"
+        },
+        "title": {"translate":"No more deal"},
+        "description": {"translate":"Get spat at by one of the Trader Llamas"},
+		"hidden": true
+    },
+    "parent": "advadd:adventure/rebuilding_the_oceans",
+    "criteria": {
+        "llama_hurt_player": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:trader_llama"
+					}
+				}
+            }
+        }		
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blue_dye"
+        },
+        "title": {"translate":"Travelling Merchant"},
+        "description": {"translate":"Trade with a Wandering Trader"}
+    },
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "trade": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"type": "wandering_trader"
+				}
+			}
+        }
+    }
+}

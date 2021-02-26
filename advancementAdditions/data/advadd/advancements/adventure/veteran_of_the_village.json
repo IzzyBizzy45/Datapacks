@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:emerald_block"
+        },
+        "title": {"translate":" of the Village"},
+        "description": {"translate":"Attain the highest level of Hero of the Village"},
+		"frame": "challenge"
+    },
+    "parent": "advadd:adventure/war_is_coming",
+    "rewards": {
+		"experience": 500
+    },		
+    "criteria": {
+        "hero_of_the_village": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:hero_of_the_village": {
+                        "duration": {
+                            "min": 1
+                        },
+						"amplifier": {
+							"min": 4
+						}
+					}
+                }
+            }
+        }
+    }
+}

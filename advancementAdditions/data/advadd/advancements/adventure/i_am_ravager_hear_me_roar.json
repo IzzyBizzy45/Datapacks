@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "title": {"translate":"I am Ravager, hear me ROAR!"},
+        "description": {"translate":"Have a Ravager slam into your shield"}
+    },
+    "parent": "advadd:adventure/its_so_beast_like",
+    "criteria": {
+        "deflected_crossbow": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": true,
+					"source_entity": {
+						"type": "ravager"
+					}
+                }
+            }
+        }
+    }
+}

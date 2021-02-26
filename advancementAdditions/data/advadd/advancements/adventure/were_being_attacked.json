@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crossbow"
+        },
+        "title": {"translate":"We're being attacked!"},
+        "description": {"translate":"Trigger a Pillager Raid"},
+		"hidden": true
+    },
+    "parent": "minecraft:adventure/voluntary_exile",
+    "criteria": {
+        "triggered_raid": {
+            "trigger": "minecraft:voluntary_exile"
+        }
+    }
+}

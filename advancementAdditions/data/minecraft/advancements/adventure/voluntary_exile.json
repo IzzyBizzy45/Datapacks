@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/root",
+  "parent": "advadd:adventure/riot_shield",
   "display": {
     "icon": {
       "item": "minecraft:white_banner",

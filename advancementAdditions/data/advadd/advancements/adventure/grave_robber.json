@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chiseled_sandstone"
+        },
+        "title": {"translate":"Egyptian Grave Robber"},
+        "description": {"translate":"Enter a pyramid in a desert"}
+    },
+    "parent": "advadd:adventure/now_youre_thinking_with_portals",
+    "criteria": {
+        "desert_pyramid": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "desert_pyramid"
+            }
+        }		
+    }
+}

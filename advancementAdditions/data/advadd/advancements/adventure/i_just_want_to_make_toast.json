@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rabbit_spawn_egg"
+        },
+        "title": {"translate":"I just want some toast!"},
+        "description": {"translate":"Name a bunny 'Toast'"}
+    },
+    "parent": "advadd:adventure/name_tag",
+    "criteria": {
+		"name_tag": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"item": "minecraft:name_tag",
+					"nbt": "{display:{Name:\"{\\\"text\\\":\\\"Toast\\\"}\"}}"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type": "minecraft:rabbit"
+						},
+						"entity": "this"
+					}
+				]
+			}
+		}
+    }
+}

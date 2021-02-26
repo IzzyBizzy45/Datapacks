@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dark_oak_planks"
+        },
+        "title": {"translate":"Out of Posts"},
+        "description": {"translate":"Enter a Pillager Outpost"}
+    },
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "pillager_outpost": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "pillager_outpost"
+            }
+        }
+    }
+}

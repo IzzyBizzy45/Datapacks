@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:vindicator_spawn_egg"
+        },
+        "title": {"translate":"The one and true Johnny"},
+        "description": {"translate":"Defeat Johnny"},
+		"frame": "goal"
+    },
+    "parent": "advadd:adventure/slenderman",
+    "criteria": {
+        "johnny": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "vindicator",
+					"nbt": "{CustomName:\"{\\\"text\\\":\\\"Johnny\\\"}\"}"
+                }
+            }
+        }
+    }
+}
