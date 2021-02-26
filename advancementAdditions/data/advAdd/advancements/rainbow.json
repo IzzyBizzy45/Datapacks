@@ -1,0 +1,226 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cyan_dye"
+        },
+        "title": "A Full Rainbow",
+        "description": "Obtain every dye in the game",
+        "frame": "challenge"
+    },
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "white": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:white_dye"
+                    }
+                ]
+            }
+        },
+        "orange": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:orange_dye"
+                    }
+                ]
+            }
+        },
+        "magenta": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:magenta_dye"
+                    }
+                ]
+            }
+        },
+        "light_blue": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:light_blue_dye"
+                    }
+                ]
+            }
+        },
+        "yellow": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:yellow_dye"
+                    }
+                ]
+            }
+        },
+        "lime": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:lime_dye"
+                    }
+                ]
+            }
+        },
+        "pink": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:pink_dye"
+                    }
+                ]
+            }
+        },
+        "gray": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gray_dye"
+                    }
+                ]
+            }
+        },
+        "light_grey": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:light_gray_dye"
+                    }
+                ]
+            }
+        },
+        "cyan": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cyan_dye"
+                    }
+                ]
+            }
+        },
+        "purple": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:purple_dye"
+                    }
+                ]
+            }
+        },
+        "blue": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:blue_dye"
+                    }
+                ]
+            }
+        },
+        "brown": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:brown_dye"
+                    }
+                ]
+            }
+        },
+        "green": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:green_dye"
+                    }
+                ]
+            }
+        },
+        "red": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:red_dye"
+                    }
+                ]
+            }
+        },
+        "black": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:black_dye"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "white"
+        ],
+        [
+            "orange"
+        ],
+        [
+            "magenta"
+        ],
+        [
+            "light_blue"
+        ],
+        [
+            "yellow"
+        ],
+        [
+            "lime"
+        ],
+        [
+            "pink"
+        ],
+        [
+            "gray"
+        ],
+        [
+            "light_grey"
+        ],
+        [
+            "cyan"
+        ],
+        [
+            "purple"
+        ],
+        [
+            "blue"
+        ],
+        [
+            "brown"
+        ],
+        [
+            "green"
+        ],
+        [
+            "red"
+        ],
+        [
+            "black"
+        ]
+    ],
+    "rewards": {
+        "experience": 50
+    }
+}

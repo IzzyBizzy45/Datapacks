@@ -1,0 +1,72 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_eye"
+        },
+        "title": "The Endless End",
+        "description": "Go out really far in the End"
+    },
+    "parent": "minecraft:end/find_end_city",
+    "criteria": {
+        "xpos":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "position": {
+                        "x": {
+                            "min": 100000
+                        }
+                    },
+                    "dimension": "minecraft:the_end"
+                }
+            }
+        },
+        "xneg":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "position": {
+                        "x": {
+                            "max": -100000
+                        }
+                    },
+                    "dimension": "minecraft:the_end"
+                }
+            }
+        },
+        "zpos":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "position": {
+                        "z": {
+                            "min": 100000
+                        }
+                    },
+                    "dimension": "minecraft:the_end"
+                }
+            }
+        },
+        "zneg":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "position": {
+                        "z": {
+                            "max": -100000
+                        }
+                    },
+                    "dimension": "minecraft:the_end"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "xpos",
+            "xneg",
+            "zpos",
+            "zneg"
+        ]
+    ]
+}

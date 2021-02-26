@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "title": "Shared Deaths",
+        "description": "When one person dies, everybody dies.",
+        "announce_to_chat": false,
+        "hidden": true,
+        "show_toast": false
+    },
+    "parent": "izzybizzy:server/root",
+    "criteria": {
+        "auto" : {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:air"
+            }
+        }
+    }
+}
