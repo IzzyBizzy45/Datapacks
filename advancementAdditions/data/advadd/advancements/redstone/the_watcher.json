@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:observer"
+        },
+        "title": {"translate":"The Watcher"},
+        "description": {"translate":"Craft an observer"}
+    },
+    "parent": "advadd:redstone/solar_power",
+    "criteria": {
+        "observer": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:observer"
+                    }
+                ]
+            }
+        }
+    }
+}

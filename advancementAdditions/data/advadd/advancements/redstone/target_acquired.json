@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:target"
+        },
+        "title": {"translate":"Target Acquired"},
+        "description": {"translate":"Put up a Target for archery practice"}
+    },
+    "parent": "advadd:redstone/erecting_a_dispenser",
+    "criteria": {
+        "target": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:target"
+            }
+        }
+    }
+}

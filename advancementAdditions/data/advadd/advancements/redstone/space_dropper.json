@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dropper"
+        },
+        "title": {"translate":"Space Dropper"},
+        "description": {"translate":"Craft a dropper for item transportation"}
+    },
+    "parent": "advadd:redstone/dropper_hopper",
+    "criteria": {
+        "dropper": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dropper"
+                    }
+                ]
+            }
+        }
+    }
+}

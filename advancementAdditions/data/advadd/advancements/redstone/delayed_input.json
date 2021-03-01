@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:repeater"
+        },
+        "title": {"translate":"Delayed Input"},
+        "description": {"translate":"Craft a redstone repeater for delaying signals"}
+    },
+    "parent": "advadd:redstone/blinding_light",
+    "criteria": {
+        "repeater": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:repeater"
+                    }
+                ]
+            }
+        }
+    }
+}

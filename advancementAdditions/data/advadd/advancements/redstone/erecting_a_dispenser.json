@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dispenser"
+        },
+        "title": {"translate":"Erecting a dispenser"},
+        "description": {"translate":"Construct a dispenser"}
+    },
+    "parent": "advadd:redstone/space_dropper",
+    "criteria": {
+        "dispenser": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dispenser"
+                    }
+                ]
+            }
+        }
+    }
+}

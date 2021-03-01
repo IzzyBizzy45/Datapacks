@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sticky_piston"
+        },
+        "title": {"translate":"Sticky Parts"},
+        "description": {"translate":"Craft a sticky piston so you can pull things"}
+    },
+    "parent": "advadd:redstone/moving_parts",
+    "criteria": {
+        "sticky_piston": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sticky_piston"
+                    }
+                ]
+            }
+        }
+    }
+}

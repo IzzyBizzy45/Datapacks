@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:hopper_minecart"
+        },
+        "title": {"translate":"Sharing Moving Storage"},
+        "description": {"translate":"Put a hopper in a minecart"}
+    },
+    "parent": "advadd:redstone/moving_storage",
+    "criteria": {
+        "hopper_minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:hopper_minecart"
+                    }
+                ]
+            }
+        }
+    }
+}

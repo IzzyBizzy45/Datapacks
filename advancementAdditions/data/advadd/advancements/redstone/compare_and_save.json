@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:comparator"
+        },
+        "title": {"translate":"Compare and Save"},
+        "description": {"translate":"Craft a redstone comparator"}
+    },
+    "parent": "advadd:redstone/quirky_quartz",
+    "criteria": {
+        "comparator": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:comparator"
+                    }
+                ]
+            }
+        }
+    }
+}

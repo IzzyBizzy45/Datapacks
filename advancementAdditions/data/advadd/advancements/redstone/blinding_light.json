@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone_torch"
+        },
+        "title": {"translate":"Blinding light"},
+        "description": {"translate":"Craft and place a redstone torch"}
+    },
+    "parent": "advadd:redstone/root",
+    "criteria": {
+        "redstone_torch": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:redstone_torch"
+            }
+        },
+        "redstone_wall_torch": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:redstone_wall_torch"
+            }
+        }
+    },
+    "requirements": [
+		[
+        "redstone_torch",
+        "redstone_wall_torch"
+		]
+	]
+}

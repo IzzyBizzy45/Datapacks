@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:daylight_detector"
+        },
+        "title": {"translate":"Solar Power"},
+        "description": {"translate":"Craft a daylight sensor"}
+    },
+    "parent": "advadd:redstone/compare_and_save",
+    "criteria": {
+        "daylight_detector": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:daylight_detector"
+                    }
+                ]
+            }
+        }
+    }
+}

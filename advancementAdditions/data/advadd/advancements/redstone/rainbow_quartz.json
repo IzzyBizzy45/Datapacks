@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:quartz"
+        },
+        "title": {"translate":"Rainbow Quartz"},
+        "description": {"translate":"Mine Nether Quartz from the Nether"}
+    },
+    "parent": "advadd:redstone/delayed_input",
+    "criteria": {
+        "quartz": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:quartz"
+                    }
+                ]
+            }
+        }
+    }
+}

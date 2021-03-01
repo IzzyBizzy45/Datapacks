@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trapped_chest"
+        },
+        "title": {"translate":"Mimic"},
+        "description": {"translate":"Apparently this is a trapped chest"}
+    },
+    "parent": "advadd:redstone/tripping_on_air",
+    "criteria": {
+        "trapped_chest": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:trapped_chest"
+                    }
+                ]
+            }
+        }
+    }
+}

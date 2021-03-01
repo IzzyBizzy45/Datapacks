@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:powered_rail"
+        },
+        "title": {"translate":"Electric Rails"},
+        "description": {"translate":"Making furnace minecarts completely useless"}
+    },
+    "parent": "advadd:redstone/what_does_this_do",
+    "criteria": {
+        "powered_rail": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:powered_rail"
+                    }
+                ]
+            }
+        }
+    }
+}

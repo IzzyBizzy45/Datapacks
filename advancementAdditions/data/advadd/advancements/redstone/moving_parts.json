@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:piston"
+        },
+        "title": {"translate":"Moving Blocks"},
+        "description": {"translate":"Craft a piston so you can push things"}
+    },
+    "parent": "advadd:redstone/root",
+    "criteria": {
+        "piston": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:piston"
+                    }
+                ]
+            }
+        }
+    }
+}
