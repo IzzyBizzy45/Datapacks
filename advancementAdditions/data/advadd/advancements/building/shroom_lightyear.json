@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shroomlight"
+        },
+        "title": {"translate":"Shroom Lightyear"},
+        "description": {"translate":"Light up the area with Shroomlight!"}
+    },
+    "parent": "advadd:building/glowing",
+    "criteria": {
+        "shroomlight": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:shroomlight"
+            }
+        }
+    }
+}

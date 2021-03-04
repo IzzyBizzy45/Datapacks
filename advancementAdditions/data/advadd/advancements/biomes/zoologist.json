@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:panda_spawn_egg"
+        },
+        "title": {"translate":"Zoologist"},
+        "description": {"translate":"Breed two pandas to get a baby panda"}
+    },
+    "parent": "advadd:biomes/construction_worker",
+    "criteria": {
+        "panda": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+				"parent": {
+					"type": "minecraft:panda"
+				},
+				"partner": {
+					"type": "minecraft:panda"
+				}
+            }
+        }
+    }
+}

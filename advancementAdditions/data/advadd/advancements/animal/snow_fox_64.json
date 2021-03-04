@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:snow_block"
+        },
+        "title": {"translate":"Snow Fox 64"},
+        "description": {"translate":"Breed two snow foxes with sweet berries"}
+    },
+    "parent": "advadd:animal/what_does_the_fox_say",
+    "criteria": {
+        "fox": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+				"parent": {
+					"type": "minecraft:fox",
+					"nbt": "{Type:snow}"
+				},
+				"partner": {
+					"type": "minecraft:fox",
+					"nbt": "{Type:snow}"
+				}
+            }
+        }
+    }
+}

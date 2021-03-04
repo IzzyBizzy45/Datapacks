@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lead"
+        },
+        "title": {"translate":"Lead the Way!"},
+        "description": {"translate":"Craft a lead using string and a slimeball, then attach it to a mob"}
+    },
+    "parent": "minecraft:husbandry/root",
+	"criteria": {
+		"lead": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"item": "minecraft:lead"
+				}
+			}
+		}
+	}
+}

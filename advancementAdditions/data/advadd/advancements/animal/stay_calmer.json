@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:light_gray_carpet"
+        },
+        "title": {"translate":"Stay Calmer"},
+        "description": {"translate":"Tame a llama"}
+    },
+    "parent": "minecraft:husbandry/root",
+    "criteria": {
+        "tamed_animal": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:llama"
+                }
+			}
+        }
+    }
+}

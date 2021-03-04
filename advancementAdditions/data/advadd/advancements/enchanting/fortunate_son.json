@@ -1,0 +1,49 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_pickaxe"
+        },
+        "title": {"translate":"Fortunate Son"},
+        "description": {"translate":"Obtain Fortune III"},
+		"frame": "goal"
+    },
+    "parent": "advadd:enchanting/super_efficient",
+    "criteria": {
+        "fortune": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:fortune",
+								"levels": 3
+							}
+						]
+					}
+				]
+			}
+		},
+        "fortune_book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"stored_enchantments": [
+							{
+								"enchantment": "minecraft:fortune",
+								"levels": 3
+							}
+						]
+					}
+				]
+			}
+		}
+    },	
+    "requirements": [
+        [
+            "fortune",
+            "fortune_book"
+		]
+    ]
+}

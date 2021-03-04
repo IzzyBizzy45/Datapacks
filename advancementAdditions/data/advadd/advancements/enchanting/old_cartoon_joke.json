@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:anvil"
+        },
+        "title": {"translate":"Heavy Metal"},
+        "description": {"translate":"Craft an anvil"}
+    },
+    "parent": "advadd:enchanting/root",
+    "criteria": {
+        "anvil": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:anvil"
+                    }
+                ]
+            }
+        }
+    }
+}

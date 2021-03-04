@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/root",
+  "parent": "advadd:building/your_door_was_locked",
   "display": {
     "icon": {
       "item": "minecraft:red_bed"

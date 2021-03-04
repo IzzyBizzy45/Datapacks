@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:creeper_spawn_egg"
+        },
+        "title": {"translate":"Creeper Killer"},
+        "description": {"translate":"Collect a stack of gunpowder"},
+		"frame": "goal"
+    },
+    "parent": "advadd:combat/controlled_detonation",
+    "rewards": {
+		"experience": 50
+    },		
+    "criteria": {
+        "gunpowder": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gunpowder",
+						"count": 64
+                    }
+                ]
+            }
+        }		
+    }	
+}

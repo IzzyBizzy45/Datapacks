@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:turtle_helmet"
+        },
+        "title": {"translate":"Turtle Soldier"},
+        "description": {"translate":"Craft a full turtle shell"},
+		"frame": "goal"
+    },
+    "parent": "advadd:animal/scuttler",
+    "criteria": {
+        "turtle_helmet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:turtle_helmet"
+                    }
+                ]
+            }
+        }
+    }
+}

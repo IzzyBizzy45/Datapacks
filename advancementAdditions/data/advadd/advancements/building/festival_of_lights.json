@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lantern"
+        },
+        "title": {"translate":"Festival of Lights"},
+        "description": {"translate":"Light up the area using a lantern"}
+    },
+    "parent": "advadd:building/torched",
+    "criteria": {
+        "lantern": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:lantern"
+            }
+        }
+    }
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/ol_betsy",
+  "parent": "advadd:combat/anti_air",
   "display": {
     "icon": {
       "item": "minecraft:crossbow",

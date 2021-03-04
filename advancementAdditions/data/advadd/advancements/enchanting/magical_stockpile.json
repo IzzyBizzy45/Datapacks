@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "title": {"translate":"Magical Stockpile"},
+        "description": {"translate":"Obtain a full stack of bottles of enchanting"},
+		"frame": "goal"
+    },
+    "parent": "advadd:enchanting/librarian",
+    "criteria": {
+        "experience_bottle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:experience_bottle",
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

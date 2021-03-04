@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone_lamp"
+        },
+        "title": {"translate":"Electric!"},
+        "description": {"translate":"Light up the area with some redstone lamps"}
+    },
+    "parent": "advadd:building/glowing",
+    "criteria": {
+        "redstone_lamp": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:redstone_lamp"
+            }
+        }
+    }
+}

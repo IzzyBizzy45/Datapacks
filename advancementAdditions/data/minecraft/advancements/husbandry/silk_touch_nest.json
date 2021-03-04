@@ -1,11 +1,11 @@
 {
-  "parent": "minecraft:husbandry/root",
+  "parent": "advadd:animal/hive_mind",
   "display": {
     "icon": {
       "item": "minecraft:bee_nest"
     },
     "title": {
-      "translate": "advancements.husbandry.silk_touch_nest.title"
+      "translate": "Total Beelocation"
     },
     "description": {
       "translate": "advancements.husbandry.silk_touch_nest.description"

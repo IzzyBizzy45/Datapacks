@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rabbit_stew"
+        },
+        "title": {"translate":"Getting Into a Stew"},
+        "description": {"translate":"Make and eat some rabbit stew"}
+    },
+    "parent": "advadd:animal/lucky_charm",
+    "criteria": {
+        "rabbit_stew": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:rabbit_stew"
+                }
+            }
+        }
+    }
+}

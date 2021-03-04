@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ice"
+        },
+        "title": {"translate":"Thin Ice!"},
+        "description": {"translate":"Use a silk touch pickaxe to pick up some ice blocks"}
+    },
+    "parent": "advadd:biomes/boaty_mcboatface",
+    "criteria": {
+        "ice": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:ice"
+                    }
+                ]
+            }
+        }
+    }
+}

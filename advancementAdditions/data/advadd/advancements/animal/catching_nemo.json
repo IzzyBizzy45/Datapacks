@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:tropical_fish"
+        },
+        "title": {"translate":"Catching Nemo"},
+        "description": {"translate":"Catch a clownfish"},
+		"frame": "goal"
+    },
+    "parent": "advadd:animal/salmonella_poisoning",
+    "criteria": {
+        "tropical_fish": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item":
+                {
+                    "item": "minecraft:tropical_fish"
+                }
+            }
+        }	
+    }
+}

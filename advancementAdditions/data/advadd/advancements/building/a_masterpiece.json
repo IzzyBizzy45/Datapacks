@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:painting"
+        },
+        "title": {"translate":"A Masterpiece!"},
+        "description": {"translate":"Put up a painting"}
+    },
+    "parent": "advadd:building/its_a_sign",
+    "criteria": {
+        "painting": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:painting"
+                    }
+                ]
+            }
+        }
+    }
+}

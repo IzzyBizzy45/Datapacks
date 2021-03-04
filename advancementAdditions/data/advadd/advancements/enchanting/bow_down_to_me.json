@@ -1,0 +1,49 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": {"translate":"Bow down to me!"},
+        "description": {"translate":"Obtain Power V"},
+		"frame": "goal"
+    },
+    "parent": "advadd:enchanting/librarian",
+    "criteria": {
+        "power": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:power",
+								"levels": 5
+							}
+						]
+					}
+				]
+			}
+		},
+        "power_book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"stored_enchantments": [
+							{
+								"enchantment": "minecraft:power",
+								"levels": 5
+							}
+						]
+					}
+				]
+			}
+		}
+    },	
+    "requirements": [
+        [
+            "power",
+            "power_book"
+		]
+    ]
+}

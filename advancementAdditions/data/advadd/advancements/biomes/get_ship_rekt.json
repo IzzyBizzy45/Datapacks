@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spruce_fence"
+        },
+        "title": {"translate":"Get Ship-rekt!"},
+        "description": {"translate":"Come across a sunken ship"}
+    },
+    "parent": "advadd:biomes/atlantis",
+    "criteria": {
+        "shipwreck": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "shipwreck"
+            }
+        }
+    }
+}

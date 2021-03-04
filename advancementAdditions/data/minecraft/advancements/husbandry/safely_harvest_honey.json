@@ -1,11 +1,11 @@
 {
-  "parent": "minecraft:husbandry/root",
+  "parent": "advadd:animal/ya_like_jazz",
   "display": {
     "icon": {
       "item": "minecraft:honey_bottle"
     },
     "title": {
-      "translate": "advancements.husbandry.safely_harvest_honey.title"
+      "translate": "Bee our Guest"
     },
     "description": {
       "translate": "advancements.husbandry.safely_harvest_honey.description"

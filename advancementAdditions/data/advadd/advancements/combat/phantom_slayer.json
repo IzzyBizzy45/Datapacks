@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:phantom_spawn_egg"
+        },
+        "title": {"translate":"Phantom Slayer"},
+        "description": {"translate":"Collect a stack of phantom membranes"},
+		"frame": "goal"
+    },
+    "parent": "advadd:combat/ricochet_swoop",
+    "rewards": {
+		"experience": 50
+    },		
+    "criteria": {
+        "phantom_membrane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:phantom_membrane",
+						"count": 64
+                    }
+                ]
+            }
+        }		
+    }	
+}

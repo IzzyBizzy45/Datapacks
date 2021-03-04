@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cod"
+        },
+        "title": {"translate":"Sushi"},
+        "description": {"translate":"Eat some raw fish"}
+    },
+    "parent": "advadd:animal/delicious_fish",
+    "criteria": {
+        "cod": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:cod"
+                }
+            }
+        }
+    }
+}

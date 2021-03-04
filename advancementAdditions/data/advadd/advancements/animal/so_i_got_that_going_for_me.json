@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:hay_block"
+        },
+        "title": {"translate":"So I got that going for me"},
+        "description": {"translate":"Breed two llamas with hay"}
+    },
+    "parent": "advadd:animal/stay_calmer",
+    "criteria": {
+        "llama": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+				"parent": {
+					"type": "minecraft:llama"
+				},
+				"partner": {
+					"type": "minecraft:llama"
+				}
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:pig_spawn_egg"
+        },
+        "title": {"translate":"Pig Slaughterer"},
+        "description": {"translate":"Collect a stack of raw porkchops"},
+		"frame": "goal"
+    },
+    "parent": "advadd:animal/when_pigs_used_to_fly",
+    "rewards": {
+		"experience": 50
+    },		
+    "criteria": {
+        "porkchop": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:porkchop",
+						"count": 64
+                    }
+                ]
+            }
+        }		
+    }	
+}

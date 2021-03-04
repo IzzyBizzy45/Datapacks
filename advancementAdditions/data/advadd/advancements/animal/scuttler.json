@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:scute"
+        },
+        "title": {"translate":"Scuttler"},
+        "description": {"translate":"Get a scute from a baby turtle when it grows up"}
+    },
+    "parent": "advadd:animal/hey_look_mom",
+    "criteria": {
+        "scute": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:scute"
+                    }
+                ]
+            }
+        }
+    }
+}

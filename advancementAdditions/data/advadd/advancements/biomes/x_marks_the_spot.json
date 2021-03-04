@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:filled_map"
+        },
+        "title": {"translate":"X Marks the Spot"},
+        "description": {"translate":"Use a treasure map to find Buried Treasure"},
+		"frame": "goal"
+    },
+    "parent": "advadd:biomes/get_ship_rekt",
+    "criteria": {
+		"heart_of_the_sea": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/buried_treasure"
+			}
+		}
+	}		
+}

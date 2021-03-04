@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:scaffolding"
+        },
+        "title": {"translate":"Construction Worker"},
+        "description": {"translate":"Craft and use some scaffolding"}
+    },
+    "parent": "advadd:biomes/bamboom",
+    "criteria": {
+        "scaffolding": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:scaffolding"
+                }
+            }
+        }	
+    }
+}

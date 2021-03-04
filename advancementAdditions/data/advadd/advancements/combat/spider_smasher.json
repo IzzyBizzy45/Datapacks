@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spider_spawn_egg"
+        },
+        "title": {"translate":"Spider Smasher"},
+        "description": {"translate":"Collect a stack of string from spiders or cobwebs"},
+		"frame": "goal"
+    },
+    "parent": "advadd:combat/poisonous_ew",
+    "rewards": {
+		"experience": 50
+    },		
+    "criteria": {
+        "string": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:string",
+						"count": 64
+                    }
+                ]
+            }
+        }		
+    }	
+}

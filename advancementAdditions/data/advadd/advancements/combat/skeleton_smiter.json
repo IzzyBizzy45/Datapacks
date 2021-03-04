@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:skeleton_spawn_egg"
+        },
+        "title": {"translate":"Mwah!"},
+        "description": {"translate":"Collect a stack of bones"},
+		"frame": "goal"
+    },
+    "parent": "advadd:combat/frosty",
+    "rewards": {
+		"experience": 50
+    },		
+    "criteria": {
+        "bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bone",
+						"count": 64
+                    }
+                ]
+            }
+        }		
+    }	
+}

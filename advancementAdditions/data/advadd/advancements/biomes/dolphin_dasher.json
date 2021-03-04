@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dolphin_spawn_egg"
+        },
+        "title": {"translate":"Dolphin Dasher"},
+        "description": {"translate":"Get a speed boost from your friendly underwater companions"}
+    },
+    "parent": "advadd:biomes/boaty_mcboatface",
+    "criteria": {
+        "dolphins_grace": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:dolphins_grace": {
+                        "amplifier": {
+                            "min": 0
+                        },
+                        "duration": {
+                            "min": 0
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

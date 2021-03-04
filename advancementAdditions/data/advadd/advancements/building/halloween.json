@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:jack_o_lantern"
+        },
+        "title": {"translate":"Halloween!"},
+        "description": {"translate":"Light up the area with jack o'lanterns!"}
+    },
+    "parent": "advadd:building/torched",
+    "criteria": {
+        "jack_o_lantern": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:jack_o_lantern"
+            }
+        }
+    }
+}

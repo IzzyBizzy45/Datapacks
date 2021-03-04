@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cod"
+        },
+        "title": {"translate":"So Long & Thanks For The Fish"},
+        "description": {"translate":"Get murdered by dolphins"},
+		"hidden": true
+    },
+    "parent": "advadd:biomes/dolphin_dasher",
+    "criteria": {
+        "dolphin": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "dolphin"
+                }
+            }
+        }
+    }
+}

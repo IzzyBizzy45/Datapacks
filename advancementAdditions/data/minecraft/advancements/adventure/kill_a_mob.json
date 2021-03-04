@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/root",
+  "parent": "advadd:combat/root",
   "display": {
     "icon": {
       "item": "minecraft:iron_sword",

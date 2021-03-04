@@ -1,0 +1,113 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_boots"
+        },
+        "title": {"translate":"Like a Cat"},
+        "description": {"translate":"Obtain boots enchanted with Feather Falling"},
+		"frame": "goal"
+    },
+    "parent": "advadd:enchanting/root",
+    "criteria": {
+        "feather_falling": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"item": "minecraft:leather_boots",					
+						"enchantments": [
+							{
+								"enchantment": "minecraft:feather_falling"
+							}
+						]
+					}
+				]
+			}
+		},
+        "feather_falling_chain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"item": "minecraft:chainmail_boots",					
+						"enchantments": [
+							{
+								"enchantment": "minecraft:feather_falling"
+							}
+						]
+					}
+				]
+			}
+		},
+        "feather_falling_iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"item": "minecraft:iron_boots",					
+						"enchantments": [
+							{
+								"enchantment": "minecraft:feather_falling"
+							}
+						]
+					}
+				]
+			}
+		},
+        "feather_falling_gold": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"item": "minecraft:golden_boots",					
+						"enchantments": [
+							{
+								"enchantment": "minecraft:feather_falling"
+							}
+						]
+					}
+				]
+			}
+		},
+        "feather_falling_diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"item": "minecraft:diamond_boots",					
+						"enchantments": [
+							{
+								"enchantment": "minecraft:feather_falling"
+							}
+						]
+					}
+				]
+			}
+		},
+        "feather_falling_netherite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"item": "minecraft:netherite_boots",					
+						"enchantments": [
+							{
+								"enchantment": "minecraft:feather_falling"
+							}
+						]
+					}
+				]
+			}
+		}	
+    },
+    "requirements": [
+        [
+            "feather_falling",
+            "feather_falling_chain",
+            "feather_falling_iron",
+            "feather_falling_gold",
+            "feather_falling_diamond",
+			"feather_falling_netherite"
+        ]
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_bars"
+        },
+        "title": {"translate":"Behind Bars"},
+        "description": {"translate":"Craft or find iron bars"}
+    },
+    "parent": "advadd:building/fake_stronghold",
+    "criteria": {
+        "iron_bars": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_bars"
+                    }
+                ]
+            }
+        }
+    }
+}

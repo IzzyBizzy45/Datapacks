@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sea_lantern"
+        },
+        "title": {"translate":"Expensive!"},
+        "description": {"translate":"Light up the area with some sea lanterns"}
+    },
+    "parent": "advadd:building/festival_of_lights",
+    "criteria": {
+        "sea_lantern": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:sea_lantern"
+            }
+        }
+    }
+}

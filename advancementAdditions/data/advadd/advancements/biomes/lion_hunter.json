@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cod"
+        },
+        "title": {"translate":"Lion Hunter"},
+        "description": {"translate":"Feed an Ocelot fish to try and gain its trust"}
+    },
+    "parent": "advadd:biomes/tarzan",
+    "criteria": {
+		"ocelot": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"tag": "advadd:ocelot_feedable"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:ocelot"
+						}
+					}
+				]
+			}
+		}
+    }
+}

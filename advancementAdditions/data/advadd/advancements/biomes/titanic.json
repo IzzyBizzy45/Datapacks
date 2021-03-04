@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dark_oak_fence"
+        },
+        "title": {"translate":"Titanic"},
+        "description": {"translate":"Find a shipwreck in an iceberg biome"},
+		"frame": "challenge"
+    },
+    "parent": "advadd:biomes/get_ship_rekt",
+    "rewards": {
+		"experience": 50
+    },		
+    "criteria": {
+        "iceberg_deep": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "shipwreck",
+                "biome": "minecraft:deep_frozen_ocean"
+            }
+        },
+        "iceberg": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "shipwreck",
+                "biome": "minecraft:frozen_ocean"
+            }
+        }
+    },
+	"requirements": [
+		[
+			"iceberg_deep",
+			"iceberg"
+		]
+	]
+}

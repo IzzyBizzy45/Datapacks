@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "title": {"translate":"God of Thunder"},
+        "description": {"translate":"Name your Trident with Loyalty III and Channeling, 'Mjolnir'"},
+		"frame": "goal"
+    },
+    "parent": "advadd:enchanting/ill_be_back",
+	"rewards": {
+		"experience": 50
+    },	
+    "criteria": {
+        "mjolnir": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:trident",
+						"nbt": "{display:{Name:\"{\\\"text\\\":\\\"Mjolnir\\\"}\"}}",
+						"enchantments": [
+							{
+								"enchantment": "minecraft:loyalty",
+								"levels": 3
+							},
+							{
+								"enchantment": "minecraft:channeling",
+								"levels": 1
+							}
+						]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:armor_stand"
+        },
+        "title": {"translate":"Mannequin"},
+        "description": {"translate":"Craft an armor stand for displaying your armor (I hope not an alive one)"}
+    },
+    "parent": "advadd:building/a_masterpiece",
+    "criteria": {
+        "armor_stand": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:armor_stand"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:light_blue_dye"
+        },
+        "title": {"translate":"Top of the World"},
+        "description": {"translate":"Place scaffolding to the world limit"},
+		"frame": "goal"
+    },
+    "parent": "advadd:biomes/construction_worker",
+    "criteria": {
+        "scaffolding": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:scaffolding"
+                },
+				"location": {
+					"position": {
+						"y": {
+							"min": 255
+						}
+					}
+				}
+            }
+        }	
+    }
+}

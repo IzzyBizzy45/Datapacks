@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_rod"
+        },
+        "title": {"translate":"Zeus"},
+        "description": {"translate":"Obtain Channeling on a trident"},
+		"frame": "goal"
+    },
+    "parent": "advadd:enchanting/do_a_barrel_roll",
+    "criteria": {
+        "power": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"item": "minecraft:trident",
+						"enchantments": [
+							{
+								"enchantment": "minecraft:channeling"
+							}
+						]
+					}
+				]
+			}
+		}
+    }
+}

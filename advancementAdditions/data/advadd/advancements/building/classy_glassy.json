@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glass"
+        },
+        "title": {"translate":"Classy Glassy"},
+        "description": {"translate":"Smelt sand in a furnace to get glass"}
+    },
+    "parent": "advadd:building/i_dont_like_sand",
+    "criteria": {
+        "glass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:glass"
+                    }
+                ]
+            }
+        }
+    }
+}

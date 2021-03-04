@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rabbit_hide"
+        },
+        "title": {"translate":"Going Down the Rabbit Hole"},
+        "description": {"translate":"Bring a rabbit to the bottom of the world, then kill it"},
+		"frame": "goal"
+    },
+    "parent": "advadd:animal/getting_into_a_stew",
+    "rewards": {
+		"experience": 50
+    },		
+    "criteria": {
+        "rabbit": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "rabbit",
+					"location": {
+						"position": {
+							"y": {
+								"max": 5.5
+							}
+						}
+					}
+                }
+            }
+        }
+    }
+}

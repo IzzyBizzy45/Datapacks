@@ -1,19 +1,19 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:hay_block"
+      "item": "minecraft:beef"
     },
     "title": {
-      "translate": "advancements.husbandry.root.title"
+      "translate": "Animals"
     },
     "description": {
-      "translate": "advancements.husbandry.root.description"
+      "translate": "A world full of friends and possible edible friends"
     },
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false,
-    "background": "minecraft:textures/gui/advancements/backgrounds/husbandry.png"
+    "background": "minecraft:textures/block/lime_concrete_powder.png"
   },
   "criteria": {
     "consumed_item": {

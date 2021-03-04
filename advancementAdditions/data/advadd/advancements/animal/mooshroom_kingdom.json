@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:mycelium"
+        },
+        "title": {"translate":"Mooshroom Kingdom"},
+        "description": {"translate":"Find mooshrooms on a mushroom island"}
+    },
+    "parent": "advadd:animal/true_cow_tipper",	
+    "rewards": {
+        "experience": 50
+    },	
+    "criteria": {
+        "mushroom_island_shore": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:mushroom_field_shore"
+            }
+        },
+        "mushroom_island": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:mushroom_fields"
+            }
+        }
+    },
+    "requirements": [
+		[
+        "mushroom_island",
+        "mushroom_island_shore"
+		]
+    ]
+}

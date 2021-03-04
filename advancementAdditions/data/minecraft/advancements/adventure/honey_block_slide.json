@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/root",
+  "parent": "advadd:animal/winnie_the_pooh",
   "display": {
     "icon": {
       "item": "minecraft:honey_block"

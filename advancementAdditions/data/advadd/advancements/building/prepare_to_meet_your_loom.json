@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:loom"
+        },
+        "title": {"translate":"Prepare to meet your Loom!"},
+        "description": {"translate":"Craft a loom with string and planks for creating your own banners"}
+    },
+    "parent": "advadd:building/raise_the_flag",
+    "criteria": {
+        "loom": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:loom"
+                    }
+                ]
+            }
+        }
+	}
+}

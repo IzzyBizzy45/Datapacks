@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sheep_spawn_egg"
+        },
+        "title": {"translate":"Mary Had a Little Lamb..."},
+        "description": {"translate":"Breed two sheep to get a lamb"}
+    },
+    "parent": "advadd:animal/feeling_sheepish",
+    "criteria": {
+        "sheep": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+				"parent": {
+					"type": "minecraft:sheep"
+				},
+				"partner": {
+					"type": "minecraft:sheep"
+				}
+            }
+        }
+    }
+}

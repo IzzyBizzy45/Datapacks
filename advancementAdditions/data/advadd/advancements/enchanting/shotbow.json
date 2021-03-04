@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:arrow"
+        },
+        "title": {"translate":"Shotbow"},
+        "description": {"translate":"Shoot three arrows at once with a crossbow"},
+		"frame": "goal"
+    },
+    "parent": "advadd:enchanting/machine_bow",
+    "criteria": {
+		"shot_crossbow": {
+			"trigger": "minecraft:shot_crossbow",
+			"conditions": {
+				"item": {
+					"item": "minecraft:crossbow",
+					"enchantments": [
+						{
+							"enchantment": "minecraft:multishot"
+						}
+					]					
+				}
+			}
+		}
+    }
+}

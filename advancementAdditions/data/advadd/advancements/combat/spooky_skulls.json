@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "title": {"translate":"Spooky Skulls"},
+        "description": {"translate":"Blow up a skeleton with a charged creeper to get a skeleton skull"},
+		"frame": "challenge"
+    },
+    "parent": "advadd:combat/melting",
+    "rewards": {
+		"experience": 250
+    },		
+    "criteria": {
+        "skeleton_skull": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skeleton_skull"
+                    }
+                ]
+            }
+        }
+    }
+}

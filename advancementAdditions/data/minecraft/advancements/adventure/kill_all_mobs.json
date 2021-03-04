@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/kill_a_mob",
+  "parent": "advadd:combat/dungeon_crawler",
   "display": {
     "icon": {
       "item": "minecraft:diamond_sword",

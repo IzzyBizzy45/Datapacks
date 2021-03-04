@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": {"translate":"Keep Your Distance"},
+        "description": {"translate":"Kill a Creeper with arrows"}
+    },
+    "parent": "advadd:combat/what_a_creep",
+    "criteria": {
+        "creeper": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "creeper"
+                }
+            }
+        }	
+    }
+}

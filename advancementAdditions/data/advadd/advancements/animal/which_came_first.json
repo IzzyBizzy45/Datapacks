@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:egg"
+        },
+        "title": {"translate":"Which came first?"},
+        "description": {"translate":"The chicken... or the egg??"}
+    },
+    "parent": "advadd:animal/so_good",
+    "criteria": {
+        "egg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:egg"
+                    }
+                ]
+            }
+        }
+    }
+}

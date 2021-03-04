@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_horse_armor"
+        },
+        "title": {"translate":"A Horse in Shining Armor"},
+        "description": {"translate":"Find diamond horse armor"}
+    },
+    "parent": "advadd:animal/foal_play",
+    "criteria": {
+        "diamond_horse_armor": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_horse_armor"
+                    }
+                ]
+            }
+        }
+    }
+}

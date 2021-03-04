@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:magma_block"
+        },
+        "title": {"translate":"Pushed Around"},
+        "description": {"translate":"Enter a bubble column"}
+    },
+    "parent": "advadd:biomes/echolocation",
+    "criteria": {
+        "enter_water": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:bubble_column"
+            }
+        }
+    }
+}

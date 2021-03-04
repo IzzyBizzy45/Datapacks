@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:story/obtain_armor",
+  "parent": "advadd:combat/boned",
   "display": {
     "icon": {
       "item": "minecraft:shield",

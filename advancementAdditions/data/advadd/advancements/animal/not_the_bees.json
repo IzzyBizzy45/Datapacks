@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spawner"
+        },
+        "title": {"translate":"NOT THE BEES!"},
+        "description": {"translate":"Get stung to death by bees"},
+		"hidden": true
+    },
+    "parent": "advadd:animal/hive_mind",
+    "criteria": {
+        "iron_golem": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "bee"
+                }
+            }
+        }
+    }
+}

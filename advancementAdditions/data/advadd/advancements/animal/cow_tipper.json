@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather"
+        },
+        "title": {"translate":"Cow Tipper"},
+        "description": {"translate":"Harvest some leather"}
+    },
+    "parent": "minecraft:husbandry/root",
+    "criteria": {
+        "leather": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:leather"
+                    }
+                ]
+            }
+        }
+    }
+}

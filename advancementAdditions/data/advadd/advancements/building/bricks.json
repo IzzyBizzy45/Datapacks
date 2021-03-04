@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bricks"
+        },
+        "title": {"translate":"Bricks!"},
+        "description": {"translate":"Fire up that clay!"}
+    },
+    "parent": "advadd:building/clay_dough",
+    "criteria": {
+        "brick_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bricks"
+                    }
+                ]
+            }
+        }
+    }
+}

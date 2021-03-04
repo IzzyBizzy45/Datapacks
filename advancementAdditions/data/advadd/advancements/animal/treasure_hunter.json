@@ -1,0 +1,66 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:nautilus_shell"
+        },
+        "title": {"translate":"Treasure Hunter"},
+        "description": {"translate":"Fish out a piece of treasure"}
+    },
+    "parent": "advadd:animal/what_a_piece_of_junk",
+    "criteria": {
+        "bow": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item":
+                {
+                    "item": "minecraft:bow"
+                }
+            }
+        },
+        "enchanted_book": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item":
+                {
+                    "item": "minecraft:enchanted_book"
+                }
+            }
+        },
+        "name_tag": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item":
+                {
+                    "item": "minecraft:name_tag"
+                }
+            }
+        },
+        "nautilus_shell": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item":
+                {
+                    "item": "minecraft:nautilus_shell"
+                }
+            }
+        },
+        "saddle": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item":
+                {
+                    "item": "minecraft:saddle"
+                }
+            }
+        }	
+    },
+    "requirements": [
+		[
+        "bow",
+		"enchanted_book",
+		"name_tag",
+		"nautilus_shell",
+		"saddle"
+		]
+    ]
+}

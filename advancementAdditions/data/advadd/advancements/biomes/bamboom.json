@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bamboo"
+        },
+        "title": {"translate":"Bamboom!"},
+        "description": {"translate":"Break down some bamboo"}
+    },
+    "parent": "advadd:biomes/tarzan",
+    "criteria": {
+        "bamboo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bamboo"
+                    }
+                ]
+            }
+        }
+	}	
+}

@@ -1,29 +1,27 @@
 {
-  "parent": "minecraft:husbandry/root",
   "display": {
     "icon": {
       "item": "minecraft:wheat"
     },
     "title": {
-      "translate": "advancements.husbandry.breed_an_animal.title"
+      "translate": "Repopulation"
     },
     "description": {
-      "translate": "advancements.husbandry.breed_an_animal.description"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "bred": {
-      "trigger": "minecraft:bred_animals",
-      "conditions": {}
+      "translate": "Breed two cows with wheat"
     }
   },
-  "requirements": [
-    [
-      "bred"
-    ]
-  ]
+  "parent": "advadd:animal/high_steaks",
+  "criteria": {
+    "cow": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:cow"
+        },
+        "partner": {
+          "type": "minecraft:cow"
+        }
+      }
+    }
+  }
 }

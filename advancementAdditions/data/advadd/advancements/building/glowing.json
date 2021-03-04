@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glowstone"
+        },
+        "title": {"translate":"Glowing!"},
+        "description": {"translate":"Light up the area with glowstone"}
+    },
+    "parent": "advadd:building/festival_of_lights",
+    "criteria": {
+        "glowstone": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:glowstone"
+            }
+        }
+    }
+}

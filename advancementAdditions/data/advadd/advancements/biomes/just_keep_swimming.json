@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:water_bucket"
+        },
+        "title": {"translate":"Just Keep Swimming, Swimming, Swimming"},
+        "description": {"translate":"Go for a swim"}
+    },
+    "parent": "advadd:biomes/root",
+    "criteria": {
+        "enter_water": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:water"
+            }
+        }
+    }
+}

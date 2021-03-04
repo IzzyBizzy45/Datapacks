@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:salmon"
+        },
+        "title": {"translate":"Salmonella Poisoning"},
+        "description": {"translate":"Eat some raw salmon... and not get poisoned after all"}
+    },
+    "parent": "advadd:animal/sushi",
+    "criteria": {
+        "salmon": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:salmon"
+                }
+            }
+        }
+    }
+}

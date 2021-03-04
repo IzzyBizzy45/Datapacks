@@ -1,29 +1,20 @@
 {
-  "parent": "minecraft:husbandry/root",
   "display": {
-    "icon": {
-      "item": "minecraft:lead"
-    },
-    "title": {
-      "translate": "advancements.husbandry.tame_an_animal.title"
-    },
-    "description": {
-      "translate": "advancements.husbandry.tame_an_animal.description"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
+      "icon": {
+          "item": "minecraft:bone"
+      },
+      "title": {"translate":"Leader of the Pack"},
+      "description": {"translate":"Befriend a wolf"}
   },
+  "parent": "minecraft:husbandry/root",
   "criteria": {
-    "tamed_animal": {
-      "trigger": "minecraft:tame_animal",
-      "conditions": {}
+      "tamed_animal": {
+          "trigger": "minecraft:tame_animal",
+          "conditions": {
+              "entity": {
+                  "type": "minecraft:wolf"
+              }
     }
-  },
-  "requirements": [
-    [
-      "tamed_animal"
-    ]
-  ]
+      }
+  }
 }

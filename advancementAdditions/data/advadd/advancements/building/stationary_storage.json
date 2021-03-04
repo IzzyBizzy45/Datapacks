@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chest"
+        },
+        "title": {"translate":"Stationary Storage"},
+        "description": {"translate":"Craft and place down a chest for storing your items"}
+    },
+    "parent": "advadd:building/your_door_was_locked",
+    "criteria": {
+        "chest": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:chest"
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:mushroom_stew"
+        },
+        "title": {"translate":"Milkshroom"},
+        "description": {"translate":"Milk a mooshroom with a bowl to get mushroom stew"}
+    },
+    "parent": "advadd:animal/super_mooshroom",
+    "criteria": {
+		"shears": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"item": "minecraft:bowl"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:mooshroom"
+						}
+					}
+				]
+			}
+		}
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "title": {"translate":"Because I'm Aquaman!"},
+        "description": {"translate":"Obtain a trident from a Drowned"},
+		"frame": "goal"
+    },
+    "parent": "advadd:combat/tridented_shield",
+    "criteria": {
+        "trident": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:trident"
+                    }
+                ]
+            }
+        }
+    }
+}

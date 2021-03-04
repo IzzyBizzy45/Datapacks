@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:vine"
+        },
+        "title": {"translate":"MMMM, Monkey"},
+        "description": {"translate":"Swing (or climb) on some vines"}
+    },
+    "parent": "advadd:biomes/the_mighty_jungle",
+    "criteria": {
+        "enter_vine": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:vine"
+            }
+        }
+    }
+}

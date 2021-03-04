@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:conduit"
+        },
+        "title": {"translate":"Moskstraumen"},
+        "description": {"translate":"Construct a Conduit in the ocean"},
+		"frame": "goal"
+    },
+    "parent": "advadd:biomes/x_marks_the_spot",
+	"rewards": {
+		"experience": 50
+    },	
+    "criteria": {
+        "conduit_power": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:conduit_power": {
+                        "amplifier": {
+                            "min": 0
+                        },
+                        "duration": {
+                            "min": 0
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:packed_ice"
+        },
+        "title": {"translate":"Spike Ice!"},
+        "description": {"translate":"Break down an ice spike using a silk touch pickaxe"}
+    },
+    "parent": "advadd:biomes/thin_ice",
+    "criteria": {
+        "packed_ice": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:packed_ice"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:torch"
+        },
+        "title": {"translate":"Torched!"},
+        "description": {"translate":"Light up the area with some torches"}
+    },
+    "parent": "advadd:building/stationary_storage",
+    "criteria": {
+        "torch": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:torch"
+            }
+        },
+        "wall_torch": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:wall_torch"
+            }
+        }
+    },
+    "requirements": [
+		[
+        "torch",
+        "wall_torch"
+		]
+	]
+}

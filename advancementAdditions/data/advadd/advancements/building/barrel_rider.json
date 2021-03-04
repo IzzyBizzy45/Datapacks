@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrel"
+        },
+        "title": {"translate":"Barrel Rider"},
+        "description": {"translate":"Craft and place a barrel. Definitely not an explosive"}
+    },
+    "parent": "advadd:building/its_a_sign",
+    "criteria": {
+        "barrel": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:barrel"
+            }
+        }
+    }
+}

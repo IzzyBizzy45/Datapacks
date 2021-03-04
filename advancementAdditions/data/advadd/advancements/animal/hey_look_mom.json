@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:turtle_egg"
+        },
+        "title": {"translate":"Hey, look, Mom!"},
+        "description": {"translate":"Use sea grass to make a turtle lay some eggs"}
+    },
+    "parent": "advadd:animal/poacher",
+    "criteria": {
+        "turtle": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+				"parent": {
+					"type": "minecraft:turtle"
+				},
+				"partner": {
+					"type": "minecraft:turtle"
+				}
+            }
+        }
+    }
+}

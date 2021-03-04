@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_porkchop"
+        },
+        "title": {"translate":"Pork Chop"},
+        "description": {"translate":"You know kung fu, how about pork chop?"}
+    },
+    "parent": "advadd:animal/bacon",
+    "criteria": {
+        "cooked_porkchop": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:cooked_porkchop"
+                }
+            }
+        }
+    }
+}

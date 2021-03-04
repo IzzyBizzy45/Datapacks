@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ocelot_spawn_egg"
+        },
+        "title": {"translate":"Simba"},
+        "description": {"translate":"Breed a baby ocelot"},
+		"frame": "goal"
+    },
+    "parent": "advadd:biomes/lion_hunter",
+    "criteria": {
+        "ocelot": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+				"parent": {
+					"type": "minecraft:ocelot"
+				},
+				"partner": {
+					"type": "minecraft:ocelot"
+				}
+            }
+        }
+    }
+}

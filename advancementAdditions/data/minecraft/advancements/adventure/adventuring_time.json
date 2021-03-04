@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/sleep_in_bed",
+  "parent": "advadd:biomes/wet_feet",
   "display": {
     "icon": {
       "item": "minecraft:diamond_boots",

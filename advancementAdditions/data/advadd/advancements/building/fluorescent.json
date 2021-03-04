@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_rod"
+        },
+        "title": {"translate":"Fluorescent!"},
+        "description": {"translate":"Light up the area with some end rods"}
+    },
+    "parent": "advadd:building/expensive",
+    "criteria": {
+        "end_rod": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:end_rod"
+            }
+        }
+    }
+}

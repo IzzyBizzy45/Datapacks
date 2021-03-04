@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_boots"
+        },
+        "title": {"translate":"Someone's been here before..."},
+        "description": {"translate":"Fish out a ratty old pair of boots"},
+		"frame": "goal"
+    },
+    "parent": "advadd:animal/treasure_hunter",
+    "criteria": {
+        "leather_boots": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item":
+                {
+                    "item": "minecraft:leather_boots"
+                }
+            }
+        }	
+    }
+}
