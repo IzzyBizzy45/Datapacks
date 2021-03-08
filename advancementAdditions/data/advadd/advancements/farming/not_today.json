@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:poisonous_potato"
+        },
+        "title": {"translate":"Not Today!"},
+        "description": {"translate":"Eat a poisonous potato"}
+    },
+    "parent": "advadd:farming/die_potato",
+    "criteria": {
+        "poisonous_potato": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:poisonous_potato"
+                }
+            }
+        }
+    }
+}

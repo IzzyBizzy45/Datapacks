@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:husbandry/plant_seed",
+  "parent": "advadd:farming/meat_lovers",
   "display": {
     "icon": {
       "item": "minecraft:apple"

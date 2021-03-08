@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:hay_block"
+        },
+        "title": {"translate":"Hay there!"},
+        "description": {"translate":"Craft a stack of hay blocks"},
+		"frame": "goal"
+    },
+    "parent": "advadd:farming/the_lie",
+    "rewards": {
+		"experience": 50
+    },		
+    "criteria": {
+        "hay_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:hay_block",
+						"count": 64
+                    }
+                ]
+            }
+        }		
+    }	
+}

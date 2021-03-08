@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:melon"
+        },
+        "title": {"translate":"Scientific Inaccuracy"},
+        "description": {"translate":"Craft 9 melon slices back into a block that, when broken, will probably not give you all 9 slices back"}
+    },
+    "parent": "advadd:farming/the_melon_the_melon_the_melon",
+    "criteria": {
+        "melon_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:melon"
+                    }
+                ]
+            }
+        }
+    }
+}

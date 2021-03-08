@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "title": {"translate":"An amazing story!"},
+        "description": {"translate":"Finish writing in your book or get a book from another player"}
+    },
+    "parent": "advadd:farming/write_your_thoughts",
+    "criteria": {
+        "written_book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:written_book"
+                    }
+                ]
+            }
+        }
+    }
+}

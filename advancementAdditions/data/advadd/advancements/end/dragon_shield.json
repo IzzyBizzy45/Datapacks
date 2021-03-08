@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "title": {"translate":"Dragon Shield"},
+        "description": {"translate":"Attempt to block the dragon's attacks"}
+    },
+    "parent": "minecraft:end/root",
+    "criteria": {
+        "deflected_dragon": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": true,
+					"source_entity": {
+						"type": "ender_dragon"
+					}
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield"
+		},
+        "title": {"translate":"Shouldn't my shield levitate too?"},
+        "description": {"translate":"Block a Shulker's bullet with your shield"}
+    },
+    "parent": "advadd:end/for_mother_clarence",
+    "criteria": {
+        "deflected_bullet": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": true,
+					"source_entity": {
+						"type": "shulker"
+					}
+                }
+            }
+        }
+    }
+}

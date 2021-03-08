@@ -1,0 +1,15 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:beef"
+        },
+        "title": {"translate":"Full Stomach"},
+        "description": {"translate":"Fill both your hunger bar and saturation level"}
+    },
+    "parent": "advadd:farming/root",
+    "criteria": {
+        "ten_withers": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

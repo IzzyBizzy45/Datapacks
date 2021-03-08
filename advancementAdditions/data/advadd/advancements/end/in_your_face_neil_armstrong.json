@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potato"
+        },
+        "title": {"translate":"In Your Face, Neil Armstrong"},
+        "description": {"translate":"Colonise the End with potato crops"}
+    },
+    "parent": "advadd:end/void_walker",
+    "criteria": {
+        "potato": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:potatoes",
+				"location": {
+					"dimension": "the_end"
+				}
+            }
+        }
+    }
+}

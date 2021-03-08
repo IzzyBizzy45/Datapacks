@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cocoa_beans"
+        },
+        "title": {"translate":"It's where nutella comes from"},
+        "description": {"translate":"Obtain some cocoa beans from a jungle"}
+    },
+    "parent": "advadd:farming/bake_bread",
+    "criteria": {
+        "cocoa_beans": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+					{
+						"item": "minecraft:cocoa_beans"
+					}
+				]
+            }
+        }
+    }
+}

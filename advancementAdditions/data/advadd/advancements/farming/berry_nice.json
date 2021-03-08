@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sweet_berries"
+        },
+        "title": {"translate":"Berry Nice!"},
+        "description": {"translate":"Pick and eat some sweet berries"}
+    },
+    "parent": "advadd:farming/care_for_the_environment",
+    "criteria": {
+        "sweet_berries": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:sweet_berries"
+                }
+            }
+        }
+    }
+}

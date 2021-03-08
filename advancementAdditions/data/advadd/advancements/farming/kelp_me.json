@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:kelp"
+        },
+        "title": {"translate":"Kelp me!"},
+        "description": {"translate":"Collect some kelp from an ocean"}
+    },
+    "parent": "advadd:farming/sugar_sugar",
+    "criteria": {
+        "kelp": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:kelp"
+                    }
+                ]
+            }
+        }
+    }
+}

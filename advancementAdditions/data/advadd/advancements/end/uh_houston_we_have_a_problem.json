@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:firework_rocket"
+        },
+        "title": {"translate":"Uh, Houston? We have a problem"},
+        "description": {"translate":"Fly up to a ridiculous height"},
+        "frame": "challenge"
+    },
+    "parent": "advadd:end/sky_high",
+    "rewards": {
+		"experience": 50
+    },		
+    "criteria": {
+        "world_height": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"y": {
+						"min": 1000.0
+					}
+				}
+            }
+        }	
+    }
+}

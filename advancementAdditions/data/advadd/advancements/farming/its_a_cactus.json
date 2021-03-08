@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:green_dye"
+        },
+        "title": {"translate":"It's a cactus!"},
+        "description": {"translate":"Break down a cactus in a desert"}
+    },
+    "parent": "advadd:farming/care_for_the_environment",
+    "criteria": {
+        "cactus": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cactus"
+                    }
+                ]
+            }
+        }
+    }
+}

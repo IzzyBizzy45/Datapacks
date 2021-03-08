@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_apple"
+        },
+        "title": {"translate":"Ultra Hardcore"},
+        "description": {"translate":"Craft and eat a normal golden apple"}
+    },
+    "parent": "advadd:farming/bapple",
+    "criteria": {
+        "golden_apple": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:golden_apple"
+                }
+            }
+        }
+    }
+}

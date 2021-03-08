@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cake"
+        },
+        "title": {"translate":"The Lie"},
+        "description": {"translate":"Wheat, sugar, milk and eggs!"}
+    },
+    "parent": "blazeandcave:farming/bake_bread",
+    "criteria": {
+        "cake": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cake"
+                    }
+                ]
+            }
+        }
+    }
+}

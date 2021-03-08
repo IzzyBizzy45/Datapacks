@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:pumpkin_pie"
+        },
+        "title": {"translate":"The not Sweet Pie"},
+        "description": {"translate":"Bake a pumpkin pie"}
+    },
+    "parent": "advadd:farming/naturally_carved",
+    "criteria": {
+        "pumpkin_pie": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:pumpkin_pie"
+                    }
+                ]
+            }
+        }
+    }
+}

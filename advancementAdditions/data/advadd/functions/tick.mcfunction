@@ -1,0 +1,1 @@
+execute as @a[scores={horizon_death=1..}] run function advadd:event_horizon_fail

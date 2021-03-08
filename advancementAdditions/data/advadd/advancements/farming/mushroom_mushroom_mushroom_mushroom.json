@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:mushroom_stew"
+        },
+        "title": {"translate":"Mushroom, Mushroom!"},
+        "description": {"translate":"Slurp some mushroom stew"}
+    },
+    "parent": "advadd:farming/shrooms",
+    "criteria": {
+        "mushroom_stew": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:mushroom_stew"
+                }
+            }
+        }
+    }
+}

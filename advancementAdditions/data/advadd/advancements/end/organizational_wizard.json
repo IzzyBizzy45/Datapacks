@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:anvil"
+        },
+        "title": {"translate":"Organizational Wizard"},
+        "description": {"translate":"Name a Shulker Box 'Blocks' for storing your blocks"}
+    },
+    "parent": "advadd:end/portable_storage",
+	"rewards": {
+		"experience": 50
+    },	
+    "criteria": {
+        "shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:shulker_boxes",
+						"nbt": "{display:{Name:\"{\\\"text\\\":\\\"Blocks\\\"}\"}}"
+                    }
+                ]
+            }
+        }
+    }
+}

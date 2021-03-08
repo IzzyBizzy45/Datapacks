@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:apple"
+        },
+        "title": {"translate":"Bapple!"},
+        "description": {"translate":"Crunch into an apple"}
+    },
+    "parent": "blazeandcave:farming/care_for_the_environment",
+    "criteria": {
+        "apple": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:apple"
+                }
+            }
+        }
+    }
+}

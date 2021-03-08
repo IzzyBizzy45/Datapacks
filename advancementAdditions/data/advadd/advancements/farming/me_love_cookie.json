@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cookie"
+        },
+        "title": {"translate":"Me Love Cookie"},
+        "description": {"translate":"Bake some cookies... and then scoff them all yourself"}
+    },
+    "parent": "advadd:farming/its_where_nutella_comes_from",
+    "criteria": {
+        "cookie": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:cookie"
+                }
+            }
+        }
+    }
+}

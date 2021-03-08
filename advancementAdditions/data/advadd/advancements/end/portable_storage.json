@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:purple_shulker_box"
+        },
+        "title": {"translate":"Portable Storage"},
+        "description": {"translate":"Use shulker shells to craft a shulker box"}
+    },
+    "parent": "advadd:end/for_mother_clarence",
+    "criteria": {
+        "shulker_box": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:shulker_boxes"
+                    }
+                ]
+            }
+        }
+    }
+}

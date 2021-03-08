@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:end/find_end_city",
+  "parent": "advadd:end/shulker_breaker",
   "display": {
     "icon": {
       "item": "minecraft:shulker_shell"

@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chorus_fruit"
+        },
+        "title": {"translate":"Getting Chorus"},
+        "description": {"translate":"Attack a chorus tree until it collapses"}
+    },
+    "parent": "advadd:end/end_bricks",
+    "criteria": {
+        "chorus_fruit": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:chorus_fruit"
+                    }
+                ]
+            }
+        }
+    }
+}

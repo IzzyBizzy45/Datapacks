@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone_torch"
+        },
+        "title": {"translate":"Must be your birthday"},
+        "description": {"translate":"Eat 100 slices of cake"},
+		"frame": "goal"
+    },
+    "parent": "advadd:farming/the_lie",
+	"rewards": {
+		"experience": 50
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:eat_cake_slice",
+								"value": {
+									"min": 100
+								}
+							}
+						]
+					}
+				}
+			}
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:composter"
+        },
+        "title": {"translate":"The garbage will do!"},
+        "description": {"translate":"Craft a composter using wooden slabs then place it"}
+    },
+    "parent": "minecraft:husbandry/plant_seed",
+    "criteria": {
+        "composter": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:composter"
+            }
+        }
+    }
+}
