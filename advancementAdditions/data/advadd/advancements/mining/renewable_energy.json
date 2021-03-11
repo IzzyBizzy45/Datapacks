@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:charcoal"
+        },
+        "title": {"translate":"Renewable Energy"},
+        "description": {"translate":"Smelt wood trunks using charcoal to make more charcoal"}
+    },
+    "parent": "advadd:mining/hot_topic",
+    "criteria": {
+        "charcoal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:charcoal"
+                    }
+                ]
+            }
+        }
+    }
+}

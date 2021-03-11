@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:smoker"
+        },
+        "title": {"translate":"Smokin' Hot"},
+        "description": {"translate":"Upgrade your furnace to a smoker using some logs"}
+    },
+    "parent": "advadd:mining/renewable_energy",
+    "criteria": {
+        "smoker": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:smoker"
+                    }
+                ]
+            }
+        }
+    }
+}

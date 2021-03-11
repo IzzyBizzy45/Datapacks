@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_ore"
+        },
+        "title": {"translate":"Iron Miner"},
+        "description": {"translate":"Mine a stack of iron ore"},
+		"frame": "goal"
+    },
+    "parent": "advadd:mining/iron_man",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_ore",
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

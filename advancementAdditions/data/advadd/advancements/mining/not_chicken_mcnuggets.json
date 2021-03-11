@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_nugget"
+        },
+        "title": {"translate":"Not Chicken McNuggets?"},
+        "description": {"translate":"Craft or find iron nuggets"}
+    },
+    "parent": "minecraft:story/smelt_iron",
+    "criteria": {
+        "iron_nugget": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_nugget"
+                    }
+                ]
+            }
+        }
+    }
+}

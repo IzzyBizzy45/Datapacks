@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "title": {"translate":"Its original form"},
+        "description": {"translate":"Use your furnace to smelt cobblestone back into stone"}
+    },
+    "parent": "minecraft:story/iron_tools",
+    "criteria": {
+        "stone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stone"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_ore"
+        },
+        "title": {"translate":"Gold Miner"},
+        "description": {"translate":"Mine a stack of gold ore"},
+		"frame": "goal"
+    },
+    "parent": "advadd:mining/gold_rush",
+    "criteria": {
+        "gold": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gold_ore",
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "title": {"translate":"Stabcraft"},
+        "description": {"translate":"Do you like my sword sword"}
+    },
+    "parent": "advadd:mining/iconic_merchandising_prop",
+    "criteria": {
+        "diamond_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_sword"
+                    }
+                ]
+            }
+        }
+    }
+}

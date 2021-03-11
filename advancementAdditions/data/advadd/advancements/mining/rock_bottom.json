@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "title": {"translate":"Rock Bottom"},
+        "description": {"translate":"Dig down to the bottom of the world"},
+        "frame": "goal"
+    },
+    "parent": "minecraft:story/iron_tools",
+    "rewards": {
+		"experience": 50
+    },		
+    "criteria": {
+        "bedrock_level": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"y": {
+						"max": 5.5
+					}
+				}
+            }
+        }	
+    }
+}

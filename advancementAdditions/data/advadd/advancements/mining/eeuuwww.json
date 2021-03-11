@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cobweb"
+        },
+        "title": {"translate":"Eeuuwww!"},
+        "description": {"translate":"Get stuck in a cobweb"}
+    },
+    "parent": "advadd:mining/this_is_mine_now",
+    "criteria": {
+        "cobweb": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:cobweb"
+            }
+        }
+    }
+}

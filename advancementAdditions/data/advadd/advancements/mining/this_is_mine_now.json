@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:oak_fence"
+        },
+        "title": {"translate":"This is Mine Now!"},
+        "description": {"translate":"Find an abandoned mineshaft that was not dug out by you"}
+    },
+    "parent": "advadd:mining/dungeons_and_spawners",
+    "criteria": {
+        "mineshaft": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "mineshaft"
+            }
+        }
+    }
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:story/smelt_iron",
+  "parent": "advadd:mining/iconic_merchandising_prop",
   "display": {
     "icon": {
       "item": "minecraft:lava_bucket"

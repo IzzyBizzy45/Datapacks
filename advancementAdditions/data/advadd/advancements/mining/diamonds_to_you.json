@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "title": {"translate":"Diamonds to you!"},
+        "description": {"translate":"Throw diamonds at another player or mob"}
+    },
+    "parent": "minecraft:story/mine_diamond",
+	"criteria": {
+		"diamonds_to_you": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"item": "minecraft:diamond"
+				}
+			}
+		}
+	}
+}

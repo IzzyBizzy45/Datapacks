@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:black_concrete_powder"
+        },
+        "title": {"translate":"Heart of Darkness"},
+        "description": {"translate":"Submerge yourself in complete darkness"},
+		"hidden": true
+    },
+    "parent": "advadd:mining/spelunker",
+    "criteria": {
+        "enter_cave": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"light": {
+					"light": {
+						"max": 0
+					}
+				}
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cauldron"
+        },
+        "title": {"translate":"Bubble, Bubble, Toil and Trouble!"},
+        "description": {"translate":"Fill a cauldron using a bucket"}
+    },
+    "parent": "advadd:mining/its_original_form",
+    "criteria": {
+        "fill_water": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:cauldron"
+					}
+				},
+				"item": {
+					"item": "minecraft:water_bucket"
+				}
+			}
+		},
+		"fill_lava": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"block": "minecraft:cauldron"
+					}
+				},
+				"item": {
+					"item": "minecraft:lava_bucket"
+				}
+			}
+		}
+    },
+	"requirements": [
+		[
+			"fill_water",
+			"fill_lava"
+		]
+	]
+}

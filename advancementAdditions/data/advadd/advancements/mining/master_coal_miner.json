@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:coal_block"
+        },
+        "title": {"translate":"Master Coal Miner"},
+        "description": {"translate":"Mine enough coal to make a stack of coal blocks"},
+		"frame": "challenge"
+    },
+    "parent": "advadd:mining/coal_miner",
+    "criteria": {
+        "coal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:coal_block",
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}

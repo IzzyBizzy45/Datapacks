@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:story/upgrade_tools",
+  "parent": "advadd:mining/hot_topic",
   "display": {
     "icon": {
       "item": "minecraft:iron_ingot"

@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_ore"
+        },
+        "title": {"translate":"Diamond Miner"},
+        "description": {"translate":"Mine a stack of diamonds. Good luck!"},
+		"frame": "goal"
+    },
+    "parent": "advadd:mining/diamond_clad",
+    "criteria": {
+        "diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond",
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }
+}
