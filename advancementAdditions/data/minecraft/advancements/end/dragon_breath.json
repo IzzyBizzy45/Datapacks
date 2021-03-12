@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:end/kill_dragon",
+  "parent": "advadd:potion/root",
   "display": {
     "icon": {
       "item": "minecraft:dragon_breath"

@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:soul_sand"
+        },
+        "title": {"translate":"Quicksand"},
+        "description": {"translate":"You sink like quicksand and move slow like mud"}
+    },
+    "parent": "advadd:nether/nugget_in_a_biscuit",
+    "criteria": {
+        "soul_sand": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:soul_sand"
+            }
+        }
+    }
+}

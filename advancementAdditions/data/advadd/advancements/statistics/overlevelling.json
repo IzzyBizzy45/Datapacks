@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_book",
+			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+        },
+        "title": {"translate":"Overlevelling"},
+        "description": {"translate":"Reach 100 experience levels"},
+		"frame": "goal"
+    },
+    "parent": "advadd:statistics/level_up",
+	"rewards": {
+		"experience": 200
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"level": {
+							"min": 100
+						}
+					}
+				}
+			}
+        }
+    }
+}

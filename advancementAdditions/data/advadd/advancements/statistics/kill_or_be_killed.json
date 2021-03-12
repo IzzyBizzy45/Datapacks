@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "title": {"translate":"Kill or be Killed"},
+        "description": {"translate":"Defeat 25,000 mobs"},
+		"frame": "challenge"
+    },
+    "parent": "advadd:statistics/bloodthirsty",
+	"rewards": {
+		"experience": 500
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:mob_kills",
+								"value": {
+									"min": 25000
+								}
+							}
+						]
+					}
+				}
+			}
+        }
+    }
+}

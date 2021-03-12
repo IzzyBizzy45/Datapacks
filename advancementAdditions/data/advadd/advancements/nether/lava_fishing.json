@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:fishing_rod"
+        },
+        "title": {"translate":"Lava Fishing"},
+        "description": {"translate":"Reel in a Strider using a Fishing Rod"}
+    },
+    "parent": "advadd:nether/what_a_fungi",
+    "criteria": {
+        "pig": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:strider"
+                }
+            }
+        }
+    }
+}

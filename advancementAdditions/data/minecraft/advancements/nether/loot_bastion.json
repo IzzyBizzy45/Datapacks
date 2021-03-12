@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/find_bastion",
+  "parent": "advadd:nether/brute_force",
   "display": {
     "icon": {
       "item": "minecraft:chest"

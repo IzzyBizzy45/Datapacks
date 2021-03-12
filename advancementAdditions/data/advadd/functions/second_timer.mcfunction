@@ -8,6 +8,11 @@ execute at @a as @e[type=pillager,distance=..5] unless entity @s[nbt={HandItems:
 #Checking Paintings
 execute as @a[scores={painting_check=1..}] at @s run function advadd:check_paintings
 
+#Let me out achivement
+scoreboard players add @a[predicate=advadd:in_the_nether] let_me_out 1
+advancement grant @a[scores={let_me_out=24000..}] only advadd:nether/let_me_out
+execute as @a unless entity @s[predicate=advadd:in_the_nether] run scoreboard players set @s let_me_out 0
+
 #Just Keeps Going
 scoreboard players add @a[scores={just_keep_going=1..}] just_keep_going 1
 execute as @a[advancements={advadd:technical/just_keeps_going_start=true}] run function advadd:just_keeps_going

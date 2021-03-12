@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:soul_campfire"
+        },
+        "title": {"translate":"A Soul For A Soul"},
+        "description": {"translate":"Place down a Soul Campfire"}
+    },
+    "parent": "advadd:nether/burnt_right_into_your_soul",
+    "criteria": {
+        "soul_campfire": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:soul_campfire"
+            }
+        }
+    }
+}

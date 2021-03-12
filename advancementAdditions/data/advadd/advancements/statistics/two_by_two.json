@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chicken"
+        },
+        "title": {"translate":"Two By Two"},
+        "description": {"translate":"Breed 2500 animals"},
+		"frame": "challenge"
+    },
+    "parent": "advadd:statistics/cupid",
+	"rewards": {
+		"experience": 500
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:animals_bred",
+								"value": {
+									"min": 2500
+								}
+							}
+						]
+					}
+				}
+			}
+        }
+    }
+}

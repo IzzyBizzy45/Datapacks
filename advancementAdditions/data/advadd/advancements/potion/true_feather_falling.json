@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:phantom_membrane"
+        },
+        "title": {"translate":"True Feather Falling"},
+        "description": {"translate":"Brew and drink a slow falling potion"}
+    },
+    "parent": "advadd:potion/the_invisible_player",
+    "criteria": {
+        "slow_falling": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:potion",
+					"nbt": "{Potion:\"minecraft:slow_falling\"}"
+                }
+            }
+        },
+        "long_slow_falling": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:potion",
+					"nbt": "{Potion:\"minecraft:long_slow_falling\"}"
+                }
+            }
+        }
+    },
+	"requirements": [
+		[
+			"slow_falling",
+			"long_slow_falling"
+		]
+	]
+}

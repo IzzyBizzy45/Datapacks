@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:phantom_membrane"
+        },
+        "title": {"translate":"Take to the Skies"},
+        "description": {"translate":"Fly 10km with elytra"},
+		"frame": "goal"
+    },
+    "parent": "advadd:statistics/root",
+	"rewards": {
+		"experience": 50
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:aviate_one_cm",
+								"value": {
+									"min": 1000000
+								}
+							}
+						]
+					}
+				}
+			}
+        }
+    }
+}

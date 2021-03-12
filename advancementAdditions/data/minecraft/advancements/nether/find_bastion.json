@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/root",
+  "parent": "advadd:nether/cultural_misunderstandings",
   "display": {
     "icon": {
       "item": "minecraft:polished_blackstone_bricks"

@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:hoglin_spawn_egg"
+        },
+        "title": {"translate":"Giddy Up!"},
+        "description": {"translate":"Punch a baby Hoglin that is being ridden by a baby Piglin"},
+        "frame": "goal"
+    },
+    "parent": "advadd:nether/whole_hog",
+	"rewards": {
+        "experience": 50
+    },	
+    "criteria": {
+        "piglin_jockey": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "hoglin",
+					"flags": {
+						"is_baby": true
+					},
+					"nbt": "{Passengers:[{id:\"minecraft:piglin\"}]}"
+                }
+            }
+        }
+    }
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/obtain_ancient_debris",
+  "parent": "advadd:nether/moar_upgraded_tools",
   "display": {
     "icon": {
       "item": "minecraft:netherite_chestplate",

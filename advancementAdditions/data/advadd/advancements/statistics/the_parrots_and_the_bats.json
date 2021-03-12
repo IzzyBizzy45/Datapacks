@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:porkchop"
+        },
+        "title": {"translate":"The Parrots and the Bats"},
+        "description": {"translate":"Breed 100 animals"}
+    },
+    "parent": "advadd:statistics/root",
+	"rewards": {
+		"experience": 50
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:animals_bred",
+								"value": {
+									"min": 100
+								}
+							}
+						]
+					}
+				}
+			}
+        }
+    }
+}

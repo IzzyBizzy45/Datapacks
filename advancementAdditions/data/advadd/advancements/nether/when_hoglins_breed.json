@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crimson_fungus"
+        },
+        "title": {"translate":"When Hoglins Breed"},
+        "description": {"translate":"Breed a baby Hoglin using Crimson Fungi"}
+    },
+    "parent": "advadd:nether/roadhog",
+    "criteria": {
+        "hoglin": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+				"parent": {
+					"type": "minecraft:hoglin"
+				},
+				"partner": {
+					"type": "minecraft:hoglin"
+				}
+            }
+        }
+    }
+}

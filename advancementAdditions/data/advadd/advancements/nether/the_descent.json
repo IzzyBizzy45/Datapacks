@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherrack"
+        },
+        "title": {"translate":"The Descent"},
+        "description": {"translate":"Dig down into the deepest depths of the Nether"}
+    },
+    "parent": "advadd:nether/nugget_in_a_biscuit",
+    "criteria": {
+        "the_descent": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"dimension": "the_nether",
+				"position": {
+					"y": {
+						"max": 22.0
+					}
+				}
+            }
+        }	
+    }
+}

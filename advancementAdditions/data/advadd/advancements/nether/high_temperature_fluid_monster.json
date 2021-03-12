@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:magma_cream"
+        },
+        "title": {"translate":"High Temperature Fluid Monster"},
+        "description": {"translate":"Kill a magma cube"}
+    },
+    "parent": "advadd:nether/the_tribal_snouts",
+    "criteria": {
+        "magma_cube": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "magma_cube"
+                }
+            }
+        }
+    }
+}

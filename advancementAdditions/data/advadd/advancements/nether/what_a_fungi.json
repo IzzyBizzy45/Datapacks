@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:warped_fungus"
+        },
+        "title": {"translate":"What a Fungi!"},
+        "description": {"translate":"Pick up Crimson or Warped Fungus"}
+    },
+    "parent": "advadd:nether/stem_research",
+    "criteria": {
+        "nether_fungus": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:nether_fungus"
+                    }
+                ]
+            }
+        }
+    }
+}

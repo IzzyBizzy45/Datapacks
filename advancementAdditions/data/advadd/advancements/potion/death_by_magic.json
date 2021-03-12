@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:splash_potion",
+			"nbt": "{Potion:\"minecraft:harming\"}"
+        },
+        "title": {"translate":"Death by Magic"},
+        "description": {"translate":"Kill a mob with a splash potion"}
+    },
+    "parent": "advadd:potion/root",
+    "criteria": {
+        "kill_magic": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+				"killing_blow": {
+					"is_magic": true,
+					"direct_entity": {
+						"type": "minecraft:potion"
+					}
+				}
+            }
+        }
+    }
+}

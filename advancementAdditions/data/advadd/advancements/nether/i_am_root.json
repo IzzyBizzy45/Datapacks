@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crimson_roots"
+        },
+        "title": {"translate":"I am Root"},
+        "description": {"translate":"Pick up some crimson or warped roots"}
+    },
+    "parent": "advadd:nether/what_a_fungi",
+    "criteria": {
+        "nether_roots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:nether_roots"
+                    }
+                ]
+            }
+        }
+    }
+}

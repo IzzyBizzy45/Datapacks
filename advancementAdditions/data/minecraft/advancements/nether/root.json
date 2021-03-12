@@ -4,10 +4,10 @@
       "item": "minecraft:red_nether_bricks"
     },
     "title": {
-      "translate": "advancements.nether.root.title"
+      "translate": "Nether"
     },
     "description": {
-      "translate": "advancements.nether.root.description"
+      "translate": "Bring some clothes"
     },
     "frame": "task",
     "show_toast": false,

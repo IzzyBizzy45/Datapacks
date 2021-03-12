@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cyan_carpet"
+        },
+        "title": {"translate":"Jumping Jacks"},
+        "description": {"translate":"Jump 100,000 times"},
+		"frame": "challenge"
+    },
+    "parent": "advadd:statistics/boing_boing",
+	"rewards": {
+		"experience": 500
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:jump",
+								"value": {
+									"min": 100000
+								}
+							}
+						]
+					}
+				}
+			}
+        }
+    }
+}

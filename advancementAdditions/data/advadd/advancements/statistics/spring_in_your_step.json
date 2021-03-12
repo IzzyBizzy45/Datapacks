@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:oak_fence"
+        },
+        "title": {"translate":"Spring in your step"},
+        "description": {"translate":"Jump 1000 times"}
+    },
+    "parent": "advadd:statistics/root",
+	"rewards": {
+		"experience": 50
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:jump",
+								"value": {
+									"min": 1000
+								}
+							}
+						]
+					}
+				}
+			}
+        }
+    }
+}

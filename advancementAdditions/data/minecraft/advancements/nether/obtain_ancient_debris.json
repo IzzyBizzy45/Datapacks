@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/root",
+  "parent": "advadd:nether/the_descent",
   "display": {
     "icon": {
       "item": "minecraft:ancient_debris"

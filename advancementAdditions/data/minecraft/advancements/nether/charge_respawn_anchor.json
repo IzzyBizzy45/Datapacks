@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/obtain_crying_obsidian",
+  "parent": "advadd:nether/anchorman",
   "display": {
     "icon": {
       "item": "minecraft:respawn_anchor"

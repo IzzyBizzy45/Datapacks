@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:beef"
+        },
+        "title": {"translate":"Cupid"},
+        "description": {"translate":"Breed 500 animals"},
+		"frame": "goal"
+    },
+    "parent": "advadd:statistics/the_parrots_and_the_bats",
+	"rewards": {
+		"experience": 200
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:animals_bred",
+								"value": {
+									"min": 500
+								}
+							}
+						]
+					}
+				}
+			}
+        }
+    }
+}

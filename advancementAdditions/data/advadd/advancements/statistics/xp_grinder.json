@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lapis_block",
+			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+        },
+        "title": {"translate":"XP Grinder"},
+        "description": {"translate":"Reach 300 experience levels"},
+		"frame": "challenge"
+    },
+    "parent": "advadd:statistics/overlevelling",
+	"rewards": {
+		"experience": 500
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"level": {
+							"min": 300
+						}
+					}
+				}
+			}
+        }
+    }
+}

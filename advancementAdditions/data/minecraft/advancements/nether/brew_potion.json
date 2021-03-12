@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/obtain_blaze_rod",
+  "parent": "advadd:nether/basis_of_brewing",
   "display": {
     "icon": {
       "item": "minecraft:potion"

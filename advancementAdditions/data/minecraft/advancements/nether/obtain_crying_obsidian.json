@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/root",
+  "parent": "advadd:nether/from_whence_it_came",
   "display": {
     "icon": {
       "item": "minecraft:crying_obsidian"

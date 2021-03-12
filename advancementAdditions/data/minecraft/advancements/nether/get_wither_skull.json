@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/find_fortress",
+  "parent": "advadd:nether/the_hunt_begins",
   "display": {
     "icon": {
       "item": "minecraft:wither_skeleton_skull"

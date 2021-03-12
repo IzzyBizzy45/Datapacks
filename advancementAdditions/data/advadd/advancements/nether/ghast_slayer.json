@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ghast_spawn_egg"
+        },
+        "title": {"translate":"Ghast Slayer"},
+        "description": {"translate":"Collect a stack of ghast tears"},
+		"frame": "goal"
+    },
+    "parent": "advadd:nether/bring_down_the_beast",
+    "rewards": {
+		"experience": 50
+    },		
+    "criteria": {
+        "ghast_tear": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:ghast_tear",
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }	
+}

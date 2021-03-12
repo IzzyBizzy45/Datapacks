@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/brew_potion",
+  "parent": "advadd:potion/hopping_mad",
   "display": {
     "icon": {
       "item": "minecraft:milk_bucket"

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:nether_gold_ore"
+        },
+        "title": {"translate":"Nugget in a Biscuit"},
+        "description": {"translate":"Mine Nether Gold Ore for a pile of gold nuggets"}
+    },
+    "parent": "minecraft:nether/root",
+    "criteria": {
+        "mine_nether_gold_ore": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"stats": [
+							{
+								"type": "minecraft:mined",
+								"stat": "minecraft:nether_gold_ore",
+								"value": {
+									"min": 1
+								}
+							}
+						]
+					}
+				}
+			}
+        }
+    }
+}

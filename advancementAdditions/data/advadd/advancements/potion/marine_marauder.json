@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:pufferfish"
+        },
+        "title": {"translate":"Marine Marauder"},
+        "description": {"translate":"Swim in water while having the Water Breathing effect"}
+    },
+    "parent": "advadd:potion/stayin_frosty",
+    "criteria": {
+        "water_breathing": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "fluid": {
+					"fluid": "minecraft:water"
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"effects": {
+								"minecraft:water_breathing": {
+									"amplifier": {
+										"min": 0
+									},
+									"duration": {
+										"min": 1
+									}
+								}
+							}
+						}
+					}
+				]
+            }
+        }
+	}
+}

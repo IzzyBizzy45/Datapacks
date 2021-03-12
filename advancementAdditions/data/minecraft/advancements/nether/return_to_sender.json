@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/root",
+  "parent": "advadd:nether/fire_blast_shield",
   "display": {
     "icon": {
       "item": "minecraft:fire_charge"

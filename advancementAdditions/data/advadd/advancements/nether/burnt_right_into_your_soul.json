@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:soul_soil"
+        },
+        "title": {"translate":"Burnt Right Into Your Soul"},
+        "description": {"translate":"Get caught on Soul Fire"}
+    },
+    "parent": "advadd:nether/quicksand",
+    "criteria": {
+        "soul_fire": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:soul_fire"
+            }
+        }
+    }
+}

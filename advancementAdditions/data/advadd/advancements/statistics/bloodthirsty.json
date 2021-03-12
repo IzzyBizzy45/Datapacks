@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "title": {"translate":"Bloodthirsty"},
+        "description": {"translate":"Defeat 2500 mobs"},
+		"frame": "goal"
+    },
+    "parent": "advadd:statistics/mob_hunter",
+	"rewards": {
+		"experience": 200
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:mob_kills",
+								"value": {
+									"min": 2500
+								}
+							}
+						]
+					}
+				}
+			}
+        }
+    }
+}

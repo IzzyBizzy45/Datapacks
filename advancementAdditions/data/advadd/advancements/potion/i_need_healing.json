@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glistering_melon_slice"
+        },
+        "title": {"translate":"Medic!"},
+        "description": {"translate":"Brew a healing potion"}
+    },
+    "parent": "advadd:potion/root",
+    "criteria": {
+        "healing": {
+            "trigger": "minecraft:brewed_potion",
+            "conditions": {
+                "potion": "minecraft:healing"
+            }
+        },
+        "strong_healing": {
+            "trigger": "minecraft:brewed_potion",
+            "conditions": {
+                "potion": "minecraft:strong_healing"
+            }
+        }
+    },
+	"requirements": [
+		[
+			"healing",
+			"strong_healing"
+		]
+	]
+}

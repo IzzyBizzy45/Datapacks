@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glowstone_dust"
+        },
+        "title": {"translate":"Seeing Stars"},
+        "description": {"translate":"Mine some glowstone dust from the nether"}
+    },
+    "parent": "advadd:nether/nugget_in_a_biscuit",
+    "criteria": {
+        "glowstone_dust": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:glowstone_dust"
+                    }
+                ]
+            }
+        },
+        "nether": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "the_nether",
+				"from": "overworld"
+            }
+        }
+    }
+}

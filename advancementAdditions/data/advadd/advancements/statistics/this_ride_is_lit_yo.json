@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:strider_spawn_egg"
+        },
+        "title": {"translate":"This Ride Is Lit, Yo!"},
+        "description": {"translate":"Ride 10km on a Strider"},
+		"frame": "challenge"
+    },
+    "parent": "advadd:statistics/who_needs_boats",
+	"rewards": {
+		"experience": 500
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:strider_one_cm",
+								"value": {
+									"min": 1000000
+								}
+							}
+						]
+					}
+				}
+			}
+        }
+    }
+}

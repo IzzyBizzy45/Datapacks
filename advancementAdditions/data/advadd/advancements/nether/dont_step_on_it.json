@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:magma_block"
+        },
+        "title": {"translate":"Don't Step on it!"},
+        "description": {"translate":"Mine some magma blocks"}
+    },
+    "parent": "advadd:nether/nugget_in_a_biscuit",
+    "criteria": {
+        "magma": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:magma_block"
+                    }
+                ]
+            }
+        }
+    }
+}

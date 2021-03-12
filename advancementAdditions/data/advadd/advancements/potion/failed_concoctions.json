@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+			"nbt": "{Potion:\"minecraft:thick\"}"
+        },
+        "title": {"translate":"Failed Concoctions"},
+        "description": {"translate":"Brew a mundane and thick potion"}
+    },
+    "parent": "advadd:potion/root",
+    "criteria": {
+        "thick_potion": {
+            "trigger": "minecraft:brewed_potion",
+            "conditions": {
+                "potion": "minecraft:thick"
+            }
+        },
+        "mundane_potion": {
+            "trigger": "minecraft:brewed_potion",
+            "conditions": {
+                "potion": "minecraft:mundane"
+            }
+        }
+    }
+}

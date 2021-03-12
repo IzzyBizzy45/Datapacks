@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blackstone"
+        },
+        "title": {"translate":"Dark Ages"},
+        "description": {"translate":"Mine Blackstone from a Basalt Deltas biome"}
+    },
+    "parent": "advadd:nether/dont_step_on_it",
+    "criteria": {
+        "blackstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:blackstone"
+                    }
+                ]
+            }
+        }
+    }
+}

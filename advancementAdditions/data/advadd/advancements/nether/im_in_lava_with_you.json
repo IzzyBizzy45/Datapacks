@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lava_bucket"
+        },
+        "title": {"translate":"I'm in Lava With You"},
+        "description": {"translate":"Hit something while you and it are in lava"},
+		"frame": "goal"
+    },
+    "parent": "advadd:nether/nugget_in_a_biscuit",
+    "rewards": {
+		"experience": 100
+    },		
+    "criteria": {
+        "hit_in_lava": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "location": {
+						"block": {
+							"block": "minecraft:lava"
+						}
+					}
+                },
+				"damage": {
+					"source_entity": {
+						"location": {
+							"block": {
+								"block": "minecraft:lava"
+							}
+						}
+					}
+				}
+            }
+        }
+    }
+}

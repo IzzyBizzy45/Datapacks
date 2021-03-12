@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/root",
+  "parent": "advadd:nether/limbo_walker",
   "display": {
     "icon": {
       "item": "minecraft:map"

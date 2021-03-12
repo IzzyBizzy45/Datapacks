@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cartography_table"
+        },
+        "title": {"translate":"Did you just run across earth?"},
+        "description": {"translate":"Sprint 1000km"},
+		"frame": "challenge"
+    },
+    "parent": "advadd:statistics/your_legs_must_be_tired",
+	"rewards": {
+		"experience": 500
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:sprint_one_cm",
+								"value": {
+									"min": 100000000
+								}
+							}
+						]
+					}
+				}
+			}
+        }
+    }
+}

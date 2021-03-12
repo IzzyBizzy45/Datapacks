@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glowstone"
+        },
+        "title": {"translate":"Glowstone Miner"},
+        "description": {"translate":"Mine or craft a stack of glowstone blocks"},
+		"frame": "goal"
+    },
+    "parent": "advadd:nether/glows_in_the_dark",
+    "rewards": {
+		"experience": 50
+    },		
+    "criteria": {
+        "glowstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:glowstone",
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }	
+}

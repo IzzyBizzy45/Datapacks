@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_boots"
+        },
+        "title": {"translate":"Who needs cars?"},
+        "description": {"translate":"Walk 100km"},
+		"frame": "goal"
+    },
+    "parent": "advadd:statistics/out_for_a_stroll",
+	"rewards": {
+		"experience": 200
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:walk_one_cm",
+								"value": {
+									"min": 10000000
+								}
+							}
+						]
+					}
+				}
+			}
+        }
+    }
+}

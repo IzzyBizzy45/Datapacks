@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_chest"
+        },
+        "title": {"translate":"Ender's Chest"},
+        "description": {"translate":"Craft an ender chest for some extra inventory space"}
+    },
+    "parent": "minecraft:nether/obtain_blaze_rod",
+    "criteria": {
+        "ender_chest": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:ender_chest"
+                    }
+                ]
+            }
+        }
+    }
+}

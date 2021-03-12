@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/return_to_sender",
+  "parent": "advadd:nether/ghast_slayer",
   "display": {
     "icon": {
       "item": "minecraft:ghast_tear"

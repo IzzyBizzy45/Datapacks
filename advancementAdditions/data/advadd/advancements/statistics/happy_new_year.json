@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:firework_rocket"
+        },
+        "title": {"translate":"Happy New Year!"},
+        "description": {"translate":"Play for a whole Minecraft year"},
+		"frame": "challenge"
+    },
+    "parent": "advadd:statistics/passing_the_time",
+	"rewards": {
+		"experience": 500
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:panda_spawn_egg"
+        },
+        "title": {"translate":"Ancient Kung Fu Master"},
+        "description": {"translate":"Sneak 10km"},
+		"frame": "challenge"
+    },
+    "parent": "advadd:statistics/black_belt_ninja",
+	"rewards": {
+		"experience": 500
+    },		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:crouch_one_cm",
+								"value": {
+									"min": 1000000
+								}
+							}
+						]
+					}
+				}
+			}
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chain"
+        },
+        "title": {"translate":"Et tu, Brute?"},
+        "description": {"translate":"Get murdered by Piglin Brutes"},
+		"hidden": true
+    },
+    "parent": "advadd:nether/brute_force",
+    "criteria": {
+        "piglin_brute": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "piglin_brute"
+                }
+            }
+        }
+    }
+}

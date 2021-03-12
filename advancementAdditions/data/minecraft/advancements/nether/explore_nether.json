@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/ride_strider",
+  "parent": "advadd:nether/twisted",
   "display": {
     "icon": {
       "item": "minecraft:netherite_boots",

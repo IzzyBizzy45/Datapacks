@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:fire_charge"
+        },
+        "title": {"translate":"Time to Fire Back"},
+        "description": {"translate":"Craft a stack of fire charges"},
+		"frame": "goal"
+    },
+    "parent": "advadd:nether/blaze_extinguisher",
+    "rewards": {
+		"experience": 50
+    },		
+    "criteria": {
+        "fire_charge": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:fire_charge",
+						"count": 64
+                    }
+                ]
+            }
+        }
+    }	
+}

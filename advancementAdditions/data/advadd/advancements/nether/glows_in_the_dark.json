@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spectral_arrow"
+        },
+        "title": {"translate":"Glows in the Dark"},
+        "description": {"translate":"Shoot a mob with a spectral arrow"}
+    },
+    "parent": "advadd:nether/seeing_stars",
+    "criteria": {
+        "spectral_arrow": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:spectral_arrow"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

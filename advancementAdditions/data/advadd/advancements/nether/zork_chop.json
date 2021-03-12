@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rotten_flesh"
+        },
+        "title": {"translate":"Zork Chop"},
+        "description": {"translate":"Bring a Hoglin into the Overworld to zombify it, then kill it for zorkchops"},
+		"frame": "goal"
+    },
+    "parent": "advadd:nether/giddy_up",
+    "rewards": {
+        "experience": 100
+    },		
+    "criteria": {
+        "zoglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "zoglin"
+                }
+            }
+        }
+    }
+}
