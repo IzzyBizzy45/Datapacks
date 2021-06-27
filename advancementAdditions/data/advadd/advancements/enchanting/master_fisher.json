@@ -18,7 +18,7 @@
             "conditions": {
 				"items": [
                     {
-                        "item": "minecraft:fishing_rod",
+                        "items": ["minecraft:fishing_rod"],
 						"enchantments": [
 							{
 								"enchantment": "minecraft:lure",

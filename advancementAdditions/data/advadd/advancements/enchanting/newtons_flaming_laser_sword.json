@@ -15,7 +15,7 @@
             "conditions": {
 				"items": [
 					{
-						"item": "minecraft:diamond_sword",
+						"items": ["minecraft:diamond_sword"],
 						"enchantments": [
 							{
 								"enchantment": "minecraft:fire_aspect",

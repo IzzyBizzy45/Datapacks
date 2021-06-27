@@ -14,7 +14,7 @@
             "conditions": {
 				"items": [
 					{
-						"item": "minecraft:bow",
+						"items": ["minecraft:bow"],
 						"enchantments": [
 							{
 								"enchantment": "minecraft:infinity"

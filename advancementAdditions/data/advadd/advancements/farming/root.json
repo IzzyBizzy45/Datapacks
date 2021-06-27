@@ -15,7 +15,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:wooden_hoe"
+                        "items": ["minecraft:wooden_hoe"]
                     }
                 ]
             }
@@ -25,7 +25,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stone_hoe"
+                        "items": ["minecraft:stone_hoe"]
                     }
                 ]
             }
@@ -35,7 +35,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:iron_hoe"
+                        "items": ["minecraft:iron_hoe"]
                     }
                 ]
             }
@@ -45,7 +45,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diamond_hoe"
+                        "items": ["minecraft:diamond_hoe"]
                     }
                 ]
             }
@@ -55,7 +55,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:golden_hoe"
+                        "items": ["minecraft:golden_hoe"]
                     }
                 ]
             }
@@ -65,7 +65,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:netherite_hoe"
+                        "items": ["minecraft:netherite_hoe"]
                     }
                 ]
             }

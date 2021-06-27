@@ -18,7 +18,7 @@
             "conditions": {
 				"items": [
                     {
-                        "item": "minecraft:wooden_sword",
+                        "items": ["minecraft:wooden_sword"],
 						"enchantments": [
 							{
 								"enchantment": "minecraft:sharpness",

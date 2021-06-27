@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:white_concrete"
+                        "items": ["minecraft:white_concrete"]
                     }
                 ]
             }
@@ -23,7 +23,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:orange_concrete"
+                        "items": ["minecraft:orange_concrete"]
                     }
                 ]
             }
@@ -33,7 +33,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:magenta_concrete"
+                        "items": ["minecraft:magenta_concrete"]
                     }
                 ]
             }
@@ -43,7 +43,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:light_blue_concrete"
+                        "items": ["minecraft:light_blue_concrete"]
                     }
                 ]
             }
@@ -53,7 +53,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:yellow_concrete"
+                        "items": ["minecraft:yellow_concrete"]
                     }
                 ]
             }
@@ -63,7 +63,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:lime_concrete"
+                        "items": ["minecraft:lime_concrete"]
                     }
                 ]
             }
@@ -73,7 +73,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:pink_concrete"
+                        "items": ["minecraft:pink_concrete"]
                     }
                 ]
             }
@@ -83,7 +83,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:gray_concrete"
+                        "items": ["minecraft:gray_concrete"]
                     }
                 ]
             }
@@ -93,7 +93,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:light_gray_concrete"
+                        "items": ["minecraft:light_gray_concrete"]
                     }
                 ]
             }
@@ -103,7 +103,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:cyan_concrete"
+                        "items": ["minecraft:cyan_concrete"]
                     }
                 ]
             }
@@ -113,7 +113,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:purple_concrete"
+                        "items": ["minecraft:purple_concrete"]
                     }
                 ]
             }
@@ -123,7 +123,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:blue_concrete"
+                        "items": ["minecraft:blue_concrete"]
                     }
                 ]
             }
@@ -133,7 +133,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:brown_concrete"
+                        "items": ["minecraft:brown_concrete"]
                     }
                 ]
             }
@@ -143,7 +143,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:green_concrete"
+                        "items": ["minecraft:green_concrete"]
                     }
                 ]
             }
@@ -153,7 +153,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:red_concrete"
+                        "items": ["minecraft:red_concrete"]
                     }
                 ]
             }
@@ -163,7 +163,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:black_concrete"
+                        "items": ["minecraft:black_concrete"]
                     }
                 ]
             }

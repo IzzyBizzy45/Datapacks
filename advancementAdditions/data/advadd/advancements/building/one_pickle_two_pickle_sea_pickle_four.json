@@ -13,7 +13,7 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:sea_pickle",
+						"blocks": ["minecraft:sea_pickle"],
 						"state": {
 							"pickles": 4,
 							"waterlogged": true
@@ -21,7 +21,7 @@
 					}
 				},
 				"item": {
-					"item": "minecraft:sea_pickle"
+					"items": ["minecraft:sea_pickle"]
 				}
 			}
 		}

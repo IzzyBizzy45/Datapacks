@@ -16,7 +16,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diamond_sword",
+                        "items": ["minecraft:diamond_sword"],
 						"nbt": "{display:{Name:\"{\\\"text\\\":\\\"Diamond Edge\\\"}\"}}"
                     }
                 ]

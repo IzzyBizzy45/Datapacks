@@ -14,7 +14,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:white_glazed_terracotta"
+                        "items": ["minecraft:white_glazed_terracotta"]
                     }
                 ]
             }
@@ -24,7 +24,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:orange_glazed_terracotta"
+                        "items": ["minecraft:orange_glazed_terracotta"]
                     }
                 ]
             }
@@ -34,7 +34,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:magenta_glazed_terracotta"
+                        "items": ["minecraft:magenta_glazed_terracotta"]
                     }
                 ]
             }
@@ -44,7 +44,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:light_blue_glazed_terracotta"
+                        "items": ["minecraft:light_blue_glazed_terracotta"]
                     }
                 ]
             }
@@ -54,7 +54,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:yellow_glazed_terracotta"
+                        "items": ["minecraft:yellow_glazed_terracotta"]
                     }
                 ]
             }
@@ -64,7 +64,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:lime_glazed_terracotta"
+                        "items": ["minecraft:lime_glazed_terracotta"]
                     }
                 ]
             }
@@ -74,7 +74,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:pink_glazed_terracotta"
+                        "items": ["minecraft:pink_glazed_terracotta"]
                     }
                 ]
             }
@@ -84,7 +84,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:gray_glazed_terracotta"
+                        "items": ["minecraft:gray_glazed_terracotta"]
                     }
                 ]
             }
@@ -94,7 +94,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:light_gray_glazed_terracotta"
+                        "items": ["minecraft:light_gray_glazed_terracotta"]
                     }
                 ]
             }
@@ -104,7 +104,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:cyan_glazed_terracotta"
+                        "items": ["minecraft:cyan_glazed_terracotta"]
                     }
                 ]
             }
@@ -114,7 +114,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:purple_glazed_terracotta"
+                        "items": ["minecraft:purple_glazed_terracotta"]
                     }
                 ]
             }
@@ -124,7 +124,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:blue_glazed_terracotta"
+                        "items": ["minecraft:blue_glazed_terracotta"]
                     }
                 ]
             }
@@ -134,7 +134,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:brown_glazed_terracotta"
+                        "items": ["minecraft:brown_glazed_terracotta"]
                     }
                 ]
             }
@@ -144,7 +144,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:green_glazed_terracotta"
+                        "items": ["minecraft:green_glazed_terracotta"]
                     }
                 ]
             }
@@ -154,7 +154,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:red_glazed_terracotta"
+                        "items": ["minecraft:red_glazed_terracotta"]
                     }
                 ]
             }
@@ -164,7 +164,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:black_glazed_terracotta"
+                        "items": ["minecraft:black_glazed_terracotta"]
                     }
                 ]
             }

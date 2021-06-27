@@ -12,7 +12,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "item": "minecraft:potion",
+                    "items": ["minecraft:potion"],
 					"nbt": "{Potion:\"minecraft:slow_falling\"}"
                 }
             }
@@ -21,7 +21,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "item": "minecraft:potion",
+                    "items": ["minecraft:potion"],
 					"nbt": "{Potion:\"minecraft:long_slow_falling\"}"
                 }
             }

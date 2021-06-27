@@ -18,7 +18,7 @@
             "conditions": {
 				"items": [
                     {
-                        "item": "minecraft:bow",
+                        "items": ["minecraft:bow"],
 						"enchantments": [
 							{
 								"enchantment": "minecraft:power",
@@ -50,7 +50,7 @@
             "conditions": {
 				"items": [
                     {
-                        "item": "minecraft:bow",
+                        "items": ["minecraft:bow"],
 						"enchantments": [
 							{
 								"enchantment": "minecraft:power",

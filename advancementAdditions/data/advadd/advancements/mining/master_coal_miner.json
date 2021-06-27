@@ -14,7 +14,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:coal_block",
+                        "items": ["minecraft:coal_block"],
 						"count": 64
                     }
                 ]

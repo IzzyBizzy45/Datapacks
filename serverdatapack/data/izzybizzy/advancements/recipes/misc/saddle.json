@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:saddle"
+            "items": ["minecraft:saddle"]
           }
         ]
       }
@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:iron_ingot"
+            "items": ["minecraft:iron_ingot"]
           }
         ]
       }

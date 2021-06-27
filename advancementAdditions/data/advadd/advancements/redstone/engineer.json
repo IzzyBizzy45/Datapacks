@@ -14,7 +14,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:dispenser"
+                        "items": ["minecraft:dispenser"]
                     }
                 ]
             }
@@ -24,7 +24,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:note_block"
+                        "items": ["minecraft:note_block"]
                     }
                 ]
             }
@@ -34,7 +34,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:sticky_piston"
+                        "items": ["minecraft:sticky_piston"]
                     }
                 ]
             }
@@ -44,7 +44,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:piston"
+                        "items": ["minecraft:piston"]
                     }
                 ]
             }
@@ -54,7 +54,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tnt"
+                        "items": ["minecraft:tnt"]
                     }
                 ]
             }
@@ -64,7 +64,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:lever"
+                        "items": ["minecraft:lever"]
                     }
                 ]
             }
@@ -74,7 +74,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stone_pressure_plate"
+                        "items": ["minecraft:stone_pressure_plate"]
                     }
                 ]
             }
@@ -84,7 +84,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:polished_blackstone_pressure_plate"
+                        "items": ["minecraft:polished_blackstone_pressure_plate"]
                     }
                 ]
             }
@@ -94,7 +94,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:oak_pressure_plate"
+                        "items": ["minecraft:oak_pressure_plate"]
                     }
                 ]
             }
@@ -104,7 +104,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:spruce_pressure_plate"
+                        "items": ["minecraft:spruce_pressure_plate"]
                     }
                 ]
             }
@@ -114,7 +114,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:birch_pressure_plate"
+                        "items": ["minecraft:birch_pressure_plate"]
                     }
                 ]
             }
@@ -124,7 +124,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:jungle_pressure_plate"
+                        "items": ["minecraft:jungle_pressure_plate"]
                     }
                 ]
             }
@@ -134,7 +134,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:acacia_pressure_plate"
+                        "items": ["minecraft:acacia_pressure_plate"]
                     }
                 ]
             }
@@ -144,7 +144,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:dark_oak_pressure_plate"
+                        "items": ["minecraft:dark_oak_pressure_plate"]
                     }
                 ]
             }
@@ -154,7 +154,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:crimson_pressure_plate"
+                        "items": ["minecraft:crimson_pressure_plate"]
                     }
                 ]
             }
@@ -164,7 +164,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:warped_pressure_plate"
+                        "items": ["minecraft:warped_pressure_plate"]
                     }
                 ]
             }
@@ -174,7 +174,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:redstone_torch"
+                        "items": ["minecraft:redstone_torch"]
                     }
                 ]
             }
@@ -184,7 +184,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stone_button"
+                        "items": ["minecraft:stone_button"]
                     }
                 ]
             }
@@ -194,7 +194,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:polished_blackstone_button"
+                        "items": ["minecraft:polished_blackstone_button"]
                     }
                 ]
             }
@@ -204,7 +204,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:oak_trapdoor"
+                        "items": ["minecraft:oak_trapdoor"]
                     }
                 ]
             }
@@ -214,7 +214,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:spruce_trapdoor"
+                        "items": ["minecraft:spruce_trapdoor"]
                     }
                 ]
             }
@@ -224,7 +224,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:birch_trapdoor"
+                        "items": ["minecraft:birch_trapdoor"]
                     }
                 ]
             }
@@ -234,7 +234,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:jungle_trapdoor"
+                        "items": ["minecraft:jungle_trapdoor"]
                     }
                 ]
             }
@@ -244,7 +244,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:acacia_trapdoor"
+                        "items": ["minecraft:acacia_trapdoor"]
                     }
                 ]
             }
@@ -254,7 +254,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:dark_oak_trapdoor"
+                        "items": ["minecraft:dark_oak_trapdoor"]
                     }
                 ]
             }
@@ -264,7 +264,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:crimson_trapdoor"
+                        "items": ["minecraft:crimson_trapdoor"]
                     }
                 ]
             }
@@ -274,7 +274,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:warped_trapdoor"
+                        "items": ["minecraft:warped_trapdoor"]
                     }
                 ]
             }
@@ -284,7 +284,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:oak_fence_gate"
+                        "items": ["minecraft:oak_fence_gate"]
                     }
                 ]
             }
@@ -294,7 +294,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:spruce_fence_gate"
+                        "items": ["minecraft:spruce_fence_gate"]
                     }
                 ]
             }
@@ -304,7 +304,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:birch_fence_gate"
+                        "items": ["minecraft:birch_fence_gate"]
                     }
                 ]
             }
@@ -314,7 +314,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:jungle_fence_gate"
+                        "items": ["minecraft:jungle_fence_gate"]
                     }
                 ]
             }
@@ -324,7 +324,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:acacia_fence_gate"
+                        "items": ["minecraft:acacia_fence_gate"]
                     }
                 ]
             }
@@ -334,7 +334,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:dark_oak_fence_gate"
+                        "items": ["minecraft:dark_oak_fence_gate"]
                     }
                 ]
             }
@@ -344,7 +344,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:crimson_fence_gate"
+                        "items": ["minecraft:crimson_fence_gate"]
                     }
                 ]
             }
@@ -354,7 +354,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:warped_fence_gate"
+                        "items": ["minecraft:warped_fence_gate"]
                     }
                 ]
             }
@@ -364,7 +364,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:redstone_lamp"
+                        "items": ["minecraft:redstone_lamp"]
                     }
                 ]
             }
@@ -374,7 +374,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tripwire_hook"
+                        "items": ["minecraft:tripwire_hook"]
                     }
                 ]
             }
@@ -384,7 +384,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:oak_button"
+                        "items": ["minecraft:oak_button"]
                     }
                 ]
             }
@@ -394,7 +394,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:spruce_button"
+                        "items": ["minecraft:spruce_button"]
                     }
                 ]
             }
@@ -404,7 +404,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:birch_button"
+                        "items": ["minecraft:birch_button"]
                     }
                 ]
             }
@@ -414,7 +414,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:jungle_button"
+                        "items": ["minecraft:jungle_button"]
                     }
                 ]
             }
@@ -424,7 +424,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:acacia_button"
+                        "items": ["minecraft:acacia_button"]
                     }
                 ]
             }
@@ -434,7 +434,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:dark_oak_button"
+                        "items": ["minecraft:dark_oak_button"]
                     }
                 ]
             }
@@ -444,7 +444,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:crimson_button"
+                        "items": ["minecraft:crimson_button"]
                     }
                 ]
             }
@@ -454,7 +454,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:warped_button"
+                        "items": ["minecraft:warped_button"]
                     }
                 ]
             }
@@ -464,7 +464,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:trapped_chest"
+                        "items": ["minecraft:trapped_chest"]
                     }
                 ]
             }
@@ -474,7 +474,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:light_weighted_pressure_plate"
+                        "items": ["minecraft:light_weighted_pressure_plate"]
                     }
                 ]
             }
@@ -484,7 +484,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:heavy_weighted_pressure_plate"
+                        "items": ["minecraft:heavy_weighted_pressure_plate"]
                     }
                 ]
             }
@@ -494,7 +494,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:daylight_detector"
+                        "items": ["minecraft:daylight_detector"]
                     }
                 ]
             }
@@ -504,7 +504,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:redstone_block"
+                        "items": ["minecraft:redstone_block"]
                     }
                 ]
             }
@@ -514,7 +514,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:hopper"
+                        "items": ["minecraft:hopper"]
                     }
                 ]
             }
@@ -524,7 +524,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:dropper"
+                        "items": ["minecraft:dropper"]
                     }
                 ]
             }
@@ -534,7 +534,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:iron_trapdoor"
+                        "items": ["minecraft:iron_trapdoor"]
                     }
                 ]
             }
@@ -544,7 +544,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:observer"
+                        "items": ["minecraft:observer"]
                     }
                 ]
             }
@@ -554,7 +554,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:iron_door"
+                        "items": ["minecraft:iron_door"]
                     }
                 ]
             }
@@ -564,7 +564,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:oak_door"
+                        "items": ["minecraft:oak_door"]
                     }
                 ]
             }
@@ -574,7 +574,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:spruce_door"
+                        "items": ["minecraft:spruce_door"]
                     }
                 ]
             }
@@ -584,7 +584,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:birch_door"
+                        "items": ["minecraft:birch_door"]
                     }
                 ]
             }
@@ -594,7 +594,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:jungle_door"
+                        "items": ["minecraft:jungle_door"]
                     }
                 ]
             }
@@ -604,7 +604,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:acacia_door"
+                        "items": ["minecraft:acacia_door"]
                     }
                 ]
             }
@@ -614,7 +614,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:dark_oak_door"
+                        "items": ["minecraft:dark_oak_door"]
                     }
                 ]
             }
@@ -624,7 +624,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:crimson_door"
+                        "items": ["minecraft:crimson_door"]
                     }
                 ]
             }
@@ -634,7 +634,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:warped_door"
+                        "items": ["minecraft:warped_door"]
                     }
                 ]
             }
@@ -644,7 +644,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:repeater"
+                        "items": ["minecraft:repeater"]
                     }
                 ]
             }
@@ -654,7 +654,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:comparator"
+                        "items": ["minecraft:comparator"]
                     }
                 ]
             }
@@ -664,7 +664,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:redstone"
+                        "items": ["minecraft:redstone"]
                     }
                 ]
             }
@@ -674,7 +674,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:lectern"
+                        "items": ["minecraft:lectern"]
                     }
                 ]
             }
@@ -684,7 +684,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:target"
+                        "items": ["minecraft:target"]
                     }
                 ]
             }

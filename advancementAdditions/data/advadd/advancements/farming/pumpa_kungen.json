@@ -17,7 +17,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:carved_pumpkin",
+                        "items": ["minecraft:carved_pumpkin"],
 						"count": 64
                     }
                 ]

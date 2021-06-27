@@ -18,7 +18,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:slime_block",
+                        "items": ["minecraft:slime_block"],
 						"count": 64
                     }
                 ]

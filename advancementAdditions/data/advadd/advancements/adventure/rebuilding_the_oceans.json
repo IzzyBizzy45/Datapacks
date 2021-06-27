@@ -13,7 +13,7 @@
             "trigger": "minecraft:villager_trade",
 			"conditions": {
 				"item": {
-					"item": "minecraft:tube_coral_block"
+					"items": ["minecraft:tube_coral_block"]
 				},
 				"villager": {
 					"type": "wandering_trader"
@@ -24,7 +24,7 @@
             "trigger": "minecraft:villager_trade",
 			"conditions": {
 				"item": {
-					"item": "minecraft:brain_coral_block"
+					"items": ["minecraft:brain_coral_block"]
 				},
 				"villager": {
 					"type": "wandering_trader"
@@ -35,7 +35,7 @@
             "trigger": "minecraft:villager_trade",
 			"conditions": {
 				"item": {
-					"item": "minecraft:bubble_coral_block"
+					"items": ["minecraft:bubble_coral_block"]
 				},
 				"villager": {
 					"type": "wandering_trader"
@@ -46,7 +46,7 @@
             "trigger": "minecraft:villager_trade",
 			"conditions": {
 				"item": {
-					"item": "minecraft:fire_coral_block"
+					"items": ["minecraft:fire_coral_block"]
 				},
 				"villager": {
 					"type": "wandering_trader"
@@ -57,7 +57,7 @@
             "trigger": "minecraft:villager_trade",
 			"conditions": {
 				"item": {
-					"item": "minecraft:horn_coral_block"
+					"items": ["minecraft:horn_coral_block"]
 				},
 				"villager": {
 					"type": "wandering_trader"

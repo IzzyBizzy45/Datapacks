@@ -17,7 +17,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:creeper_head"
+                        "items": ["minecraft:creeper_head"]
                     }
                 ]
             }

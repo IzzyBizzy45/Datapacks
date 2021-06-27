@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:magma_block"
+                        "items": ["minecraft:magma_block"]
                     }
                 ]
             }

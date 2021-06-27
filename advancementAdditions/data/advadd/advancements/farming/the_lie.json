@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:cake"
+                        "items": ["minecraft:cake"]
                     }
                 ]
             }

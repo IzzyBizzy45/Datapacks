@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:red_mushroom_block"
+                        "items": ["minecraft:red_mushroom_block"]
                     }
                 ]
             }
@@ -23,7 +23,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:brown_mushroom_block"
+                        "items": ["minecraft:brown_mushroom_block"]
                     }
                 ]
             }
@@ -33,7 +33,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:mushroom_stem"
+                        "items": ["minecraft:mushroom_stem"]
                     }
                 ]
             }

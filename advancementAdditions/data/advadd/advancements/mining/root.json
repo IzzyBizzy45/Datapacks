@@ -15,7 +15,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:wooden_pickaxe"
+                        "items": ["minecraft:wooden_pickaxe"]
                     }
                 ]
             }
@@ -25,7 +25,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stone_pickaxe"
+                        "items": ["minecraft:stone_pickaxe"]
                     }
                 ]
             }
@@ -35,7 +35,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:iron_pickaxe"
+                        "items": ["minecraft:iron_pickaxe"]
                     }
                 ]
             }
@@ -45,7 +45,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diamond_pickaxe"
+                        "items": ["minecraft:diamond_pickaxe"]
                     }
                 ]
             }
@@ -55,7 +55,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:golden_pickaxe"
+                        "items": ["minecraft:golden_pickaxe"]
                     }
                 ]
             }

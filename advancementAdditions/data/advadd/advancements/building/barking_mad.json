@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:oak_wood"
+                        "items": ["minecraft:oak_wood"]
                     }
                 ]
             }
@@ -23,7 +23,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:spruce_wood"
+                        "items": ["minecraft:spruce_wood"]
                     }
                 ]
             }
@@ -33,7 +33,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:birch_wood"
+                        "items": ["minecraft:birch_wood"]
                     }
                 ]
             }
@@ -43,7 +43,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:jungle_wood"
+                        "items": ["minecraft:jungle_wood"]
                     }
                 ]
             }
@@ -53,7 +53,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:acacia_wood"
+                        "items": ["minecraft:acacia_wood"]
                     }
                 ]
             }
@@ -63,7 +63,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:dark_oak_wood"
+                        "items": ["minecraft:dark_oak_wood"]
                     }
                 ]
             }

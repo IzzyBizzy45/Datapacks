@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:quartz_block"
+                        "items": ["minecraft:quartz_block"]
                     }
                 ]
             }
@@ -23,7 +23,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:chiseled_quartz_block"
+                        "items": ["minecraft:chiseled_quartz_block"]
                     }
                 ]
             }
@@ -33,7 +33,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:quartz_pillar"
+                        "items": ["minecraft:quartz_pillar"]
                     }
                 ]
             }
@@ -43,7 +43,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:quartz_stairs"
+                        "items": ["minecraft:quartz_stairs"]
                     }
                 ]
             }
@@ -53,7 +53,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:quartz_slab"
+                        "items": ["minecraft:quartz_slab"]
                     }
                 ]
             }
@@ -63,7 +63,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:quartz_bricks"
+                        "items": ["minecraft:quartz_bricks"]
                     }
                 ]
             }
@@ -73,7 +73,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:smooth_quartz"
+                        "items": ["minecraft:smooth_quartz"]
                     }
                 ]
             }
@@ -83,7 +83,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:smooth_quartz_stairs"
+                        "items": ["minecraft:smooth_quartz_stairs"]
                     }
                 ]
             }
@@ -93,7 +93,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:smooth_quartz_slab"
+                        "items": ["minecraft:smooth_quartz_slab"]
                     }
                 ]
             }

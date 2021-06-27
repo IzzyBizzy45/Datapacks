@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:gilded_blackstone"
+                        "items": ["minecraft:gilded_blackstone"]
                     }
                 ]
             }

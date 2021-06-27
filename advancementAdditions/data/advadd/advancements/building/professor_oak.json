@@ -14,7 +14,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:oak_planks"
+                        "items": ["minecraft:oak_planks"]
                     }
                 ]
             }
@@ -24,7 +24,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:oak_log"
+                        "items": ["minecraft:oak_log"]
                     }
                 ]
             }
@@ -34,7 +34,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:oak_wood"
+                        "items": ["minecraft:oak_wood"]
                     }
                 ]
             }
@@ -44,7 +44,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stripped_oak_log"
+                        "items": ["minecraft:stripped_oak_log"]
                     }
                 ]
             }
@@ -54,7 +54,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stripped_oak_wood"
+                        "items": ["minecraft:stripped_oak_wood"]
                     }
                 ]
             }
@@ -64,7 +64,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:oak_slab"
+                        "items": ["minecraft:oak_slab"]
                     }
                 ]
             }
@@ -74,7 +74,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:oak_pressure_plate"
+                        "items": ["minecraft:oak_pressure_plate"]
                     }
                 ]
             }
@@ -84,7 +84,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:oak_fence"
+                        "items": ["minecraft:oak_fence"]
                     }
                 ]
             }
@@ -94,7 +94,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:oak_trapdoor"
+                        "items": ["minecraft:oak_trapdoor"]
                     }
                 ]
             }
@@ -104,7 +104,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:oak_fence_gate"
+                        "items": ["minecraft:oak_fence_gate"]
                     }
                 ]
             }
@@ -114,7 +114,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:oak_stairs"
+                        "items": ["minecraft:oak_stairs"]
                     }
                 ]
             }
@@ -124,7 +124,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:oak_button"
+                        "items": ["minecraft:oak_button"]
                     }
                 ]
             }
@@ -134,7 +134,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:oak_door"
+                        "items": ["minecraft:oak_door"]
                     }
                 ]
             }
@@ -144,7 +144,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:oak_boat"
+                        "items": ["minecraft:oak_boat"]
                     }
                 ]
             }
@@ -154,7 +154,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:oak_sign"
+                        "items": ["minecraft:oak_sign"]
                     }
                 ]
             }

@@ -17,7 +17,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:bee_nest",
+                        "items": ["minecraft:bee_nest"],
 						"count": 64
                     }
                 ]

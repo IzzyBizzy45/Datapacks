@@ -12,7 +12,10 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"item": "minecraft:iron_ingot"
+					"items":
+					[
+						"minecraft:iron_ingot"
+					]
 				},
 				"entity": [
 					{

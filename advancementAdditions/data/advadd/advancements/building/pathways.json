@@ -13,7 +13,7 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:grass_path"
+						"blocks": ["minecraft:grass_path"]
 					}
 				},
 				"item": {

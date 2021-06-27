@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:trapped_chest"
+                        "items": ["minecraft:trapped_chest"]
                     }
                 ]
             }

@@ -15,7 +15,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:golden_helmet",
+                        "items": ["minecraft:golden_helmet"],
 						"enchantments": [
 							{
 								"enchantment": "minecraft:mending"
@@ -30,7 +30,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:golden_chestplate",
+                        "items": ["minecraft:golden_chestplate"],
 						"enchantments": [
 							{
 								"enchantment": "minecraft:mending"
@@ -45,7 +45,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:golden_leggings",
+                        "items": ["minecraft:golden_leggings"],
 						"enchantments": [
 							{
 								"enchantment": "minecraft:mending"
@@ -60,7 +60,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:golden_boots",
+                        "items": ["minecraft:golden_boots"],
 						"enchantments": [
 							{
 								"enchantment": "minecraft:mending"

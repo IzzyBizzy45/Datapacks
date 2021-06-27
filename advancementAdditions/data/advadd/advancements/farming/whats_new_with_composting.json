@@ -17,11 +17,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:beetroot_seeds"
+					"items": ["minecraft:beetroot_seeds"]
 				}
 			}
 		},
@@ -30,11 +30,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:dried_kelp"
+					"items": ["minecraft:dried_kelp"]
 				}
 			}
 		},
@@ -43,11 +43,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:grass"
+					"items": ["minecraft:grass"]
 				}
 			}
 		},
@@ -56,11 +56,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:kelp"
+					"items": ["minecraft:kelp"]
 				}
 			}
 		},
@@ -69,11 +69,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:oak_leaves"
+					"items": ["minecraft:oak_leaves"]
 				}
 			}
 		},
@@ -82,11 +82,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:spruce_leaves"
+					"items": ["minecraft:spruce_leaves"]
 				}
 			}
 		},
@@ -95,11 +95,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:birch_leaves"
+					"items": ["minecraft:birch_leaves"]
 				}
 			}
 		},
@@ -108,11 +108,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:jungle_leaves"
+					"items": ["minecraft:jungle_leaves"]
 				}
 			}
 		},
@@ -121,11 +121,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:acacia_leaves"
+					"items": ["minecraft:acacia_leaves"]
 				}
 			}
 		},
@@ -134,11 +134,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:dark_oak_leaves"
+					"items": ["minecraft:dark_oak_leaves"]
 				}
 			}
 		},
@@ -147,11 +147,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:melon_seeds"
+					"items": ["minecraft:melon_seeds"]
 				}
 			}
 		},
@@ -160,11 +160,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:pumpkin_seeds"
+					"items": ["minecraft:pumpkin_seeds"]
 				}
 			}
 		},
@@ -173,11 +173,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:oak_sapling"
+					"items": ["minecraft:oak_sapling"]
 				}
 			}
 		},
@@ -186,11 +186,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:spruce_sapling"
+					"items": ["minecraft:spruce_sapling"]
 				}
 			}
 		},
@@ -199,11 +199,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:birch_sapling"
+					"items": ["minecraft:birch_sapling"]
 				}
 			}
 		},
@@ -212,11 +212,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:jungle_sapling"
+					"items": ["minecraft:jungle_sapling"]
 				}
 			}
 		},
@@ -225,11 +225,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:acacia_sapling"
+					"items": ["minecraft:acacia_sapling"]
 				}
 			}
 		},
@@ -238,11 +238,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:dark_oak_sapling"
+					"items": ["minecraft:dark_oak_sapling"]
 				}
 			}
 		},
@@ -251,11 +251,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:seagrass"
+					"items": ["minecraft:seagrass"]
 				}
 			}
 		},
@@ -264,11 +264,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:sweet_berries"
+					"items": ["minecraft:sweet_berries"]
 				}
 			}
 		},
@@ -277,11 +277,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:wheat_seeds"
+					"items": ["minecraft:wheat_seeds"]
 				}
 			}
 		},
@@ -290,11 +290,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:cactus"
+					"items": ["minecraft:cactus"]
 				}
 			}
 		},
@@ -303,11 +303,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:dried_kelp_block"
+					"items": ["minecraft:dried_kelp_block"]
 				}
 			}
 		},
@@ -316,11 +316,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:melon_slice"
+					"items": ["minecraft:melon_slice"]
 				}
 			}
 		},
@@ -329,11 +329,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:sugar_cane"
+					"items": ["minecraft:sugar_cane"]
 				}
 			}
 		},
@@ -342,11 +342,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:tall_grass"
+					"items": ["minecraft:tall_grass"]
 				}
 			}
 		},
@@ -355,11 +355,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:vine"
+					"items": ["minecraft:vine"]
 				}
 			}
 		},
@@ -368,11 +368,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:weeping_vines"
+					"items": ["minecraft:weeping_vines"]
 				}
 			}
 		},
@@ -381,11 +381,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:twisting_vines"
+					"items": ["minecraft:twisting_vines"]
 				}
 			}
 		},
@@ -394,11 +394,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:nether_sprouts"
+					"items": ["minecraft:nether_sprouts"]
 				}
 			}
 		},
@@ -407,11 +407,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:apple"
+					"items": ["minecraft:apple"]
 				}
 			}
 		},
@@ -420,11 +420,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:beetroot"
+					"items": ["minecraft:beetroot"]
 				}
 			}
 		},
@@ -433,11 +433,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:carrot"
+					"items": ["minecraft:carrot"]
 				}
 			}
 		},
@@ -446,11 +446,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:cocoa_beans"
+					"items": ["minecraft:cocoa_beans"]
 				}
 			}
 		},
@@ -459,11 +459,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:fern"
+					"items": ["minecraft:fern"]
 				}
 			}
 		},
@@ -472,11 +472,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:large_fern"
+					"items": ["minecraft:large_fern"]
 				}
 			}
 		},
@@ -485,11 +485,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:dandelion"
+					"items": ["minecraft:dandelion"]
 				}
 			}
 		},
@@ -498,11 +498,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:poppy"
+					"items": ["minecraft:poppy"]
 				}
 			}
 		},
@@ -511,11 +511,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:blue_orchid"
+					"items": ["minecraft:blue_orchid"]
 				}
 			}
 		},
@@ -524,11 +524,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:allium"
+					"items": ["minecraft:allium"]
 				}
 			}
 		},
@@ -537,11 +537,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:azure_bluet"
+					"items": ["minecraft:azure_bluet"]
 				}
 			}
 		},
@@ -550,11 +550,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:red_tulip"
+					"items": ["minecraft:red_tulip"]
 				}
 			}
 		},
@@ -563,11 +563,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:orange_tulip"
+					"items": ["minecraft:orange_tulip"]
 				}
 			}
 		},
@@ -576,11 +576,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:white_tulip"
+					"items": ["minecraft:white_tulip"]
 				}
 			}
 		},
@@ -589,11 +589,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:pink_tulip"
+					"items": ["minecraft:pink_tulip"]
 				}
 			}
 		},
@@ -602,11 +602,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:oxeye_daisy"
+					"items": ["minecraft:oxeye_daisy"]
 				}
 			}
 		},
@@ -615,11 +615,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:cornflower"
+					"items": ["minecraft:cornflower"]
 				}
 			}
 		},
@@ -628,11 +628,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:lily_of_the_valley"
+					"items": ["minecraft:lily_of_the_valley"]
 				}
 			}
 		},
@@ -641,11 +641,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:wither_rose"
+					"items": ["minecraft:wither_rose"]
 				}
 			}
 		},
@@ -654,11 +654,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:sunflower"
+					"items": ["minecraft:sunflower"]
 				}
 			}
 		},
@@ -667,11 +667,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:lilac"
+					"items": ["minecraft:lilac"]
 				}
 			}
 		},
@@ -680,11 +680,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:rose_bush"
+					"items": ["minecraft:rose_bush"]
 				}
 			}
 		},
@@ -693,11 +693,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:peony"
+					"items": ["minecraft:peony"]
 				}
 			}
 		},
@@ -706,11 +706,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:lily_pad"
+					"items": ["minecraft:lily_pad"]
 				}
 			}
 		},
@@ -719,11 +719,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:melon"
+					"items": ["minecraft:melon"]
 				}
 			}
 		},
@@ -732,11 +732,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:red_mushroom"
+					"items": ["minecraft:red_mushroom"]
 				}
 			}
 		},
@@ -745,11 +745,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:brown_mushroom"
+					"items": ["minecraft:brown_mushroom"]
 				}
 			}
 		},
@@ -758,11 +758,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:potato"
+					"items": ["minecraft:potato"]
 				}
 			}
 		},
@@ -771,11 +771,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:pumpkin"
+					"items": ["minecraft:pumpkin"]
 				}
 			}
 		},
@@ -784,11 +784,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:carved_pumpkin"
+					"items": ["minecraft:carved_pumpkin"]
 				}
 			}
 		},
@@ -797,11 +797,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:sea_pickle"
+					"items": ["minecraft:sea_pickle"]
 				}
 			}
 		},
@@ -810,11 +810,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:wheat"
+					"items": ["minecraft:wheat"]
 				}
 			}
 		},
@@ -823,11 +823,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:crimson_fungus"
+					"items": ["minecraft:crimson_fungus"]
 				}
 			}
 		},
@@ -836,11 +836,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:warped_fungus"
+					"items": ["minecraft:warped_fungus"]
 				}
 			}
 		},
@@ -849,11 +849,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:nether_wart"
+					"items": ["minecraft:nether_wart"]
 				}
 			}
 		},
@@ -862,11 +862,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:crimson_roots"
+					"items": ["minecraft:crimson_roots"]
 				}
 			}
 		},
@@ -875,11 +875,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:warped_roots"
+					"items": ["minecraft:warped_roots"]
 				}
 			}
 		},
@@ -888,11 +888,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:baked_potato"
+					"items": ["minecraft:baked_potato"]
 				}
 			}
 		},
@@ -901,11 +901,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:bread"
+					"items": ["minecraft:bread"]
 				}
 			}
 		},
@@ -914,11 +914,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:cookie"
+					"items": ["minecraft:cookie"]
 				}
 			}
 		},
@@ -927,11 +927,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:hay_block"
+					"items": ["minecraft:hay_block"]
 				}
 			}
 		},
@@ -940,11 +940,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:red_mushroom_block"
+					"items": ["minecraft:red_mushroom_block"]
 				}
 			}
 		},
@@ -953,11 +953,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:brown_mushroom_block"
+					"items": ["minecraft:brown_mushroom_block"]
 				}
 			}
 		},
@@ -966,11 +966,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:mushroom_stem"
+					"items": ["minecraft:mushroom_stem"]
 				}
 			}
 		},
@@ -979,11 +979,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:nether_wart_block"
+					"items": ["minecraft:nether_wart_block"]
 				}
 			}
 		},
@@ -992,11 +992,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:warped_wart_block"
+					"items": ["minecraft:warped_wart_block"]
 				}
 			}
 		},
@@ -1005,11 +1005,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:cake"
+					"items": ["minecraft:cake"]
 				}
 			}
 		},
@@ -1018,11 +1018,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:pumpkin_pie"
+					"items": ["minecraft:pumpkin_pie"]
 				}
 			}
 		},
@@ -1031,11 +1031,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter"
+						"blocks": ["minecraft:composter"]
 					}
 				},
 				"item": {
-					"item": "minecraft:shroomlight"
+					"items": ["minecraft:shroomlight"]
 				}
 			}
 		}

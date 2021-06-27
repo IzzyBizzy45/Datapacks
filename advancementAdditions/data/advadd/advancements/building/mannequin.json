@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:armor_stand"
+                        "items": ["minecraft:armor_stand"]
                     }
                 ]
             }

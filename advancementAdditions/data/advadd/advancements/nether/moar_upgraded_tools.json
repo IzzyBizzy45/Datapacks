@@ -14,7 +14,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:netherite_pickaxe"
+                        "items": ["minecraft:netherite_pickaxe"]
                     }
                 ]
             }
@@ -24,7 +24,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:netherite_axe"
+                        "items": ["minecraft:netherite_axe"]
                     }
                 ]
             }
@@ -34,7 +34,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:netherite_shovel"
+                        "items": ["minecraft:netherite_shovel"]
                     }
                 ]
             }
@@ -44,7 +44,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:netherite_hoe"
+                        "items": ["minecraft:netherite_hoe"]
                     }
                 ]
             }

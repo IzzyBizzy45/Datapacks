@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:emerald_block",
+                        "items": ["minecraft:emerald_block"],
                         "count": 64
                     }
                 ]

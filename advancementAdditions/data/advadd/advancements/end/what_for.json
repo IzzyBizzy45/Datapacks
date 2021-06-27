@@ -17,7 +17,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:end_crystal",
+                        "items": ["minecraft:end_crystal"],
 						"count": 64
                     }
                 ]

@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:furnace_minecart"
+                        "items": ["minecraft:furnace_minecart"]
                     }
                 ]
             }

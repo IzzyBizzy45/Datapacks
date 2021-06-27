@@ -14,7 +14,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:oak_log",
+                        "items": ["minecraft:oak_log"],
 						"count": 64
                     }
                 ]
@@ -25,7 +25,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:spruce_log",
+                        "items": ["minecraft:spruce_log"],
 						"count": 64
                     }
                 ]
@@ -36,7 +36,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:birch_log",
+                        "items": ["minecraft:birch_log"],
 						"count": 64
                     }
                 ]
@@ -47,7 +47,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:jungle_log",
+                        "items": ["minecraft:jungle_log"],
 						"count": 64
                     }
                 ]
@@ -58,7 +58,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:acacia_log",
+                        "items": ["minecraft:acacia_log"],
 						"count": 64
                     }
                 ]
@@ -69,7 +69,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:dark_oak_log",
+                        "items": ["minecraft:dark_oak_log"],
 						"count": 64
                     }
                 ]

@@ -12,7 +12,7 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"item": "minecraft:lead"
+					"items": ["minecraft:lead"]
 				}
 			}
 		}

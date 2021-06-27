@@ -14,7 +14,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:white_banner"
+                        "items": ["minecraft:white_banner"]
                     }
                 ]
             }
@@ -24,7 +24,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:orange_banner"
+                        "items": ["minecraft:orange_banner"]
                     }
                 ]
             }
@@ -34,7 +34,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:magenta_banner"
+                        "items": ["minecraft:magenta_banner"]
                     }
                 ]
             }
@@ -44,7 +44,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:light_blue_banner"
+                        "items": ["minecraft:light_blue_banner"]
                     }
                 ]
             }
@@ -54,7 +54,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:yellow_banner"
+                        "items": ["minecraft:yellow_banner"]
                     }
                 ]
             }
@@ -64,7 +64,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:lime_banner"
+                        "items": ["minecraft:lime_banner"]
                     }
                 ]
             }
@@ -74,7 +74,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:pink_banner"
+                        "items": ["minecraft:pink_banner"]
                     }
                 ]
             }
@@ -84,7 +84,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:gray_banner"
+                        "items": ["minecraft:gray_banner"]
                     }
                 ]
             }
@@ -94,7 +94,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:light_gray_banner"
+                        "items": ["minecraft:light_gray_banner"]
                     }
                 ]
             }
@@ -104,7 +104,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:cyan_banner"
+                        "items": ["minecraft:cyan_banner"]
                     }
                 ]
             }
@@ -114,7 +114,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:purple_banner"
+                        "items": ["minecraft:purple_banner"]
                     }
                 ]
             }
@@ -124,7 +124,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:blue_banner"
+                        "items": ["minecraft:blue_banner"]
                     }
                 ]
             }
@@ -134,7 +134,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:brown_banner"
+                        "items": ["minecraft:brown_banner"]
                     }
                 ]
             }
@@ -144,7 +144,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:green_banner"
+                        "items": ["minecraft:green_banner"]
                     }
                 ]
             }
@@ -154,7 +154,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:red_banner"
+                        "items": ["minecraft:red_banner"]
                     }
                 ]
             }
@@ -164,7 +164,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:black_banner"
+                        "items": ["minecraft:black_banner"]
                     }
                 ]
             }

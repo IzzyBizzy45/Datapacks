@@ -12,7 +12,7 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"item": "minecraft:name_tag",
+					"items": ["minecraft:name_tag"],
 					"nbt": "{display:{Name:\"{\\\"text\\\":\\\"Toast\\\"}\"}}"
 				},
 				"entity": [

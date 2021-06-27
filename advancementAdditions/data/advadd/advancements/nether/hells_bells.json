@@ -13,7 +13,7 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:bell"
+						"blocks": ["minecraft:bell"]
 					},
 					"dimension": "the_nether"
 				}

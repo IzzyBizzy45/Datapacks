@@ -17,7 +17,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:rail",
+                        "items": ["minecraft:rail"],
 						"count": 64
                     }
                 ]
@@ -28,7 +28,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:powered_rail",
+                        "items": ["minecraft:powered_rail"],
 						"count": 64
                     }
                 ]
@@ -39,7 +39,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:detector_rail",
+                        "items": ["minecraft:detector_rail"],
 						"count": 64
                     }
                 ]
@@ -50,7 +50,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:activator_rail",
+                        "items": ["minecraft:activator_rail"],
 						"count": 64
                     }
                 ]

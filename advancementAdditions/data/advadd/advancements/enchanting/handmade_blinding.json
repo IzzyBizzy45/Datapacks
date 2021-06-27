@@ -20,7 +20,7 @@
 						"predicate": {
 							"equipment": {
 								"head": {
-									"item": "minecraft:carved_pumpkin",
+									"items": ["minecraft:carved_pumpkin"],
 									"enchantments": [
 										{
 											"enchantment": "minecraft:binding_curse"

@@ -14,7 +14,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:sponge",
+                        "items": ["minecraft:sponge"],
                         "count": 64
                     }
                 ]

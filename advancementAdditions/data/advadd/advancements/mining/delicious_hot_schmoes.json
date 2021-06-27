@@ -21,7 +21,7 @@
 					}
 				},
 				"item": {
-					"item": "minecraft:porkchop"
+					"items": ["minecraft:porkchop"]
 				}
 			}
 		},
@@ -34,7 +34,7 @@
 					}
 				},
 				"item": {
-					"item": "minecraft:beef"
+					"items": ["minecraft:beef"]
 				}
 			}
 		},
@@ -47,7 +47,7 @@
 					}
 				},
 				"item": {
-					"item": "minecraft:chicken"
+					"items": ["minecraft:chicken"]
 				}
 			}
 		},
@@ -60,7 +60,7 @@
 					}
 				},
 				"item": {
-					"item": "minecraft:cod"
+					"items": ["minecraft:cod"]
 				}
 			}
 		},
@@ -73,7 +73,7 @@
 					}
 				},
 				"item": {
-					"item": "minecraft:salmon"
+					"items": ["minecraft:salmon"]
 				}
 			}
 		},
@@ -86,7 +86,7 @@
 					}
 				},
 				"item": {
-					"item": "minecraft:potato"
+					"items": ["minecraft:potato"]
 				}
 			}
 		},
@@ -99,7 +99,7 @@
 					}
 				},
 				"item": {
-					"item": "minecraft:mutton"
+					"items": ["minecraft:mutton"]
 				}
 			}
 		},
@@ -112,7 +112,7 @@
 					}
 				},
 				"item": {
-					"item": "minecraft:rabbit"
+					"items": ["minecraft:rabbit"]
 				}
 			}
 		},
@@ -125,7 +125,7 @@
 					}
 				},
 				"item": {
-					"item": "minecraft:kelp"
+					"items": ["minecraft:kelp"]
 				}
 			}
 		}

@@ -19,7 +19,7 @@
                     "type": "#blazeandcave:piglins",
 					"equipment": {
 						"chest": {
-							"item": "minecraft:elytra"
+							"items": ["minecraft:elytra"]
 						}
 					}
                 }

@@ -24,7 +24,7 @@
 						"predicate": {
 							"equipment": {
 								"feet": {
-									"item": "minecraft:netherite_boots",
+									"items": ["minecraft:netherite_boots"],
 									"enchantments": [
 										{
 											"enchantment": "minecraft:soul_speed",

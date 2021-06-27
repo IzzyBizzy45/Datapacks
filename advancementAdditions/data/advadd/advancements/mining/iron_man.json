@@ -19,16 +19,16 @@
 						"predicate": {
 							"equipment": {
 								"head": {
-									"item": "minecraft:iron_helmet"
+									"items": ["minecraft:iron_helmet"]
 								},
 								"chest": {
-									"item": "minecraft:iron_chestplate"
+									"items": ["minecraft:iron_chestplate"]
 								},
 								"legs": {
-									"item": "minecraft:iron_leggings"
+									"items": ["minecraft:iron_leggings"]
 								},
 								"feet": {
-									"item": "minecraft:iron_boots"
+									"items": ["minecraft:iron_boots"]
 								}
 							}
 						}

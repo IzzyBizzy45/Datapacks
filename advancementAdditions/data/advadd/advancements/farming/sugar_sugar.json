@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:sugar_cane"
+                        "items": ["minecraft:sugar_cane"]
                     }
                 ]
             }

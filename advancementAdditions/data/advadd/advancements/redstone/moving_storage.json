@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:chest_minecart"
+                        "items": ["minecraft:chest_minecart"]
                     }
                 ]
             }

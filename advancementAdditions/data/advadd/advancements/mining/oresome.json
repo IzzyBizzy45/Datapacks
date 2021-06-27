@@ -17,7 +17,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:coal_ore",
+                        "items": ["minecraft:coal_ore"],
 						"count": 64
                     }
                 ]
@@ -28,7 +28,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:iron_ore",
+                        "items": ["minecraft:iron_ore"],
 						"count": 64
                     }
                 ]
@@ -39,7 +39,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:gold_ore",
+                        "items": ["minecraft:gold_ore"],
 						"count": 64
                     }
                 ]
@@ -50,7 +50,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:lapis_ore",
+                        "items": ["minecraft:lapis_ore"],
 						"count": 64
                     }
                 ]
@@ -61,7 +61,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:redstone_ore",
+                        "items": ["minecraft:redstone_ore"],
 						"count": 64
                     }
                 ]
@@ -72,7 +72,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diamond_ore",
+                        "items": ["minecraft:diamond_ore"],
 						"count": 64
                     }
                 ]
@@ -83,7 +83,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:emerald_ore",
+                        "items": ["minecraft:emerald_ore"],
 						"count": 64
                     }
                 ]
@@ -94,7 +94,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:nether_quartz_ore",
+                        "items": ["minecraft:nether_quartz_ore"],
 						"count": 64
                     }
                 ]
@@ -105,7 +105,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:nether_gold_ore",
+                        "items": ["minecraft:nether_gold_ore"],
 						"count": 64
                     }
                 ]
@@ -116,7 +116,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:ancient_debris",
+                        "items": ["minecraft:ancient_debris"],
 						"count": 64
                     }
                 ]

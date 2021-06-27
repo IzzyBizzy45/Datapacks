@@ -17,7 +17,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:honeycomb_block",
+                        "items": ["minecraft:honeycomb_block"],
 						"count": 64
                     }
                 ]

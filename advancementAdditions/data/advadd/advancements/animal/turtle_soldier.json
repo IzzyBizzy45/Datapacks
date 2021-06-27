@@ -14,7 +14,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:turtle_helmet"
+                        "items": ["minecraft:turtle_helmet"]
                     }
                 ]
             }

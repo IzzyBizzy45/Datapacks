@@ -14,7 +14,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:warped_planks"
+                        "items": ["minecraft:warped_planks"]
                     }
                 ]
             }
@@ -24,7 +24,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:warped_stem"
+                        "items": ["minecraft:warped_stem"]
                     }
                 ]
             }
@@ -34,7 +34,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stripped_warped_stem"
+                        "items": ["minecraft:stripped_warped_stem"]
                     }
                 ]
             }
@@ -44,7 +44,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:warped_hyphae"
+                        "items": ["minecraft:warped_hyphae"]
                     }
                 ]
             }
@@ -54,7 +54,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stripped_warped_hyphae"
+                        "items": ["minecraft:stripped_warped_hyphae"]
                     }
                 ]
             }
@@ -64,7 +64,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:warped_slab"
+                        "items": ["minecraft:warped_slab"]
                     }
                 ]
             }
@@ -74,7 +74,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:warped_pressure_plate"
+                        "items": ["minecraft:warped_pressure_plate"]
                     }
                 ]
             }
@@ -84,7 +84,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:warped_fence"
+                        "items": ["minecraft:warped_fence"]
                     }
                 ]
             }
@@ -94,7 +94,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:warped_trapdoor"
+                        "items": ["minecraft:warped_trapdoor"]
                     }
                 ]
             }
@@ -104,7 +104,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:warped_fence_gate"
+                        "items": ["minecraft:warped_fence_gate"]
                     }
                 ]
             }
@@ -114,7 +114,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:warped_stairs"
+                        "items": ["minecraft:warped_stairs"]
                     }
                 ]
             }
@@ -124,7 +124,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:warped_button"
+                        "items": ["minecraft:warped_button"]
                     }
                 ]
             }
@@ -134,7 +134,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:warped_door"
+                        "items": ["minecraft:warped_door"]
                     }
                 ]
             }
@@ -144,7 +144,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:warped_sign"
+                        "items": ["minecraft:warped_sign"]
                     }
                 ]
             }

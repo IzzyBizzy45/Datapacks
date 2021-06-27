@@ -14,7 +14,7 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:cauldron"
+						"blocks": ["minecraft:cauldron"]
 					}
 				},
 				"item": {
@@ -27,7 +27,7 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:cauldron"
+						"blocks": ["minecraft:cauldron"]
 					}
 				},
 				"item": {
@@ -40,7 +40,7 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:cauldron"
+						"blocks": ["minecraft:cauldron"]
 					}
 				},
 				"item": {

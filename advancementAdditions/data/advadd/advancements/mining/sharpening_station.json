@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:grindstone"
+                        "items": ["minecraft:grindstone"]
                     }
                 ]
             }

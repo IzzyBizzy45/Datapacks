@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rooted_dirt"
+        },
+        "title": {"translate":"This Dirt is Dirtier"},
+        "description": {"translate":"Trade for some Rooted Dirt from a Wandering Trader"}
+    },
+    "parent": "blazeandcave:adventure/florist",
+    "rewards": {
+		"function": "bc_rewards:adventure/this_dirt_is_dirtier"
+    },		
+    "criteria": {
+        "rooted_dirt": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:rooted_dirt"
+					]
+				},
+				"villager": {
+					"type": "wandering_trader"
+				}
+			}
+        }
+    }
+}

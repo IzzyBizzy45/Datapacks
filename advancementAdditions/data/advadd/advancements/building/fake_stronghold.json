@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stone_bricks"
+                        "items": ["minecraft:stone_bricks"]
                     }
                 ]
             }
@@ -23,7 +23,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stone_brick_slab"
+                        "items": ["minecraft:stone_brick_slab"]
                     }
                 ]
             }
@@ -33,7 +33,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stone_brick_stairs"
+                        "items": ["minecraft:stone_brick_stairs"]
                     }
                 ]
             }
@@ -43,7 +43,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stone_brick_wall"
+                        "items": ["minecraft:stone_brick_wall"]
                     }
                 ]
             }
@@ -53,7 +53,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:mossy_stone_bricks"
+                        "items": ["minecraft:mossy_stone_bricks"]
                     }
                 ]
             }
@@ -63,7 +63,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:mossy_stone_brick_slab"
+                        "items": ["minecraft:mossy_stone_brick_slab"]
                     }
                 ]
             }
@@ -73,7 +73,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:mossy_stone_brick_stairs"
+                        "items": ["minecraft:mossy_stone_brick_stairs"]
                     }
                 ]
             }
@@ -83,7 +83,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:mossy_stone_brick_wall"
+                        "items": ["minecraft:mossy_stone_brick_wall"]
                     }
                 ]
             }
@@ -93,7 +93,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:cracked_stone_bricks"
+                        "items": ["minecraft:cracked_stone_bricks"]
                     }
                 ]
             }
@@ -103,7 +103,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:chiseled_stone_bricks"
+                        "items": ["minecraft:chiseled_stone_bricks"]
                     }
                 ]
             }

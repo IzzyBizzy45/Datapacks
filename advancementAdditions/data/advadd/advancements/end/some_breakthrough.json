@@ -17,7 +17,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:elytra"
+					"items": ["minecraft:elytra"]
 				},
 				"durability": 1
             }

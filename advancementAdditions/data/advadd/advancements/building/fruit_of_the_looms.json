@@ -14,7 +14,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:flower_banner_pattern"
+                        "items": ["minecraft:flower_banner_pattern"]
                     }
                 ]
             }
@@ -24,7 +24,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:creeper_banner_pattern"
+                        "items": ["minecraft:creeper_banner_pattern"]
                     }
                 ]
             }
@@ -34,7 +34,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:skull_banner_pattern"
+                        "items": ["minecraft:skull_banner_pattern"]
                     }
                 ]
             }
@@ -44,7 +44,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:mojang_banner_pattern"
+                        "items": ["minecraft:mojang_banner_pattern"]
                     }
                 ]
             }
@@ -54,7 +54,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:globe_banner_pattern"
+                        "items": ["minecraft:globe_banner_pattern"]
                     }
                 ]
             }
@@ -64,7 +64,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:piglin_banner_pattern"
+                        "items": ["minecraft:piglin_banner_pattern"]
                     }
                 ]
             }

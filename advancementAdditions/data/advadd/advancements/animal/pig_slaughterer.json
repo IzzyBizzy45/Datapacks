@@ -17,7 +17,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:porkchop",
+                        "items": ["minecraft:porkchop"],
 						"count": 64
                     }
                 ]

@@ -17,11 +17,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_dandelion"
+						"blocks": ["minecraft:potted_dandelion"]
 					}
 				},
 				"item": {
-					"item": "minecraft:dandelion"
+					"items": ["minecraft:dandelion"]
 				}
 			}
 		},
@@ -30,11 +30,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_poppy"
+						"blocks": ["minecraft:potted_poppy"]
 					}
 				},
 				"item": {
-					"item": "minecraft:poppy"
+					"items": ["minecraft:poppy"]
 				}
 			}
 		},
@@ -43,11 +43,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_blue_orchid"
+						"blocks": ["minecraft:potted_blue_orchid"]
 					}
 				},
 				"item": {
-					"item": "minecraft:blue_orchid"
+					"items": ["minecraft:blue_orchid"]
 				}
 			}
 		},
@@ -56,11 +56,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_allium"
+						"blocks": ["minecraft:potted_allium"]
 					}
 				},
 				"item": {
-					"item": "minecraft:allium"
+					"items": ["minecraft:allium"]
 				}
 			}
 		},
@@ -69,11 +69,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_azure_bluet"
+						"blocks": ["minecraft:potted_azure_bluet"]
 					}
 				},
 				"item": {
-					"item": "minecraft:azure_bluet"
+					"items": ["minecraft:azure_bluet"]
 				}
 			}
 		},
@@ -82,11 +82,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_red_tulip"
+						"blocks": ["minecraft:potted_red_tulip"]
 					}
 				},
 				"item": {
-					"item": "minecraft:red_tulip"
+					"items": ["minecraft:red_tulip"]
 				}
 			}
 		},
@@ -95,11 +95,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_orange_tulip"
+						"blocks": ["minecraft:potted_orange_tulip"]
 					}
 				},
 				"item": {
-					"item": "minecraft:orange_tulip"
+					"items": ["minecraft:orange_tulip"]
 				}
 			}
 		},
@@ -108,11 +108,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_white_tulip"
+						"blocks": ["minecraft:potted_white_tulip"]
 					}
 				},
 				"item": {
-					"item": "minecraft:white_tulip"
+					"items": ["minecraft:white_tulip"]
 				}
 			}
 		},
@@ -121,11 +121,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_pink_tulip"
+						"blocks": ["minecraft:potted_pink_tulip"]
 					}
 				},
 				"item": {
-					"item": "minecraft:pink_tulip"
+					"items": ["minecraft:pink_tulip"]
 				}
 			}
 		},
@@ -134,11 +134,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_oxeye_daisy"
+						"blocks": ["minecraft:potted_oxeye_daisy"]
 					}
 				},
 				"item": {
-					"item": "minecraft:oxeye_daisy"
+					"items": ["minecraft:oxeye_daisy"]
 				}
 			}
 		},
@@ -147,11 +147,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_cornflower"
+						"blocks": ["minecraft:potted_cornflower"]
 					}
 				},
 				"item": {
-					"item": "minecraft:cornflower"
+					"items": ["minecraft:cornflower"]
 				}
 			}
 		},
@@ -160,11 +160,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_lily_of_the_valley"
+						"blocks": ["minecraft:potted_lily_of_the_valley"]
 					}
 				},
 				"item": {
-					"item": "minecraft:lily_of_the_valley"
+					"items": ["minecraft:lily_of_the_valley"]
 				}
 			}
 		},
@@ -173,11 +173,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_wither_rose"
+						"blocks": ["minecraft:potted_wither_rose"]
 					}
 				},
 				"item": {
-					"item": "minecraft:wither_rose"
+					"items": ["minecraft:wither_rose"]
 				}
 			}
 		},
@@ -186,11 +186,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_oak_sapling"
+						"blocks": ["minecraft:potted_oak_sapling"]
 					}
 				},
 				"item": {
-					"item": "minecraft:oak_sapling"
+					"items": ["minecraft:oak_sapling"]
 				}
 			}
 		},
@@ -199,11 +199,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_spruce_sapling"
+						"blocks": ["minecraft:potted_spruce_sapling"]
 					}
 				},
 				"item": {
-					"item": "minecraft:spruce_sapling"
+					"items": ["minecraft:spruce_sapling"]
 				}
 			}
 		},
@@ -212,11 +212,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_birch_sapling"
+						"blocks": ["minecraft:potted_birch_sapling"]
 					}
 				},
 				"item": {
-					"item": "minecraft:birch_sapling"
+					"items": ["minecraft:birch_sapling"]
 				}
 			}
 		},
@@ -225,11 +225,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_jungle_sapling"
+						"blocks": ["minecraft:potted_jungle_sapling"]
 					}
 				},
 				"item": {
-					"item": "minecraft:jungle_sapling"
+					"items": ["minecraft:jungle_sapling"]
 				}
 			}
 		},
@@ -238,11 +238,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_acacia_sapling"
+						"blocks": ["minecraft:potted_acacia_sapling"]
 					}
 				},
 				"item": {
-					"item": "minecraft:acacia_sapling"
+					"items": ["minecraft:acacia_sapling"]
 				}
 			}
 		},
@@ -251,11 +251,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_dark_oak_sapling"
+						"blocks": ["minecraft:potted_dark_oak_sapling"]
 					}
 				},
 				"item": {
-					"item": "minecraft:dark_oak_sapling"
+					"items": ["minecraft:dark_oak_sapling"]
 				}
 			}
 		},
@@ -264,11 +264,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_red_mushroom"
+						"blocks": ["minecraft:potted_red_mushroom"]
 					}
 				},
 				"item": {
-					"item": "minecraft:red_mushroom"
+					"items": ["minecraft:red_mushroom"]
 				}
 			}
 		},
@@ -277,11 +277,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_brown_mushroom"
+						"blocks": ["minecraft:potted_brown_mushroom"]
 					}
 				},
 				"item": {
-					"item": "minecraft:brown_mushroom"
+					"items": ["minecraft:brown_mushroom"]
 				}
 			}
 		},
@@ -290,11 +290,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_fern"
+						"blocks": ["minecraft:potted_fern"]
 					}
 				},
 				"item": {
-					"item": "minecraft:fern"
+					"items": ["minecraft:fern"]
 				}
 			}
 		},
@@ -303,11 +303,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_dead_bush"
+						"blocks": ["minecraft:potted_dead_bush"]
 					}
 				},
 				"item": {
-					"item": "minecraft:dead_bush"
+					"items": ["minecraft:dead_bush"]
 				}
 			}
 		},
@@ -316,11 +316,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_cactus"
+						"blocks": ["minecraft:potted_cactus"]
 					}
 				},
 				"item": {
-					"item": "minecraft:cactus"
+					"items": ["minecraft:cactus"]
 				}
 			}
 		},
@@ -329,11 +329,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_bamboo"
+						"blocks": ["minecraft:potted_bamboo"]
 					}
 				},
 				"item": {
-					"item": "minecraft:bamboo"
+					"items": ["minecraft:bamboo"]
 				}
 			}
 		},
@@ -342,11 +342,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_crimson_fungus"
+						"blocks": ["minecraft:potted_crimson_fungus"]
 					}
 				},
 				"item": {
-					"item": "minecraft:crimson_fungus"
+					"items": ["minecraft:crimson_fungus"]
 				}
 			}
 		},
@@ -355,11 +355,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_warped_fungus"
+						"blocks": ["minecraft:potted_warped_fungus"]
 					}
 				},
 				"item": {
-					"item": "minecraft:warped_fungus"
+					"items": ["minecraft:warped_fungus"]
 				}
 			}
 		},
@@ -368,11 +368,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_crimson_roots"
+						"blocks": ["minecraft:potted_crimson_roots"]
 					}
 				},
 				"item": {
-					"item": "minecraft:crimson_roots"
+					"items": ["minecraft:crimson_roots"]
 				}
 			}
 		},
@@ -381,11 +381,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potted_warped_roots"
+						"blocks": ["minecraft:potted_warped_roots"]
 					}
 				},
 				"item": {
-					"item": "minecraft:warped_roots"
+					"items": ["minecraft:warped_roots"]
 				}
 			}
 		}

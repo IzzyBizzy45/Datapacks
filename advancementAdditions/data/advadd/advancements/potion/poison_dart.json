@@ -14,7 +14,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:poison"
                     }
                 ]
@@ -25,7 +25,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:long_poison"
                     }
                 ]
@@ -36,7 +36,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:strong_poison"
                     }
                 ]

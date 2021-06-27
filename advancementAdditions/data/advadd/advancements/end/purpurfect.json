@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:purpur_block"
+                        "items": ["minecraft:purpur_block"]
                     }
                 ]
             }
@@ -23,7 +23,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:purpur_pillar"
+                        "items": ["minecraft:purpur_pillar"]
                     }
                 ]
             }
@@ -33,7 +33,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:purpur_slab"
+                        "items": ["minecraft:purpur_slab"]
                     }
                 ]
             }
@@ -43,7 +43,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:purpur_stairs"
+                        "items": ["minecraft:purpur_stairs"]
                     }
                 ]
             }

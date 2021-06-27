@@ -17,7 +17,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:shulker_shell",
+                        "items": ["minecraft:shulker_shell"],
 						"count": 64
                     }
                 ]

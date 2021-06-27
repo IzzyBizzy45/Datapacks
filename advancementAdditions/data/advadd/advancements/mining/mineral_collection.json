@@ -14,7 +14,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:coal_block"
+                        "items": ["minecraft:coal_block"]
                     }
                 ]
             }
@@ -24,7 +24,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:iron_block"
+                        "items": ["minecraft:iron_block"]
                     }
                 ]
             }
@@ -34,7 +34,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:gold_block"
+                        "items": ["minecraft:gold_block"]
                     }
                 ]
             }
@@ -44,7 +44,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:lapis_block"
+                        "items": ["minecraft:lapis_block"]
                     }
                 ]
             }
@@ -54,7 +54,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:redstone_block"
+                        "items": ["minecraft:redstone_block"]
                     }
                 ]
             }
@@ -64,7 +64,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diamond_block"
+                        "items": ["minecraft:diamond_block"]
                     }
                 ]
             }
@@ -74,7 +74,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:emerald_block"
+                        "items": ["minecraft:emerald_block"]
                     }
                 ]
             }
@@ -84,7 +84,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:quartz_block"
+                        "items": ["minecraft:quartz_block"]
                     }
                 ]
             }
@@ -94,7 +94,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:netherite_block"
+                        "items": ["minecraft:netherite_block"]
                     }
                 ]
             }

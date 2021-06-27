@@ -23,16 +23,16 @@
 							"type": "minecraft:armor_stand",
 							"equipment": {
 								"head": {
-									"item": "minecraft:leather_helmet"
+									"items": ["minecraft:leather_helmet"]
 								},
 								"chest": {
-									"item": "minecraft:leather_chestplate"
+									"items": ["minecraft:leather_chestplate"]
 								},
 								"legs": {
-									"item": "minecraft:leather_leggings"
+									"items": ["minecraft:leather_leggings"]
 								},
 								"feet": {
-									"item": "minecraft:leather_boots"
+									"items": ["minecraft:leather_boots"]
 								}
 							}
 						}
@@ -51,16 +51,16 @@
 							"type": "minecraft:armor_stand",
 							"equipment": {
 								"head": {
-									"item": "minecraft:golden_helmet"
+									"items": ["minecraft:golden_helmet"]
 								},
 								"chest": {
-									"item": "minecraft:golden_chestplate"
+									"items": ["minecraft:golden_chestplate"]
 								},
 								"legs": {
-									"item": "minecraft:golden_leggings"
+									"items": ["minecraft:golden_leggings"]
 								},
 								"feet": {
-									"item": "minecraft:golden_boots"
+									"items": ["minecraft:golden_boots"]
 								}
 							}
 						}
@@ -79,16 +79,16 @@
 							"type": "minecraft:armor_stand",
 							"equipment": {
 								"head": {
-									"item": "minecraft:chainmail_helmet"
+									"items": ["minecraft:chainmail_helmet"]
 								},
 								"chest": {
-									"item": "minecraft:chainmail_chestplate"
+									"items": ["minecraft:chainmail_chestplate"]
 								},
 								"legs": {
-									"item": "minecraft:chainmail_leggings"
+									"items": ["minecraft:chainmail_leggings"]
 								},
 								"feet": {
-									"item": "minecraft:chainmail_boots"
+									"items": ["minecraft:chainmail_boots"]
 								}
 							}
 						}
@@ -107,16 +107,16 @@
 							"type": "minecraft:armor_stand",
 							"equipment": {
 								"head": {
-									"item": "minecraft:iron_helmet"
+									"items": ["minecraft:iron_helmet"]
 								},
 								"chest": {
-									"item": "minecraft:iron_chestplate"
+									"items": ["minecraft:iron_chestplate"]
 								},
 								"legs": {
-									"item": "minecraft:iron_leggings"
+									"items": ["minecraft:iron_leggings"]
 								},
 								"feet": {
-									"item": "minecraft:iron_boots"
+									"items": ["minecraft:iron_boots"]
 								}
 							}
 						}
@@ -135,16 +135,16 @@
 							"type": "minecraft:armor_stand",
 							"equipment": {
 								"head": {
-									"item": "minecraft:diamond_helmet"
+									"items": ["minecraft:diamond_helmet"]
 								},
 								"chest": {
-									"item": "minecraft:diamond_chestplate"
+									"items": ["minecraft:diamond_chestplate"]
 								},
 								"legs": {
-									"item": "minecraft:diamond_leggings"
+									"items": ["minecraft:diamond_leggings"]
 								},
 								"feet": {
-									"item": "minecraft:diamond_boots"
+									"items": ["minecraft:diamond_boots"]
 								}
 							}
 						}
@@ -163,16 +163,16 @@
 							"type": "minecraft:armor_stand",
 							"equipment": {
 								"head": {
-									"item": "minecraft:netherite_helmet"
+									"items": ["minecraft:netherite_helmet"]
 								},
 								"chest": {
-									"item": "minecraft:netherite_chestplate"
+									"items": ["minecraft:netherite_chestplate"]
 								},
 								"legs": {
-									"item": "minecraft:netherite_leggings"
+									"items": ["minecraft:netherite_leggings"]
 								},
 								"feet": {
-									"item": "minecraft:netherite_boots"
+									"items": ["minecraft:netherite_boots"]
 								}
 							}
 						}

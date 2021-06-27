@@ -17,7 +17,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:trident",
+                        "items": ["minecraft:trident"],
 						"nbt": "{display:{Name:\"{\\\"text\\\":\\\"Mjolnir\\\"}\"}}",
 						"enchantments": [
 							{

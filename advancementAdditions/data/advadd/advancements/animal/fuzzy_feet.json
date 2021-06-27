@@ -17,7 +17,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:white_carpet"
+                        "items": ["minecraft:white_carpet"]
                     }
                 ]
             }
@@ -27,7 +27,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:orange_carpet"
+                        "items": ["minecraft:orange_carpet"]
                     }
                 ]
             }
@@ -37,7 +37,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:magenta_carpet"
+                        "items": ["minecraft:magenta_carpet"]
                     }
                 ]
             }
@@ -47,7 +47,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:light_blue_carpet"
+                        "items": ["minecraft:light_blue_carpet"]
                     }
                 ]
             }
@@ -57,7 +57,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:yellow_carpet"
+                        "items": ["minecraft:yellow_carpet"]
                     }
                 ]
             }
@@ -67,7 +67,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:lime_carpet"
+                        "items": ["minecraft:lime_carpet"]
                     }
                 ]
             }
@@ -77,7 +77,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:pink_carpet"
+                        "items": ["minecraft:pink_carpet"]
                     }
                 ]
             }
@@ -87,7 +87,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:gray_carpet"
+                        "items": ["minecraft:gray_carpet"]
                     }
                 ]
             }
@@ -97,7 +97,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:light_gray_carpet"
+                        "items": ["minecraft:light_gray_carpet"]
                     }
                 ]
             }
@@ -107,7 +107,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:cyan_carpet"
+                        "items": ["minecraft:cyan_carpet"]
                     }
                 ]
             }
@@ -117,7 +117,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:purple_carpet"
+                        "items": ["minecraft:purple_carpet"]
                     }
                 ]
             }
@@ -127,7 +127,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:blue_carpet"
+                        "items": ["minecraft:blue_carpet"]
                     }
                 ]
             }
@@ -137,7 +137,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:brown_carpet"
+                        "items": ["minecraft:brown_carpet"]
                     }
                 ]
             }
@@ -147,7 +147,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:green_carpet"
+                        "items": ["minecraft:green_carpet"]
                     }
                 ]
             }
@@ -157,7 +157,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:red_carpet"
+                        "items": ["minecraft:red_carpet"]
                     }
                 ]
             }
@@ -167,7 +167,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:black_carpet"
+                        "items": ["minecraft:black_carpet"]
                     }
                 ]
             }

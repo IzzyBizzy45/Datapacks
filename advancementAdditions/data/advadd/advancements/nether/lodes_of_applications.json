@@ -17,7 +17,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:compass",
+                        "items": ["minecraft:compass"],
 						"nbt": "{LodestoneDimension:\"minecraft:overworld\"}"
                     }
                 ]
@@ -28,7 +28,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:compass",
+                        "items": ["minecraft:compass"],
 						"nbt": "{LodestoneDimension:\"minecraft:the_nether\"}"
                     }
                 ]
@@ -39,7 +39,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:compass",
+                        "items": ["minecraft:compass"],
 						"nbt": "{LodestoneDimension:\"minecraft:the_end\"}"
                     }
                 ]

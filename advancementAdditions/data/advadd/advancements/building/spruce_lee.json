@@ -14,7 +14,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:spruce_planks"
+                        "items": ["minecraft:spruce_planks"]
                     }
                 ]
             }
@@ -24,7 +24,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:spruce_log"
+                        "items": ["minecraft:spruce_log"]
                     }
                 ]
             }
@@ -34,7 +34,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:spruce_wood"
+                        "items": ["minecraft:spruce_wood"]
                     }
                 ]
             }
@@ -44,7 +44,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stripped_spruce_log"
+                        "items": ["minecraft:stripped_spruce_log"]
                     }
                 ]
             }
@@ -54,7 +54,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stripped_spruce_wood"
+                        "items": ["minecraft:stripped_spruce_wood"]
                     }
                 ]
             }
@@ -64,7 +64,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:spruce_slab"
+                        "items": ["minecraft:spruce_slab"]
                     }
                 ]
             }
@@ -74,7 +74,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:spruce_pressure_plate"
+                        "items": ["minecraft:spruce_pressure_plate"]
                     }
                 ]
             }
@@ -84,7 +84,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:spruce_fence"
+                        "items": ["minecraft:spruce_fence"]
                     }
                 ]
             }
@@ -94,7 +94,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:spruce_trapdoor"
+                        "items": ["minecraft:spruce_trapdoor"]
                     }
                 ]
             }
@@ -104,7 +104,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:spruce_fence_gate"
+                        "items": ["minecraft:spruce_fence_gate"]
                     }
                 ]
             }
@@ -114,7 +114,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:spruce_stairs"
+                        "items": ["minecraft:spruce_stairs"]
                     }
                 ]
             }
@@ -124,7 +124,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:spruce_button"
+                        "items": ["minecraft:spruce_button"]
                     }
                 ]
             }
@@ -134,7 +134,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:spruce_door"
+                        "items": ["minecraft:spruce_door"]
                     }
                 ]
             }
@@ -144,7 +144,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:spruce_boat"
+                        "items": ["minecraft:spruce_boat"]
                     }
                 ]
             }
@@ -154,7 +154,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:spruce_sign"
+                        "items": ["minecraft:spruce_sign"]
                     }
                 ]
             }

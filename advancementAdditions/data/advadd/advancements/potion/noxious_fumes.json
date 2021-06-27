@@ -14,7 +14,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:lingering_potion"
+                        "items": ["minecraft:lingering_potion"]
                     }
                 ]
             }

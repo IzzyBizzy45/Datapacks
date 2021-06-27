@@ -15,7 +15,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:thick"
                     }
                 ]
@@ -26,7 +26,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:mundane"
                     }
                 ]
@@ -37,7 +37,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:awkward"
                     }
                 ]
@@ -48,7 +48,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:night_vision"
                     }
                 ]
@@ -59,7 +59,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:long_night_vision"
                     }
                 ]
@@ -70,7 +70,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:invisibility"
                     }
                 ]
@@ -81,7 +81,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:long_invisibility"
                     }
                 ]
@@ -92,7 +92,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:leaping"
                     }
                 ]
@@ -103,7 +103,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:long_leaping"
                     }
                 ]
@@ -114,7 +114,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:strong_leaping"
                     }
                 ]
@@ -125,7 +125,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:fire_resistance"
                     }
                 ]
@@ -136,7 +136,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:long_fire_resistance"
                     }
                 ]
@@ -147,7 +147,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:swiftness"
                     }
                 ]
@@ -158,7 +158,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:long_swiftness"
                     }
                 ]
@@ -169,7 +169,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:strong_swiftness"
                     }
                 ]
@@ -180,7 +180,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:slowness"
                     }
                 ]
@@ -191,7 +191,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:long_slowness"
                     }
                 ]
@@ -202,7 +202,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:strong_slowness"
                     }
                 ]
@@ -213,7 +213,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:water_breathing"
                     }
                 ]
@@ -224,7 +224,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:long_water_breathing"
                     }
                 ]
@@ -235,7 +235,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:healing"
                     }
                 ]
@@ -246,7 +246,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:strong_healing"
                     }
                 ]
@@ -257,7 +257,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:harming"
                     }
                 ]
@@ -268,7 +268,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:strong_harming"
                     }
                 ]
@@ -279,7 +279,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:poison"
                     }
                 ]
@@ -290,7 +290,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:long_poison"
                     }
                 ]
@@ -301,7 +301,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:strong_poison"
                     }
                 ]
@@ -312,7 +312,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:regeneration"
                     }
                 ]
@@ -323,7 +323,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:long_regeneration"
                     }
                 ]
@@ -334,7 +334,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:strong_regeneration"
                     }
                 ]
@@ -345,7 +345,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:strength"
                     }
                 ]
@@ -356,7 +356,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:long_strength"
                     }
                 ]
@@ -367,7 +367,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:strong_strength"
                     }
                 ]
@@ -378,7 +378,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:weakness"
                     }
                 ]
@@ -389,7 +389,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:long_weakness"
                     }
                 ]
@@ -400,7 +400,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:turtle_master"
                     }
                 ]
@@ -411,7 +411,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:long_turtle_master"
                     }
                 ]
@@ -422,7 +422,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:strong_turtle_master"
                     }
                 ]
@@ -433,7 +433,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:slow_falling"
                     }
                 ]
@@ -444,7 +444,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tipped_arrow",
+                        "items": ["minecraft:tipped_arrow"],
 						"potion": "minecraft:long_slow_falling"
                     }
                 ]

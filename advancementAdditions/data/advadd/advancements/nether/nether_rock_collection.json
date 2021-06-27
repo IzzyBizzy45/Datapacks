@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:netherrack",
+                        "items": ["minecraft:netherrack"],
 						"count": 64
                     }
                 ]
@@ -24,7 +24,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:basalt",
+                        "items": ["minecraft:basalt"],
 						"count": 64
                     }
                 ]
@@ -35,7 +35,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:blackstone",
+                        "items": ["minecraft:blackstone"],
 						"count": 64
                     }
                 ]
@@ -46,7 +46,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:glowstone",
+                        "items": ["minecraft:glowstone"],
 						"count": 64
                     }
                 ]

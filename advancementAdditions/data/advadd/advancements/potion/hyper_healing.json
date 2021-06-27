@@ -12,7 +12,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "item": "minecraft:potion",
+                    "items": ["minecraft:potion"],
 					"nbt": "{Potion:\"minecraft:regeneration\"}"
                 }
             }
@@ -21,7 +21,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "item": "minecraft:potion",
+                    "items": ["minecraft:potion"],
 					"nbt": "{Potion:\"minecraft:strong_regeneration\"}"
                 }
             }
@@ -30,7 +30,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "item": "minecraft:potion",
+                    "items": ["minecraft:potion"],
 					"nbt": "{Potion:\"minecraft:long_regeneration\"}"
                 }
             }

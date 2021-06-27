@@ -12,7 +12,7 @@
 			"trigger": "minecraft:thrown_item_picked_up_by_entity",
 			"conditions": {
 				"item": {
-					"item": "minecraft:diamond"
+					"items": ["minecraft:diamond"]
 				}
 			}
 		}

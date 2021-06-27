@@ -17,7 +17,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:glowstone",
+                        "items": ["minecraft:glowstone"],
 						"count": 64
                     }
                 ]
@@ -28,7 +28,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:jack_o_lantern",
+                        "items": ["minecraft:jack_o_lantern"],
 						"count": 64
                     }
                 ]
@@ -39,7 +39,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:redstone_lamp",
+                        "items": ["minecraft:redstone_lamp"],
 						"count": 64
                     }
                 ]
@@ -50,7 +50,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:sea_lantern",
+                        "items": ["minecraft:sea_lantern"],
 						"count": 64
                     }
                 ]
@@ -61,7 +61,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:sea_pickle",
+                        "items": ["minecraft:sea_pickle"],
 						"count": 64
                     }
                 ]
@@ -72,7 +72,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:shroomlight",
+                        "items": ["minecraft:shroomlight"],
 						"count": 64
                     }
                 ]
@@ -83,7 +83,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:lantern",
+                        "items": ["minecraft:lantern"],
 						"count": 64
                     }
                 ]
@@ -94,7 +94,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:campfire",
+                        "items": ["minecraft:campfire"],
 						"count": 64
                     }
                 ]
@@ -105,7 +105,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:end_rod",
+                        "items": ["minecraft:end_rod"],
 						"count": 64
                     }
                 ]
@@ -116,7 +116,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:torch",
+                        "items": ["minecraft:torch"],
 						"count": 64
                     }
                 ]
@@ -127,7 +127,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:soul_lantern",
+                        "items": ["minecraft:soul_lantern"],
 						"count": 64
                     }
                 ]
@@ -138,7 +138,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:soul_torch",
+                        "items": ["minecraft:soul_torch"],
 						"count": 64
                     }
                 ]
@@ -149,7 +149,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:ender_chest",
+                        "items": ["minecraft:ender_chest"],
 						"count": 64
                     }
                 ]
@@ -160,7 +160,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:redstone_torch",
+                        "items": ["minecraft:redstone_torch"],
 						"count": 64
                     }
                 ]
@@ -171,7 +171,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:magma_block",
+                        "items": ["minecraft:magma_block"],
 						"count": 64
                     }
                 ]
@@ -182,7 +182,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:crying_obsidian",
+                        "items": ["minecraft:crying_obsidian"],
 						"count": 64
                     }
                 ]
@@ -193,7 +193,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:soul_campfire",
+                        "items": ["minecraft:soul_campfire"],
 						"count": 64
                     }
                 ]

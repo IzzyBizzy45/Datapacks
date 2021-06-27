@@ -14,7 +14,7 @@
             "conditions": {
 				"items": [
 					{
-						"item": "minecraft:trident",
+						"items": ["minecraft:trident"],
 						"enchantments": [
 							{
 								"enchantment": "minecraft:riptide"

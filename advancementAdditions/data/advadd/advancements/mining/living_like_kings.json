@@ -18,7 +18,7 @@
 						"predicate": {
 							"equipment": {
 								"head": {
-									"item": "minecraft:golden_helmet"
+									"items": ["minecraft:golden_helmet"]
 								}
 							}
 						}
@@ -36,7 +36,7 @@
 						"predicate": {
 							"equipment": {
 								"chest": {
-									"item": "minecraft:golden_chestplate"
+									"items": ["minecraft:golden_chestplate"]
 								}
 							}
 						}
@@ -54,7 +54,7 @@
 						"predicate": {
 							"equipment": {
 								"legs": {
-									"item": "minecraft:golden_leggings"
+									"items": ["minecraft:golden_leggings"]
 								}
 							}
 						}
@@ -72,7 +72,7 @@
 						"predicate": {
 							"equipment": {
 								"feet": {
-									"item": "minecraft:golden_boots"
+									"items": ["minecraft:golden_boots"]
 								}
 							}
 						}

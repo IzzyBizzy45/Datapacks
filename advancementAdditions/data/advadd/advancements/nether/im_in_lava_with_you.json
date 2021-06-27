@@ -18,7 +18,7 @@
                 "entity": {
                     "location": {
 						"block": {
-							"block": "minecraft:lava"
+							"blocks": ["minecraft:lava"]
 						}
 					}
                 },
@@ -26,7 +26,7 @@
 					"source_entity": {
 						"location": {
 							"block": {
-								"block": "minecraft:lava"
+								"blocks": ["minecraft:lava"]
 							}
 						}
 					}

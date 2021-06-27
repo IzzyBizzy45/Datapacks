@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:powered_rail"
+                        "items": ["minecraft:powered_rail"]
                     }
                 ]
             }

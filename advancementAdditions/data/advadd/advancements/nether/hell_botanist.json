@@ -17,7 +17,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:crimson_fungus",
+                        "items": ["minecraft:crimson_fungus"],
 						"count": 64
                     }
                 ]
@@ -28,7 +28,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:warped_fungus",
+                        "items": ["minecraft:warped_fungus"],
 						"count": 64
                     }
                 ]
@@ -39,7 +39,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:crimson_roots",
+                        "items": ["minecraft:crimson_roots"],
 						"count": 64
                     }
                 ]
@@ -50,7 +50,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:warped_roots",
+                        "items": ["minecraft:warped_roots"],
 						"count": 64
                     }
                 ]
@@ -61,7 +61,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:nether_sprouts",
+                        "items": ["minecraft:nether_sprouts"],
 						"count": 64
                     }
                 ]
@@ -72,7 +72,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:weeping_vines",
+                        "items": ["minecraft:weeping_vines"],
 						"count": 64
                     }
                 ]
@@ -83,7 +83,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:twisting_vines",
+                        "items": ["minecraft:twisting_vines"],
 						"count": 64
                     }
                 ]
@@ -94,7 +94,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:nether_wart",
+                        "items": ["minecraft:nether_wart"],
 						"count": 64
                     }
                 ]

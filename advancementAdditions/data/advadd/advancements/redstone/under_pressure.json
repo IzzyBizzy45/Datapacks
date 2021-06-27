@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:oak_pressure_plate"
+                        "items": ["minecraft:oak_pressure_plate"]
                     }
                 ]
             }
@@ -23,7 +23,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:spruce_pressure_plate"
+                        "items": ["minecraft:spruce_pressure_plate"]
                     }
                 ]
             }
@@ -33,7 +33,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:birch_pressure_plate"
+                        "items": ["minecraft:birch_pressure_plate"]
                     }
                 ]
             }
@@ -43,7 +43,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:jungle_pressure_plate"
+                        "items": ["minecraft:jungle_pressure_plate"]
                     }
                 ]
             }
@@ -53,7 +53,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:acacia_pressure_plate"
+                        "items": ["minecraft:acacia_pressure_plate"]
                     }
                 ]
             }
@@ -63,7 +63,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:dark_oak_pressure_plate"
+                        "items": ["minecraft:dark_oak_pressure_plate"]
                     }
                 ]
             }
@@ -73,7 +73,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stone_pressure_plate"
+                        "items": ["minecraft:stone_pressure_plate"]
                     }
                 ]
             }
@@ -83,7 +83,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:light_weighted_pressure_plate"
+                        "items": ["minecraft:light_weighted_pressure_plate"]
                     }
                 ]
             }
@@ -93,7 +93,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:heavy_weighted_pressure_plate"
+                        "items": ["minecraft:heavy_weighted_pressure_plate"]
                     }
                 ]
             }
@@ -103,7 +103,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:crimson_pressure_plate"
+                        "items": ["minecraft:crimson_pressure_plate"]
                     }
                 ]
             }
@@ -113,7 +113,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:warped_pressure_plate"
+                        "items": ["minecraft:warped_pressure_plate"]
                     }
                 ]
             }
@@ -123,7 +123,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:polished_blackstone_pressure_plate"
+                        "items": ["minecraft:polished_blackstone_pressure_plate"]
                     }
                 ]
             }

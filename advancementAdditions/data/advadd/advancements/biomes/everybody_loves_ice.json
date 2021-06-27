@@ -17,7 +17,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:ice",
+                        "items": ["minecraft:ice"],
 						"count": 64
                     }
                 ]
@@ -28,7 +28,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:packed_ice",
+                        "items": ["minecraft:packed_ice"],
 						"count": 64
                     }
                 ]
@@ -39,7 +39,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:blue_ice",
+                        "items": ["minecraft:blue_ice"],
 						"count": 64
                     }
                 ]

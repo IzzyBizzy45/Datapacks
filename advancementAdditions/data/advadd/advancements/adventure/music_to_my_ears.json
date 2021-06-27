@@ -14,14 +14,14 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:jukebox",
+						"blocks": ["minecraft:jukebox"],
 						"state": {
 							"has_record": "true"
 						}
 					}
 				},
 				"item": {
-					"item": "minecraft:music_disc_cat"
+					"items": ["minecraft:music_disc_cat"]
 				}
 			}
 		},
@@ -30,14 +30,14 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:jukebox",
+						"blocks": ["minecraft:jukebox"],
 						"state": {
 							"has_record": "true"
 						}
 					}
 				},
 				"item": {
-					"item": "minecraft:music_disc_13"
+					"items": ["minecraft:music_disc_13"]
 				}
 			}
 		},
@@ -46,14 +46,14 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:jukebox",
+						"blocks": ["minecraft:jukebox"],
 						"state": {
 							"has_record": "true"
 						}
 					}
 				},
 				"item": {
-					"item": "minecraft:music_disc_blocks"
+					"items": ["minecraft:music_disc_blocks"]
 				}
 			}
 		},
@@ -62,14 +62,14 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:jukebox",
+						"blocks": ["minecraft:jukebox"],
 						"state": {
 							"has_record": "true"
 						}
 					}
 				},
 				"item": {
-					"item": "minecraft:music_disc_chirp"
+					"items": ["minecraft:music_disc_chirp"]
 				}
 			}
 		},
@@ -78,14 +78,14 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:jukebox",
+						"blocks": ["minecraft:jukebox"],
 						"state": {
 							"has_record": "true"
 						}
 					}
 				},
 				"item": {
-					"item": "minecraft:music_disc_far"
+					"items": ["minecraft:music_disc_far"]
 				}
 			}
 		},
@@ -94,14 +94,14 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:jukebox",
+						"blocks": ["minecraft:jukebox"],
 						"state": {
 							"has_record": "true"
 						}
 					}
 				},
 				"item": {
-					"item": "minecraft:music_disc_mall"
+					"items": ["minecraft:music_disc_mall"]
 				}
 			}
 		},
@@ -110,14 +110,14 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:jukebox",
+						"blocks": ["minecraft:jukebox"],
 						"state": {
 							"has_record": "true"
 						}
 					}
 				},
 				"item": {
-					"item": "minecraft:music_disc_mellohi"
+					"items": ["minecraft:music_disc_mellohi"]
 				}
 			}
 		},
@@ -126,14 +126,14 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:jukebox",
+						"blocks": ["minecraft:jukebox"],
 						"state": {
 							"has_record": "true"
 						}
 					}
 				},
 				"item": {
-					"item": "minecraft:music_disc_stal"
+					"items": ["minecraft:music_disc_stal"]
 				}
 			}
 		},
@@ -142,14 +142,14 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:jukebox",
+						"blocks": ["minecraft:jukebox"],
 						"state": {
 							"has_record": "true"
 						}
 					}
 				},
 				"item": {
-					"item": "minecraft:music_disc_strad"
+					"items": ["minecraft:music_disc_strad"]
 				}
 			}
 		},
@@ -158,14 +158,14 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:jukebox",
+						"blocks": ["minecraft:jukebox"],
 						"state": {
 							"has_record": "true"
 						}
 					}
 				},
 				"item": {
-					"item": "minecraft:music_disc_ward"
+					"items": ["minecraft:music_disc_ward"]
 				}
 			}
 		},
@@ -174,14 +174,14 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:jukebox",
+						"blocks": ["minecraft:jukebox"],
 						"state": {
 							"has_record": "true"
 						}
 					}
 				},
 				"item": {
-					"item": "minecraft:music_disc_11"
+					"items": ["minecraft:music_disc_11"]
 				}
 			}
 		},
@@ -190,14 +190,14 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:jukebox",
+						"blocks": ["minecraft:jukebox"],
 						"state": {
 							"has_record": "true"
 						}
 					}
 				},
 				"item": {
-					"item": "minecraft:music_disc_wait"
+					"items": ["minecraft:music_disc_wait"]
 				}
 			}
 		},
@@ -206,14 +206,14 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:jukebox",
+						"blocks": ["minecraft:jukebox"],
 						"state": {
 							"has_record": "true"
 						}
 					}
 				},
 				"item": {
-					"item": "minecraft:music_disc_pigstep"
+					"items": ["minecraft:music_disc_pigstep"]
 				}
 			}
 		}

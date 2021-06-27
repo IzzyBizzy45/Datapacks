@@ -14,7 +14,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:leather_leggings",
+                        "items": ["minecraft:leather_leggings"],
 						"nbt": "{display:{color:16383998}}"
                     }
                 ]
@@ -25,7 +25,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:leather_leggings",
+                        "items": ["minecraft:leather_leggings"],
 						"nbt": "{display:{color:16351261}}"
                     }
                 ]
@@ -36,7 +36,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:leather_leggings",
+                        "items": ["minecraft:leather_leggings"],
 						"nbt": "{display:{color:13061821}}"
                     }
                 ]
@@ -47,7 +47,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:leather_leggings",
+                        "items": ["minecraft:leather_leggings"],
 						"nbt": "{display:{color:3847130}}"
                     }
                 ]
@@ -58,7 +58,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:leather_leggings",
+                        "items": ["minecraft:leather_leggings"],
 						"nbt": "{display:{color:16701501}}"
                     }
                 ]
@@ -69,7 +69,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:leather_leggings",
+                        "items": ["minecraft:leather_leggings"],
 						"nbt": "{display:{color:8439583}}"
                     }
                 ]
@@ -80,7 +80,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:leather_leggings",
+                        "items": ["minecraft:leather_leggings"],
 						"nbt": "{display:{color:15961002}}"
                     }
                 ]
@@ -91,7 +91,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:leather_leggings",
+                        "items": ["minecraft:leather_leggings"],
 						"nbt": "{display:{color:4673362}}"
                     }
                 ]
@@ -102,7 +102,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:leather_leggings",
+                        "items": ["minecraft:leather_leggings"],
 						"nbt": "{display:{color:10329495}}"
                     }
                 ]
@@ -113,7 +113,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:leather_leggings",
+                        "items": ["minecraft:leather_leggings"],
 						"nbt": "{display:{color:1481884}}"
                     }
                 ]
@@ -124,7 +124,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:leather_leggings",
+                        "items": ["minecraft:leather_leggings"],
 						"nbt": "{display:{color:8991416}}"
                     }
                 ]
@@ -135,7 +135,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:leather_leggings",
+                        "items": ["minecraft:leather_leggings"],
 						"nbt": "{display:{color:3949738}}"
                     }
                 ]
@@ -146,7 +146,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:leather_leggings",
+                        "items": ["minecraft:leather_leggings"],
 						"nbt": "{display:{color:8606770}}"
                     }
                 ]
@@ -157,7 +157,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:leather_leggings",
+                        "items": ["minecraft:leather_leggings"],
 						"nbt": "{display:{color:6192150}}"
                     }
                 ]
@@ -168,7 +168,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:leather_leggings",
+                        "items": ["minecraft:leather_leggings"],
 						"nbt": "{display:{color:11546150}}"
                     }
                 ]
@@ -179,7 +179,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:leather_leggings",
+                        "items": ["minecraft:leather_leggings"],
 						"nbt": "{display:{color:1908001}}"
                     }
                 ]

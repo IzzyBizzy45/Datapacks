@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:end_stone_bricks"
+                        "items": ["minecraft:end_stone_bricks"]
                     }
                 ]
             }

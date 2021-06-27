@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:dragon_egg"
+            "items": ["minecraft:dragon_egg"]
           }
         ]
       }

@@ -12,7 +12,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "item": "minecraft:potato"
+                    "items": ["minecraft:potato"]
                 }
             }
         },
@@ -20,7 +20,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "item": "minecraft:baked_potato"
+                    "items": ["minecraft:baked_potato"]
                 }
             }
         }		

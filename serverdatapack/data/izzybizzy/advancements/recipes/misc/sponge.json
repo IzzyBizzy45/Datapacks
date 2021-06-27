@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:sponge"
+            "items": ["minecraft:sponge"]
           }
         ]
       }
@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:wet_sponge"
+            "items": ["minecraft:wet_sponge"]
           }
         ]
       }
@@ -31,7 +31,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:enchanted_book"
+            "items": ["minecraft:enchanted_book"]
           }
         ]
       }

@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:big_dripleaf"
+        },
+        "title": {"translate":"Leaflet Drop"},
+        "description": {"translate":"Fall through a Big Dripleaf"}
+    },
+    "parent": "blazeandcave:adventure/this_dirt_is_dirtier",
+	"rewards": {
+		"function": "bc_rewards:adventure/leaflet_drop"
+    },
+    "criteria": {
+        "big_dripleaf": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "block": {
+					"blocks": [
+						"minecraft:big_dripleaf"
+					],
+					"state": {
+						"tilt": "full"
+					}
+				}			
+            }
+        }
+    }
+}

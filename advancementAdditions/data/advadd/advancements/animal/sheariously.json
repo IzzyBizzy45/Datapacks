@@ -17,7 +17,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:white_wool",
+                        "items": ["minecraft:white_wool"],
 						"count": 64
                     }
                 ]

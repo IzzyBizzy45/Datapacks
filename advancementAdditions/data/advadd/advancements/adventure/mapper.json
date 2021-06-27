@@ -12,7 +12,7 @@
             "trigger": "minecraft:villager_trade",
             "conditions": {
                 "item": {
-                    "item": "minecraft:map"
+                    "items": ["minecraft:map"]
                 }
             }
         },
@@ -21,7 +21,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:map"
+                        "items": ["minecraft:map"]
                     }
                 ]
             }

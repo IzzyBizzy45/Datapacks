@@ -17,7 +17,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:chicken",
+                        "items": ["minecraft:chicken"],
 						"count": 64
                     }
                 ]
@@ -28,7 +28,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:feather",
+                        "items": ["minecraft:feather"],
 						"count": 64
                     }
                 ]

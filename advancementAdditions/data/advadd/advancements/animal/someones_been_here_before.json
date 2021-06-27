@@ -14,7 +14,7 @@
             "conditions": {
                 "item":
                 {
-                    "item": "minecraft:leather_boots"
+                    "items": ["minecraft:leather_boots"]
                 }
             }
         }	

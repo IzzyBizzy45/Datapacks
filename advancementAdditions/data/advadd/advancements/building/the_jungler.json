@@ -14,7 +14,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:jungle_planks"
+                        "items": ["minecraft:jungle_planks"]
                     }
                 ]
             }
@@ -24,7 +24,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:jungle_log"
+                        "items": ["minecraft:jungle_log"]
                     }
                 ]
             }
@@ -34,7 +34,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:jungle_wood"
+                        "items": ["minecraft:jungle_wood"]
                     }
                 ]
             }
@@ -44,7 +44,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stripped_jungle_log"
+                        "items": ["minecraft:stripped_jungle_log"]
                     }
                 ]
             }
@@ -54,7 +54,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stripped_jungle_wood"
+                        "items": ["minecraft:stripped_jungle_wood"]
                     }
                 ]
             }
@@ -64,7 +64,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:jungle_slab"
+                        "items": ["minecraft:jungle_slab"]
                     }
                 ]
             }
@@ -74,7 +74,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:jungle_pressure_plate"
+                        "items": ["minecraft:jungle_pressure_plate"]
                     }
                 ]
             }
@@ -84,7 +84,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:jungle_fence"
+                        "items": ["minecraft:jungle_fence"]
                     }
                 ]
             }
@@ -94,7 +94,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:jungle_trapdoor"
+                        "items": ["minecraft:jungle_trapdoor"]
                     }
                 ]
             }
@@ -104,7 +104,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:jungle_fence_gate"
+                        "items": ["minecraft:jungle_fence_gate"]
                     }
                 ]
             }
@@ -114,7 +114,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:jungle_stairs"
+                        "items": ["minecraft:jungle_stairs"]
                     }
                 ]
             }
@@ -124,7 +124,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:jungle_button"
+                        "items": ["minecraft:jungle_button"]
                     }
                 ]
             }
@@ -134,7 +134,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:jungle_door"
+                        "items": ["minecraft:jungle_door"]
                     }
                 ]
             }
@@ -144,7 +144,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:jungle_boat"
+                        "items": ["minecraft:jungle_boat"]
                     }
                 ]
             }
@@ -154,7 +154,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:jungle_sign"
+                        "items": ["minecraft:jungle_sign"]
                     }
                 ]
             }

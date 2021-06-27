@@ -17,7 +17,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:rabbit",
+                        "items": ["minecraft:rabbit"],
 						"count": 64
                     }
                 ]
@@ -28,7 +28,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:rabbit_hide",
+                        "items": ["minecraft:rabbit_hide"],
 						"count": 64
                     }
                 ]

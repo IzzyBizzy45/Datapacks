@@ -17,7 +17,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:grass_block"
+                        "items": ["minecraft:grass_block"]
                     }
                 ]
             }
@@ -27,7 +27,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:podzol"
+                        "items": ["minecraft:podzol"]
                     }
                 ]
             }
@@ -37,7 +37,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:mycelium"
+                        "items": ["minecraft:mycelium"]
                     }
                 ]
             }
@@ -47,7 +47,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:crimson_nylium"
+                        "items": ["minecraft:crimson_nylium"]
                     }
                 ]
             }
@@ -57,7 +57,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:warped_nylium"
+                        "items": ["minecraft:warped_nylium"]
                     }
                 ]
             }

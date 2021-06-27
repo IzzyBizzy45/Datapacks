@@ -17,11 +17,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:wheat"
+						"blocks": ["minecraft:wheat"]
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -30,11 +30,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:carrots"
+						"blocks": ["minecraft:carrots"]
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -43,11 +43,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:potatoes"
+						"blocks": ["minecraft:potatoes"]
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -56,11 +56,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:beetroots"
+						"blocks": ["minecraft:beetroots"]
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -73,7 +73,7 @@
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -86,7 +86,7 @@
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -99,7 +99,7 @@
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -112,7 +112,7 @@
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -125,7 +125,7 @@
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -138,7 +138,7 @@
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -151,7 +151,7 @@
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -164,7 +164,7 @@
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -177,7 +177,7 @@
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -186,11 +186,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:sunflower"
+						"blocks": ["minecraft:sunflower"]
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -199,11 +199,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:lilac"
+						"blocks": ["minecraft:lilac"]
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -212,11 +212,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:rose_bush"
+						"blocks": ["minecraft:rose_bush"]
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -225,11 +225,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:peony"
+						"blocks": ["minecraft:peony"]
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -238,11 +238,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:tall_grass"
+						"blocks": ["minecraft:tall_grass"]
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -251,11 +251,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:large_fern"
+						"blocks": ["minecraft:large_fern"]
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -264,11 +264,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:tall_seagrass"
+						"blocks": ["minecraft:tall_seagrass"]
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -277,11 +277,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:red_mushroom"
+						"blocks": ["minecraft:red_mushroom"]
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -290,11 +290,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:brown_mushroom"
+						"blocks": ["minecraft:brown_mushroom"]
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -303,11 +303,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:cocoa"
+						"blocks": ["minecraft:cocoa"]
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -316,11 +316,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:sweet_berry_bush"
+						"blocks": ["minecraft:sweet_berry_bush"]
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -329,11 +329,11 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:sea_pickle"
+						"blocks": ["minecraft:sea_pickle"]
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -346,7 +346,7 @@
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -359,7 +359,7 @@
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -372,7 +372,7 @@
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -385,7 +385,7 @@
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		},
@@ -398,7 +398,7 @@
 					}
 				},
 				"item": {
-					"item": "minecraft:bone_meal"
+					"items": ["minecraft:bone_meal"]
 				}
 			}
 		}

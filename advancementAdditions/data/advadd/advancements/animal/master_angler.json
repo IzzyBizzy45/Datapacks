@@ -17,7 +17,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:cod",
+                        "items": ["minecraft:cod"],
 						"count": 64
                     }
                 ]
@@ -28,7 +28,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:salmon",
+                        "items": ["minecraft:salmon"],
 						"count": 64
                     }
                 ]
@@ -39,7 +39,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:pufferfish",
+                        "items": ["minecraft:pufferfish"],
 						"count": 64
                     }
                 ]
@@ -50,7 +50,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tropical_fish",
+                        "items": ["minecraft:tropical_fish"],
 						"count": 64
                     }
                 ]

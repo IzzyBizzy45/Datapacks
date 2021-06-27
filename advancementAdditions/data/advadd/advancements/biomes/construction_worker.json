@@ -12,7 +12,7 @@
             "trigger": "minecraft:placed_block",
             "conditions": {
                 "item": {
-                    "item": "minecraft:scaffolding"
+                    "items": ["minecraft:scaffolding"]
                 }
             }
         }	

@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:cobblestone"
+                        "items": ["minecraft:cobblestone"]
                     }
                 ]
             }
@@ -23,7 +23,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:granite"
+                        "items": ["minecraft:granite"]
                     }
                 ]
             }
@@ -33,7 +33,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diorite"
+                        "items": ["minecraft:diorite"]
                     }
                 ]
             }
@@ -43,7 +43,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:andesite"
+                        "items": ["minecraft:andesite"]
                     }
                 ]
             }

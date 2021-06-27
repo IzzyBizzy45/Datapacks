@@ -14,7 +14,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:gold_ore",
+                        "items": ["minecraft:gold_ore"],
 						"count": 64
                     }
                 ]

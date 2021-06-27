@@ -16,7 +16,7 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"item": "minecraft:white_dye"
+					"items": ["minecraft:white_dye"]
 				},
 				"entity": [
 					{
@@ -33,7 +33,7 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"item": "minecraft:orange_dye"
+					"items": ["minecraft:orange_dye"]
 				},
 				"entity": [
 					{
@@ -50,7 +50,7 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"item": "minecraft:magenta_dye"
+					"items": ["minecraft:magenta_dye"]
 				},
 				"entity": [
 					{
@@ -67,7 +67,7 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"item": "minecraft:light_blue_dye"
+					"items": ["minecraft:light_blue_dye"]
 				},
 				"entity": [
 					{
@@ -84,7 +84,7 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"item": "minecraft:yellow_dye"
+					"items": ["minecraft:yellow_dye"]
 				},
 				"entity": [
 					{
@@ -101,7 +101,7 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"item": "minecraft:lime_dye"
+					"items": ["minecraft:lime_dye"]
 				},
 				"entity": [
 					{
@@ -118,7 +118,7 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"item": "minecraft:pink_dye"
+					"items": ["minecraft:pink_dye"]
 				},
 				"entity": [
 					{
@@ -135,7 +135,7 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"item": "minecraft:gray_dye"
+					"items": ["minecraft:gray_dye"]
 				},
 				"entity": [
 					{
@@ -152,7 +152,7 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"item": "minecraft:light_gray_dye"
+					"items": ["minecraft:light_gray_dye"]
 				},
 				"entity": [
 					{
@@ -169,7 +169,7 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"item": "minecraft:cyan_dye"
+					"items": ["minecraft:cyan_dye"]
 				},
 				"entity": [
 					{
@@ -186,7 +186,7 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"item": "minecraft:purple_dye"
+					"items": ["minecraft:purple_dye"]
 				},
 				"entity": [
 					{
@@ -203,7 +203,7 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"item": "minecraft:blue_dye"
+					"items": ["minecraft:blue_dye"]
 				},
 				"entity": [
 					{
@@ -220,7 +220,7 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"item": "minecraft:brown_dye"
+					"items": ["minecraft:brown_dye"]
 				},
 				"entity": [
 					{
@@ -237,7 +237,7 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"item": "minecraft:green_dye"
+					"items": ["minecraft:green_dye"]
 				},
 				"entity": [
 					{
@@ -254,7 +254,7 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"item": "minecraft:red_dye"
+					"items": ["minecraft:red_dye"]
 				},
 				"entity": [
 					{
@@ -271,7 +271,7 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"item": "minecraft:black_dye"
+					"items": ["minecraft:black_dye"]
 				},
 				"entity": [
 					{

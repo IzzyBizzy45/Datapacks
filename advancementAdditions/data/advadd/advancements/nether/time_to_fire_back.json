@@ -17,7 +17,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:fire_charge",
+                        "items": ["minecraft:fire_charge"],
 						"count": 64
                     }
                 ]

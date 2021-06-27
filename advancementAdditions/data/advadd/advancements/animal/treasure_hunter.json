@@ -13,7 +13,7 @@
             "conditions": {
                 "item":
                 {
-                    "item": "minecraft:bow"
+                    "items": ["minecraft:bow"]
                 }
             }
         },
@@ -22,7 +22,7 @@
             "conditions": {
                 "item":
                 {
-                    "item": "minecraft:enchanted_book"
+                    "items": ["minecraft:enchanted_book"]
                 }
             }
         },
@@ -31,7 +31,7 @@
             "conditions": {
                 "item":
                 {
-                    "item": "minecraft:name_tag"
+                    "items": ["minecraft:name_tag"]
                 }
             }
         },
@@ -40,7 +40,7 @@
             "conditions": {
                 "item":
                 {
-                    "item": "minecraft:nautilus_shell"
+                    "items": ["minecraft:nautilus_shell"]
                 }
             }
         },
@@ -49,7 +49,7 @@
             "conditions": {
                 "item":
                 {
-                    "item": "minecraft:saddle"
+                    "items": ["minecraft:saddle"]
                 }
             }
         }	

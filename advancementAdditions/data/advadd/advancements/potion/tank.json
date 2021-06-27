@@ -13,7 +13,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "item": "minecraft:potion",
+                    "items": ["minecraft:potion"],
 					"nbt": "{Potion:\"minecraft:turtle_master\"}"
                 }
             }
@@ -22,7 +22,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "item": "minecraft:potion",
+                    "items": ["minecraft:potion"],
 					"nbt": "{Potion:\"minecraft:strong_turtle_master\"}"
                 }
             }
@@ -31,7 +31,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "item": "minecraft:potion",
+                    "items": ["minecraft:potion"],
 					"nbt": "{Potion:\"minecraft:long_turtle_master\"}"
                 }
             }

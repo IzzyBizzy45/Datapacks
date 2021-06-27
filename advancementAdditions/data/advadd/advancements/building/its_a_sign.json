@@ -12,7 +12,7 @@
             "trigger": "minecraft:placed_block",
             "conditions": {
                 "item": {			
-					"item": "minecraft:oak_sign"
+					"items": ["minecraft:oak_sign"]
 				}
             }
         },
@@ -20,7 +20,7 @@
             "trigger": "minecraft:placed_block",
             "conditions": {
                 "item": {				
-					"item": "minecraft:spruce_sign"
+					"items": ["minecraft:spruce_sign"]
 				}
             }
         },	
@@ -28,7 +28,7 @@
             "trigger": "minecraft:placed_block",
             "conditions": {
                 "item": {			
-					"item": "minecraft:birch_sign"
+					"items": ["minecraft:birch_sign"]
 				}
             }
         },
@@ -36,7 +36,7 @@
             "trigger": "minecraft:placed_block",
             "conditions": {
 				"item": {
-					"item": "minecraft:jungle_sign"
+					"items": ["minecraft:jungle_sign"]
 				}
             }
         },
@@ -44,7 +44,7 @@
             "trigger": "minecraft:placed_block",
             "conditions": {
 				"item": {
-					"item": "minecraft:acacia_sign"
+					"items": ["minecraft:acacia_sign"]
 				}
             }
         },
@@ -52,7 +52,7 @@
             "trigger": "minecraft:placed_block",
             "conditions": {
 				"item": {
-					"item": "minecraft:dark_oak_sign"
+					"items": ["minecraft:dark_oak_sign"]
 				}
             }
         },
@@ -60,7 +60,7 @@
             "trigger": "minecraft:placed_block",
             "conditions": {
 				"item": {
-					"item": "minecraft:crimson_sign"
+					"items": ["minecraft:crimson_sign"]
 				}
             }
         },
@@ -68,7 +68,7 @@
             "trigger": "minecraft:placed_block",
             "conditions": {
 				"item": {
-					"item": "minecraft:warped_sign"
+					"items": ["minecraft:warped_sign"]
 				}
             }
         }

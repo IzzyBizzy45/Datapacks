@@ -12,7 +12,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "item": "minecraft:cooked_cod"
+                    "items": ["minecraft:cooked_cod"]
                 }
             }
         },
@@ -20,7 +20,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "item": "minecraft:cooked_salmon"
+                    "items": ["minecraft:cooked_salmon"]
                 }
             }
         }

@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:grass"
+                        "items": ["minecraft:grass"]
                     }
                 ]
             }
@@ -23,7 +23,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:fern"
+                        "items": ["minecraft:fern"]
                     }
                 ]
             }

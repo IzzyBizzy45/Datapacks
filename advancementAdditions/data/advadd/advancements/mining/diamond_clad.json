@@ -19,16 +19,16 @@
 						"predicate": {
 							"equipment": {
 								"head": {
-									"item": "minecraft:diamond_helmet"
+									"items": ["minecraft:diamond_helmet"]
 								},
 								"chest": {
-									"item": "minecraft:diamond_chestplate"
+									"items": ["minecraft:diamond_chestplate"]
 								},
 								"legs": {
-									"item": "minecraft:diamond_leggings"
+									"items": ["minecraft:diamond_leggings"]
 								},
 								"feet": {
-									"item": "minecraft:diamond_boots"
+									"items": ["minecraft:diamond_boots"]
 								}
 							}
 						}

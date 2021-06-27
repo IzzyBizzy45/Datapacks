@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:cartography_table"
+                        "items": ["minecraft:cartography_table"]
                     }
                 ]
             }

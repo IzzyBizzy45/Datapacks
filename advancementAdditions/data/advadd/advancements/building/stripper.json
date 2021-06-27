@@ -14,7 +14,7 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:stripped_oak_log"
+						"blocks": ["minecraft:stripped_oak_log"]
 					}
 				},
 				"item": {
@@ -27,7 +27,7 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:stripped_spruce_log"
+						"blocks": ["minecraft:stripped_spruce_log"]
 					}
 				},
 				"item": {
@@ -40,7 +40,7 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:stripped_birch_log"
+						"blocks": ["minecraft:stripped_birch_log"]
 					}
 				},
 				"item": {
@@ -53,7 +53,7 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:stripped_jungle_log"
+						"blocks": ["minecraft:stripped_jungle_log"]
 					}
 				},
 				"item": {
@@ -66,7 +66,7 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:stripped_acacia_log"
+						"blocks": ["minecraft:stripped_acacia_log"]
 					}
 				},
 				"item": {
@@ -79,7 +79,7 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:stripped_dark_oak_log"
+						"blocks": ["minecraft:stripped_dark_oak_log"]
 					}
 				},
 				"item": {

@@ -16,7 +16,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:bow",
+                        "items": ["minecraft:bow"],
 						"nbt": "{display:{Name:\"{\\\"text\\\":\\\"Terminator\\\"}\"}}"
                     }
                 ]

@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:smooth_stone"
+                        "items": ["minecraft:smooth_stone"]
                     }
                 ]
             }

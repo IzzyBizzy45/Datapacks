@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diamond_horse_armor"
+                        "items": ["minecraft:diamond_horse_armor"]
                     }
                 ]
             }

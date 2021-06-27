@@ -16,7 +16,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:leather_helmet"
+					"items": ["minecraft:leather_helmet"]
 				},
 				"durability": {
 					"max": 0
@@ -27,7 +27,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:leather_chestplate"
+					"items": ["minecraft:leather_chestplate"]
 				},
 				"durability": {
 					"max": 0
@@ -38,7 +38,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:leather_leggings"
+					"items": ["minecraft:leather_leggings"]
 				},
 				"durability": {
 					"max": 0
@@ -49,7 +49,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:leather_boots"
+					"items": ["minecraft:leather_boots"]
 				},
 				"durability": {
 					"max": 0
@@ -60,7 +60,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:golden_helmet"
+					"items": ["minecraft:golden_helmet"]
 				},
 				"durability": {
 					"max": 0
@@ -71,7 +71,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:golden_chestplate"
+					"items": ["minecraft:golden_chestplate"]
 				},
 				"durability": {
 					"max": 0
@@ -82,7 +82,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:golden_leggings"
+					"items": ["minecraft:golden_leggings"]
 				},
 				"durability": {
 					"max": 0
@@ -93,7 +93,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:golden_boots"
+					"items": ["minecraft:golden_boots"]
 				},
 				"durability": {
 					"max": 0
@@ -104,7 +104,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:chainmail_helmet"
+					"items": ["minecraft:chainmail_helmet"]
 				},
 				"durability": {
 					"max": 0
@@ -115,7 +115,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:chainmail_chestplate"
+					"items": ["minecraft:chainmail_chestplate"]
 				},
 				"durability": {
 					"max": 0
@@ -126,7 +126,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:chainmail_leggings"
+					"items": ["minecraft:chainmail_leggings"]
 				},
 				"durability": {
 					"max": 0
@@ -137,7 +137,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:chainmail_boots"
+					"items": ["minecraft:chainmail_boots"]
 				},
 				"durability": {
 					"max": 0
@@ -148,7 +148,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:iron_helmet"
+					"items": ["minecraft:iron_helmet"]
 				},
 				"durability": {
 					"max": 0
@@ -159,7 +159,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:iron_chestplate"
+					"items": ["minecraft:iron_chestplate"]
 				},
 				"durability": {
 					"max": 0
@@ -170,7 +170,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:iron_leggings"
+					"items": ["minecraft:iron_leggings"]
 				},
 				"durability": {
 					"max": 0
@@ -181,7 +181,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:iron_boots"
+					"items": ["minecraft:iron_boots"]
 				},
 				"durability": {
 					"max": 0
@@ -192,7 +192,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:diamond_helmet"
+					"items": ["minecraft:diamond_helmet"]
 				},
 				"durability": {
 					"max": 0
@@ -203,7 +203,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:diamond_chestplate"
+					"items": ["minecraft:diamond_chestplate"]
 				},
 				"durability": {
 					"max": 0
@@ -214,7 +214,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:diamond_leggings"
+					"items": ["minecraft:diamond_leggings"]
 				},
 				"durability": {
 					"max": 0
@@ -225,7 +225,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:diamond_boots"
+					"items": ["minecraft:diamond_boots"]
 				},
 				"durability": {
 					"max": 0
@@ -236,7 +236,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:netherite_helmet"
+					"items": ["minecraft:netherite_helmet"]
 				},
 				"durability": {
 					"max": 0
@@ -247,7 +247,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:netherite_chestplate"
+					"items": ["minecraft:netherite_chestplate"]
 				},
 				"durability": {
 					"max": 0
@@ -258,7 +258,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:netherite_leggings"
+					"items": ["minecraft:netherite_leggings"]
 				},
 				"durability": {
 					"max": 0
@@ -269,7 +269,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:netherite_boots"
+					"items": ["minecraft:netherite_boots"]
 				},
 				"durability": {
 					"max": 0
@@ -280,7 +280,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:turtle_helmet"
+					"items": ["minecraft:turtle_helmet"]
 				},
 				"durability": {
 					"max": 0
@@ -291,7 +291,7 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"item": "minecraft:elytra"
+					"items": ["minecraft:elytra"]
 				},
 				"durability": 1
             }

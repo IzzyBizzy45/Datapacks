@@ -13,7 +13,7 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"block": "minecraft:composter",
+						"blocks": ["minecraft:composter"],
 						"state": {
 							"level": 7
 						}
