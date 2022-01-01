@@ -1,39 +1,24 @@
 {
-  "parent": "minecraft:end/kill_dragon",
-  "display": {
-    "icon": {
-      "item": "minecraft:end_crystal"
+    "display": {
+        "icon": {
+            "item": "minecraft:end_crystal"
+        },
+        "title": {"translate":"The End... Again"},
+        "description": {"color":"#75E1FF","translate":"Respawn the Ender Dragon"},
+        "frame": "goal"
     },
-    "title": {
-      "translate": "advancements.end.respawn_dragon.title"
-    },
-    "description": {
-      "translate": "advancements.end.respawn_dragon.description"
-    },
-    "frame": "goal",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "summoned_dragon": {
-      "trigger": "minecraft:summoned_entity",
-      "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "predicate": {
-              "type": "minecraft:ender_dragon"
-            },
-            "entity": "this"
-          }
-        ]
-      }
+    "parent": "blazeandcave:end/the_start_of_something",
+	"rewards": {
+		"function": "bc_rewards:end/the_end_again"
+    },	
+    "criteria": {
+        "summoned_dragon": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": {
+                    "type": "ender_dragon"
+                }
+            }
+        }
     }
-  },
-  "requirements": [
-    [
-      "summoned_dragon"
-    ]
-  ]
 }

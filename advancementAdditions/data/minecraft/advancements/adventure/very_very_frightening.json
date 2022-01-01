@@ -1,42 +1,26 @@
 {
-  "parent": "minecraft:adventure/throw_trident",
-  "display": {
-    "icon": {
-      "item": "minecraft:trident",
-      "nbt": "{Damage:0}"
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_breath"
+        },
+        "title": {"translate":"Very Very Frightening"},
+        "description": {"translate":"Strike a Villager with lightning"},
+		"frame": "challenge"
     },
-    "title": {
-      "translate": "advancements.adventure.very_very_frightening.title"
+    "parent": "blazeandcave:enchanting/zeus",
+    "rewards": {
+        "function": "bc_rewards:enchanting/very_very_frightening"
     },
-    "description": {
-      "translate": "advancements.adventure.very_very_frightening.description"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "struck_villager": {
-      "trigger": "minecraft:channeled_lightning",
-      "conditions": {
-        "victims": [
-          [
-            {
-              "condition": "minecraft:entity_properties",
-              "predicate": {
-                "type": "minecraft:villager"
-              },
-              "entity": "this"
-            }
-          ]
-        ]
-      }
-    }
-  },
-  "requirements": [
-    [
-      "struck_villager"
-    ]
-  ]
+	"criteria": {
+		"struck_villager": {
+			"trigger": "minecraft:channeled_lightning",
+			"conditions": {
+				"victims": [
+						{
+					"type": "minecraft:villager"
+					}
+				]
+			}
+		}
+	}
 }

@@ -6,7 +6,10 @@
         "title": {"translate":"When Hoglins Breed"},
         "description": {"translate":"Breed a baby Hoglin using Crimson Fungi"}
     },
-    "parent": "advadd:nether/roadhog",
+    "parent": "blazeandcave:nether/roadhog",
+	"rewards": {
+		"function": "bc_rewards:nether/when_hoglins_breed"
+    },		
     "criteria": {
         "hoglin": {
             "trigger": "minecraft:bred_animals",

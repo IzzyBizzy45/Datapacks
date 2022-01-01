@@ -3,16 +3,17 @@
         "icon": {
             "item": "minecraft:iron_bars"
         },
-        "title": {"translate":"Rekt"},
-        "description": {"translate":"Die at the hands of an Iron Golem"}
+        "title": {"translate":"Rekt!"},
+        "description": {"translate":"Get killed by a natural iron golem defending its village"},
+		"hidden": false
     },
-    "parent": "advadd:adventure/muderer",
+    "parent": "advadd:adventure/murderer",
     "criteria": {
-        "death": {
+        "iron_golem": {
             "trigger": "minecraft:entity_killed_player",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:iron_golem"
+                    "type": "iron_golem"
                 }
             }
         }

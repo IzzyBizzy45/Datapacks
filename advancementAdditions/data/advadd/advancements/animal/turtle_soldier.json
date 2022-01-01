@@ -4,17 +4,22 @@
             "item": "minecraft:turtle_helmet"
         },
         "title": {"translate":"Turtle Soldier"},
-        "description": {"translate":"Craft a full turtle shell"},
+        "description": {"color":"#75E1FF","translate":"Craft a full turtle shell"},
 		"frame": "goal"
     },
-    "parent": "advadd:animal/scuttler",
+    "parent": "blazeandcave:animal/scuttler",
+	"rewards": {
+		"function": "bc_rewards:animal/turtle_soldier"
+    },		
     "criteria": {
         "turtle_helmet": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:turtle_helmet"]
+						"items": [
+							"minecraft:turtle_helmet"
+						]
                     }
                 ]
             }

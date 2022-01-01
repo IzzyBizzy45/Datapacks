@@ -9,65 +9,19 @@
         "show_toast": false,
         "announce_to_chat": false
     },
+	"rewards": {
+		"function": "bc_rewards:mining/root"
+    },
     "criteria": {
-        "wooden_pickaxe": {
+        "pickaxe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:wooden_pickaxe"]
-                    }
-                ]
-            }
-        },
-        "stone_pickaxe": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": ["minecraft:stone_pickaxe"]
-                    }
-                ]
-            }
-        },
-        "iron_pickaxe": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": ["minecraft:iron_pickaxe"]
-                    }
-                ]
-            }
-        },
-        "diamond_pickaxe": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": ["minecraft:diamond_pickaxe"]
-                    }
-                ]
-            }
-        },
-        "golden_pickaxe": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": ["minecraft:golden_pickaxe"]
-                    }
+						"tag": "minecraft:pickaxes"
+					}
                 ]
             }
         }
-    },
-    "requirements": [
-		[
-        "wooden_pickaxe",
-        "stone_pickaxe",
-		"iron_pickaxe",
-		"diamond_pickaxe",
-		"golden_pickaxe"
-		]
-    ]
+    }
 }

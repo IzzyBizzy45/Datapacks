@@ -6,14 +6,19 @@
         "title": {"translate":"Help! I've been framed!"},
         "description": {"translate":"Craft an item frame for displaying your items"}
     },
-    "parent": "advadd:building/its_a_sign",
+    "parent": "blazeandcave:building/a_masterpiece",
+	"rewards": {
+		"function": "bc_rewards:building/display_your_items_for_all_to_see"
+    },		
     "criteria": {
         "item_frame": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:item_frame"]
+						"items": [
+							"minecraft:item_frame"
+						]
                     }
                 ]
             }

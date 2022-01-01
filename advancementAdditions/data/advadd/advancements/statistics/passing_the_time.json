@@ -4,12 +4,12 @@
             "item": "minecraft:clock"
         },
         "title": {"translate":"Passing the Time"},
-        "description": {"translate":"Play for 100 days"},
+        "description": {"color":"#75E1FF","translate":"Play for 100 days"},
 		"frame": "goal"
     },
-    "parent": "advadd:statistics/the_first_night",
+    "parent": "blazeandcave:statistics/the_first_night",
 	"rewards": {
-		"experience": 200
+		"function": "bc_rewards:statistics/passing_the_time"
     },		
     "criteria": {
         "trigger": {

@@ -4,16 +4,21 @@
             "item": "minecraft:turtle_helmet"
         },
         "title": {"translate":"Tank"},
-        "description": {"translate":"Become nearly invincible to all damage using a Turtle Master Potion"},
+        "description": {"color":"#75E1FF","translate":"Become nearly invincible to all damage using a Turtle Master Potion"},
 		"frame": "goal"
     },
-    "parent": "advadd:potion/true_feather_falling",
+    "parent": "blazeandcave:potion/true_feather_falling",
+	"rewards": {
+		"function": "bc_rewards:potion/tank"
+    },	
     "criteria": {
         "turtle_master": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:potion"],
+					"items": [
+						"minecraft:potion"
+					],
 					"nbt": "{Potion:\"minecraft:turtle_master\"}"
                 }
             }
@@ -22,7 +27,9 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:potion"],
+					"items": [
+						"minecraft:potion"
+					],
 					"nbt": "{Potion:\"minecraft:strong_turtle_master\"}"
                 }
             }
@@ -31,7 +38,9 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:potion"],
+					"items": [
+						"minecraft:potion"
+					],
 					"nbt": "{Potion:\"minecraft:long_turtle_master\"}"
                 }
             }

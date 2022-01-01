@@ -7,9 +7,9 @@
         "description": {"translate":"A hundred kilometres!"},
         "frame": "challenge"
     },
-    "parent": "advadd:biomes/ten_thousand_blocks",
+    "parent": "blazeandcave:biomes/ten_thousand_blocks",
     "rewards": {
-        "experience": 500
+        "function": "bc_rewards:biomes/voyage"
     },		
     "criteria": {
         "outer_pos_x": {

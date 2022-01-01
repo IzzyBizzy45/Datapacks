@@ -7,9 +7,9 @@
         "description": {"translate":"Sail 50km in a boat"},
 		"frame": "challenge"
     },
-    "parent": "advadd:statistics/pirate_captain",
+    "parent": "blazeandcave:statistics/pirate_captain",
 	"rewards": {
-		"experience": 500
+		"function": "bc_rewards:statistics/sailor_of_the_seven_seas"
     },		
     "criteria": {
         "trigger": {

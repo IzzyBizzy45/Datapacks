@@ -7,6 +7,9 @@
         "description": {"translate":"Breed two wolves together to get a puppy!"}
     },
     "parent": "minecraft:husbandry/tame_an_animal",
+	"rewards": {
+		"function": "bc_rewards:animal/puppies_yipe"
+    },		
     "criteria": {
         "wolf": {
             "trigger": "minecraft:bred_animals",

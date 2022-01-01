@@ -1,38 +1,33 @@
 {
-  "parent": "advadd:nether/get_a_lode_of_this",
-  "display": {
-    "icon": {
-      "item": "minecraft:lodestone"
-    },
-    "title": {
-      "translate": "advancements.nether.use_lodestone.title"
-    },
-    "description": {
-      "translate": "advancements.nether.use_lodestone.description"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "use_lodestone": {
-      "trigger": "minecraft:item_used_on_block",
-      "conditions": {
-        "location": {
-          "block": {
-            "blocks": ["minecraft:lodestone"]
-          }
+    "display": {
+        "icon": {
+            "item": "minecraft:compass",
+			"nbt": "{LodestoneDimension:\"minecraft:the_nether\"}"
         },
-        "item": {
-          "items": ["minecraft:compass"]
+        "title": {"translate":"Country Lode, Take Me Home"},
+        "description": {"translate":"Use a Compass on a Lodestone"}
+    },
+    "parent": "blazeandcave:nether/get_a_lode_of_this",
+	"rewards": {
+		"function": "bc_rewards:nether/country_lode_take_me_home"
+    },	
+    "criteria": {
+        "use_lodestone": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+					"block": {
+                        "blocks": [ 
+							"minecraft:lodestone"
+						]
+					}
+                },
+				"item": {
+                    "items": [ 
+						"minecraft:compass"
+					]
+				}
+            }
         }
-      }
     }
-  },
-  "requirements": [
-    [
-      "use_lodestone"
-    ]
-  ]
 }

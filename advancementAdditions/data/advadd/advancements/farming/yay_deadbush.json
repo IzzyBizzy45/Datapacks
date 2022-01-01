@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dead_bush"
+        },
+        "title": {"translate":"Yay! Deadbush!"},
+        "description": {"translate":"Get a deadbush cause you're a noob"}
+    },
+    "parent": "blazeandcave:farming/foilage",
+	"rewards": {
+		"function": "bc_rewards:farming/yay_deadbush"
+    },		
+    "criteria": {
+        "dead_bush": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:dead_bush"
+						]
+                    }
+                ]
+            }
+        }
+    }
+}

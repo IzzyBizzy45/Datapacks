@@ -1,35 +1,27 @@
 {
-  "parent": "advadd:nether/the_hunt_begins",
-  "display": {
-    "icon": {
-      "item": "minecraft:wither_skeleton_skull"
+    "display": {
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "title": {"translate":"Spooky Scary Skeleton"},
+        "description": {"translate":"Obtain a wither skeleton's skull"}
     },
-    "title": {
-      "translate": "advancements.nether.get_wither_skull.title"
-    },
-    "description": {
-      "translate": "advancements.nether.get_wither_skull.description"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "wither_skull": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": ["minecraft:wither_skeleton_skull"]
-          }
-        ]
-      }
+    "parent": "blazeandcave:nether/the_hunt_begins",
+	"rewards": {
+		"function": "bc_rewards:nether/spooky_scary_skeleton"
+    },	
+    "criteria": {
+        "wither_skull": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:wither_skeleton_skull"
+						]
+                    }
+                ]
+            }
+        }
     }
-  },
-  "requirements": [
-    [
-      "wither_skull"
-    ]
-  ]
 }

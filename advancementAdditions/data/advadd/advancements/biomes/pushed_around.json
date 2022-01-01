@@ -6,12 +6,15 @@
         "title": {"translate":"Pushed Around"},
         "description": {"translate":"Enter a bubble column"}
     },
-    "parent": "advadd:biomes/echolocation",
+    "parent": "blazeandcave:biomes/echolocation",
+	"rewards": {
+		"function": "bc_rewards:biomes/pushed_around"
+    },
     "criteria": {
         "enter_water": {
             "trigger": "minecraft:enter_block",
             "conditions": {
-                "block": "minecraft:bubble_column"
+				"block": "minecraft:bubble_column"
             }
         }
     }

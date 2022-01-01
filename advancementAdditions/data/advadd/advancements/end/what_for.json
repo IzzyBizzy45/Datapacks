@@ -4,12 +4,12 @@
             "item": "minecraft:crying_obsidian"
         },
         "title": {"translate":"What For?"},
-        "description": {"translate":"Craft 64 ender crystals"},
+        "description": {"color":"#75E1FF","translate":"Craft 64 ender crystals"},
 		"frame": "goal"
     },
     "parent": "minecraft:end/respawn_dragon",
 	"rewards": {
-		"experience": 50
+		"function": "bc_rewards:end/what_for"
     },	
     "criteria": {
         "end_crystal": {
@@ -17,7 +17,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:end_crystal"],
+						"items": [
+							"minecraft:end_crystal"
+						],
 						"count": 64
                     }
                 ]

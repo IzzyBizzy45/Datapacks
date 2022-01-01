@@ -4,10 +4,13 @@
             "item": "minecraft:green_stained_glass_pane"
         },
         "title": {"translate":"Art Gallery"},
-        "description": {"translate":"Place every type of painting"},
+        "description": {"color":"#75E1FF","translate":"Place every type of painting"},
 		"frame": "goal"
     },
-    "parent": "advadd:building/a_masterpiece",
+    "parent": "blazeandcave:building/a_masterpiece",
+	"rewards": {
+		"function": "bc_rewards:building/art_gallery"
+    },		
     "criteria": {
         "kebab": {
             "trigger": "minecraft:impossible"

@@ -6,9 +6,9 @@
         "title": {"translate":"Minecart Rider"},
         "description": {"translate":"Ride 1km in a minecart"}
     },
-    "parent": "advadd:statistics/root",
+    "parent": "blazeandcave:statistics/root",
 	"rewards": {
-		"experience": 50
+		"function": "bc_rewards:statistics/minecart_rider"
     },		
     "criteria": {
         "trigger": {

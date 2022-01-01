@@ -6,14 +6,19 @@
         "title": {"translate":"Spike Ice!"},
         "description": {"translate":"Break down an ice spike using a silk touch pickaxe"}
     },
-    "parent": "advadd:biomes/thin_ice",
+    "parent": "blazeandcave:biomes/thin_ice",
+    "rewards": {
+        "function": "bc_rewards:biomes/spike_ice"
+    },		
     "criteria": {
         "packed_ice": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:packed_ice"]
+						"items": [
+							"minecraft:packed_ice"
+						]
                     }
                 ]
             }

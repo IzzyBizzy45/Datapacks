@@ -6,14 +6,19 @@
         "title": {"translate":"Treasure Hunter"},
         "description": {"translate":"Fish out a piece of treasure"}
     },
-    "parent": "advadd:animal/what_a_piece_of_junk",
+    "parent": "blazeandcave:animal/what_a_piece_of_junk",
+	"rewards": {
+		"function": "bc_rewards:animal/treasure_hunter"
+    },		
     "criteria": {
         "bow": {
             "trigger": "minecraft:fishing_rod_hooked",
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:bow"]
+					"items": [
+						"minecraft:bow"
+					]
                 }
             }
         },
@@ -22,7 +27,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:enchanted_book"]
+					"items": [
+						"minecraft:enchanted_book"
+					]
                 }
             }
         },
@@ -31,7 +38,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:name_tag"]
+					"items": [
+						"minecraft:name_tag"
+					]
                 }
             }
         },
@@ -40,7 +49,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:nautilus_shell"]
+					"items": [
+						"minecraft:nautilus_shell"
+					]
                 }
             }
         },
@@ -49,7 +60,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:saddle"]
+					"items": [
+						"minecraft:saddle"
+					]
                 }
             }
         }	

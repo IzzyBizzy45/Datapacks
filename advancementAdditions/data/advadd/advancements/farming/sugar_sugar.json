@@ -6,14 +6,19 @@
         "title": {"translate":"Sugar, Sugar"},
         "description": {"translate":"Harvest some sugar cane from a river or ocean"}
     },
-    "parent": "advadd:farming/care_for_the_environment",
+    "parent": "blazeandcave:farming/care_for_the_environment",
+	"rewards": {
+		"function": "bc_rewards:farming/sugar_sugar"
+    },		
     "criteria": {
         "sugar_cane": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:sugar_cane"]
+						"items": [
+							"minecraft:sugar_cane"
+						]
                     }
                 ]
             }

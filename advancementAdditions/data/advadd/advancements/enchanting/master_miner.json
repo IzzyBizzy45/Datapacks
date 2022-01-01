@@ -8,9 +8,9 @@
         "description": {"translate":"Create a pickaxe with all possible enchantments at max level"},
 		"frame": "challenge"
     },
-    "parent": "advadd:enchanting/unbreakable",
+    "parent": "blazeandcave:enchanting/unbreakable",
     "rewards": {
-        "experience": 100
+		"function": "bc_rewards:enchanting/master_miner"
     },		
     "criteria": {
         "perfect_pickaxe_fortune": {
@@ -18,7 +18,7 @@
             "conditions": {
 				"items": [
                     {
-                        "tag": "advadd:master_pickaxes",
+                        "tag": "blazeandcave:master_pickaxes",
 						"enchantments": [
 							{
 								"enchantment": "minecraft:efficiency",
@@ -46,7 +46,7 @@
             "conditions": {
 				"items": [
                     {
-                        "tag": "advadd:master_pickaxes",
+                        "tag": "blazeandcave:master_pickaxes",
 						"enchantments": [
 							{
 								"enchantment": "minecraft:efficiency",

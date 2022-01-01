@@ -3,15 +3,15 @@
         "icon": {
             "item": "minecraft:prismarine"
         },
-        "title": {"translate": "Monumental"},
-        "description": {"translate": "Find an Ocean Monument"}
+        "title": {"translate":"Monumental"},
+        "description": {"translate":"Find an Ocean Monument"}
     },
     "parent": "advadd:adventure/treasure_map",
     "criteria": {
-        "locate": {
+        "monument": {
             "trigger": "minecraft:location",
             "conditions": {
-                "feature": "ocean_monument"
+                "feature": "monument"
             }
         }
     }

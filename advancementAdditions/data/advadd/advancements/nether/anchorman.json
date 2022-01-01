@@ -9,13 +9,13 @@
     },
     "parent": "minecraft:nether/obtain_crying_obsidian",
 	"rewards": {
-		"experience": 50
+		"function": "bc_rewards:nether/anchorman"
     },		
     "criteria": {
         "respawn_anchor": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:respawn_anchor"
+				"block": "minecraft:respawn_anchor"
             }
         }
     }

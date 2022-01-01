@@ -4,12 +4,12 @@
             "item": "minecraft:flint"
         },
         "title": {"translate":"Flint Miner"},
-        "description": {"translate":"Mine a stack of flint"},
+        "description": {"color":"#75E1FF","translate":"Mine a stack of flint"},
 		"frame": "goal"
     },
-    "parent": "advadd:mining/meet_the_flintstones",
+    "parent": "blazeandcave:mining/meet_the_flintstones",
     "rewards": {
-		"experience": 50
+		"function": "bc_rewards:mining/flint_miner"
     },		
     "criteria": {
         "flint": {
@@ -17,7 +17,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:flint"],
+						"items": [
+							"minecraft:flint"
+						],
 						"count": 64
                     }
                 ]

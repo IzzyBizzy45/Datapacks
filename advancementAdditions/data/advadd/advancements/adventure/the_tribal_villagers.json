@@ -4,7 +4,7 @@
             "item": "minecraft:jungle_log"
         },
         "title": {"translate":"The Tribal Villagers"},
-        "description": {"translate":"Trade with a jungle villager"},
+        "description": {"translate":"Breed and trade with a jungle villager"},
 		"frame": "goal"
     },
     "parent": "advadd:adventure/businessman",

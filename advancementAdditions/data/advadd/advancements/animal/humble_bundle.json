@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bundle"
+        },
+        "title": {"translate":"Humble Bundle"},
+        "description": {"color":"light_purple","translate":"Craft a Bundle using Rabbit Hide and String"},
+		"hidden": true
+    },
+    "parent": "advadd:animal/bunny_lover",
+    "criteria": {
+        "bundle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:bundle"
+						]
+                    }
+                ]
+            }
+        }
+    }
+}

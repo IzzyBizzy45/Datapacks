@@ -4,12 +4,12 @@
             "item": "minecraft:diamond_sword"
         },
         "title": {"translate":"Overkill"},
-        "description": {"translate":"Deal eight hearts of damage in a single blow"},
-		"frame": "challenge"
+        "description": {"color":"#75E1FF","translate":"Deal eight hearts of damage in a single melee blow"},
+		"frame": "goal"
     },
-    "parent": "advadd:enchanting/root",
+    "parent": "blazeandcave:enchanting/needle_sharp",
     "rewards": {
-        "experience": 50
+		"function": "bc_rewards:enchanting/overkill"
     },		
     "criteria": {
         "overkill": {
@@ -18,6 +18,13 @@
                 "damage": {
 					"dealt": {
 						"min": 16.0
+					},
+					"type": {
+						"is_explosion": "false",
+						"is_projectile": "false",
+						"is_magic": "false",
+						"is_fire": "false",
+						"is_lightning": "false"
 					}
 				}
             }

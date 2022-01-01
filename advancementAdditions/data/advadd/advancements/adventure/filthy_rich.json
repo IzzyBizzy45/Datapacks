@@ -4,17 +4,22 @@
             "item": "minecraft:emerald"
         },
         "title": {"translate":"Filthy Rich"},
-        "description": {"translate":"Make 64 emeralds"}
+        "description": {"translate":"Make 64 emeralds"},
+        "frame": "goal"
     },
     "parent": "minecraft:adventure/trade",
     "criteria": {
-        "emerald": {
+        "emeralds": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:emerald"],
-                        "count": 64
+						"items": [
+							"minecraft:emerald"
+						],
+						"count": {
+							"min": 64
+						}
                     }
                 ]
             }

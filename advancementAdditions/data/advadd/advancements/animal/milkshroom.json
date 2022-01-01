@@ -6,13 +6,18 @@
         "title": {"translate":"Milkshroom"},
         "description": {"translate":"Milk a mooshroom with a bowl to get mushroom stew"}
     },
-    "parent": "advadd:animal/super_mooshroom",
+    "parent": "blazeandcave:animal/super_mooshroom",
+	"rewards": {
+		"function": "bc_rewards:animal/milkshroom"
+    },		
     "criteria": {
 		"shears": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:bowl"]
+					"items": [
+						"minecraft:bowl"
+					]
 				},
 				"entity": [
 					{

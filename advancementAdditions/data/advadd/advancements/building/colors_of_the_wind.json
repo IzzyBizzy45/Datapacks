@@ -4,12 +4,12 @@
             "item": "minecraft:yellow_dye"
         },
         "title": {"translate":"Colors of the Wind"},
-        "description": {"translate":"Dye a sign with each color of dye"},
+        "description": {"color":"#75E1FF","translate":"Dye a sign with each color of dye"},
 		"frame": "goal"
     },
-    "parent": "advadd:building/its_a_sign",
+    "parent": "blazeandcave:building/its_a_sign",
     "rewards": {
-        "experience": 50
+		"function": "bc_rewards:building/colors_of_the_wind"
     },		
     "criteria": {
 		"white_dye": {
@@ -21,7 +21,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:white_dye"]
+					"items": [
+						"minecraft:white_dye"
+					]
 				}
 			}
 		},
@@ -34,7 +36,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:orange_dye"]
+					"items": [
+						"minecraft:orange_dye"
+					]
 				}
 			}
 		},
@@ -47,7 +51,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:magenta_dye"]
+					"items": [
+						"minecraft:magenta_dye"
+					]
 				}
 			}
 		},
@@ -60,7 +66,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:light_blue_dye"]
+					"items": [
+						"minecraft:light_blue_dye"
+					]
 				}
 			}
 		},
@@ -73,7 +81,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:yellow_dye"]
+					"items": [
+						"minecraft:yellow_dye"
+					]
 				}
 			}
 		},
@@ -86,7 +96,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:lime_dye"]
+					"items": [
+						"minecraft:lime_dye"
+					]
 				}
 			}
 		},
@@ -99,7 +111,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:pink_dye"]
+					"items": [
+						"minecraft:pink_dye"
+					]
 				}
 			}
 		},
@@ -112,7 +126,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:gray_dye"]
+					"items": [
+						"minecraft:gray_dye"
+					]
 				}
 			}
 		},
@@ -125,7 +141,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:light_gray_dye"]
+					"items": [
+						"minecraft:light_gray_dye"
+					]
 				}
 			}
 		},
@@ -138,7 +156,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:cyan_dye"]
+					"items": [
+						"minecraft:cyan_dye"
+					]
 				}
 			}
 		},
@@ -151,7 +171,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:purple_dye"]
+					"items": [
+						"minecraft:purple_dye"
+					]
 				}
 			}
 		},
@@ -164,7 +186,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:blue_dye"]
+					"items": [
+						"minecraft:blue_dye"
+					]
 				}
 			}
 		},
@@ -177,7 +201,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:brown_dye"]
+					"items": [
+						"minecraft:brown_dye"
+					]
 				}
 			}
 		},
@@ -190,7 +216,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:green_dye"]
+					"items": [
+						"minecraft:green_dye"
+					]
 				}
 			}
 		},
@@ -203,7 +231,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:red_dye"]
+					"items": [
+						"minecraft:red_dye"
+					]
 				}
 			}
 		},
@@ -216,7 +246,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:black_dye"]
+					"items": [
+						"minecraft:black_dye"
+					]
 				}
 			}
 		}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glow_lichen"
+        },
+        "title": {"translate":"Filthy Lich"},
+        "description": {"translate":"Use shears to obtain Glow Lichen from an underground cave"}
+    },
+    "parent": "blazeandcave:mining/spelunker",
+    "rewards": {
+		"function": "bc_rewards:mining/filthy_lich"
+    },		
+    "criteria": {
+        "glow_lichen": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:glow_lichen"
+						]
+                    }
+                ]
+            }
+        }
+    }
+}

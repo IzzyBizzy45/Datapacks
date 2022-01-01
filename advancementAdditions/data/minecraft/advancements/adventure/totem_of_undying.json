@@ -1,34 +1,27 @@
 {
-  "parent": "advadd:adventure/wololo",
-  "display": {
-    "icon": {
-      "item": "minecraft:totem_of_undying",
-      "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+    "display": {
+        "icon": {
+            "item": "minecraft:totem_of_undying",
+			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+        },
+        "title": {"translate":"Postmortal"},
+        "description": {"color":"#75E1FF","translate":"Use a Totem of Undying to cheat death"},
+        "frame": "goal"
     },
-    "title": {
-      "translate": "advancements.adventure.totem_of_undying.title"
-    },
-    "description": {
-      "translate": "advancements.adventure.totem_of_undying.description"
-    },
-    "frame": "goal",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "used_totem": {
-      "trigger": "minecraft:used_totem",
-      "conditions": {
-        "item": {
-          "items": ["minecraft:totem_of_undying"]
+    "parent": "blazeandcave:adventure/wololo",
+    "rewards": {
+        "function": "bc_rewards:adventure/postmortal"
+    },	
+    "criteria": {
+        "used_totem": {
+            "trigger": "minecraft:used_totem",
+            "conditions": {
+                "item": {
+					"items": [
+						"minecraft:totem_of_undying"
+					]
+                }
+            }
         }
-      }
     }
-  },
-  "requirements": [
-    [
-      "used_totem"
-    ]
-  ]
 }

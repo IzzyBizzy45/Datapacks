@@ -3,11 +3,11 @@
         "icon": {
             "item": "minecraft:fletching_table"
         },
-        "title": {"translate":"Businessman doing business"},
+        "title": {"translate":"Businessman"},
         "description": {"translate":"Trade with every type of villager career"},
 		"frame": "goal"
     },
-    "parent": "advadd:adventure/art_of_the_trade",	
+    "parent": "advadd:adventure/professional",
     "criteria": {
         "farmer": {
             "trigger": "minecraft:villager_trade",

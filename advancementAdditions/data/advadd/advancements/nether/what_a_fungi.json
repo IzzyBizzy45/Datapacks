@@ -6,7 +6,10 @@
         "title": {"translate":"What a Fungi!"},
         "description": {"translate":"Pick up Crimson or Warped Fungus"}
     },
-    "parent": "advadd:nether/stem_research",
+    "parent": "blazeandcave:nether/stem_research",
+	"rewards": {
+		"function": "bc_rewards:nether/what_a_fungi"
+    },	
     "criteria": {
         "nether_fungus": {
             "trigger": "minecraft:inventory_changed",

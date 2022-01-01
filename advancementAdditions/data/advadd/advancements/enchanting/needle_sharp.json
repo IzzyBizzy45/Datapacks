@@ -4,10 +4,13 @@
             "item": "minecraft:iron_sword"
         },
         "title": {"translate":"Needle Sharp"},
-        "description": {"translate":"Obtain Sharpness V"},
+        "description": {"color":"#75E1FF","translate":"Obtain Sharpness V"},
 		"frame": "goal"
     },
-    "parent": "advadd:enchanting/librarian",
+    "parent": "blazeandcave:enchanting/librarian",
+    "rewards": {
+		"function": "bc_rewards:enchanting/needle_sharp"
+    },			
     "criteria": {
         "sharpness": {
             "trigger": "minecraft:inventory_changed",

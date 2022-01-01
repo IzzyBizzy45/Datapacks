@@ -1,54 +1,29 @@
 {
-  "parent": "advadd:combat/anti_air",
-  "display": {
-    "icon": {
-      "item": "minecraft:crossbow",
-      "nbt": "{Damage:0}"
+    "display": {
+        "icon": {
+            "item": "minecraft:crossbow"
+        },
+        "title": {"translate":"Two Birds, One Arrow"},
+        "description": {"translate":"Kill two Phantoms with a piercing arrow"},
+		"frame": "challenge"
     },
-    "title": {
-      "translate": "advancements.adventure.two_birds_one_arrow.title"
+    "parent": "blazeandcave:monsters/anti_air",
+    "rewards": {
+        "function": "bc_rewards:monsters/two_birds_one_arrow"
     },
-    "description": {
-      "translate": "advancements.adventure.two_birds_one_arrow.description"
-    },
-    "frame": "challenge",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "rewards": {
-    "experience": 65
-  },
-  "criteria": {
-    "two_birds": {
-      "trigger": "minecraft:killed_by_crossbow",
-      "conditions": {
-        "victims": [
-          [
-            {
-              "condition": "minecraft:entity_properties",
-              "predicate": {
-                "type": "minecraft:phantom"
-              },
-              "entity": "this"
-            }
-          ],
-          [
-            {
-              "condition": "minecraft:entity_properties",
-              "predicate": {
-                "type": "minecraft:phantom"
-              },
-              "entity": "this"
-            }
-          ]
-        ]
-      }
-    }
-  },
-  "requirements": [
-    [
-      "two_birds"
-    ]
-  ]
+	"criteria": {
+		"two_birds": {
+			"trigger": "minecraft:killed_by_crossbow",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:phantom"
+					},
+					{
+						"type": "minecraft:phantom"
+					}
+				]
+			}
+		}
+	}
 }

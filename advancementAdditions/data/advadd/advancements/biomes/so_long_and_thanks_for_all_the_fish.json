@@ -1,13 +1,16 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:cod"
+            "item": "minecraft:bowl"
         },
         "title": {"translate":"So Long & Thanks For The Fish"},
         "description": {"translate":"Get murdered by dolphins"},
-		"hidden": true
+		"hidden": "false"
     },
-    "parent": "advadd:biomes/dolphin_dasher",
+    "parent": "blazeandcave:biomes/echolocation",
+    "rewards": {
+        "function": "bc_rewards:biomes/so_long_and_thanks_for_all_the_fish"
+    },		
     "criteria": {
         "dolphin": {
             "trigger": "minecraft:entity_killed_player",

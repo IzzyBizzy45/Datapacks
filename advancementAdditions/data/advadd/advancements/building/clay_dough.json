@@ -6,14 +6,19 @@
         "title": {"translate":"Clay-Dough!"},
         "description": {"translate":"Dig up some clay from a lake"}
     },
-    "parent": "advadd:building/i_dont_like_sand",
+    "parent": "blazeandcave:building/i_dont_like_sand",
+	"rewards": {
+		"function": "bc_rewards:building/clay_dough"
+    },		
     "criteria": {
         "clay_ball": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:clay_ball"]
+						"items": [
+							"minecraft:clay_ball"
+						]
                     }
                 ]
             }

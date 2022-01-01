@@ -4,12 +4,12 @@
             "item": "minecraft:soul_soil"
         },
         "title": {"translate":"Gotta Go Fast!"},
-        "description": {"translate":"Obtain the Soul Speed enchantment from a Bastion or bartering with Piglins"},
+        "description": {"color":"#75E1FF","translate":"Obtain the Soul Speed enchantment from a Bastion or bartering with Piglins"},
 		"frame": "goal"
     },
-    "parent": "advadd:enchanting/fiery",
+    "parent": "blazeandcave:enchanting/fiery",
     "rewards": {
-		"experience": 50
+		"function": "bc_rewards:enchanting/gotta_go_fast"
     },			
     "criteria": {
         "soul_speed_boots": {

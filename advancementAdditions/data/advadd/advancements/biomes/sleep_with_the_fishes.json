@@ -7,9 +7,9 @@
         "description": {"translate":"Spend a day underwater"},
 		"frame": "challenge"
     },
-    "parent": "advadd:biomes/free_diver",
+    "parent": "blazeandcave:biomes/free_diver",
 	"rewards": {
-		"experience": 200
+		"function": "bc_rewards:biomes/sleep_with_the_fishes"
     },		
     "criteria": {
         "trigger": {

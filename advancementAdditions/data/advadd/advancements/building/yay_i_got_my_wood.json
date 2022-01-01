@@ -4,17 +4,22 @@
             "item": "minecraft:acacia_log"
         },
         "title": {"translate":"Yay! I got my wood!"},
-        "description": {"translate":"Collect all six types of wood"},
+        "description": {"color":"#75E1FF","translate":"Collect all six types of wood"},
 		"frame": "goal"
     },
-    "parent": "advadd:building/lost_its_bark",
+    "parent": "blazeandcave:building/lost_its_bark",
+    "rewards": {
+        "function": "bc_rewards:building/yay_i_got_my_wood"
+    },		
     "criteria": {
         "oak_log": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:oak_log"]
+						"items": [
+							"minecraft:oak_log"
+						]
                     }
                 ]
             }
@@ -24,7 +29,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:spruce_log"]
+						"items": [
+							"minecraft:spruce_log"
+						]
                     }
                 ]
             }
@@ -34,7 +41,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:birch_log"]
+						"items": [
+							"minecraft:birch_log"
+						]
                     }
                 ]
             }
@@ -44,7 +53,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:jungle_log"]
+						"items": [
+							"minecraft:jungle_log"
+						]
                     }
                 ]
             }
@@ -54,7 +65,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:acacia_log"]
+						"items": [
+							"minecraft:acacia_log"
+						]
                     }
                 ]
             }
@@ -64,7 +77,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:dark_oak_log"]
+						"items": [
+							"minecraft:dark_oak_log"
+						]
                     }
                 ]
             }

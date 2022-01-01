@@ -7,9 +7,9 @@
         "title": {"translate":"Novice Enchanter"},
         "description": {"translate":"Enchant 10 items"}
     },
-    "parent": "advadd:statistics/root",
+    "parent": "blazeandcave:statistics/root",
 	"rewards": {
-		"experience": 50
+		"function": "bc_rewards:statistics/novice_enchanter"
     },		
     "criteria": {
         "trigger": {

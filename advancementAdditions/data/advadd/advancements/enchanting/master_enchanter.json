@@ -8,9 +8,9 @@
         "description": {"translate":"Obtain every enchantment at their max level throughout your enchanting career"},
 		"frame": "challenge"
     },
-    "parent": "advadd:enchanting/complete_enchanter",
+    "parent": "blazeandcave:enchanting/complete_enchanter",
     "rewards": {
-        "experience": 200
+		"function": "bc_rewards:enchanting/master_enchanter"
     },			
     "criteria": {
         "protection": {

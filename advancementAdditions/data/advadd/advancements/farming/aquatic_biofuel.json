@@ -6,14 +6,19 @@
         "title": {"translate":"Aquatic Biofuel"},
         "description": {"translate":"Craft a dried kelp block for use as a great fuel source"}
     },
-    "parent": "advadd:farming/kelp_me",
+    "parent": "blazeandcave:farming/kelp_me",
+	"rewards": {
+		"function": "bc_rewards:farming/aquatic_biofuel"
+    },		
     "criteria": {
         "dried_kelp_block": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:dried_kelp_block"]
+						"items": [
+							"minecraft:dried_kelp_block"
+						]
 					}
                 ]
             }

@@ -7,6 +7,9 @@
         "description": {"translate":"Enter a Pillager Outpost"}
     },
     "parent": "minecraft:adventure/root",
+    "rewards": {
+        "function": "bc_rewards:adventure/out_of_posts"
+    },		
     "criteria": {
         "pillager_outpost": {
             "trigger": "minecraft:location",

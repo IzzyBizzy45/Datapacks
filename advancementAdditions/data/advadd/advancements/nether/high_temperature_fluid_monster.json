@@ -6,7 +6,10 @@
         "title": {"translate":"High Temperature Fluid Monster"},
         "description": {"translate":"Kill a magma cube"}
     },
-    "parent": "advadd:nether/the_tribal_snouts",
+    "parent": "blazeandcave:nether/the_tribal_snouts",
+    "rewards": {
+        "function": "bc_rewards:nether/high_temperature_fluid_monster"
+    },		
     "criteria": {
         "magma_cube": {
             "trigger": "minecraft:player_killed_entity",

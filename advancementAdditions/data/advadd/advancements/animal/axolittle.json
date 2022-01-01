@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:tropical_fish_bucket"
+        },
+        "title": {"translate":"Axolittle"},
+        "description": {"translate":"Breed two Axolotls together using Tropical Fish"}
+    },
+    "parent": "minecraft:husbandry/kill_axolotl_target",
+    "criteria": {
+        "axolotl": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+				"parent": {
+					"type": "minecraft:axolotl"
+				},
+				"partner": {
+					"type": "minecraft:axolotl"
+				}
+            }
+        }
+    }
+}

@@ -12,7 +12,9 @@
             "trigger": "minecraft:villager_trade",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:bell"]
+					"items": [
+						"minecraft:bell"
+					]
 				}
 			}
         }

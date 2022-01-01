@@ -8,9 +8,9 @@
         "description": {"translate":"Reach 300 experience levels"},
 		"frame": "challenge"
     },
-    "parent": "advadd:statistics/overlevelling",
+    "parent": "blazeandcave:statistics/overlevelling",
 	"rewards": {
-		"experience": 500
+		"function": "bc_rewards:statistics/xp_grinder"
     },		
     "criteria": {
         "trigger": {

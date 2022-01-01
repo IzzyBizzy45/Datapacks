@@ -4,10 +4,13 @@
             "item": "minecraft:water_bucket"
         },
         "title": {"translate":"Scuba Gear"},
-        "description": {"translate":"Obtain every water related enchantment"},
+        "description": {"color":"#75E1FF","translate":"Obtain every water related enchantment"},
 		"frame": "goal"
     },
-    "parent": "advadd:enchanting/knocking_your_socks_off",
+    "parent": "blazeandcave:enchanting/knocking_your_socks_off",
+    "rewards": {
+		"function": "bc_rewards:enchanting/scuba_gear"
+    },			
     "criteria": {
         "respiration": {
             "trigger": "minecraft:inventory_changed",

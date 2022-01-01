@@ -6,12 +6,15 @@
         "title": {"translate":"Eeuuwww!"},
         "description": {"translate":"Get stuck in a cobweb"}
     },
-    "parent": "advadd:mining/this_is_mine_now",
+    "parent": "blazeandcave:mining/this_is_mine_now",
+	"rewards": {
+		"function": "bc_rewards:mining/eeuuwww"
+    },
     "criteria": {
         "cobweb": {
             "trigger": "minecraft:enter_block",
             "conditions": {
-                "block": "minecraft:cobweb"
+				"block": "minecraft:cobweb"
             }
         }
     }

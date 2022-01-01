@@ -9,6 +9,9 @@
         "show_toast": false,
         "announce_to_chat": false		
     },
+	"rewards": {
+		"function": "bc_rewards:potion/root"
+    },	
     "criteria": {
         "potion": {
             "trigger": "minecraft:brewed_potion"

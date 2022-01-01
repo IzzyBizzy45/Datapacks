@@ -6,12 +6,15 @@
         "title": {"translate":"Halloween!"},
         "description": {"translate":"Light up the area with jack o'lanterns!"}
     },
-    "parent": "advadd:building/torched",
+    "parent": "blazeandcave:building/torched",
+	"rewards": {
+		"function": "bc_rewards:building/halloween"
+    },		
     "criteria": {
         "jack_o_lantern": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:jack_o_lantern"
+				"block": "minecraft:jack_o_lantern"
             }
         }
     }

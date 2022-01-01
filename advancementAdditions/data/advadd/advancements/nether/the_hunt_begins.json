@@ -7,6 +7,9 @@
         "description": {"translate":"Kill a wither skeleton"}
     },
     "parent": "minecraft:nether/find_fortress",
+    "rewards": {
+        "function": "bc_rewards:nether/the_hunt_begins"
+    },		
     "criteria": {
         "wither_skeleton": {
             "trigger": "minecraft:player_killed_entity",

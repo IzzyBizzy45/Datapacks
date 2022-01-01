@@ -8,9 +8,9 @@
         "description": {"translate":"Create an axe with all possible enchantments at max level"},
 		"frame": "challenge"
     },
-    "parent": "advadd:enchanting/master_digger",
+    "parent": "blazeandcave:enchanting/master_digger",
     "rewards": {
-        "experience": 100
+		"function": "bc_rewards:enchanting/master_axeman"
     },		
     "criteria": {
         "perfect_axe_fortune": {
@@ -18,7 +18,7 @@
             "conditions": {
 				"items": [
                     {
-                        "tag": "advadd:master_axes",
+                        "tag": "blazeandcave:master_axes",
 						"enchantments": [
 							{
 								"enchantment": "minecraft:sharpness",
@@ -50,7 +50,7 @@
             "conditions": {
 				"items": [
                     {
-                        "tag": "advadd:master_axes",
+                        "tag": "blazeandcave:master_axes",
 						"enchantments": [
 							{
 								"enchantment": "minecraft:sharpness",
@@ -82,7 +82,7 @@
             "conditions": {
 				"items": [
                     {
-                        "tag": "advadd:master_axes",
+                        "tag": "blazeandcave:master_axes",
 						"enchantments": [
 							{
 								"enchantment": "minecraft:smite",
@@ -114,7 +114,7 @@
             "conditions": {
 				"items": [
                     {
-                        "tag": "advadd:master_axes",
+                        "tag": "blazeandcave:master_axes",
 						"enchantments": [
 							{
 								"enchantment": "minecraft:smite",
@@ -146,7 +146,7 @@
             "conditions": {
 				"items": [
                     {
-                        "tag": "advadd:master_axes",
+                        "tag": "blazeandcave:master_axes",
 						"enchantments": [
 							{
 								"enchantment": "minecraft:bane_of_arthropods",
@@ -178,7 +178,7 @@
             "conditions": {
 				"items": [
                     {
-                        "tag": "advadd:master_axes",
+                        "tag": "blazeandcave:master_axes",
 						"enchantments": [
 							{
 								"enchantment": "minecraft:bane_of_arthropods",

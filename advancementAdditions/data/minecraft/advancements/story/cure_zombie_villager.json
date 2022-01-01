@@ -1,29 +1,19 @@
 {
-  "parent": "advadd:potion/a_weak_brew",
-  "display": {
-    "icon": {
-      "item": "minecraft:golden_apple"
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_apple"
+        },
+        "title": {"translate":"Zombie Doctor"},
+        "description": {"color":"#75E1FF","translate":"Cure a zombie villager"},
+        "frame": "goal"
     },
-    "title": {
-      "translate": "advancements.story.cure_zombie_villager.title"
-    },
-    "description": {
-      "translate": "advancements.story.cure_zombie_villager.description"
-    },
-    "frame": "goal",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "cured_zombie": {
-      "trigger": "minecraft:cured_zombie_villager",
-      "conditions": {}
+    "parent": "blazeandcave:potion/a_weak_brew",
+	"rewards": {
+		"function": "bc_rewards:potion/zombie_doctor"
+    },		
+    "criteria": {
+        "cured_zombie": {
+            "trigger": "minecraft:cured_zombie_villager"
+        }
     }
-  },
-  "requirements": [
-    [
-      "cured_zombie"
-    ]
-  ]
 }

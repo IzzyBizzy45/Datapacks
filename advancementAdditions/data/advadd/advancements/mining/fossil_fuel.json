@@ -7,13 +7,18 @@
         "description": {"translate":"Coal! As in dead dinosaurs!"}
     },
     "parent": "minecraft:story/upgrade_tools",
+    "rewards": {
+		"function": "bc_rewards:mining/fossil_fuel"
+    },		
     "criteria": {
         "coal": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:coal"]
+						"items": [
+							"minecraft:coal"
+						]
                     }
                 ]
             }

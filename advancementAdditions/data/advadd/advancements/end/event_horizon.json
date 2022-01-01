@@ -7,9 +7,9 @@
         "description": {"translate":"Survive void damage"},
 		"frame": "challenge"
     },
-    "parent": "advadd:end/the_point_of_no_return",
+    "parent": "blazeandcave:end/the_point_of_no_return",
 	"rewards": {
-		"experience": 100
+		"function": "bc_rewards:end/event_horizon"
     },		
     "criteria": {
         "event_horizon": {

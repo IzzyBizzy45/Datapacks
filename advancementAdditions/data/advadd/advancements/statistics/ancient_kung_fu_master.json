@@ -7,9 +7,9 @@
         "description": {"translate":"Sneak 10km"},
 		"frame": "challenge"
     },
-    "parent": "advadd:statistics/black_belt_ninja",
+    "parent": "blazeandcave:statistics/black_belt_ninja",
 	"rewards": {
-		"experience": 500
+		"function": "bc_rewards:statistics/ancient_kung_fu_master"
     },		
     "criteria": {
         "trigger": {

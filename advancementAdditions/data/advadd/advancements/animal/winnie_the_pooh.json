@@ -7,12 +7,17 @@
         "description": {"translate":"Drink some honey"}
     },
     "parent": "minecraft:husbandry/safely_harvest_honey",
+	"rewards": {
+		"function": "bc_rewards:animal/winnie_the_pooh"
+    },		
     "criteria": {
         "honey_bottle": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:honey_bottle"]
+					"items": [
+						"minecraft:honey_bottle"
+					]
                 }
             }
         }

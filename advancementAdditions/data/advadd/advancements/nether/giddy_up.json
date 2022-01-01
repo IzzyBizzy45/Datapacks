@@ -4,12 +4,12 @@
             "item": "minecraft:hoglin_spawn_egg"
         },
         "title": {"translate":"Giddy Up!"},
-        "description": {"translate":"Punch a baby Hoglin that is being ridden by a baby Piglin"},
+        "description": {"color":"#75E1FF","translate":"Punch a baby Hoglin that is being ridden by a baby Piglin"},
         "frame": "goal"
     },
-    "parent": "advadd:nether/whole_hog",
+    "parent": "blazeandcave:nether/whole_hog",
 	"rewards": {
-        "experience": 50
+		"function": "bc_rewards:nether/giddy_up"
     },	
     "criteria": {
         "piglin_jockey": {

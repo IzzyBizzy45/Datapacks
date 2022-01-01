@@ -7,9 +7,9 @@
         "description": {"translate":"Play for a whole Minecraft year"},
 		"frame": "challenge"
     },
-    "parent": "advadd:statistics/passing_the_time",
+    "parent": "blazeandcave:statistics/passing_the_time",
 	"rewards": {
-		"experience": 500
+		"function": "bc_rewards:statistics/happy_new_year"
     },		
     "criteria": {
         "trigger": {

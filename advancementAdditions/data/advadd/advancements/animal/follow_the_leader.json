@@ -8,15 +8,14 @@
 		"frame": "challenge"
     },
     "parent": "advadd:animal/you_lead_ill_follow",
-	"rewards": {
-		"experience": 50
-    },		
     "criteria": {
 		"bee": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				},
 				"entity": [
 					{
@@ -33,7 +32,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				},
 				"entity": [
 					{
@@ -50,7 +51,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				},
 				"entity": [
 					{
@@ -67,7 +70,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				},
 				"entity": [
 					{
@@ -84,7 +89,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				},
 				"entity": [
 					{
@@ -101,7 +108,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				},
 				"entity": [
 					{
@@ -118,7 +127,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				},
 				"entity": [
 					{
@@ -135,7 +146,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				},
 				"entity": [
 					{
@@ -152,7 +165,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				},
 				"entity": [
 					{
@@ -169,7 +184,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				},
 				"entity": [
 					{
@@ -186,7 +203,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				},
 				"entity": [
 					{
@@ -203,7 +222,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				},
 				"entity": [
 					{
@@ -220,7 +241,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				},
 				"entity": [
 					{
@@ -237,7 +260,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				},
 				"entity": [
 					{
@@ -254,7 +279,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				},
 				"entity": [
 					{
@@ -271,7 +298,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				},
 				"entity": [
 					{
@@ -288,7 +317,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				},
 				"entity": [
 					{
@@ -305,7 +336,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				},
 				"entity": [
 					{
@@ -322,7 +355,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				},
 				"entity": [
 					{
@@ -339,7 +374,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				},
 				"entity": [
 					{
@@ -356,7 +393,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				},
 				"entity": [
 					{
@@ -373,7 +412,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				},
 				"entity": [
 					{
@@ -390,7 +431,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				},
 				"entity": [
 					{
@@ -407,7 +450,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				},
 				"entity": [
 					{
@@ -424,7 +469,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				},
 				"entity": [
 					{
@@ -432,6 +479,82 @@
 						"entity": "this",
 						"predicate": {
 							"type": "minecraft:zoglin"
+						}
+					}
+				]
+			}
+		},
+		"axolotl": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:lead"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:axolotl"
+						}
+					}
+				]
+			}
+		},
+		"goat": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:lead"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:goat"
+						}
+					}
+				]
+			}
+		},
+		"squid": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:lead"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:squid"
+						}
+					}
+				]
+			}
+		},
+		"glow_squid": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:lead"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:glow_squid"
 						}
 					}
 				]

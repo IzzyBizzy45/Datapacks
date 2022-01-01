@@ -1,33 +1,24 @@
 {
-  "parent": "advadd:adventure/feeling_ill",
-  "display": {
-    "icon": {
-      "item": "minecraft:white_banner",
-      "nbt": "{BlockEntityTag:{Patterns:[{Color:9,Pattern:\"mr\"},{Color:8,Pattern:\"bs\"},{Color:7,Pattern:\"cs\"},{Color:8,Pattern:\"bo\"},{Color:15,Pattern:\"ms\"},{Color:8,Pattern:\"hh\"},{Color:8,Pattern:\"mc\"},{Color:15,Pattern:\"bo\"}]},HideFlags:32,display:{Name:\u0027{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}\u0027}}"
+    "display": {
+        "icon": {
+            "item": "minecraft:firework_rocket"
+        },
+        "title": {"translate":"Hero of the Village"},
+        "description": {"color":"#75E1FF","translate":"Triumph over a full raid for the first time"},
+		"frame": "goal"
     },
-    "title": {
-      "translate": "advancements.adventure.hero_of_the_village.title"
-    },
-    "description": {
-      "translate": "advancements.adventure.hero_of_the_village.description"
-    },
-    "frame": "challenge",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": true
-  },
-  "rewards": {
-    "experience": 100
-  },
-  "criteria": {
-    "hero_of_the_village": {
-      "trigger": "minecraft:hero_of_the_village",
-      "conditions": {}
+    "parent": "blazeandcave:adventure/feeling_ill",
+    "rewards": {
+		"function": "bc_rewards:adventure/hero_of_the_village"
+    },		
+    "criteria": {
+        "hero_of_the_village": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:hero_of_the_village": {}
+                }
+            }
+        }
     }
-  },
-  "requirements": [
-    [
-      "hero_of_the_village"
-    ]
-  ]
 }

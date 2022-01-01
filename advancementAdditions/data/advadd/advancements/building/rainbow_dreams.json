@@ -7,14 +7,19 @@
         "description": {"translate":"Craft every color of bed"},
 		"frame": "goal"
     },
-    "parent": "advadd:building/change_of_sheets",
+    "parent": "blazeandcave:building/change_of_sheets",
+    "rewards": {
+		"function": "bc_rewards:building/rainbow_dreams"
+    },		
     "criteria": {
         "white_bed": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:white_bed"]
+						"items": [
+							"minecraft:white_bed"
+						]
                     }
                 ]
             }
@@ -24,7 +29,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:orange_bed"]
+						"items": [
+							"minecraft:orange_bed"
+						]
                     }
                 ]
             }
@@ -34,7 +41,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:magenta_bed"]
+						"items": [
+							"minecraft:magenta_bed"
+						]
                     }
                 ]
             }
@@ -44,7 +53,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:light_blue_bed"]
+						"items": [
+							"minecraft:light_blue_bed"
+						]
                     }
                 ]
             }
@@ -54,7 +65,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:yellow_bed"]
+						"items": [
+							"minecraft:yellow_bed"
+						]
                     }
                 ]
             }
@@ -64,7 +77,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:lime_bed"]
+						"items": [
+							"minecraft:lime_bed"
+						]
                     }
                 ]
             }
@@ -74,7 +89,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:pink_bed"]
+						"items": [
+							"minecraft:pink_bed"
+						]
                     }
                 ]
             }
@@ -84,7 +101,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:gray_bed"]
+						"items": [
+							"minecraft:gray_bed"
+						]
                     }
                 ]
             }
@@ -94,7 +113,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:light_gray_bed"]
+						"items": [
+							"minecraft:light_gray_bed"
+						]
                     }
                 ]
             }
@@ -104,7 +125,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:cyan_bed"]
+						"items": [
+							"minecraft:cyan_bed"
+						]
                     }
                 ]
             }
@@ -114,7 +137,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:purple_bed"]
+						"items": [
+							"minecraft:purple_bed"
+						]
                     }
                 ]
             }
@@ -124,7 +149,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:blue_bed"]
+						"items": [
+							"minecraft:blue_bed"
+						]
                     }
                 ]
             }
@@ -134,7 +161,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:brown_bed"]
+						"items": [
+							"minecraft:brown_bed"
+						]
                     }
                 ]
             }
@@ -144,7 +173,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:green_bed"]
+						"items": [
+							"minecraft:green_bed"
+						]
                     }
                 ]
             }
@@ -154,7 +185,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:red_bed"]
+						"items": [
+							"minecraft:red_bed"
+						]
                     }
                 ]
             }
@@ -164,7 +197,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:black_bed"]
+						"items": [
+							"minecraft:black_bed"
+						]
                     }
                 ]
             }

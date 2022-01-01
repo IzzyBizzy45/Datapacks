@@ -8,16 +8,15 @@
 		"frame": "goal"
     },
     "parent": "advadd:animal/rainbow_collection",
-    "rewards": {
-        "experience": 50
-    },		
     "criteria": {
         "white_carpet": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:white_carpet"]
+						"items": [
+							"minecraft:white_carpet"
+						]
                     }
                 ]
             }
@@ -27,7 +26,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:orange_carpet"]
+						"items": [
+							"minecraft:orange_carpet"
+						]
                     }
                 ]
             }
@@ -37,7 +38,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:magenta_carpet"]
+						"items": [
+							"minecraft:magenta_carpet"
+						]
                     }
                 ]
             }
@@ -47,7 +50,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:light_blue_carpet"]
+						"items": [
+							"minecraft:light_blue_carpet"
+						]
                     }
                 ]
             }
@@ -57,7 +62,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:yellow_carpet"]
+						"items": [
+							"minecraft:yellow_carpet"
+						]
                     }
                 ]
             }
@@ -67,7 +74,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:lime_carpet"]
+						"items": [
+							"minecraft:lime_carpet"
+						]
                     }
                 ]
             }
@@ -77,7 +86,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:pink_carpet"]
+						"items": [
+							"minecraft:pink_carpet"
+						]
                     }
                 ]
             }
@@ -87,7 +98,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:gray_carpet"]
+						"items": [
+							"minecraft:gray_carpet"
+						]
                     }
                 ]
             }
@@ -97,7 +110,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:light_gray_carpet"]
+						"items": [
+							"minecraft:light_gray_carpet"
+						]
                     }
                 ]
             }
@@ -107,7 +122,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:cyan_carpet"]
+						"items": [
+							"minecraft:cyan_carpet"
+						]
                     }
                 ]
             }
@@ -117,7 +134,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:purple_carpet"]
+						"items": [
+							"minecraft:purple_carpet"
+						]
                     }
                 ]
             }
@@ -127,7 +146,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:blue_carpet"]
+						"items": [
+							"minecraft:blue_carpet"
+						]
                     }
                 ]
             }
@@ -137,7 +158,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:brown_carpet"]
+						"items": [
+							"minecraft:brown_carpet"
+						]
                     }
                 ]
             }
@@ -147,7 +170,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:green_carpet"]
+						"items": [
+							"minecraft:green_carpet"
+						]
                     }
                 ]
             }
@@ -157,7 +182,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:red_carpet"]
+						"items": [
+							"minecraft:red_carpet"
+						]
                     }
                 ]
             }
@@ -167,7 +194,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:black_carpet"]
+						"items": [
+							"minecraft:black_carpet"
+						]
                     }
                 ]
             }

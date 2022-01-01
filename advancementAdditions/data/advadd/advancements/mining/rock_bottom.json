@@ -4,12 +4,12 @@
             "item": "minecraft:bedrock"
         },
         "title": {"translate":"Rock Bottom"},
-        "description": {"translate":"Dig down to the bottom of the world"},
+        "description": {"color":"#75E1FF","translate":"Dig down to the bottom of the world"},
         "frame": "goal"
     },
-    "parent": "minecraft:story/iron_tools",
+    "parent": "blazeandcave:mining/tuff_stuff",
     "rewards": {
-		"experience": 50
+        "function": "bc_rewards:mining/rock_bottom"
     },		
     "criteria": {
         "bedrock_level": {
@@ -19,7 +19,8 @@
 					"y": {
 						"max": 5.5
 					}
-				}
+				},
+				"dimension": "minecraft:overworld"
             }
         }	
     }

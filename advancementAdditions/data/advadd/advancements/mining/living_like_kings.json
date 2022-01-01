@@ -6,7 +6,10 @@
         "title": {"translate":"Living Like Kings"},
         "description": {"translate":"Make yourself shiny with golden armor"}
     },
-    "parent": "advadd:mining/gold_rush",
+    "parent": "blazeandcave:mining/gold_rush",
+	"rewards": {
+		"function": "bc_rewards:mining/living_like_kings"
+    },
     "criteria": {
         "golden_helmet": {
             "trigger": "minecraft:location",
@@ -18,7 +21,9 @@
 						"predicate": {
 							"equipment": {
 								"head": {
-									"items": ["minecraft:golden_helmet"]
+									"items": [
+										"minecraft:golden_helmet"
+									]
 								}
 							}
 						}
@@ -36,7 +41,9 @@
 						"predicate": {
 							"equipment": {
 								"chest": {
-									"items": ["minecraft:golden_chestplate"]
+									"items": [
+										"minecraft:golden_chestplate"
+									]
 								}
 							}
 						}
@@ -54,7 +61,9 @@
 						"predicate": {
 							"equipment": {
 								"legs": {
-									"items": ["minecraft:golden_leggings"]
+									"items": [
+										"minecraft:golden_leggings"
+									]
 								}
 							}
 						}
@@ -72,7 +81,9 @@
 						"predicate": {
 							"equipment": {
 								"feet": {
-									"items": ["minecraft:golden_boots"]
+									"items": [
+										"minecraft:golden_boots"
+									]
 								}
 							}
 						}

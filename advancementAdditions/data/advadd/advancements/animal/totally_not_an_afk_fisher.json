@@ -8,9 +8,9 @@
         "description": {"translate":"Fish out all types of items"},
 		"frame": "challenge"
     },
-    "parent": "advadd:animal/someones_been_here_before",
+    "parent": "blazeandcave:animal/someones_been_here_before",
 	"rewards": {
-		"experience": 100
+		"function": "bc_rewards:animal/totally_not_an_afk_fisher"
     },		
     "criteria": {
         "cod": {
@@ -18,7 +18,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:cod"]
+					"items": [
+						"minecraft:cod"
+					]
                 }
             }
         },
@@ -27,7 +29,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:salmon"]
+					"items": [
+						"minecraft:salmon"
+					]
                 }
             }
         },
@@ -36,7 +40,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:pufferfish"]
+					"items": [
+						"minecraft:pufferfish"
+					]
                 }
             }
         },
@@ -45,7 +51,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:tropical_fish"]
+					"items": [
+						"minecraft:tropical_fish"
+					]
                 }
             }
         },		
@@ -54,7 +62,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:bowl"]
+					"items": [
+						"minecraft:bowl"
+					]
                 }
             }
         },
@@ -63,7 +73,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:leather"]
+					"items": [
+						"minecraft:leather"
+					]
                 }
             }
         },
@@ -72,7 +84,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:leather_boots"]
+					"items": [
+						"minecraft:leather_boots"
+					]
                 }
             }
         },
@@ -81,7 +95,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:rotten_flesh"]
+					"items": [
+						"minecraft:rotten_flesh"
+					]
                 }
             }
         },
@@ -90,7 +106,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:stick"]
+					"items": [
+						"minecraft:stick"
+					]
                 }
             }
         },
@@ -99,7 +117,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:string"]
+					"items": [
+						"minecraft:string"
+					]
                 }
             }
         },
@@ -108,7 +128,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:potion"]
+					"items": [
+						"minecraft:potion"
+					]
                 }
             }
         },
@@ -117,7 +139,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:bone"]
+					"items": [
+						"minecraft:bone"
+					]
                 }
             }
         },
@@ -126,7 +150,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:ink_sac"]
+					"items": [
+						"minecraft:ink_sac"
+					]
                 }
             }
         },
@@ -135,7 +161,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:tripwire_hook"]
+					"items": [
+						"minecraft:tripwire_hook"
+					]
                 }
             }
         },
@@ -144,7 +172,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:bamboo"]
+					"items": [
+						"minecraft:bamboo"
+					]
                 }
             }
         },		
@@ -153,7 +183,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:bow"]
+					"items": [
+						"minecraft:bow"
+					]
                 }
             }
         },
@@ -162,7 +194,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:enchanted_book"]
+					"items": [
+						"minecraft:enchanted_book"
+					]
                 }
             }
         },
@@ -171,7 +205,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:name_tag"]
+					"items": [
+						"minecraft:name_tag"
+					]
                 }
             }
         },
@@ -180,7 +216,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:nautilus_shell"]
+					"items": [
+						"minecraft:nautilus_shell"
+					]
                 }
             }
         },
@@ -189,7 +227,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:saddle"]
+					"items": [
+						"minecraft:saddle"
+					]
                 }
             }
         },
@@ -198,7 +238,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:lily_pad"]
+					"items": [
+						"minecraft:lily_pad"
+					]
                 }
             }
         },
@@ -207,7 +249,9 @@
             "conditions": {
                 "item":
                 {
-                    "items": ["minecraft:fishing_rod"]
+					"items": [
+						"minecraft:fishing_rod"
+					]
                 }
             }
         }			

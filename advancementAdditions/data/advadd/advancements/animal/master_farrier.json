@@ -7,9 +7,9 @@
         "description": {"translate":"Tame all horse variants"},
 		"frame": "challenge"
     },
-    "parent": "advadd:animal/artificial_selection",
+    "parent": "blazeandcave:animal/artificial_selection",
 	"rewards": {
-		"experience": 100
+		"function": "bc_rewards:animal/master_farrier"
     },		
     "criteria": {
         "white_none": {

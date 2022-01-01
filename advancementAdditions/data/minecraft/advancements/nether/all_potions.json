@@ -1,48 +1,36 @@
 {
-  "parent": "advadd:potion/hopping_mad",
-  "display": {
-    "icon": {
-      "item": "minecraft:milk_bucket"
+    "display": {
+        "icon": {
+            "item": "minecraft:milk_bucket"
+        },
+        "title": {"translate":"A Furious Cocktail"},
+        "description": {"translate":"Have every potion effect applied at the same time"},
+        "frame": "challenge"
     },
-    "title": {
-      "translate": "advancements.nether.all_potions.title"
-    },
-    "description": {
-      "translate": "advancements.nether.all_potions.description"
-    },
-    "frame": "challenge",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "rewards": {
-    "experience": 100
-  },
-  "criteria": {
-    "all_effects": {
-      "trigger": "minecraft:effects_changed",
-      "conditions": {
-        "effects": {
-          "minecraft:speed": {},
-          "minecraft:slowness": {},
-          "minecraft:strength": {},
-          "minecraft:jump_boost": {},
-          "minecraft:regeneration": {},
-          "minecraft:fire_resistance": {},
-          "minecraft:water_breathing": {},
-          "minecraft:invisibility": {},
-          "minecraft:night_vision": {},
-          "minecraft:weakness": {},
-          "minecraft:poison": {},
-          "minecraft:slow_falling": {},
-          "minecraft:resistance": {}
+    "parent": "blazeandcave:potion/hopping_mad",
+    "rewards": {
+		"function": "bc_rewards:potion/a_furious_cocktail"
+    },		
+    "criteria": {
+        "all_effects": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:speed": {},
+                    "minecraft:slowness": {},
+                    "minecraft:strength": {},
+                    "minecraft:jump_boost": {},
+                    "minecraft:regeneration": {},
+                    "minecraft:fire_resistance": {},
+                    "minecraft:water_breathing": {},
+                    "minecraft:invisibility": {},
+                    "minecraft:night_vision": {},
+                    "minecraft:weakness": {},
+                    "minecraft:poison": {},
+					"minecraft:slow_falling": {},
+					"minecraft:resistance": {}
+                }
+            }
         }
-      }
     }
-  },
-  "requirements": [
-    [
-      "all_effects"
-    ]
-  ]
 }

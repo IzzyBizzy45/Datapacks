@@ -13,7 +13,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:name_tag"],
+					"items": [
+						"minecraft:name_tag"
+					],
 					"nbt": "{display:{Name:\"{\\\"text\\\":\\\"Dinnerbone\\\"}\"}}"
 				}
 			}
@@ -22,7 +24,9 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:name_tag"],
+					"items": [
+						"minecraft:name_tag"
+					],
 					"nbt": "{display:{Name:\"{\\\"text\\\":\\\"Grumm\\\"}\"}}"
 				}
 			}

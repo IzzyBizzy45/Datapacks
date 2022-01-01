@@ -6,9 +6,9 @@
         "title": {"translate":"Pig Training"},
         "description": {"translate":"Ride 100m on a pig"}
     },
-    "parent": "advadd:statistics/root",
+    "parent": "blazeandcave:statistics/root",
 	"rewards": {
-		"experience": 50
+		"function": "bc_rewards:statistics/pig_training"
     },		
     "criteria": {
         "trigger": {

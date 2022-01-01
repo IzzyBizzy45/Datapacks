@@ -4,12 +4,12 @@
             "item": "minecraft:carrot_on_a_stick"
         },
         "title": {"translate":"Snout 500"},
-        "description": {"translate":"Ride 1km on a pig"},
+        "description": {"color":"#75E1FF","translate":"Ride 1km on a pig"},
 		"frame": "goal"
     },
-    "parent": "advadd:statistics/pig_training",
+    "parent": "blazeandcave:statistics/pig_training",
 	"rewards": {
-		"experience": 200
+		"function": "bc_rewards:statistics/snout_500"
     },		
     "criteria": {
         "trigger": {

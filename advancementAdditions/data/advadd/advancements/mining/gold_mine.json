@@ -6,9 +6,12 @@
         "title": {"translate":"Gold Mine!"},
         "description": {"translate":"Find a mineshaft on the surface of a mesa biome"}
     },
-    "parent": "advadd:mining/eeuuwww",
+    "parent": "blazeandcave:mining/eeuuwww",
+    "rewards": {
+        "function": "bc_rewards:mining/gold_mine"
+    },		
     "criteria": {
-        "mesa": {
+        "badlands": {
             "trigger": "minecraft:location",
             "conditions": {
                 "feature": "mineshaft",
@@ -20,7 +23,7 @@
 				}
             }
         },
-        "mesa_clear_rock": {
+        "badlands_plateau": {
             "trigger": "minecraft:location",
             "conditions": {
                 "feature": "mineshaft",
@@ -32,7 +35,7 @@
 				}			
             }
         },
-        "mesa_rock": {
+        "wooded_badlands_plateau": {
             "trigger": "minecraft:location",
             "conditions": {
                 "feature": "mineshaft",
@@ -44,7 +47,7 @@
 				}
             }
         },	
-        "mutated_mesa": {
+        "eroded_badlands": {
             "trigger": "minecraft:location",
             "conditions": {
                 "feature": "mineshaft",
@@ -56,7 +59,7 @@
 				}
             }
         },
-        "mutated_mesa_clear_rock": {
+        "modified_badlands_plateau": {
             "trigger": "minecraft:location",
             "conditions": {
                 "feature": "mineshaft",
@@ -68,7 +71,7 @@
 				}
             }
         },
-        "mutated_mesa_rock": {
+        "modified_wooded_badlands_plateau": {
             "trigger": "minecraft:location",
             "conditions": {
                 "feature": "mineshaft",
@@ -83,12 +86,12 @@
     },
     "requirements": [
 		[
-        "mesa",
-        "mesa_clear_rock",
-		"mesa_rock",
-		"mutated_mesa",
-		"mutated_mesa_clear_rock",
-		"mutated_mesa_rock"
+        "badlands",
+        "badlands_plateau",
+		"wooded_badlands_plateau",
+		"eroded_badlands",
+		"modified_badlands_plateau",
+		"modified_wooded_badlands_plateau"
 		]
     ]	
 }

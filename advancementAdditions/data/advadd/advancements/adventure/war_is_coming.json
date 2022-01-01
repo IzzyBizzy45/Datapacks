@@ -3,20 +3,17 @@
         "icon": {
             "item": "minecraft:iron_sword"
         },
-        "title": {"translate":"World War: Blocky Edition"},
+        "title": {"translate":"War is Coming"},
         "description": {"translate":"Defeat enough Illager Patrol leaders to attain the highest level of Bad Omen"},
 		"frame": "challenge"
     },
-    "parent": "minecraft:adventure/hero_of_the_village",
+    "parent": "advadd:adventure/buy_low_sell_high",
     "criteria": {
         "bad_omen": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
                 "effects": {
                     "minecraft:bad_omen": {
-                        "duration": {
-                            "min": 1
-                        },
 						"amplifier": {
 							"min": 4
 						}

@@ -6,7 +6,10 @@
         "title": {"translate":"Marine Marauder"},
         "description": {"translate":"Swim in water while having the Water Breathing effect"}
     },
-    "parent": "advadd:potion/stayin_frosty",
+    "parent": "blazeandcave:potion/stayin_frosty",
+	"rewards": {
+		"function": "bc_rewards:potion/marine_marauder"
+    },		
     "criteria": {
         "water_breathing": {
             "trigger": "minecraft:location",

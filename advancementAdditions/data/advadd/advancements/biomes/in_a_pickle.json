@@ -3,17 +3,22 @@
         "icon": {
             "item": "minecraft:sea_pickle"
         },
-        "title": {"translate":"I'm a PICKLE!!!"},
+        "title": {"translate":"In a Pickle"},
         "description": {"translate":"Collect some sea pickles from a coral reef"}
     },
-    "parent": "advadd:biomes/the_great_blocky_reef",
+    "parent": "blazeandcave:biomes/the_great_blocky_reef",
+    "rewards": {
+        "function": "bc_rewards:biomes/in_a_pickle"
+    },		
     "criteria": {
         "sea_pickle": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:sea_pickle"]
+						"items": [
+							"minecraft:sea_pickle"
+						]
                     }
                 ]
             }

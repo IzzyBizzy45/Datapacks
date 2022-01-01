@@ -7,7 +7,10 @@
         "title": {"translate":"Failed Concoctions"},
         "description": {"translate":"Brew a mundane and thick potion"}
     },
-    "parent": "advadd:potion/root",
+    "parent": "blazeandcave:potion/root",
+	"rewards": {
+		"function": "bc_rewards:potion/failed_concoctions"
+    },	
     "criteria": {
         "thick_potion": {
             "trigger": "minecraft:brewed_potion",

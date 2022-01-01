@@ -7,9 +7,9 @@
         "description": {"translate":"Hold a stack of every light-emitting block and item"},
 		"frame": "challenge"
     },
-    "parent": "advadd:building/fluorescent",
+    "parent": "blazeandcave:building/fluorescent",
 	"rewards": {
-		"experience": 100
+		"function": "bc_rewards:building/let_there_be_light"
     },		
     "criteria": {
         "glowstone": {
@@ -17,7 +17,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:glowstone"],
+						"items": [
+							"minecraft:glowstone"
+						],
 						"count": 64
                     }
                 ]
@@ -28,7 +30,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:jack_o_lantern"],
+						"items": [
+							"minecraft:jack_o_lantern"
+						],
 						"count": 64
                     }
                 ]
@@ -39,7 +43,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:redstone_lamp"],
+						"items": [
+							"minecraft:redstone_lamp"
+						],
 						"count": 64
                     }
                 ]
@@ -50,7 +56,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:sea_lantern"],
+						"items": [
+							"minecraft:sea_lantern"
+						],
 						"count": 64
                     }
                 ]
@@ -61,7 +69,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:sea_pickle"],
+						"items": [
+							"minecraft:sea_pickle"
+						],
 						"count": 64
                     }
                 ]
@@ -72,7 +82,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:shroomlight"],
+						"items": [
+							"minecraft:shroomlight"
+						],
 						"count": 64
                     }
                 ]
@@ -83,7 +95,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:lantern"],
+						"items": [
+							"minecraft:lantern"
+						],
 						"count": 64
                     }
                 ]
@@ -94,7 +108,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:campfire"],
+						"items": [
+							"minecraft:campfire"
+						],
 						"count": 64
                     }
                 ]
@@ -105,7 +121,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:end_rod"],
+						"items": [
+							"minecraft:end_rod"
+						],
 						"count": 64
                     }
                 ]
@@ -116,7 +134,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:torch"],
+						"items": [
+							"minecraft:torch"
+						],
 						"count": 64
                     }
                 ]
@@ -127,7 +147,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:soul_lantern"],
+						"items": [
+							"minecraft:soul_lantern"
+						],
 						"count": 64
                     }
                 ]
@@ -138,7 +160,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:soul_torch"],
+						"items": [
+							"minecraft:soul_torch"
+						],
 						"count": 64
                     }
                 ]
@@ -149,7 +173,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:ender_chest"],
+						"items": [
+							"minecraft:ender_chest"
+						],
 						"count": 64
                     }
                 ]
@@ -160,7 +186,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:redstone_torch"],
+						"items": [
+							"minecraft:redstone_torch"
+						],
 						"count": 64
                     }
                 ]
@@ -171,7 +199,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:magma_block"],
+						"items": [
+							"minecraft:magma_block"
+						],
 						"count": 64
                     }
                 ]
@@ -182,7 +212,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:crying_obsidian"],
+						"items": [
+							"minecraft:crying_obsidian"
+						],
 						"count": 64
                     }
                 ]
@@ -193,7 +225,308 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:soul_campfire"],
+						"items": [
+							"minecraft:soul_campfire"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "amethyst_cluster": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:amethyst_cluster"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "small_amethyst_bud": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:small_amethyst_bud"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "medium_amethyst_bud": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:medium_amethyst_bud"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "large_amethyst_bud": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:large_amethyst_bud"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "glow_lichen": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:glow_lichen"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "glow_berries": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:glow_berries"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:candle"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "white_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:white_candle"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "orange_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:orange_candle"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "magenta_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:magenta_candle"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "light_blue_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:light_blue_candle"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "yellow_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:yellow_candle"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "lime_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:lime_candle"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "pink_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:pink_candle"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "gray_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:gray_candle"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "light_gray_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:light_gray_candle"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "cyan_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:cyan_candle"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "purple_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:purple_candle"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "blue_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:blue_candle"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "brown_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:brown_candle"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "green_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:green_candle"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "red_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:red_candle"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "black_candle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:black_candle"
+						],
 						"count": 64
                     }
                 ]

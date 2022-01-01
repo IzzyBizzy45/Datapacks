@@ -6,7 +6,10 @@
         "title": {"translate":"What Does The Fox Say?"},
         "description": {"translate":"Breed two red foxes with sweet berries"}
     },
-    "parent": "advadd:animal/puppies_yipe",
+    "parent": "blazeandcave:animal/puppies_yipe",
+	"rewards": {
+		"function": "bc_rewards:animal/what_does_the_fox_say"
+    },		
     "criteria": {
         "fox": {
             "trigger": "minecraft:bred_animals",

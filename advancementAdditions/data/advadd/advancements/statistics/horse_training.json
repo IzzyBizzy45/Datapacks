@@ -6,9 +6,9 @@
         "title": {"translate":"Horse Training"},
         "description": {"translate":"Ride 1km on a horse"}
     },
-    "parent": "advadd:statistics/root",
+    "parent": "blazeandcave:statistics/root",
 	"rewards": {
-		"experience": 50
+		"function": "bc_rewards:statistics/horse_training"
     },		
     "criteria": {
         "trigger": {

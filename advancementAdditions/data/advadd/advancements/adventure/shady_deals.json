@@ -8,10 +8,7 @@
         "description": {"translate":"Trade with a Wandering Trader while he is invisible"},
 		"frame": "goal"
     },
-    "parent": "blazeandcave:adventure/travelling_merchant",
-    "rewards": {
-        "function": "bc_rewards:adventure/shady_deals"
-    },		
+    "parent": "advadd:adventure/travelling_merchant",
     "criteria": {
         "trade": {
             "trigger": "minecraft:villager_trade",

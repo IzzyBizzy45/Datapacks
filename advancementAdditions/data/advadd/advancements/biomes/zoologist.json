@@ -6,7 +6,10 @@
         "title": {"translate":"Zoologist"},
         "description": {"translate":"Breed two pandas to get a baby panda"}
     },
-    "parent": "advadd:biomes/construction_worker",
+    "parent": "blazeandcave:biomes/construction_worker",
+	"rewards": {
+		"function": "bc_rewards:biomes/zoologist"
+    },		
     "criteria": {
         "panda": {
             "trigger": "minecraft:bred_animals",

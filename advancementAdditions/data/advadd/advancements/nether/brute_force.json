@@ -7,6 +7,9 @@
         "description": {"translate":"Defeat a Piglin Brute in a Bastion Remnant"}
     },
     "parent": "minecraft:nether/find_bastion",
+    "rewards": {
+        "function": "bc_rewards:nether/brute_force"
+    },		
     "criteria": {
         "piglin_brute": {
             "trigger": "minecraft:player_killed_entity",

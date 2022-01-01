@@ -4,17 +4,22 @@
             "item": "minecraft:oak_sapling"
         },
         "title": {"translate":"Professor Oak"},
-        "description": {"translate":"Craft every item made out of oak wood"},
+        "description": {"color":"#75E1FF","translate":"Craft every item made out of oak wood"},
 		"frame": "goal"
     },
-    "parent": "advadd:building/lost_its_bark",
+    "parent": "blazeandcave:building/lost_its_bark",
+    "rewards": {
+		"function": "bc_rewards:building/professor_oak"
+    },		
     "criteria": {
         "oak_planks": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:oak_planks"]
+						"items": [
+							"minecraft:oak_planks"
+						]
                     }
                 ]
             }
@@ -24,7 +29,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:oak_log"]
+						"items": [
+							"minecraft:oak_log"
+						]
                     }
                 ]
             }
@@ -34,7 +41,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:oak_wood"]
+						"items": [
+							"minecraft:oak_wood"
+						]
                     }
                 ]
             }
@@ -44,7 +53,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:stripped_oak_log"]
+						"items": [
+							"minecraft:stripped_oak_log"
+						]
                     }
                 ]
             }
@@ -54,7 +65,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:stripped_oak_wood"]
+						"items": [
+							"minecraft:stripped_oak_wood"
+						]
                     }
                 ]
             }
@@ -64,7 +77,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:oak_slab"]
+						"items": [
+							"minecraft:oak_slab"
+						]
                     }
                 ]
             }
@@ -74,7 +89,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:oak_pressure_plate"]
+						"items": [
+							"minecraft:oak_pressure_plate"
+						]
                     }
                 ]
             }
@@ -84,7 +101,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:oak_fence"]
+						"items": [
+							"minecraft:oak_fence"
+						]
                     }
                 ]
             }
@@ -94,7 +113,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:oak_trapdoor"]
+						"items": [
+							"minecraft:oak_trapdoor"
+						]
                     }
                 ]
             }
@@ -104,7 +125,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:oak_fence_gate"]
+						"items": [
+							"minecraft:oak_fence_gate"
+						]
                     }
                 ]
             }
@@ -114,7 +137,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:oak_stairs"]
+						"items": [
+							"minecraft:oak_stairs"
+						]
                     }
                 ]
             }
@@ -124,7 +149,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:oak_button"]
+						"items": [
+							"minecraft:oak_button"
+						]
                     }
                 ]
             }
@@ -134,7 +161,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:oak_door"]
+						"items": [
+							"minecraft:oak_door"
+						]
                     }
                 ]
             }
@@ -144,7 +173,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:oak_boat"]
+						"items": [
+							"minecraft:oak_boat"
+						]
                     }
                 ]
             }
@@ -154,7 +185,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:oak_sign"]
+						"items": [
+							"minecraft:oak_sign"
+						]
                     }
                 ]
             }

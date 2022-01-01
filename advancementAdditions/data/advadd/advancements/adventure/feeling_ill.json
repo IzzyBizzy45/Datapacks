@@ -14,7 +14,7 @@
             "conditions": {
                 "entity": {
                     "type": "vindicator",
-					"nbt": "{Tags:[\"in_raid\"]}"
+					"nbt": "{Tags:[\"part_of_raid\"]}"
                 }
             }
         },
@@ -23,7 +23,7 @@
             "conditions": {
                 "entity": {
                     "type": "pillager",
-					"nbt": "{Tags:[\"in_raid\"]}"
+					"nbt": "{Tags:[\"part_of_raid\"]}"
                 }
             }
         },
@@ -32,7 +32,7 @@
             "conditions": {
                 "entity": {
                     "type": "ravager",
-					"nbt": "{Tags:[\"in_raid\"]}"
+					"nbt": "{Tags:[\"part_of_raid\"]}"
                 }
             }
         },
@@ -41,7 +41,7 @@
             "conditions": {
                 "entity": {
                     "type": "witch",
-					"nbt": "{Tags:[\"in_raid\"]}"
+					"nbt": "{Tags:[\"part_of_raid\"]}"
                 }
             }
         },
@@ -50,7 +50,7 @@
             "conditions": {
                 "entity": {
                     "type": "evoker",
-					"nbt": "{Tags:[\"in_raid\"]}"
+					"nbt": "{Tags:[\"part_of_raid\"]}"
                 }
             }
         }

@@ -7,13 +7,18 @@
         "description": {"translate":"Mine some redstone from the deepest caves"}
     },
     "parent": "minecraft:story/iron_tools",
+	"rewards": {
+		"function": "bc_rewards:mining/seeing_red"
+    },
     "criteria": {
         "redstone": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:redstone"]
+						"items": [
+							"minecraft:redstone"
+						]
                     }
                 ]
             }

@@ -8,9 +8,9 @@
         "description": {"translate":"Create a sword with all possible enchantments at max level"},
 		"frame": "challenge"
     },
-    "parent": "advadd:enchanting/unbreakable",
+    "parent": "blazeandcave:enchanting/unbreakable",
     "rewards": {
-        "experience": 100
+		"function": "bc_rewards:enchanting/master_knight"
     },		
     "criteria": {
         "perfect_sword": {
@@ -18,7 +18,7 @@
             "conditions": {
 				"items": [
                     {
-                        "tag": "advadd:master_swords",
+                        "tag": "blazeandcave:master_swords",
 						"enchantments": [
 							{
 								"enchantment": "minecraft:sharpness",
@@ -58,7 +58,7 @@
             "conditions": {
 				"items": [
                     {
-                        "tag": "advadd:master_swords",
+                        "tag": "blazeandcave:master_swords",
 						"enchantments": [
 							{
 								"enchantment": "minecraft:smite",
@@ -98,7 +98,7 @@
             "conditions": {
 				"items": [
                     {
-                        "tag": "advadd:master_swords",
+                        "tag": "blazeandcave:master_swords",
 						"enchantments": [
 							{
 								"enchantment": "minecraft:bane_of_arthropods",

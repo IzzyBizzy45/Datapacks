@@ -7,11 +7,7 @@
         "description": {"translate":"Trade with every type of villager career at master level"},
 		"frame": "challenge"
     },
-    "parent": "blazeandcave:adventure/businessman",
-    "rewards": {
-        "function": "bc_rewards:adventure/master_trader",
-		"experience": 100
-    },		
+    "parent": "advadd:adventure/lilypad_hatter",
     "criteria": {
         "farmer": {
             "trigger": "minecraft:villager_trade",

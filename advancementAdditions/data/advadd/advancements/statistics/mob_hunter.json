@@ -6,9 +6,9 @@
         "title": {"translate":"Mob Hunter"},
         "description": {"translate":"Defeat 250 mobs"}
     },
-    "parent": "advadd:statistics/root",
+    "parent": "blazeandcave:statistics/root",
 	"rewards": {
-		"experience": 50
+		"function": "bc_rewards:statistics/mob_hunter"
     },		
     "criteria": {
         "trigger": {

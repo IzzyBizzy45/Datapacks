@@ -7,9 +7,9 @@
         "description": {"translate":"Strike a mooshroom with lightning and see what happens"},
 		"frame": "challenge"
     },
-    "parent": "advadd:animal/milkshroom",
+    "parent": "blazeandcave:animal/milkshroom",
     "rewards": {
-		"experience": 100
+        "function": "bc_rewards:animal/mushroom_scientist"
     },
 	"criteria": {
 		"struck_villager": {

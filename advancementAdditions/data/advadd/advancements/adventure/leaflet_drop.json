@@ -6,10 +6,7 @@
         "title": {"translate":"Leaflet Drop"},
         "description": {"translate":"Fall through a Big Dripleaf"}
     },
-    "parent": "blazeandcave:adventure/this_dirt_is_dirtier",
-	"rewards": {
-		"function": "bc_rewards:adventure/leaflet_drop"
-    },
+    "parent": "advadd:adventure/this_dirt_is_dirtier",
     "criteria": {
         "big_dripleaf": {
             "trigger": "minecraft:location",

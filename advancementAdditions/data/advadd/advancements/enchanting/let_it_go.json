@@ -4,17 +4,27 @@
             "item": "minecraft:ice"
         },
         "title": {"translate":"Let It Go!"},
-        "description": {"translate":"Obtain boots enchanted with Frost Walker"},
+        "description": {"color":"#75E1FF","translate":"Obtain boots enchanted with Frost Walker"},
 		"frame": "goal"
     },
-    "parent": "advadd:enchanting/old_cartoon_joke",
+    "parent": "blazeandcave:enchanting/heavy_metal",
+    "rewards": {
+		"function": "bc_rewards:enchanting/let_it_go"
+    },			
     "criteria": {
         "frost_walker": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
 				"items": [
 					{
-						"items": ["minecraft:leather_boots"],					
+						"items": [
+							"minecraft:leather_boots",
+							"minecraft:chainmail_boots",
+							"minecraft:golden_boots",
+							"minecraft:iron_boots",
+							"minecraft:diamond_boots",
+							"minecraft:netherite_boots"
+						],					
 						"enchantments": [
 							{
 								"enchantment": "minecraft:frost_walker"
@@ -23,91 +33,6 @@
 					}
 				]
 			}
-		},
-        "frost_walker_chain": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-				"items": [
-					{
-						"items": ["minecraft:chainmail_boots"],					
-						"enchantments": [
-							{
-								"enchantment": "minecraft:frost_walker"
-							}
-						]
-					}
-				]
-			}
-		},
-        "frost_walker_iron": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-				"items": [
-					{
-						"items": ["minecraft:iron_boots"],					
-						"enchantments": [
-							{
-								"enchantment": "minecraft:frost_walker"
-							}
-						]
-					}
-				]
-			}
-		},
-        "frost_walker_gold": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-				"items": [
-					{
-						"items": ["minecraft:golden_boots"],					
-						"enchantments": [
-							{
-								"enchantment": "minecraft:frost_walker"
-							}
-						]
-					}
-				]
-			}
-		},
-        "frost_walker_diamond": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-				"items": [
-					{
-						"items": ["minecraft:diamond_boots"],					
-						"enchantments": [
-							{
-								"enchantment": "minecraft:frost_walker"
-							}
-						]
-					}
-				]
-			}
-		},
-		"frost_walker_netherite": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-				"items": [
-					{
-						"items": ["minecraft:netherite_boots"],					
-						"enchantments": [
-							{
-								"enchantment": "minecraft:frost_walker"
-							}
-						]
-					}
-				]
-			}
-		}
-    },
-    "requirements": [
-        [
-            "frost_walker",
-            "frost_walker_chain",
-            "frost_walker_iron",
-            "frost_walker_gold",
-            "frost_walker_diamond",
-			"frost_walker_netherite"
-        ]
-    ]
+		}		
+    }
 }

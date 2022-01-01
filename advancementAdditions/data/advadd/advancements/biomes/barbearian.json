@@ -6,7 +6,10 @@
         "title": {"translate":"Barbearian"},
         "description": {"translate":"It may be illegal to hunt polar bears in real life, but not in Minecraft"}
     },
-    "parent": "advadd:biomes/thin_ice",
+    "parent": "blazeandcave:biomes/thin_ice",
+    "rewards": {
+        "function": "bc_rewards:biomes/barbearian"
+    },		
     "criteria": {
         "polar_bear": {
             "trigger": "minecraft:player_killed_entity",

@@ -6,14 +6,19 @@
         "title": {"translate":"I don't like sand"},
         "description": {"translate":"It's coarse, and rough, and irritating, and it gets everywhere"}
     },
-    "parent": "advadd:building/root",
+    "parent": "blazeandcave:building/root",
+	"rewards": {
+		"function": "bc_rewards:building/i_dont_like_sand"
+    },		
     "criteria": {
         "sand": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:sand"]
+						"items": [
+							"minecraft:sand"
+						]
                     }
                 ]
             }

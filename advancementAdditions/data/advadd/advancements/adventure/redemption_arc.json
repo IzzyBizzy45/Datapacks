@@ -4,12 +4,12 @@
             "item": "minecraft:iron_sword"
         },
         "title": {"translate":"Redemption Arc"},
-        "description": {"translate":"Befriend a Pillager that doesn’t have a crossbow"},
+        "description": {"color":"#75E1FF","translate":"Befriend a Pillager that doesn’t have a crossbow"},
 		"frame": "goal"
     },
     "parent": "minecraft:adventure/voluntary_exile",
 	"rewards": {
-		"experience": 50
+		"function": "bc_rewards:adventure/redemption_arc"
     },
     "criteria": {
         "redemption_arc": {

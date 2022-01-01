@@ -7,9 +7,9 @@
         "description": {"translate":"Jump 100,000 times"},
 		"frame": "challenge"
     },
-    "parent": "advadd:statistics/boing_boing",
+    "parent": "blazeandcave:statistics/boing_boing",
 	"rewards": {
-		"experience": 500
+		"function": "bc_rewards:statistics/jumping_jacks"
     },		
     "criteria": {
         "trigger": {

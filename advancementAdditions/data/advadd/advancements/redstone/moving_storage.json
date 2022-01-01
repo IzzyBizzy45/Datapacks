@@ -6,14 +6,19 @@
         "title": {"translate":"Moving Storage"},
         "description": {"translate":"Put a chest in a minecart"}
     },
-    "parent": "advadd:redstone/what_does_this_do",
+    "parent": "blazeandcave:redstone/fuel_engine",
+    "rewards": {
+		"function": "bc_rewards:redstone/moving_storage"
+    },			
     "criteria": {
         "chest_minecart": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:chest_minecart"]
+						"items": [
+							"minecraft:chest_minecart"
+						]
                     }
                 ]
             }

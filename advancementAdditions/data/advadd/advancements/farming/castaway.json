@@ -7,7 +7,7 @@
         "description": {"translate":"Eat nothing but dried kelp for three in-game days"},
 		"frame": "challenge"
     },
-    "parent": "advadd:farming/aquatic_biofuel",
+    "parent": "blazeandcave:farming/undersea_gardener",
 	"rewards": {
 		"function": "bc_rewards:farming/castaway"
     },

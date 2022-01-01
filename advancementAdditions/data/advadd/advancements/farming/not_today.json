@@ -6,13 +6,18 @@
         "title": {"translate":"Not Today!"},
         "description": {"translate":"Eat a poisonous potato"}
     },
-    "parent": "advadd:farming/die_potato",
+    "parent": "blazeandcave:farming/die_potato",
+	"rewards": {
+		"function": "bc_rewards:farming/not_today"
+    },		
     "criteria": {
         "poisonous_potato": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:poisonous_potato"]
+					"items": [
+						"minecraft:poisonous_potato"
+					]
                 }
             }
         }

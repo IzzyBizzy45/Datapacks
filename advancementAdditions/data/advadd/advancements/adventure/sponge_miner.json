@@ -3,22 +3,24 @@
         "icon": {
             "item": "minecraft:sponge"
         },
-        "title": {"translate": "Sponge Miner"},
-        "description": {"translate": "Obtain a Stack of sponge"},
-        "frame": "goal"
+        "title": {"translate":"Sponge Miner"},
+        "description": {"translate":"Collect a stack of sponges from ocean monuments"},
+		"frame": "goal"
     },
     "parent": "advadd:adventure/dry_spell",
     "criteria": {
-        "stack": {
+        "sponge": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:sponge"],
-                        "count": 64
+						"items": [
+							"minecraft:sponge"
+						],
+						"count": 64
                     }
                 ]
             }
-        }
-    }
+        }		
+    }	
 }

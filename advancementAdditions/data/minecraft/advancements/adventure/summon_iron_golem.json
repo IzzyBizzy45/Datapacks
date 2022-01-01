@@ -1,39 +1,24 @@
 {
-  "parent": "minecraft:adventure/trade",
-  "display": {
-    "icon": {
-      "item": "minecraft:iron_block"
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_block"
+        },
+        "title": {"translate":"Hired Help"},
+        "description": {"color":"#75E1FF","translate":"Summon an Iron Golem to help defend a village"},
+        "frame": "goal"
     },
-    "title": {
-      "translate": "advancements.adventure.summon_iron_golem.title"
-    },
-    "description": {
-      "translate": "advancements.adventure.summon_iron_golem.description"
-    },
-    "frame": "goal",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "summoned_golem": {
-      "trigger": "minecraft:summoned_entity",
-      "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "predicate": {
-              "type": "minecraft:iron_golem"
-            },
-            "entity": "this"
-          }
-        ]
-      }
+    "parent": "minecraft:adventure/trade",
+    "rewards": {
+        "function": "bc_rewards:adventure/body_guard"
+    },		
+    "criteria": {
+        "summoned": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:iron_golem"
+                }
+            }
+        }
     }
-  },
-  "requirements": [
-    [
-      "summoned_golem"
-    ]
-  ]
 }

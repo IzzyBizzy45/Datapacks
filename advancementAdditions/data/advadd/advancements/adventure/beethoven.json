@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:jukebox"
+        },
+        "title": {"translate":"Beethoven"},
+        "description": {"translate":"Craft a jukebox with planks and a diamond"}
+    },
+    "parent": "advadd:adventure/i_hereby_dub_thee",
+    "criteria": {
+        "jukebox": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:jukebox"
+						]
+                    }
+                ]
+            }
+        }
+    }
+}

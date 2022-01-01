@@ -4,12 +4,12 @@
             "item": "minecraft:water_bucket"
         },
         "title": {"translate":"Wet Feet"},
-        "description": {"translate":"Discover every water biome"},
+        "description": {"color":"#75E1FF","translate":"Discover every water biome"},
         "frame": "goal"
     },
-    "parent": "advadd:biomes/overgrown",	
+    "parent": "blazeandcave:biomes/overgrown",	
     "rewards": {
-        "experience": 100
+		"function": "bc_rewards:biomes/wet_feet"
     },	
     "criteria": {
         "river": {
@@ -30,13 +30,13 @@
                 "biome": "minecraft:ocean"
             }
         },
-        "stone_beach": {
+        "stone_shore": {
             "trigger": "minecraft:location",
             "conditions": {
                 "biome": "minecraft:stone_shore"
             }
         },
-        "beaches": {
+        "beach": {
             "trigger": "minecraft:location",
             "conditions": {
                 "biome": "minecraft:beach"

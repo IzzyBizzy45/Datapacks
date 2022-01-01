@@ -5,14 +5,17 @@
         },
         "title": {"translate":"Spikey!"},
         "description": {"translate":"Run into a cactus"},
-		"hidden": true
+		"hidden": "false"
     },
-    "parent": "advadd:farming/its_a_cactus",
+    "parent": "blazeandcave:farming/its_a_cactus",
+	"rewards": {
+		"function": "bc_rewards:farming/spikey"
+    },
     "criteria": {
         "cactus": {
             "trigger": "minecraft:enter_block",
             "conditions": {
-                "block": "minecraft:cactus"
+				"block": "minecraft:cactus"
             }
         }
     }

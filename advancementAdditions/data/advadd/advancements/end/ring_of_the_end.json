@@ -7,9 +7,9 @@
         "description": {"translate":"Defeat the Ender Dragon 20 times"},
 		"frame": "challenge"
     },
-    "parent": "advadd:end/what_for",
+    "parent": "blazeandcave:end/what_for",
 	"rewards": {
-		"experience": 200
+		"function": "bc_rewards:end/ring_of_the_end"
     },		
     "criteria": {
         "ring_of_the_end": {

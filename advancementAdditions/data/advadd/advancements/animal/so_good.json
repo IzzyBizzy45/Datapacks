@@ -6,13 +6,18 @@
         "title": {"translate":"So Good"},
         "description": {"translate":"Can't beat it, can't beat it"}
     },
-    "parent": "advadd:animal/tickle_time",
+    "parent": "blazeandcave:animal/tickle_time",
+	"rewards": {
+		"function": "bc_rewards:animal/so_good"
+    },		
     "criteria": {
         "cooked_chicken": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:cooked_chicken"]
+					"items": [
+						"minecraft:cooked_chicken"
+					]
                 }
             }
         }

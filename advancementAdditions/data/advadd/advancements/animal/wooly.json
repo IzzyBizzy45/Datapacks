@@ -7,6 +7,9 @@
         "description": {"translate":"Obtain wool from a sheep by killing it"}
     },
     "parent": "minecraft:husbandry/root",
+    "rewards": {
+        "function": "bc_rewards:animal/wooly"
+    },		
     "criteria": {
         "sheep": {
             "trigger": "minecraft:player_killed_entity",

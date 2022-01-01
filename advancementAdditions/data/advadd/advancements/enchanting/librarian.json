@@ -6,14 +6,19 @@
         "title": {"translate":"Librarian"},
         "description": {"translate":"Build some bookshelves for your enchanting table"}
     },
-    "parent": "advadd:enchanting/root",
+    "parent": "blazeandcave:enchanting/root",
+    "rewards": {
+		"function": "bc_rewards:enchanting/librarian"
+    },
     "criteria": {
         "bookshelf": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:bookshelf"]
+						"items": [
+							"minecraft:bookshelf"
+						]
                     }
                 ]
             }

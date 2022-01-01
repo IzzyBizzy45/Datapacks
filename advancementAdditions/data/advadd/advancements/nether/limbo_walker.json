@@ -4,12 +4,12 @@
             "item": "minecraft:bedrock"
         },
         "title": {"translate":"Limbo Walker"},
-        "description": {"translate":"Get above the roof in the nether"},
+        "description": {"color":"#75E1FF","translate":"Get above the roof in the nether"},
         "frame": "goal"
     },
-    "parent": "advadd:nether/im_in_lava_with_you",
+    "parent": "blazeandcave:nether/im_in_lava_with_you",
     "rewards": {
-		"experience": 100
+        "function": "bc_rewards:nether/limbo_walker"
     },		
     "criteria": {
         "world_height": {

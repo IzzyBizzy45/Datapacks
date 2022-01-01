@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:map"
+        },
+        "title": {"translate":"Mapmaker"},
+        "description": {"translate":"Craft or trade an empty map"}
+    },
+    "parent": "advadd:adventure/knowledge_is_power",
+    "criteria": {
+        "map": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:map"
+						]
+                    }
+                ]
+            }
+        }
+    }
+}

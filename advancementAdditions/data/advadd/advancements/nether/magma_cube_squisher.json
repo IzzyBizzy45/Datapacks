@@ -4,12 +4,12 @@
             "item": "minecraft:magma_cube_spawn_egg"
         },
         "title": {"translate":"Magma Cube Squisher"},
-        "description": {"translate":"Collect a stack of magma cream"},
+        "description": {"color":"#75E1FF","translate":"Collect a stack of magma cream"},
 		"frame": "goal"
     },
-    "parent": "advadd:nether/high_temperature_fluid_monster",
+    "parent": "blazeandcave:nether/legend_of_hell_chicken_riders",
     "rewards": {
-		"experience": 50
+		"function": "bc_rewards:nether/magma_cube_squisher"
     },		
     "criteria": {
         "magma_cream": {
@@ -17,7 +17,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:magma_cream"],
+						"items": [
+							"minecraft:magma_cream"
+						],
 						"count": 64
                     }
                 ]

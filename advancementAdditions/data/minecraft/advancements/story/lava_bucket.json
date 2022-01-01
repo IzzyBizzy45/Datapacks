@@ -1,35 +1,27 @@
 {
-  "parent": "advadd:mining/iconic_merchandising_prop",
-  "display": {
-    "icon": {
-      "item": "minecraft:lava_bucket"
+    "display": {
+        "icon": {
+            "item": "minecraft:lava_bucket"
+        },
+        "title": {"translate":"Hot Stuff"},
+        "description": {"translate":"Fill a bucket with lava"}
     },
-    "title": {
-      "translate": "advancements.story.lava_bucket.title"
-    },
-    "description": {
-      "translate": "advancements.story.lava_bucket.description"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "lava_bucket": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": ["minecraft:lava_bucket"]
-          }
-        ]
-      }
+    "parent": "blazeandcave:mining/iconic_merchandising_prop",
+    "rewards": {
+		"function": "bc_rewards:mining/hot_stuff"
+    },			
+    "criteria": {
+        "lava_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [ 
+							"minecraft:lava_bucket"
+						]
+                    }
+                ]
+            }
+        }
     }
-  },
-  "requirements": [
-    [
-      "lava_bucket"
-    ]
-  ]
 }

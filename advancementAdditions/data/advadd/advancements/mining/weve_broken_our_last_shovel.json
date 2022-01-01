@@ -7,16 +7,18 @@
         "description": {"translate":"Break all six types of shovels"},
         "frame": "challenge"
     },
-    "parent": "advadd:mining/bling_bling_gone",
+    "parent": "blazeandcave:mining/bling_bling_gone",
     "rewards": {
-        "experience": 100
+		"function": "bc_rewards:mining/weve_broken_our_last_shovel"
     },		
     "criteria": {
         "wooden_shovel": {
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:wooden_shovel"]
+					"items": [
+						"minecraft:wooden_shovel"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -27,7 +29,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:stone_shovel"]
+					"items": [
+						"minecraft:stone_shovel"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -38,7 +42,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:golden_shovel"]
+					"items": [
+						"minecraft:golden_shovel"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -49,7 +55,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:iron_shovel"]
+					"items": [
+						"minecraft:iron_shovel"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -60,7 +68,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:diamond_shovel"]
+					"items": [
+						"minecraft:diamond_shovel"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -71,7 +81,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:netherite_shovel"]
+					"items": [
+						"minecraft:netherite_shovel"
+					]
 				},
 				"durability": {
 					"max": 0

@@ -9,7 +9,7 @@
     },
     "parent": "minecraft:nether/uneasy_alliance",
     "rewards": {
-		"experience": 200
+        "function": "bc_rewards:nether/electrifying_alliance"
     },
 	"criteria": {
 		"struck_ghast": {

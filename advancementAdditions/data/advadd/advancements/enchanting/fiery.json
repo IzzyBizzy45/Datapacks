@@ -3,11 +3,14 @@
         "icon": {
             "item": "minecraft:blaze_powder"
         },
-        "title": {"translate":"Fiery Aura"},
-        "description": {"translate":"Obtain every fire related enchantment"},
+        "title": {"translate":"Fiery"},
+        "description": {"color":"#75E1FF","translate":"Obtain every fire related enchantment"},
 		"frame": "goal"
     },
-    "parent": "advadd:enchanting/scuba_gear",
+    "parent": "blazeandcave:enchanting/scuba_gear",
+    "rewards": {
+		"function": "bc_rewards:enchanting/fiery"
+    },			
     "criteria": {
         "fire_protection": {
             "trigger": "minecraft:inventory_changed",

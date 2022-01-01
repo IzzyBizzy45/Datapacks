@@ -1,15 +1,15 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:redstone_ore"
+            "item": "minecraft:deepslate_redstone_ore"
         },
         "title": {"translate":"Oresome!"},
         "description": {"translate":"Mine a stack of every ore block"},
 		"frame": "challenge"
     },
-    "parent": "advadd:mining/mineral_collection",
+    "parent": "blazeandcave:mining/emerald_miner",
     "rewards": {
-		"experience": 100
+		"function": "bc_rewards:mining/oresome"
     },			
     "criteria": {
         "coal_ore": {
@@ -17,7 +17,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:coal_ore"],
+						"items": [
+							"minecraft:coal_ore"
+						],
 						"count": 64
                     }
                 ]
@@ -28,7 +30,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:iron_ore"],
+						"items": [
+							"minecraft:iron_ore"
+						],
 						"count": 64
                     }
                 ]
@@ -39,7 +43,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:gold_ore"],
+						"items": [
+							"minecraft:gold_ore"
+						],
 						"count": 64
                     }
                 ]
@@ -50,7 +56,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:lapis_ore"],
+						"items": [
+							"minecraft:lapis_ore"
+						],
 						"count": 64
                     }
                 ]
@@ -61,7 +69,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:redstone_ore"],
+						"items": [
+							"minecraft:redstone_ore"
+						],
 						"count": 64
                     }
                 ]
@@ -72,7 +82,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:diamond_ore"],
+						"items": [
+							"minecraft:diamond_ore"
+						],
 						"count": 64
                     }
                 ]
@@ -83,7 +95,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:emerald_ore"],
+						"items": [
+							"minecraft:emerald_ore"
+						],
 						"count": 64
                     }
                 ]
@@ -94,7 +108,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:nether_quartz_ore"],
+						"items": [
+							"minecraft:nether_quartz_ore"
+						],
 						"count": 64
                     }
                 ]
@@ -105,7 +121,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:nether_gold_ore"],
+						"items": [
+							"minecraft:nether_gold_ore"
+						],
 						"count": 64
                     }
                 ]
@@ -116,7 +134,113 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:ancient_debris"],
+						"items": [
+							"minecraft:ancient_debris"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "copper_ore": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:copper_ore"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "deepslate_gold_ore": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:deepslate_gold_ore"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "deepslate_iron_ore": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:deepslate_iron_ore"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "deepslate_lapis_ore": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:deepslate_lapis_ore"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "deepslate_diamond_ore": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:deepslate_diamond_ore"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "deepslate_redstone_ore": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:deepslate_redstone_ore"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "deepslate_copper_ore": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:deepslate_copper_ore"
+						],
+						"count": 64
+                    }
+                ]
+            }
+        },
+        "deepslate_coal_ore": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:deepslate_coal_ore"
+						],
 						"count": 64
                     }
                 ]

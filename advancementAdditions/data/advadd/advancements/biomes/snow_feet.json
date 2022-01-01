@@ -4,27 +4,27 @@
             "item": "minecraft:snowball"
         },
         "title": {"translate":"Snow Feet"},
-        "description": {"translate":"Discover every snowy biome"},
+        "description": {"color":"#75E1FF","translate":"Discover every snowy biome"},
         "frame": "goal"
     },
-    "parent": "advadd:biomes/warm_feet",	
+    "parent": "blazeandcave:biomes/warm_feet",	
     "rewards": {
-        "experience": 100
+		"function": "bc_rewards:biomes/snow_feet"
     },	
     "criteria": {
-        "taiga_cold": {
+        "snowy_taiga": {
             "trigger": "minecraft:location",
             "conditions": {
                 "biome": "minecraft:snowy_taiga"
             }
         },
-        "ice_flats": {
+        "snowy_tundra": {
             "trigger": "minecraft:location",
             "conditions": {
                 "biome": "minecraft:snowy_tundra"
             }
         },
-        "ice_mountains": {
+        "snowy_mountains": {
             "trigger": "minecraft:location",
             "conditions": {
                 "biome": "minecraft:snowy_mountains"
@@ -36,13 +36,13 @@
                 "biome": "minecraft:frozen_river"
             }
         },
-        "cold_beach": {
+        "snowy_beach": {
             "trigger": "minecraft:location",
             "conditions": {
                 "biome": "minecraft:snowy_beach"
             }
         },
-        "taiga_cold_hills": {
+        "snowy_taiga_hills": {
             "trigger": "minecraft:location",
             "conditions": {
                 "biome": "minecraft:snowy_taiga_hills"

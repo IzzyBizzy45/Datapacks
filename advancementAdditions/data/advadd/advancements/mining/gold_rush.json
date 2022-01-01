@@ -7,13 +7,18 @@
         "description": {"translate":"Strike gold and smelt it into a gold ingot"}
     },
     "parent": "minecraft:story/iron_tools",
+    "rewards": {
+		"function": "bc_rewards:mining/gold_rush"
+    },		
     "criteria": {
         "gold_ingot": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:gold_ingot"]
+						"items": [
+							"minecraft:gold_ingot"
+						]
                     }
                 ]
             }

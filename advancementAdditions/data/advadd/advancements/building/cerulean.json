@@ -6,24 +6,27 @@
         "title": {"translate":"Cerulean!"},
         "description": {"translate":"Light up the area with soul fire torches and soul fire lanterns!"}
     },
-    "parent": "advadd:building/shroom_lightyear",
+    "parent": "blazeandcave:building/shroom_lightyear",
+	"rewards": {
+		"function": "bc_rewards:building/cerulean"
+    },		
     "criteria": {
         "soul_torch": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:soul_torch"
+				"block": "minecraft:soul_torch"
             }
         },
         "soul_wall_torch": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:soul_wall_torch"
+				"block": "minecraft:soul_wall_torch"
             }
         },
         "soul_lantern": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:soul_lantern"
+				"block": "minecraft:soul_lantern"
             }
         }
     },

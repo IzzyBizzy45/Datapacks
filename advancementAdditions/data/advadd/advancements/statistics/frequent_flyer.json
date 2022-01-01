@@ -7,9 +7,9 @@
         "description": {"translate":"Fly 1000km with elytra"},
 		"frame": "challenge"
     },
-    "parent": "advadd:statistics/supersonic",
+    "parent": "blazeandcave:statistics/supersonic",
 	"rewards": {
-		"experience": 500
+		"function": "bc_rewards:statistics/frequent_flyer"
     },		
     "criteria": {
         "trigger": {

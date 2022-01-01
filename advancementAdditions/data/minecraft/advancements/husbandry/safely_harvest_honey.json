@@ -1,39 +1,31 @@
 {
-  "parent": "advadd:animal/ya_like_jazz",
-  "display": {
-    "icon": {
-      "item": "minecraft:honey_bottle"
-    },
-    "title": {
-      "translate": "Bee our Guest"
-    },
-    "description": {
-      "translate": "advancements.husbandry.safely_harvest_honey.description"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "safely_harvest_honey": {
-      "trigger": "minecraft:item_used_on_block",
-      "conditions": {
-        "location": {
-          "smokey": true,
-          "block": {
-            "tag": "minecraft:beehives"
-          }
+    "display": {
+        "icon": {
+            "item": "minecraft:campfire"
         },
-        "item": {
-          "items": ["minecraft:glass_bottle"]
-        }
-      }
-    }
-  },
-  "requirements": [
-    [
-      "safely_harvest_honey"
-    ]
-  ]
+        "title": {"translate":"Bee Our Guest"},
+        "description": {"translate":"Use a bottle to collect Honey from a Beehive with a campfire beneath it so you don't aggravate the bees"}
+    },
+    "parent": "blazeandcave:animal/ya_like_jazz",
+	"rewards": {
+		"function": "bc_rewards:animal/bee_our_guest"
+    },
+	"criteria": {
+		"safely_harvest_honey": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"smokey": true,
+					"block": {
+						"tag": "minecraft:beehives"
+					}
+				},
+				"item": {
+					"items": [
+						"minecraft:glass_bottle"
+					]
+				}
+			}
+		}
+	}
 }

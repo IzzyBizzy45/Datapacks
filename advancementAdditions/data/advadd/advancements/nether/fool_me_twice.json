@@ -7,16 +7,18 @@
         "description": {"translate":"Completely use up a netherite hoe. Clearly you have chosen... poorly"},
         "frame": "challenge"
     },
-    "parent": "advadd:nether/soul_runnings",
+    "parent": "blazeandcave:nether/soul_runnings",
     "rewards": {
-		"experience": 200
+		"function": "bc_rewards:nether/fool_me_twice"
     },		
     "criteria": {
         "break_hoe": {
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:netherite_hoe"]
+					"items": [
+						"minecraft:netherite_hoe"
+					]
 				},
 				"durability": {
 					"max": 0

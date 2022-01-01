@@ -7,20 +7,40 @@
         "description": {"translate":"Use a Silk Touch enchanted pickaxe to obtain diamond ore as a block"},
 		"frame": "challenge"
     },
-    "parent": "advadd:enchanting/fortunate_son",
+    "parent": "blazeandcave:enchanting/fortunate_son",
     "rewards": {
-        "experience": 50
+		"function": "bc_rewards:enchanting/pick_like_silk"
     },		
     "criteria": {
-        "silk_touch": {
+        "diamond_ore": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:diamond_ore"]
+						"items": [
+							"minecraft:diamond_ore"
+						]
+                    }
+                ]
+            }
+        },
+        "deepslate_diamond_ore": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:deepslate_diamond_ore"
+						]
                     }
                 ]
             }
         }
-    }
+    },
+	"requirements": [
+		[
+			"diamond_ore",
+			"deepslate_diamond_ore"
+		]
+	]
 }

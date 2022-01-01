@@ -6,14 +6,19 @@
         "title": {"translate":"Lucky Charm"},
         "description": {"translate":"Get a rabbit's foot"}
     },
-    "parent": "advadd:animal/theyre_breeding_like_rabbits",
+    "parent": "blazeandcave:animal/theyre_breeding_like_rabbits",
+	"rewards": {
+		"function": "bc_rewards:animal/lucky_charm"
+    },		
     "criteria": {
         "rabbit_foot": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:rabbit_foot"]
+						"items": [
+							"minecraft:rabbit_foot"
+						]
                     }
                 ]
             }

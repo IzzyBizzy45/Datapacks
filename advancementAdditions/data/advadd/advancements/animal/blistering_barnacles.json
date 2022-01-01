@@ -5,7 +5,7 @@
         },
         "title": {"translate":"Blistering Barnacles!"},
         "description": {"translate":"Get spat at by a llama"},
-		"hidden": true
+		"hidden": false
     },
     "parent": "advadd:animal/so_i_got_that_going_for_me",
     "criteria": {

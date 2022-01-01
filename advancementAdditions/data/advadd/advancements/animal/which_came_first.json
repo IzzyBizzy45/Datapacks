@@ -6,14 +6,19 @@
         "title": {"translate":"Which came first?"},
         "description": {"translate":"The chicken... or the egg??"}
     },
-    "parent": "advadd:animal/so_good",
+    "parent": "blazeandcave:animal/so_good",
+	"rewards": {
+		"function": "bc_rewards:animal/which_came_first"
+    },		
     "criteria": {
         "egg": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:egg"]
+						"items": [
+							"minecraft:egg"
+						]
                     }
                 ]
             }

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glow_item_frame"
+        },
+        "title": {"translate":"Flashy Items"},
+        "description": {"translate":"Put an item up for display in a Glowing Item Frame"}
+    },
+    "parent": "minecraft:husbandry/make_a_sign_glow",
+    "criteria": {
+		"glow_item_frame": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:glow_item_frame"
+						}
+					}
+				]
+			}
+		}
+	}	
+}

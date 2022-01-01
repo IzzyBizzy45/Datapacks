@@ -1,29 +1,23 @@
 {
-  "parent": "advadd:adventure/strike_a_deal",
-  "display": {
-    "icon": {
-      "item": "minecraft:emerald"
+    "display": {
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "title": {"translate":"What a Deal!"},
+        "description": {"translate":"Successfully trade with a Villager"}
     },
-    "title": {
-      "translate": "advancements.adventure.trade.title"
-    },
-    "description": {
-      "translate": "advancements.adventure.trade.description"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "traded": {
-      "trigger": "minecraft:villager_trade",
-      "conditions": {}
+    "parent": "blazeandcave:adventure/do_you_want_to_trade",
+    "rewards": {
+        "function": "bc_rewards:adventure/what_a_deal"
+    },		
+    "criteria": {
+        "trade": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"type": "villager"
+				}
+			}
+        }
     }
-  },
-  "requirements": [
-    [
-      "traded"
-    ]
-  ]
 }

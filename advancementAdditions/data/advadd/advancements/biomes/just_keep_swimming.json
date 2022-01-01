@@ -3,15 +3,18 @@
         "icon": {
             "item": "minecraft:water_bucket"
         },
-        "title": {"translate":"Just Keep Swimming, Swimming, Swimming"},
+        "title": {"translate":"Just Keep Swimming"},
         "description": {"translate":"Go for a swim"}
     },
-    "parent": "advadd:biomes/root",
+    "parent": "blazeandcave:biomes/root",
+	"rewards": {
+		"function": "bc_rewards:biomes/just_keep_swimming"
+    },
     "criteria": {
         "enter_water": {
             "trigger": "minecraft:enter_block",
             "conditions": {
-                "block": "minecraft:water"
+				"block": "minecraft:water"
             }
         }
     }

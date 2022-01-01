@@ -1,61 +1,67 @@
 {
-  "parent": "minecraft:husbandry/root",
-  "display": {
-    "icon": {
-      "item": "minecraft:fishing_rod",
-      "nbt": "{Damage:0}"
+    "display": {
+        "icon": {
+            "item": "minecraft:fishing_rod"
+        },
+        "title": {"translate":"Fishy Business"},
+        "description": {"translate":"Catch a fish"}
     },
-    "title": {
-      "translate": "advancements.husbandry.fishy_business.title"
+    "parent": "minecraft:husbandry/root",
+	"rewards": {
+		"function": "bc_rewards:animal/fishy_business"
+    },		
+    "criteria": {
+        "cod": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item":
+                {
+					"items": [
+						"minecraft:cod"
+					]
+                }
+            }
+        },
+        "salmon": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item":
+                {
+					"items": [
+						"minecraft:salmon"
+					]
+                }
+            }
+        },
+        "pufferfish": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item":
+                {
+					"items": [
+						"minecraft:pufferfish"
+					]
+                }
+            }
+        },
+        "tropical_fish": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item":
+                {
+					"items": [
+						"minecraft:tropical_fish"
+					]
+                }
+            }
+        }		
     },
-    "description": {
-      "translate": "advancements.husbandry.fishy_business.description"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "cod": {
-      "trigger": "minecraft:fishing_rod_hooked",
-      "conditions": {
-        "item": {
-          "items": ["minecraft:cod"]
-        }
-      }
-    },
-    "tropical_fish": {
-      "trigger": "minecraft:fishing_rod_hooked",
-      "conditions": {
-        "item": {
-          "items": ["minecraft:tropical_fish"]
-        }
-      }
-    },
-    "pufferfish": {
-      "trigger": "minecraft:fishing_rod_hooked",
-      "conditions": {
-        "item": {
-          "items": ["minecraft:pufferfish"]
-        }
-      }
-    },
-    "salmon": {
-      "trigger": "minecraft:fishing_rod_hooked",
-      "conditions": {
-        "item": {
-          "items": ["minecraft:salmon"]
-        }
-      }
-    }
-  },
-  "requirements": [
-    [
-      "cod",
-      "tropical_fish",
-      "pufferfish",
-      "salmon"
+    "requirements": [
+		[
+        "cod",
+		"salmon",
+		"pufferfish",
+		"tropical_fish"
+		]
     ]
-  ]
 }

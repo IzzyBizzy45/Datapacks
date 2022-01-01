@@ -6,12 +6,15 @@
         "title": {"translate":"Ladder Climbers Inc."},
         "description": {"translate":"Climb the ladder!"}
     },
-    "parent": "advadd:building/your_door_was_locked",
+    "parent": "blazeandcave:building/your_door_was_locked",
+	"rewards": {
+		"function": "bc_rewards:building/ladder_climbers_inc"
+    },
     "criteria": {
         "enter_ladder": {
             "trigger": "minecraft:enter_block",
             "conditions": {
-                "block": "minecraft:ladder"
+				"block": "minecraft:ladder"
             }
         }
     }

@@ -3,17 +3,22 @@
         "icon": {
             "item": "minecraft:piston"
         },
-        "title": {"translate":"Moving Blocks"},
+        "title": {"translate":"Moving Parts"},
         "description": {"translate":"Craft a piston so you can push things"}
     },
-    "parent": "advadd:redstone/root",
+    "parent": "blazeandcave:redstone/root",
+	"rewards": {
+		"function": "bc_rewards:redstone/moving_parts"
+    },
     "criteria": {
         "piston": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:piston"]
+						"items": [
+							"minecraft:piston"
+						]
                     }
                 ]
             }

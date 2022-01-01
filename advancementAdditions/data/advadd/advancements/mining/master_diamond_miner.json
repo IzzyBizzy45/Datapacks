@@ -7,14 +7,19 @@
         "description": {"translate":"Mine enough diamond to make a stack of diamond blocks"},
 		"frame": "challenge"
     },
-    "parent": "advadd:mining/diamond_miner",
+    "parent": "blazeandcave:mining/mineral_collection",
+    "rewards": {
+		"function": "bc_rewards:mining/master_diamond_miner"
+    },		
     "criteria": {
         "diamond": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:diamond_block"],
+						"items": [
+							"minecraft:diamond_block"
+						],
 						"count": 64
                     }
                 ]

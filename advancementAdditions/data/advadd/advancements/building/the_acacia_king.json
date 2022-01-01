@@ -4,17 +4,22 @@
             "item": "minecraft:acacia_sapling"
         },
         "title": {"translate":"The Acacia King"},
-        "description": {"translate":"Craft every item made out of acacia wood"},
+        "description": {"color":"#75E1FF","translate":"Craft every item made out of acacia wood"},
 		"frame": "goal"
     },
-    "parent": "advadd:building/the_jungler",
+    "parent": "blazeandcave:building/the_jungler",
+    "rewards": {
+		"function": "bc_rewards:building/the_acacia_king"
+    },		
     "criteria": {
         "acacia_planks": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:acacia_planks"]
+						"items": [
+							"minecraft:acacia_planks"
+						]
                     }
                 ]
             }
@@ -24,7 +29,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:acacia_log"]
+						"items": [
+							"minecraft:acacia_log"
+						]
                     }
                 ]
             }
@@ -34,7 +41,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:acacia_wood"]
+						"items": [
+							"minecraft:acacia_wood"
+						]
                     }
                 ]
             }
@@ -44,7 +53,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:stripped_acacia_log"]
+						"items": [
+							"minecraft:stripped_acacia_log"
+						]
                     }
                 ]
             }
@@ -54,7 +65,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:stripped_acacia_wood"]
+						"items": [
+							"minecraft:stripped_acacia_wood"
+						]
                     }
                 ]
             }
@@ -64,7 +77,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:acacia_slab"]
+						"items": [
+							"minecraft:acacia_slab"
+						]
                     }
                 ]
             }
@@ -74,7 +89,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:acacia_pressure_plate"]
+						"items": [
+							"minecraft:acacia_pressure_plate"
+						]
                     }
                 ]
             }
@@ -84,7 +101,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:acacia_fence"]
+						"items": [
+							"minecraft:acacia_fence"
+						]
                     }
                 ]
             }
@@ -94,7 +113,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:acacia_trapdoor"]
+						"items": [
+							"minecraft:acacia_trapdoor"
+						]
                     }
                 ]
             }
@@ -104,7 +125,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:acacia_fence_gate"]
+						"items": [
+							"minecraft:acacia_fence_gate"
+						]
                     }
                 ]
             }
@@ -114,7 +137,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:acacia_stairs"]
+						"items": [
+							"minecraft:acacia_stairs"
+						]
                     }
                 ]
             }
@@ -124,7 +149,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:acacia_button"]
+						"items": [
+							"minecraft:acacia_button"
+						]
                     }
                 ]
             }
@@ -134,7 +161,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:acacia_door"]
+						"items": [
+							"minecraft:acacia_door"
+						]
                     }
                 ]
             }
@@ -144,7 +173,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:acacia_boat"]
+						"items": [
+							"minecraft:acacia_boat"
+						]
                     }
                 ]
             }
@@ -154,7 +185,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:acacia_sign"]
+						"items": [
+							"minecraft:acacia_sign"
+						]
                     }
                 ]
             }

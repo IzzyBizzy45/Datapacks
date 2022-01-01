@@ -6,9 +6,9 @@
         "title": {"translate":"I'll be back"},
         "description": {"translate":"Name your bow 'Terminator'"}
     },
-    "parent": "advadd:enchanting/this_name_sounds_cooler",
+    "parent": "blazeandcave:enchanting/this_name_sounds_cooler",
 	"rewards": {
-		"experience": 50
+		"function": "bc_rewards:enchanting/ill_be_back"
     },	
     "criteria": {
         "terminator": {
@@ -16,7 +16,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:bow"],
+						"items": [
+							"minecraft:bow"
+						],
 						"nbt": "{display:{Name:\"{\\\"text\\\":\\\"Terminator\\\"}\"}}"
                     }
                 ]

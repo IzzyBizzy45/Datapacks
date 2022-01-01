@@ -6,14 +6,19 @@
         "title": {"translate":"Fake stronghold"},
         "description": {"translate":"Craft or collect all forms of normal, cracked, mossy and chiseled stone bricks"}
     },
-    "parent": "advadd:building/rock_collection",
+    "parent": "blazeandcave:building/rock_polish",
+    "rewards": {
+        "function": "bc_rewards:building/fake_stronghold"
+    },		
     "criteria": {
         "normal": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:stone_bricks"]
+						"items": [
+							"minecraft:stone_bricks"
+						]
                     }
                 ]
             }
@@ -23,7 +28,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:stone_brick_slab"]
+						"items": [
+							"minecraft:stone_brick_slab"
+						]
                     }
                 ]
             }
@@ -33,7 +40,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:stone_brick_stairs"]
+						"items": [
+							"minecraft:stone_brick_stairs"
+						]
                     }
                 ]
             }
@@ -43,7 +52,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:stone_brick_wall"]
+						"items": [
+							"minecraft:stone_brick_wall"
+						]
                     }
                 ]
             }
@@ -53,7 +64,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:mossy_stone_bricks"]
+						"items": [
+							"minecraft:mossy_stone_bricks"
+						]
                     }
                 ]
             }
@@ -63,7 +76,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:mossy_stone_brick_slab"]
+						"items": [
+							"minecraft:mossy_stone_brick_slab"
+						]
                     }
                 ]
             }
@@ -73,7 +88,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:mossy_stone_brick_stairs"]
+						"items": [
+							"minecraft:mossy_stone_brick_stairs"
+						]
                     }
                 ]
             }
@@ -83,7 +100,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:mossy_stone_brick_wall"]
+						"items": [
+							"minecraft:mossy_stone_brick_wall"
+						]
                     }
                 ]
             }
@@ -93,7 +112,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:cracked_stone_bricks"]
+						"items": [
+							"minecraft:cracked_stone_bricks"
+						]
                     }
                 ]
             }
@@ -103,7 +124,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:chiseled_stone_bricks"]
+						"items": [
+							"minecraft:chiseled_stone_bricks"
+						]
                     }
                 ]
             }

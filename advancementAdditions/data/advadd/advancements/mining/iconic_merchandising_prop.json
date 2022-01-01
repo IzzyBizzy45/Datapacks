@@ -7,15 +7,18 @@
         "description": {"translate":"Create a pickaxe of the highest calibre"}
     },
     "parent": "minecraft:story/mine_diamond",
+    "rewards": {
+		"function": "bc_rewards:mining/iconic_merchandising_prop"
+    },			
     "criteria": {
         "diamond_pickaxe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": [
-                            "minecraft:diamond_pickaxe"
-                        ]
+						"items": [
+							"minecraft:diamond_pickaxe"
+						]
                     }
                 ]
             }

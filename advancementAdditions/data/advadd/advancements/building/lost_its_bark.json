@@ -6,7 +6,10 @@
         "title": {"translate":"Lost Its Bark"},
         "description": {"translate":"Strip a bark block of its bark"}
     },
-    "parent": "advadd:building/barking_mad",
+    "parent": "blazeandcave:building/barking_mad",
+    "rewards": {
+        "function": "bc_rewards:building/lost_its_bark"
+    },		
     "criteria": {
 		"stripped_wood": {
 			"trigger": "minecraft:item_used_on_block",
@@ -21,5 +24,5 @@
 				}
 			}
 		}
-	}	
+	}
 }

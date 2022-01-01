@@ -1,35 +1,27 @@
 {
-  "parent": "advadd:potion/root",
-  "display": {
-    "icon": {
-      "item": "minecraft:dragon_breath"
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_breath"
+        },
+        "title": {"translate":"You Need a Mint"},
+        "description": {"translate":"Collect dragon's breath in a glass bottle"}
     },
-    "title": {
-      "translate": "advancements.end.dragon_breath.title"
-    },
-    "description": {
-      "translate": "advancements.end.dragon_breath.description"
-    },
-    "frame": "goal",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "dragon_breath": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": ["minecraft:dragon_breath"]
-          }
-        ]
-      }
+    "parent": "blazeandcave:potion/root",
+	"rewards": {
+		"function": "bc_rewards:potion/you_need_a_mint"
+    },	
+    "criteria": {
+        "dragon_breath": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:dragon_breath"
+						]
+                    }
+                ]
+            }
+        }
     }
-  },
-  "requirements": [
-    [
-      "dragon_breath"
-    ]
-  ]
 }

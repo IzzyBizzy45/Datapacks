@@ -7,9 +7,9 @@
         "description": {"translate":"Collect all colors of coral blocks, plants and fans (including dead ones)"},
 		"frame": "challenge"
     },
-    "parent": "advadd:biomes/just_a_sample",
+    "parent": "blazeandcave:biomes/just_a_sample",
 	"rewards": {
-		"experience": 50
+		"function": "bc_rewards:biomes/no_reefing"
     },		
     "criteria": {
         "tube_coral": {
@@ -17,7 +17,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:tube_coral"]
+						"items": [
+							"minecraft:tube_coral"
+						]
                     }
                 ]
             }
@@ -27,7 +29,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:brain_coral"]
+						"items": [
+							"minecraft:brain_coral"
+						]
                     }
                 ]
             }
@@ -37,7 +41,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:bubble_coral"]
+						"items": [
+							"minecraft:bubble_coral"
+						]
                     }
                 ]
             }
@@ -47,7 +53,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:fire_coral"]
+						"items": [
+							"minecraft:fire_coral"
+						]
                     }
                 ]
             }
@@ -57,7 +65,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:horn_coral"]
+						"items": [
+							"minecraft:horn_coral"
+						]
                     }
                 ]
             }
@@ -67,7 +77,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:dead_tube_coral"]
+						"items": [
+							"minecraft:dead_tube_coral"
+						]
                     }
                 ]
             }
@@ -77,7 +89,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:dead_brain_coral"]
+						"items": [
+							"minecraft:dead_brain_coral"
+						]
                     }
                 ]
             }
@@ -87,7 +101,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:dead_bubble_coral"]
+						"items": [
+							"minecraft:dead_bubble_coral"
+						]
                     }
                 ]
             }
@@ -97,7 +113,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:dead_fire_coral"]
+						"items": [
+							"minecraft:dead_fire_coral"
+						]
                     }
                 ]
             }
@@ -107,7 +125,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:dead_horn_coral"]
+						"items": [
+							"minecraft:dead_horn_coral"
+						]
                     }
                 ]
             }
@@ -117,7 +137,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:tube_coral_fan"]
+						"items": [
+							"minecraft:tube_coral_fan"
+						]
                     }
                 ]
             }
@@ -127,7 +149,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:brain_coral_fan"]
+						"items": [
+							"minecraft:brain_coral_fan"
+						]
                     }
                 ]
             }
@@ -137,7 +161,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:bubble_coral_fan"]
+						"items": [
+							"minecraft:bubble_coral_fan"
+						]
                     }
                 ]
             }
@@ -147,7 +173,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:fire_coral_fan"]
+						"items": [
+							"minecraft:fire_coral_fan"
+						]
                     }
                 ]
             }
@@ -157,7 +185,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:horn_coral_fan"]
+						"items": [
+							"minecraft:horn_coral_fan"
+						]
                     }
                 ]
             }
@@ -167,7 +197,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:dead_tube_coral_fan"]
+						"items": [
+							"minecraft:dead_tube_coral_fan"
+						]
                     }
                 ]
             }
@@ -177,7 +209,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:dead_brain_coral_fan"]
+						"items": [
+							"minecraft:dead_brain_coral_fan"
+						]
                     }
                 ]
             }
@@ -187,7 +221,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:dead_bubble_coral_fan"]
+						"items": [
+							"minecraft:dead_bubble_coral_fan"
+						]
                     }
                 ]
             }
@@ -197,7 +233,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:dead_fire_coral_fan"]
+						"items": [
+							"minecraft:dead_fire_coral_fan"
+						]
                     }
                 ]
             }
@@ -207,7 +245,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:dead_horn_coral_fan"]
+						"items": [
+							"minecraft:dead_horn_coral_fan"
+						]
                     }
                 ]
             }
@@ -217,7 +257,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:tube_coral_block"]
+						"items": [
+							"minecraft:tube_coral_block"
+						]
                     }
                 ]
             }
@@ -227,7 +269,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:brain_coral_block"]
+						"items": [
+							"minecraft:brain_coral_block"
+						]
                     }
                 ]
             }
@@ -237,7 +281,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:bubble_coral_block"]
+						"items": [
+							"minecraft:bubble_coral_block"
+						]
                     }
                 ]
             }
@@ -247,7 +293,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:fire_coral_block"]
+						"items": [
+							"minecraft:fire_coral_block"
+						]
                     }
                 ]
             }
@@ -257,7 +305,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:horn_coral_block"]
+						"items": [
+							"minecraft:horn_coral_block"
+						]
                     }
                 ]
             }
@@ -267,7 +317,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:dead_tube_coral_block"]
+						"items": [
+							"minecraft:dead_tube_coral_block"
+						]
                     }
                 ]
             }
@@ -277,7 +329,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:dead_brain_coral_block"]
+						"items": [
+							"minecraft:dead_brain_coral_block"
+						]
                     }
                 ]
             }
@@ -287,7 +341,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:dead_bubble_coral_block"]
+						"items": [
+							"minecraft:dead_bubble_coral_block"
+						]
                     }
                 ]
             }
@@ -297,7 +353,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:dead_fire_coral_block"]
+						"items": [
+							"minecraft:dead_fire_coral_block"
+						]
                     }
                 ]
             }
@@ -307,7 +365,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:dead_horn_coral_block"]
+						"items": [
+							"minecraft:dead_horn_coral_block"
+						]
                     }
                 ]
             }

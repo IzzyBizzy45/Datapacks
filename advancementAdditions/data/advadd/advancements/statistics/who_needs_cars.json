@@ -4,12 +4,12 @@
             "item": "minecraft:iron_boots"
         },
         "title": {"translate":"Who needs cars?"},
-        "description": {"translate":"Walk 100km"},
+        "description": {"color":"#75E1FF","translate":"Walk 100km"},
 		"frame": "goal"
     },
-    "parent": "advadd:statistics/out_for_a_stroll",
+    "parent": "blazeandcave:statistics/out_for_a_stroll",
 	"rewards": {
-		"experience": 200
+		"function": "bc_rewards:statistics/who_needs_cars"
     },		
     "criteria": {
         "trigger": {

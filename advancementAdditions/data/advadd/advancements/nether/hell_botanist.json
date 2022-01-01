@@ -4,12 +4,12 @@
             "item": "minecraft:warped_roots"
         },
         "title": {"translate":"Hell Botanist"},
-        "description": {"translate":"Gather a stack of every Nether plant"},
-		"frame": "challenge"
+        "description": {"color":"#75E1FF","translate":"Gather a stack of every Nether plant"},
+		"frame": "goal"
     },
     "parent": "minecraft:nether/explore_nether",
 	"rewards": {
-		"experience": 50
+		"function": "bc_rewards:nether/hell_botanist"
     },		
     "criteria": {
         "crimson_fungus": {
@@ -17,7 +17,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:crimson_fungus"],
+						"items": [
+							"minecraft:crimson_fungus"
+						],
 						"count": 64
                     }
                 ]
@@ -28,7 +30,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:warped_fungus"],
+						"items": [
+							"minecraft:warped_fungus"
+						],
 						"count": 64
                     }
                 ]
@@ -39,7 +43,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:crimson_roots"],
+						"items": [
+							"minecraft:crimson_roots"
+						],
 						"count": 64
                     }
                 ]
@@ -50,7 +56,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:warped_roots"],
+						"items": [
+							"minecraft:warped_roots"
+						],
 						"count": 64
                     }
                 ]
@@ -61,7 +69,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:nether_sprouts"],
+						"items": [
+							"minecraft:nether_sprouts"
+						],
 						"count": 64
                     }
                 ]
@@ -72,7 +82,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:weeping_vines"],
+						"items": [
+							"minecraft:weeping_vines"
+						],
 						"count": 64
                     }
                 ]
@@ -83,7 +95,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:twisting_vines"],
+						"items": [
+							"minecraft:twisting_vines"
+						],
 						"count": 64
                     }
                 ]
@@ -94,7 +108,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:nether_wart"],
+						"items": [
+							"minecraft:nether_wart"
+						],
 						"count": 64
                     }
                 ]

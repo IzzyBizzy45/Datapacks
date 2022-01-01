@@ -6,14 +6,19 @@
         "title": {"translate":"Bamboom!"},
         "description": {"translate":"Break down some bamboo"}
     },
-    "parent": "advadd:biomes/tarzan",
+    "parent": "blazeandcave:biomes/tarzan",
+    "rewards": {
+        "function": "bc_rewards:biomes/bamboom"
+    },		
     "criteria": {
         "bamboo": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:bamboo"]
+						"items": [
+							"minecraft:bamboo"
+						]
                     }
                 ]
             }

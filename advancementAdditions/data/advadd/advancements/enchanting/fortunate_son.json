@@ -4,10 +4,13 @@
             "item": "minecraft:golden_pickaxe"
         },
         "title": {"translate":"Fortunate Son"},
-        "description": {"translate":"Obtain Fortune III"},
+        "description": {"color":"#75E1FF","translate":"Obtain Fortune III"},
 		"frame": "goal"
     },
-    "parent": "advadd:enchanting/super_efficient",
+    "parent": "blazeandcave:enchanting/super_efficient",
+    "rewards": {
+		"function": "bc_rewards:enchanting/fortunate_son"
+    },			
     "criteria": {
         "fortune": {
             "trigger": "minecraft:inventory_changed",

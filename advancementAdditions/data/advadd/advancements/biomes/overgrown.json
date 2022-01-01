@@ -4,27 +4,27 @@
             "item": "minecraft:dark_oak_sapling"
         },
         "title": {"translate":"Overgrown!"},
-        "description": {"translate":"Discover every overgrown biome"},
+        "description": {"color":"#75E1FF","translate":"Discover every overgrown biome"},
         "frame": "goal"
     },
-    "parent": "advadd:biomes/snow_feet",	
+    "parent": "blazeandcave:biomes/snow_feet",	
     "rewards": {
-        "experience": 100
+		"function": "bc_rewards:biomes/overgrown"
     },	
     "criteria": {
-        "swampland": {
+        "swamp": {
             "trigger": "minecraft:location",
             "conditions": {
                 "biome": "minecraft:swamp"
             }
         },
-        "mushroom_island": {
+        "mushroom_fields": {
             "trigger": "minecraft:location",
             "conditions": {
                 "biome": "minecraft:mushroom_fields"
             }
         },
-        "mushroom_island_shore": {
+        "mushroom_field_shore": {
             "trigger": "minecraft:location",
             "conditions": {
                 "biome": "minecraft:mushroom_field_shore"

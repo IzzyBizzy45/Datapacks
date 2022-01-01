@@ -4,7 +4,7 @@
             "item": "minecraft:acacia_log"
         },
         "title": {"translate":"Traveller"},
-        "description": {"translate":"Travel to every type of village and trade with a villager in each of them"},
+        "description": {"translate":"Travel to every type of village and trade with a villager in each"},
 		"frame": "goal"
     },
     "parent": "minecraft:adventure/trade",

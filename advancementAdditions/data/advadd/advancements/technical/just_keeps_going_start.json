@@ -4,7 +4,9 @@
             "trigger": "consume_item",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:rabbit_stew"]
+					"items": [
+						"minecraft:rabbit_stew"
+					]
                 }
             }
         }

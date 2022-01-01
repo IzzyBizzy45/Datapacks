@@ -7,6 +7,9 @@
         "description": {"translate":"Kill a zombie pigman"}
     },
     "parent": "minecraft:nether/root",
+    "rewards": {
+        "function": "bc_rewards:nether/the_tribal_snouts"
+    },		
     "criteria": {
         "zombified_piglin": {
             "trigger": "minecraft:player_killed_entity",

@@ -8,9 +8,9 @@
         "description": {"translate":"Create a bow with all possible enchantments at max level"},
 		"frame": "challenge"
     },
-    "parent": "advadd:enchanting/master_knight",
+    "parent": "blazeandcave:enchanting/master_knight",
     "rewards": {
-        "experience": 100
+		"function": "bc_rewards:enchanting/master_sniper"
     },		
     "criteria": {
         "perfect_bow_infinity": {
@@ -18,7 +18,9 @@
             "conditions": {
 				"items": [
                     {
-                        "items": ["minecraft:bow"],
+						"items": [
+							"minecraft:bow"
+						],
 						"enchantments": [
 							{
 								"enchantment": "minecraft:power",
@@ -50,7 +52,9 @@
             "conditions": {
 				"items": [
                     {
-                        "items": ["minecraft:bow"],
+						"items": [
+							"minecraft:bow"
+						],
 						"enchantments": [
 							{
 								"enchantment": "minecraft:power",

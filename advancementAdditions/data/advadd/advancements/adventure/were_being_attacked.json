@@ -4,10 +4,12 @@
             "item": "minecraft:crossbow"
         },
         "title": {"translate":"We're being attacked!"},
-        "description": {"translate":"Trigger a Pillager Raid"},
-		"hidden": true
+        "description": {"translate":"Trigger a Pillager Raid"}
     },
     "parent": "minecraft:adventure/voluntary_exile",
+	"rewards": {
+		"function": "bc_rewards:adventure/were_being_attacked"
+    },
     "criteria": {
         "triggered_raid": {
             "trigger": "minecraft:voluntary_exile"

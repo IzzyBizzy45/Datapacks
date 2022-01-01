@@ -4,15 +4,15 @@
             "item": "minecraft:spruce_sapling"
         },
         "title": {"translate":"Cold Feet"},
-        "description": {"translate":"Discover every cold biome"},
+        "description": {"color":"#75E1FF","translate":"Discover every cold biome"},
         "frame": "goal"
     },
-    "parent": "advadd:biomes/one_with_the_forest",	
+    "parent": "blazeandcave:biomes/one_with_the_forest",	
     "rewards": {
-        "experience": 100
+		"function": "bc_rewards:biomes/cold_feet"
     },	
     "criteria": {
-        "redwood_taiga_hills": {
+        "giant_tree_taiga_hills": {
             "trigger": "minecraft:location",
             "conditions": {
                 "biome": "minecraft:giant_tree_taiga_hills"
@@ -24,7 +24,7 @@
                 "biome": "minecraft:taiga_hills"
             }
         },
-        "redwood_taiga": {
+        "giant_tree_taiga": {
             "trigger": "minecraft:location",
             "conditions": {
                 "biome": "minecraft:giant_tree_taiga"
@@ -36,13 +36,13 @@
                 "biome": "minecraft:taiga"
             }
         },
-        "extreme_hills": {
+        "mountains": {
             "trigger": "minecraft:location",
             "conditions": {
                 "biome": "minecraft:mountains"
             }
         },
-        "extreme_hills_with_trees": {
+        "wooded_mountains": {
             "trigger": "minecraft:location",
             "conditions": {
                 "biome": "minecraft:wooded_mountains"

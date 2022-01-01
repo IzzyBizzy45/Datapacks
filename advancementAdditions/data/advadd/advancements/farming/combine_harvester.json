@@ -7,9 +7,9 @@
         "description": {"translate":"Use bone meal on everything that can be grown"},
 		"frame": "challenge"
     },
-    "parent": "advadd:farming/natural_fertiliser",
+    "parent": "blazeandcave:farming/one_course_meal",
 	"rewards": {
-		"experience": 100
+		"function": "bc_rewards:farming/combine_harvester"
     },
     "criteria": {
         "wheat": {
@@ -17,11 +17,15 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"blocks": ["minecraft:wheat"]
+						"blocks": [
+							"minecraft:wheat"
+						]
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -30,11 +34,15 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"blocks": ["minecraft:carrots"]
+						"blocks": [
+							"minecraft:carrots"
+						]
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -43,11 +51,15 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"blocks": ["minecraft:potatoes"]
+						"blocks": [
+							"minecraft:potatoes"
+						]
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -56,11 +68,15 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"blocks": ["minecraft:beetroots"]
+						"blocks": [
+							"minecraft:beetroots"
+						]
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -73,7 +89,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -86,7 +104,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -99,7 +119,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -112,7 +134,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -125,7 +149,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -138,7 +164,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -151,7 +179,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -164,7 +194,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -177,7 +209,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -186,11 +220,15 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"blocks": ["minecraft:sunflower"]
+						"blocks": [
+							"minecraft:sunflower"
+						]
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -199,11 +237,15 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"blocks": ["minecraft:lilac"]
+						"blocks": [
+							"minecraft:lilac"
+						]
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -212,11 +254,15 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"blocks": ["minecraft:rose_bush"]
+						"blocks": [
+							"minecraft:rose_bush"
+						]
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -225,11 +271,15 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"blocks": ["minecraft:peony"]
+						"blocks": [
+							"minecraft:peony"
+						]
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -238,11 +288,15 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"blocks": ["minecraft:tall_grass"]
+						"blocks": [
+							"minecraft:tall_grass"
+						]
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -251,11 +305,15 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"blocks": ["minecraft:large_fern"]
+						"blocks": [
+							"minecraft:large_fern"
+						]
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -264,11 +322,15 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"blocks": ["minecraft:tall_seagrass"]
+						"blocks": [
+							"minecraft:tall_seagrass"
+						]
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -277,11 +339,15 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"blocks": ["minecraft:red_mushroom"]
+						"blocks": [
+							"minecraft:red_mushroom"
+						]
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -290,11 +356,15 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"blocks": ["minecraft:brown_mushroom"]
+						"blocks": [
+							"minecraft:brown_mushroom"
+						]
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -303,11 +373,15 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"blocks": ["minecraft:cocoa"]
+						"blocks": [
+							"minecraft:cocoa"
+						]
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -316,11 +390,15 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"blocks": ["minecraft:sweet_berry_bush"]
+						"blocks": [
+							"minecraft:sweet_berry_bush"
+						]
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -329,11 +407,15 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"blocks": ["minecraft:sea_pickle"]
+						"blocks": [
+							"minecraft:sea_pickle"
+						]
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -346,7 +428,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -359,7 +443,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -372,7 +458,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -385,7 +473,9 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		},
@@ -398,7 +488,93 @@
 					}
 				},
 				"item": {
-					"items": ["minecraft:bone_meal"]
+					"items": [
+						"minecraft:bone_meal"
+					]
+				}
+			}
+		},
+        "glow_lichen": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"blocks": [
+							"minecraft:glow_lichen"
+						]
+					}
+				},
+				"item": {
+					"items": [
+						"minecraft:bone_meal"
+					]
+				}
+			}
+		},
+        "dripleaves": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "blazeandcave:ch_dripleaves"
+					}
+				},
+				"item": {
+					"items": [
+						"minecraft:bone_meal"
+					]
+				}
+			}
+		},
+        "cave_vines": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"tag": "blazeandcave:ch_cave_vines",
+						"state": {
+							"berries": "true"
+						}
+					}
+				},
+				"item": {
+					"items": [
+						"minecraft:bone_meal"
+					]
+				}
+			}
+		},
+        "azalea": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"blocks": [
+							"minecraft:azalea"
+						]
+					}
+				},
+				"item": {
+					"items": [
+						"minecraft:bone_meal"
+					]
+				}
+			}
+		},
+        "flowering_azalea": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"blocks": [
+							"minecraft:flowering_azalea"
+						]
+					}
+				},
+				"item": {
+					"items": [
+						"minecraft:bone_meal"
+					]
 				}
 			}
 		}

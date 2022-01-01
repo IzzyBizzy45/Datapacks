@@ -6,14 +6,19 @@
         "title": {"translate":"Under Pressure"},
         "description": {"translate":"Craft a pressure plate"}
     },
-    "parent": "advadd:redstone/root",
+    "parent": "blazeandcave:redstone/root",
+	"rewards": {
+		"function": "bc_rewards:redstone/under_pressure"
+    },
     "criteria": {
         "oak_pressure_plate": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:oak_pressure_plate"]
+						"items": [
+							"minecraft:oak_pressure_plate"
+						]
                     }
                 ]
             }
@@ -23,7 +28,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:spruce_pressure_plate"]
+						"items": [
+							"minecraft:spruce_pressure_plate"
+						]
                     }
                 ]
             }
@@ -33,7 +40,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:birch_pressure_plate"]
+						"items": [
+							"minecraft:birch_pressure_plate"
+						]
                     }
                 ]
             }
@@ -43,7 +52,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:jungle_pressure_plate"]
+						"items": [
+							"minecraft:jungle_pressure_plate"
+						]
                     }
                 ]
             }
@@ -53,7 +64,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:acacia_pressure_plate"]
+						"items": [
+							"minecraft:acacia_pressure_plate"
+						]
                     }
                 ]
             }
@@ -63,7 +76,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:dark_oak_pressure_plate"]
+						"items": [
+							"minecraft:dark_oak_pressure_plate"
+						]
                     }
                 ]
             }
@@ -73,7 +88,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:stone_pressure_plate"]
+						"items": [
+							"minecraft:stone_pressure_plate"
+						]
                     }
                 ]
             }
@@ -83,7 +100,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:light_weighted_pressure_plate"]
+						"items": [
+							"minecraft:light_weighted_pressure_plate"
+						]
                     }
                 ]
             }
@@ -93,7 +112,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:heavy_weighted_pressure_plate"]
+						"items": [
+							"minecraft:heavy_weighted_pressure_plate"
+						]
                     }
                 ]
             }
@@ -103,7 +124,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:crimson_pressure_plate"]
+						"items": [
+							"minecraft:crimson_pressure_plate"
+						]
                     }
                 ]
             }
@@ -113,7 +136,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:warped_pressure_plate"]
+						"items": [
+							"minecraft:warped_pressure_plate"
+						]
                     }
                 ]
             }
@@ -123,7 +148,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:polished_blackstone_pressure_plate"]
+						"items": [
+							"minecraft:polished_blackstone_pressure_plate"
+						]
                     }
                 ]
             }

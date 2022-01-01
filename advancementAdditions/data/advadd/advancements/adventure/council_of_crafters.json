@@ -3,11 +3,11 @@
         "icon": {
             "item": "minecraft:elytra"
         },
-        "title": {"translate":"Council of Traders"},
+        "title": {"translate":"Council of Crafters"},
         "description": {"translate":"Trade with a villager at height limit"},
 		"frame": "goal"
     },
-    "parent": "advadd:adventure/lilypad_hatter",
+    "parent": "blazeandcave:adventure/lilypad_hatter",
     "criteria": {
         "trade": {
             "trigger": "minecraft:villager_trade",
@@ -19,10 +19,50 @@
 							"y": {
 								"min": 255
 							}
-						}
+						},
+						"dimension": "minecraft:overworld"
+					}
+				}
+			}
+        },
+        "trade_nether": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"type": "villager",
+					"location": {
+						"position": {
+							"y": {
+								"min": 255
+							}
+						},
+						"dimension": "minecraft:the_nether"
+					}
+				}
+			}
+        },
+        "trade_end": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"type": "villager",
+					"location": {
+						"position": {
+							"y": {
+								"min": 255
+							}
+						},
+						"dimension": "minecraft:the_end"
 					}
 				}
 			}
         }
-    }
+    },
+	"requirements": [
+		[
+			"trade",
+			"trade_nether",
+			"trade_end"
+		]
+	]
 }

@@ -6,14 +6,19 @@
         "title": {"translate":"Metal Plate"},
         "description": {"translate":"Dinner time!"}
     },
-    "parent": "advadd:redstone/pressure_detector",
+    "parent": "blazeandcave:redstone/pressure_detector",
+	"rewards": {
+		"function": "bc_rewards:redstone/metal_plate"
+    },
     "criteria": {
         "heavy_weighted_pressure_plate": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:heavy_weighted_pressure_plate"]
+						"items": [
+							"minecraft:heavy_weighted_pressure_plate"
+						]
                     }
                 ]
             }

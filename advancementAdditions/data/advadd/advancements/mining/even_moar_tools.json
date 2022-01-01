@@ -6,14 +6,19 @@
         "title": {"translate":"Even MOAR Tools"},
         "description": {"translate":"Craft a full diamond tools set"}
     },
-    "parent": "advadd:mining/stabcraft",
+    "parent": "blazeandcave:mining/stabcraft",
+    "rewards": {
+		"function": "bc_rewards:mining/even_moar_tools"
+    },			
     "criteria": {
         "diamond_pickaxe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:diamond_pickaxe"]
+						"items": [
+							"minecraft:diamond_pickaxe"
+						]
                     }
                 ]
             }
@@ -23,7 +28,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:diamond_axe"]
+						"items": [
+							"minecraft:diamond_axe"
+						]
                     }
                 ]
             }
@@ -33,7 +40,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:diamond_shovel"]
+						"items": [
+							"minecraft:diamond_shovel"
+						]
                     }
                 ]
             }
@@ -43,7 +52,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:diamond_hoe"]
+						"items": [
+							"minecraft:diamond_hoe"
+						]
                     }
                 ]
             }

@@ -7,6 +7,9 @@
         "description": {"translate":"Find a broken Nether Portal in the Nether"}
     },
     "parent": "minecraft:nether/root",
+    "rewards": {
+        "function": "bc_rewards:nether/from_whence_it_came"
+    },		
     "criteria": {
         "ruined_portal": {
             "trigger": "minecraft:location",

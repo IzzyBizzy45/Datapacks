@@ -4,10 +4,13 @@
             "item": "minecraft:spider_eye"
         },
         "title": {"translate":"Bane of one-shotting spiders"},
-        "description": {"translate":"Obtain Bane of Arthropods V"},
+        "description": {"color":"#75E1FF","translate":"Obtain Bane of Arthropods V"},
 		"frame": "goal"
     },
-    "parent": "advadd:enchanting/undead_slayer",
+    "parent": "blazeandcave:enchanting/undead_slayer",
+    "rewards": {
+		"function": "bc_rewards:enchanting/bane_of_one_shotting_spiders"
+    },			
     "criteria": {
         "bane_of_arthropods": {
             "trigger": "minecraft:inventory_changed",

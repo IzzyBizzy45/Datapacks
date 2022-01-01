@@ -6,9 +6,9 @@
         "title": {"translate":"This name sounds cooler"},
         "description": {"translate":"Name your Diamond Sword 'Diamond Edge'"}
     },
-    "parent": "advadd:enchanting/old_cartoon_joke",
+    "parent": "blazeandcave:enchanting/heavy_metal",
 	"rewards": {
-		"experience": 50
+		"function": "bc_rewards:enchanting/this_name_sounds_cooler"
     },	
     "criteria": {
         "diamond_edge": {
@@ -16,7 +16,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:diamond_sword"],
+						"items": [
+							"minecraft:diamond_sword"
+						],
 						"nbt": "{display:{Name:\"{\\\"text\\\":\\\"Diamond Edge\\\"}\"}}"
                     }
                 ]

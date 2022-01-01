@@ -7,12 +7,15 @@
         "description": {"translate":"Tame a llama"}
     },
     "parent": "minecraft:husbandry/root",
+	"rewards": {
+		"function": "bc_rewards:animal/stay_calmer"
+    },		
     "criteria": {
         "tamed_animal": {
             "trigger": "minecraft:tame_animal",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:llama"
+                    "type": "#blazeandcave:llamas"
                 }
 			}
         }

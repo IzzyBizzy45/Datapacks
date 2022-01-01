@@ -7,9 +7,9 @@
         "description": {"translate":"Swim 100km"},
 		"frame": "challenge"
     },
-    "parent": "advadd:statistics/olympic_athlete",
+    "parent": "blazeandcave:statistics/olympic_athlete",
 	"rewards": {
-		"experience": 500
+		"function": "bc_rewards:statistics/olympic_gold_medallist"
     },		
     "criteria": {
         "trigger": {

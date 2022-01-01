@@ -7,15 +7,15 @@
         "description": {"translate":"Place one of every nether block in The End"},
 		"frame": "challenge"
     },
-    "parent": "advadd:nether/spreading_corruption",
+    "parent": "blazeandcave:nether/spreading_corruption",
 	"rewards": {
-		"experience": 100
+		"function": "bc_rewards:nether/the_struggle_nether_ends"
     },		
     "criteria": {
         "netherrack": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:netherrack",
+				"block": "minecraft:netherrack",
 				"location": {
 					"dimension": "the_end"
 				}
@@ -24,7 +24,7 @@
         "soul_sand": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:soul_sand",
+				"block": "minecraft:soul_sand",
 				"location": {
 					"dimension": "the_end"
 				}
@@ -33,7 +33,7 @@
         "glowstone": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:glowstone",
+				"block": "minecraft:glowstone",
 				"location": {
 					"dimension": "the_end"
 				}
@@ -42,7 +42,7 @@
         "magma_block": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:magma_block",
+				"block": "minecraft:magma_block",
 				"location": {
 					"dimension": "the_end"
 				}
@@ -51,7 +51,7 @@
         "soul_soil": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:soul_soil",
+				"block": "minecraft:soul_soil",
 				"location": {
 					"dimension": "the_end"
 				}
@@ -60,7 +60,7 @@
         "basalt": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:basalt",
+				"block": "minecraft:basalt",
 				"location": {
 					"dimension": "the_end"
 				}
@@ -69,7 +69,7 @@
         "ancient_debris": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:ancient_debris",
+				"block": "minecraft:ancient_debris",
 				"location": {
 					"dimension": "the_end"
 				}
@@ -78,7 +78,7 @@
         "crimson_nylium": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:crimson_nylium",
+				"block": "minecraft:crimson_nylium",
 				"location": {
 					"dimension": "the_end"
 				}
@@ -87,7 +87,7 @@
         "warped_nylium": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:warped_nylium",
+				"block": "minecraft:warped_nylium",
 				"location": {
 					"dimension": "the_end"
 				}
@@ -96,7 +96,7 @@
         "crimson_stem": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:crimson_stem",
+				"block": "minecraft:crimson_stem",
 				"location": {
 					"dimension": "the_end"
 				}
@@ -105,7 +105,7 @@
         "warped_stem": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:warped_stem",
+				"block": "minecraft:warped_stem",
 				"location": {
 					"dimension": "the_end"
 				}
@@ -114,7 +114,7 @@
         "nether_wart_block": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:nether_wart_block",
+				"block": "minecraft:nether_wart_block",
 				"location": {
 					"dimension": "the_end"
 				}
@@ -123,7 +123,7 @@
         "warped_wart_block": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:warped_wart_block",
+				"block": "minecraft:warped_wart_block",
 				"location": {
 					"dimension": "the_end"
 				}
@@ -132,7 +132,7 @@
         "shroomlight": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:shroomlight",
+				"block": "minecraft:shroomlight",
 				"location": {
 					"dimension": "the_end"
 				}
@@ -141,7 +141,7 @@
         "nether_quartz_ore": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:nether_quartz_ore",
+				"block": "minecraft:nether_quartz_ore",
 				"location": {
 					"dimension": "the_end"
 				}
@@ -150,7 +150,7 @@
         "nether_gold_ore": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:nether_gold_ore",
+				"block": "minecraft:nether_gold_ore",
 				"location": {
 					"dimension": "the_end"
 				}
@@ -159,7 +159,7 @@
         "soul_fire": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:soul_fire",
+				"block": "minecraft:soul_fire",
 				"location": {
 					"dimension": "the_end"
 				}
@@ -168,7 +168,7 @@
         "blackstone": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:blackstone",
+				"block": "minecraft:blackstone",
 				"location": {
 					"dimension": "the_end"
 				}

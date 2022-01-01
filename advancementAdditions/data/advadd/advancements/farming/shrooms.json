@@ -6,14 +6,19 @@
         "title": {"translate":"Shrooms"},
         "description": {"translate":"Gather both types of mushroom"}
     },
-    "parent": "advadd:farming/care_for_the_environment",
+    "parent": "blazeandcave:farming/care_for_the_environment",
+	"rewards": {
+		"function": "bc_rewards:farming/shrooms"
+    },		
     "criteria": {
         "red_mushroom": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:red_mushroom"]
+						"items": [
+							"minecraft:red_mushroom"
+						]
                     }
                 ]
             }
@@ -23,7 +28,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:brown_mushroom"]
+						"items": [
+							"minecraft:brown_mushroom"
+						]
                     }
                 ]
             }

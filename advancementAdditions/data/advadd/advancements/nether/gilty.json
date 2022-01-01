@@ -7,13 +7,18 @@
         "description": {"translate":"Mine some Gilded Blackstone from a Bastion Remnant"}
     },
     "parent": "minecraft:nether/loot_bastion",
+	"rewards": {
+		"function": "bc_rewards:nether/gilty"
+    },	
     "criteria": {
         "gilded_blackstone": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:gilded_blackstone"]
+						"items": [
+							"minecraft:gilded_blackstone"
+						]
                     }
                 ]
             }

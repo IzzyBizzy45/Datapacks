@@ -4,10 +4,13 @@
             "item": "minecraft:iron_boots"
         },
         "title": {"translate":"Ten Thousand Blocks"},
-        "description": {"translate":"A journey that long begins with a single step"},
+        "description": {"color":"#75E1FF","translate":"A journey that long begins with a single step"},
         "frame": "goal"
     },
-    "parent": "advadd:biomes/kilometre_walk",
+    "parent": "blazeandcave:biomes/kilometre_walk",
+    "rewards": {
+        "function": "bc_rewards:biomes/ten_thousand_blocks"
+    },		
     "criteria": {
         "outer_pos_x": {
             "trigger": "minecraft:location",

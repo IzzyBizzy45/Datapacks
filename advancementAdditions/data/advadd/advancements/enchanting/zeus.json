@@ -4,17 +4,22 @@
             "item": "minecraft:end_rod"
         },
         "title": {"translate":"Zeus"},
-        "description": {"translate":"Obtain Channeling on a trident"},
+        "description": {"color":"#75E1FF","translate":"Obtain Channeling on a trident"},
 		"frame": "goal"
     },
-    "parent": "advadd:enchanting/do_a_barrel_roll",
+    "parent": "blazeandcave:enchanting/do_a_barrel_roll",
+    "rewards": {
+		"function": "bc_rewards:enchanting/zeus"
+    },			
     "criteria": {
         "power": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
 				"items": [
 					{
-						"items": ["minecraft:trident"],
+						"items": [
+							"minecraft:trident"
+						],
 						"enchantments": [
 							{
 								"enchantment": "minecraft:channeling"

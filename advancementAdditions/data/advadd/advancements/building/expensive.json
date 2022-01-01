@@ -6,12 +6,15 @@
         "title": {"translate":"Expensive!"},
         "description": {"translate":"Light up the area with some sea lanterns"}
     },
-    "parent": "advadd:building/festival_of_lights",
+    "parent": "blazeandcave:building/electric",
+	"rewards": {
+		"function": "bc_rewards:building/expensive"
+    },		
     "criteria": {
         "sea_lantern": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:sea_lantern"
+				"block": "minecraft:sea_lantern"
             }
         }
     }

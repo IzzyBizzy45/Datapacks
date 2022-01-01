@@ -3,17 +3,22 @@
         "icon": {
             "item": "minecraft:pumpkin_pie"
         },
-        "title": {"translate":"The not Sweet Pie"},
+        "title": {"translate":"The Pie"},
         "description": {"translate":"Bake a pumpkin pie"}
     },
-    "parent": "advadd:farming/naturally_carved",
+    "parent": "blazeandcave:farming/naturally_carved",
+	"rewards": {
+		"function": "bc_rewards:farming/the_pie"
+    },		
     "criteria": {
         "pumpkin_pie": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:pumpkin_pie"]
+						"items": [
+							"minecraft:pumpkin_pie"
+						]
                     }
                 ]
             }

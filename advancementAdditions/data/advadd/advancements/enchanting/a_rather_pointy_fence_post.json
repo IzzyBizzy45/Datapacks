@@ -8,9 +8,9 @@
         "description": {"translate":"Enchant a wooden sword with Sharpness V. Not really the best weapon, but it could be a minor annoyance to someone"},
 		"frame": "challenge"
     },
-    "parent": "advadd:enchanting/newtons_flaming_laser_sword",
+    "parent": "blazeandcave:enchanting/newtons_flaming_laser_sword",
     "rewards": {
-        "experience": 100
+		"function": "bc_rewards:enchanting/a_rather_pointy_fence_post"
     },		
     "criteria": {
         "rather_pointy_fence_post": {
@@ -18,7 +18,9 @@
             "conditions": {
 				"items": [
                     {
-                        "items": ["minecraft:wooden_sword"],
+						"items": [
+							"minecraft:wooden_sword"
+						],
 						"enchantments": [
 							{
 								"enchantment": "minecraft:sharpness",

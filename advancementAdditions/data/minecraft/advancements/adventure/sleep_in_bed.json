@@ -1,29 +1,18 @@
 {
-  "parent": "advadd:building/your_door_was_locked",
-  "display": {
-    "icon": {
-      "item": "minecraft:red_bed"
+    "display": {
+        "icon": {
+            "item": "minecraft:red_bed"
+        },
+        "title": {"translate":"Sweet dreams"},
+        "description": {"translate":"Sleep in a bed to change your respawn point"}
     },
-    "title": {
-      "translate": "advancements.adventure.sleep_in_bed.title"
-    },
-    "description": {
-      "translate": "advancements.adventure.sleep_in_bed.description"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "slept_in_bed": {
-      "trigger": "minecraft:slept_in_bed",
-      "conditions": {}
+    "parent": "blazeandcave:building/your_door_was_locked",
+    "rewards": {
+        "function": "bc_rewards:building/sweet_dreams"
+    },		
+    "criteria": {
+        "slept_in_bed": {
+            "trigger": "minecraft:slept_in_bed"
+        }
     }
-  },
-  "requirements": [
-    [
-      "slept_in_bed"
-    ]
-  ]
 }

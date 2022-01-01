@@ -6,7 +6,10 @@
         "title": {"translate":"Enchanted Forest"},
         "description": {"translate":"Find a flower forest"}
     },
-    "parent": "advadd:biomes/theres_a_zombie_on_the_lawn",
+    "parent": "blazeandcave:biomes/theres_a_zombie_on_the_lawn",	
+    "rewards": {
+		"function": "bc_rewards:biomes/enchanted_forest"
+    },	
     "criteria": {
         "flower_forest": {
             "trigger": "minecraft:location",

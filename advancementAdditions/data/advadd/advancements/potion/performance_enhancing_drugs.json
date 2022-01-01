@@ -6,7 +6,10 @@
         "title": {"translate":"Performance-Enhancing Drugs"},
         "description": {"translate":"Brew a Speed Potion for cheating on athletics"}
     },
-    "parent": "advadd:potion/root",
+    "parent": "blazeandcave:potion/root",
+	"rewards": {
+		"function": "bc_rewards:potion/performance_enhancing_drugs"
+    },	
     "criteria": {
         "swiftness": {
             "trigger": "minecraft:brewed_potion",

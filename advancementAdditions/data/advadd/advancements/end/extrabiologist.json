@@ -6,12 +6,15 @@
         "title": {"translate":"Extrabiologist"},
         "description": {"translate":"Plant a chorus plant in the overworld for study"}
     },
-    "parent": "advadd:end/getting_chorus",
+    "parent": "blazeandcave:end/getting_chorus",
+	"rewards": {
+		"function": "bc_rewards:end/extrabiologist"
+    },		
     "criteria": {
         "chorus_flower": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:chorus_flower",
+				"block": "minecraft:chorus_flower",
 				"location": {
 					"dimension": "overworld"
 				}

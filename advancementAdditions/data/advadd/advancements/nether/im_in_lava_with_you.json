@@ -4,12 +4,12 @@
             "item": "minecraft:lava_bucket"
         },
         "title": {"translate":"I'm in Lava With You"},
-        "description": {"translate":"Hit something while you and it are in lava"},
+        "description": {"color":"#75E1FF","translate":"Hit something while you and it are in lava"},
 		"frame": "goal"
     },
-    "parent": "advadd:nether/nugget_in_a_biscuit",
+    "parent": "blazeandcave:nether/nugget_in_a_biscuit",
     "rewards": {
-		"experience": 100
+        "function": "bc_rewards:nether/im_in_lava_with_you"
     },		
     "criteria": {
         "hit_in_lava": {
@@ -18,7 +18,9 @@
                 "entity": {
                     "location": {
 						"block": {
-							"blocks": ["minecraft:lava"]
+							"blocks": [
+								"minecraft:lava"
+							]
 						}
 					}
                 },
@@ -26,7 +28,9 @@
 					"source_entity": {
 						"location": {
 							"block": {
-								"blocks": ["minecraft:lava"]
+								"blocks": [
+									"minecraft:lava"
+								]
 							}
 						}
 					}

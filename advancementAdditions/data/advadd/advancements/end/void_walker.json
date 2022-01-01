@@ -4,12 +4,12 @@
             "item": "minecraft:obsidian"
         },
         "title": {"translate":"Void Walker"},
-        "description": {"translate":"Explore every end biome"},
+        "description": {"color":"#75E1FF","translate":"Explore every end biome"},
         "frame": "goal"
     },
     "parent": "minecraft:end/enter_end_gateway",	
     "rewards": {
-        "experience": 100
+		"function": "bc_rewards:end/void_walker"
     },	
     "criteria": {
         "sky": {

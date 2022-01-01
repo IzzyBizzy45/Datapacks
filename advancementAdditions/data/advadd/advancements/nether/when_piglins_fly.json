@@ -4,12 +4,12 @@
             "item": "minecraft:elytra"
         },
         "title": {"translate":"When Piglins Fly"},
-        "description": {"translate":"Give a piglin elytra then kill it"},
-		"frame": "challenge"
+        "description": {"color":"#75E1FF","translate":"Give a piglin elytra then kill it"},
+		"frame": "goal"
     },
-    "parent": "advadd:nether/we_got_a_live_one",
+    "parent": "blazeandcave:nether/we_got_a_live_one",
     "rewards": {
-		"experience": 100
+        "function": "bc_rewards:nether/when_piglins_fly"
     },		
     "criteria": {
         "piglin": {
@@ -19,11 +19,18 @@
                     "type": "#blazeandcave:piglins",
 					"equipment": {
 						"chest": {
-							"items": ["minecraft:elytra"]
+							"items": [
+								"minecraft:elytra"
+							]
 						}
 					}
                 }
             }
         }
-    }
+    },
+	"requirements": [
+		[
+		"piglin"
+		]
+	]
 }

@@ -7,9 +7,9 @@
         "title": {"translate":"Level Up"},
         "description": {"translate":"Reach 30 experience levels"}
     },
-    "parent": "advadd:statistics/root",
+    "parent": "blazeandcave:statistics/root",
 	"rewards": {
-		"experience": 50
+		"function": "bc_rewards:statistics/level_up"
     },		
     "criteria": {
         "trigger": {

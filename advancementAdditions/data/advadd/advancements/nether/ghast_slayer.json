@@ -4,12 +4,12 @@
             "item": "minecraft:ghast_spawn_egg"
         },
         "title": {"translate":"Ghast Slayer"},
-        "description": {"translate":"Collect a stack of ghast tears"},
+        "description": {"color":"#75E1FF","translate":"Collect a stack of ghast tears"},
 		"frame": "goal"
     },
-    "parent": "advadd:nether/bring_down_the_beast",
+    "parent": "blazeandcave:nether/bring_down_the_beast",
     "rewards": {
-		"experience": 50
+		"function": "bc_rewards:nether/ghast_slayer"
     },		
     "criteria": {
         "ghast_tear": {
@@ -17,7 +17,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:ghast_tear"],
+						"items": [
+							"minecraft:ghast_tear"
+						],
 						"count": 64
                     }
                 ]

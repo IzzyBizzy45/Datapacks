@@ -6,9 +6,12 @@
         },
         "title": {"translate":"Kung Fu Panda!"},
         "description": {"translate":"Get beaten up by an angry panda"},
-		"hidden": true
+		"hidden": "false"
     },
-    "parent": "advadd:biomes/zoologist",
+    "parent": "blazeandcave:biomes/zoologist",
+    "rewards": {
+        "function": "bc_rewards:biomes/kung_fu_panda"
+    },		
     "criteria": {
         "panda": {
             "trigger": "minecraft:entity_killed_player",

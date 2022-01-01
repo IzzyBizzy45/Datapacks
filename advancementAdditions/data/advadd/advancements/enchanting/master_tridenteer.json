@@ -8,9 +8,9 @@
         "description": {"translate":"Create a trident with all possible enchantments at max level"},
 		"frame": "challenge"
     },
-    "parent": "advadd:enchanting/master_fisher",
+    "parent": "blazeandcave:enchanting/master_fisher",
     "rewards": {
-        "experience": 100
+		"function": "bc_rewards:enchanting/master_tridenteer"
     },		
     "criteria": {
         "perfect_trident_loyalty": {
@@ -18,7 +18,9 @@
             "conditions": {
 				"items": [
                     {
-                        "items": ["minecraft:trident"],
+						"items": [
+							"minecraft:trident"
+						],
 						"enchantments": [
 							{
 								"enchantment": "minecraft:impaling",
@@ -50,7 +52,9 @@
             "conditions": {
 				"items": [
                     {
-                        "items": ["minecraft:trident"],
+						"items": [
+							"minecraft:trident"
+						],
 						"enchantments": [
 							{
 								"enchantment": "minecraft:impaling",

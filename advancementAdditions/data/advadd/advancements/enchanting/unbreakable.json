@@ -4,10 +4,13 @@
             "item": "minecraft:bedrock"
         },
         "title": {"translate":"Unbreakable"},
-        "description": {"translate":"Obtain Mending on an item"},
+        "description": {"color":"#75E1FF","translate":"Obtain Mending on an item"},
 		"frame": "goal"
     },
-    "parent": "advadd:enchanting/old_cartoon_joke",
+    "parent": "blazeandcave:enchanting/heavy_metal",
+	"rewards": {
+		"function": "bc_rewards:enchanting/unbreakable"
+    },
     "criteria": {
         "mending": {
             "trigger": "minecraft:inventory_changed",

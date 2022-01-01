@@ -7,7 +7,10 @@
         "description": {"translate":"It's not that far in real life"},
         "frame": "task"
     },
-    "parent": "advadd:biomes/root",
+    "parent": "blazeandcave:biomes/root",
+    "rewards": {
+        "function": "bc_rewards:biomes/kilometre_walk"
+    },		
     "criteria": {
         "outer_pos_x": {
             "trigger": "minecraft:location",

@@ -1,81 +1,46 @@
 {
-  "parent": "advadd:nether/twisted",
-  "display": {
-    "icon": {
-      "item": "minecraft:netherite_boots",
-      "nbt": "{Damage:0}"
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_boots"
+        },
+        "title": {"translate":"Hot Tourist Destination"},
+        "description": {"color":"#75E1FF","translate":"Explore every Nether biome"},
+        "frame": "goal"
     },
-    "title": {
-      "translate": "advancements.nether.explore_nether.title"
-    },
-    "description": {
-      "translate": "advancements.nether.explore_nether.description"
-    },
-    "frame": "challenge",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "rewards": {
-    "experience": 500
-  },
-  "criteria": {
-    "minecraft:nether_wastes": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "biome": "minecraft:nether_wastes"
+    "parent": "blazeandcave:nether/twisted",	
+    "rewards": {
+		"function": "bc_rewards:nether/hot_tourist_destination"
+    },	
+    "criteria": {
+        "nether_wastes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:nether_wastes"
+            }
+        },
+        "crimson_forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:crimson_forest"
+            }
+        },
+        "warped_forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:warped_forest"
+            }
+        },
+        "soul_sand_valley": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:soul_sand_valley"
+            }
+        },
+        "basalt_deltas": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:basalt_deltas"
+            }
         }
-      }
-    },
-    "minecraft:soul_sand_valley": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "biome": "minecraft:soul_sand_valley"
-        }
-      }
-    },
-    "minecraft:warped_forest": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "biome": "minecraft:warped_forest"
-        }
-      }
-    },
-    "minecraft:crimson_forest": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "biome": "minecraft:crimson_forest"
-        }
-      }
-    },
-    "minecraft:basalt_deltas": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "biome": "minecraft:basalt_deltas"
-        }
-      }
     }
-  },
-  "requirements": [
-    [
-      "minecraft:nether_wastes"
-    ],
-    [
-      "minecraft:soul_sand_valley"
-    ],
-    [
-      "minecraft:warped_forest"
-    ],
-    [
-      "minecraft:crimson_forest"
-    ],
-    [
-      "minecraft:basalt_deltas"
-    ]
-  ]
 }

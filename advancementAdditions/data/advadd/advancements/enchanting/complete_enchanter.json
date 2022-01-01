@@ -7,9 +7,9 @@
         "description": {"translate":"Obtain every enchantment throughout your enchanting career"},
 		"frame": "challenge"
     },
-    "parent": "advadd:enchanting/gotta_go_fast",
+    "parent": "blazeandcave:enchanting/gotta_go_fast",
     "rewards": {
-        "experience": 100
+		"function": "bc_rewards:enchanting/complete_enchanter"
     },			
     "criteria": {
         "protection": {

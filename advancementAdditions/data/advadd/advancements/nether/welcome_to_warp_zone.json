@@ -4,17 +4,22 @@
             "item": "minecraft:warped_planks"
         },
         "title": {"translate":"Welcome to Warp Zone!"},
-        "description": {"translate":"Craft every item made out of warped wood"},
+        "description": {"color":"#75E1FF","translate":"Craft every item made out of warped wood"},
 		"frame": "goal"
     },
-    "parent": "advadd:nether/what_about_corruption_planks",
+    "parent": "blazeandcave:nether/what_about_corruption_planks",
+    "rewards": {
+		"function": "bc_rewards:nether/welcome_to_warp_zone"
+    },		
     "criteria": {
         "warped_planks": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:warped_planks"]
+						"items": [
+							"minecraft:warped_planks"
+						]
                     }
                 ]
             }
@@ -24,7 +29,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:warped_stem"]
+						"items": [
+							"minecraft:warped_stem"
+						]
                     }
                 ]
             }
@@ -34,7 +41,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:stripped_warped_stem"]
+						"items": [
+							"minecraft:stripped_warped_stem"
+						]
                     }
                 ]
             }
@@ -44,7 +53,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:warped_hyphae"]
+						"items": [
+							"minecraft:warped_hyphae"
+						]
                     }
                 ]
             }
@@ -54,7 +65,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:stripped_warped_hyphae"]
+						"items": [
+							"minecraft:stripped_warped_hyphae"
+						]
                     }
                 ]
             }
@@ -64,7 +77,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:warped_slab"]
+						"items": [
+							"minecraft:warped_slab"
+						]
                     }
                 ]
             }
@@ -74,7 +89,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:warped_pressure_plate"]
+						"items": [
+							"minecraft:warped_pressure_plate"
+						]
                     }
                 ]
             }
@@ -84,7 +101,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:warped_fence"]
+						"items": [
+							"minecraft:warped_fence"
+						]
                     }
                 ]
             }
@@ -94,7 +113,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:warped_trapdoor"]
+						"items": [
+							"minecraft:warped_trapdoor"
+						]
                     }
                 ]
             }
@@ -104,7 +125,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:warped_fence_gate"]
+						"items": [
+							"minecraft:warped_fence_gate"
+						]
                     }
                 ]
             }
@@ -114,7 +137,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:warped_stairs"]
+						"items": [
+							"minecraft:warped_stairs"
+						]
                     }
                 ]
             }
@@ -124,7 +149,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:warped_button"]
+						"items": [
+							"minecraft:warped_button"
+						]
                     }
                 ]
             }
@@ -134,7 +161,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:warped_door"]
+						"items": [
+							"minecraft:warped_door"
+						]
                     }
                 ]
             }
@@ -144,7 +173,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:warped_sign"]
+						"items": [
+							"minecraft:warped_sign"
+						]
                     }
                 ]
             }

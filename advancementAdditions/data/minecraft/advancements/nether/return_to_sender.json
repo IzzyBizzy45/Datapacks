@@ -1,48 +1,30 @@
 {
-  "parent": "advadd:nether/fire_blast_shield",
-  "display": {
-    "icon": {
-      "item": "minecraft:fire_charge"
+    "display": {
+        "icon": {
+            "item": "minecraft:fire_charge"
+        },
+        "title": {"translate":"Return to Sender"},
+        "description": {"color":"#75E1FF","translate":"Destroy a Ghast with its fireball"},
+        "frame": "goal"
     },
-    "title": {
-      "translate": "advancements.nether.return_to_sender.title"
-    },
-    "description": {
-      "translate": "advancements.nether.return_to_sender.description"
-    },
-    "frame": "challenge",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "rewards": {
-    "experience": 50
-  },
-  "criteria": {
-    "killed_ghast": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "predicate": {
-              "type": "minecraft:ghast"
-            },
-            "entity": "this"
-          }
-        ],
-        "killing_blow": {
-          "is_projectile": true,
-          "direct_entity": {
-            "type": "minecraft:fireball"
-          }
+    "parent": "minecraft:adventure/spyglass_at_ghast",
+	"rewards": {
+		"function": "bc_rewards:nether/return_to_sender"
+    },	
+    "criteria": {
+        "killed_ghast": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ghast"
+                },
+                "killing_blow": {
+                    "is_projectile": true,
+                    "direct_entity": {
+                        "type": "minecraft:fireball"
+                    }
+                }
+            }
         }
-      }
     }
-  },
-  "requirements": [
-    [
-      "killed_ghast"
-    ]
-  ]
 }

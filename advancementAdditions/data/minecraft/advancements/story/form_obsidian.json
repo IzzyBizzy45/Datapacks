@@ -1,35 +1,27 @@
 {
-  "parent": "minecraft:story/lava_bucket",
-  "display": {
-    "icon": {
-      "item": "minecraft:obsidian"
+    "display": {
+        "icon": {
+            "item": "minecraft:obsidian"
+        },
+        "title": {"translate":"Ice Bucket Challenge"},
+        "description": {"translate":"Form and mine a block of Obsidian"}
     },
-    "title": {
-      "translate": "advancements.story.form_obsidian.title"
-    },
-    "description": {
-      "translate": "advancements.story.form_obsidian.description"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "obsidian": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": ["minecraft:obsidian"]
-          }
-        ]
-      }
+    "parent": "minecraft:story/lava_bucket",
+    "rewards": {
+		"function": "bc_rewards:mining/ice_bucket_challenge"
+    },			
+    "criteria": {
+        "obsidian": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [ 
+							"minecraft:obsidian"
+						]
+                    }
+                ]
+            }
+        }
     }
-  },
-  "requirements": [
-    [
-      "obsidian"
-    ]
-  ]
 }

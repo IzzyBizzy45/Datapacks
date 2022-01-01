@@ -1,20 +1,25 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:gold_block"
+            "item": "minecraft:raw_gold_block"
         },
         "title": {"translate":"Mineral Collection"},
-        "description": {"translate":"Craft every type of mineral block"},
+        "description": {"color":"#75E1FF","translate":"Craft every type of mineral block"},
 		"frame": "goal"
     },
-    "parent": "advadd:mining/diamond_miner",
+    "parent": "blazeandcave:mining/diamond_miner",
+    "rewards": {
+		"function": "bc_rewards:mining/mineral_collection"
+    },			
     "criteria": {
         "coal_block": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:coal_block"]
+						"items": [
+							"minecraft:coal_block"
+						]
                     }
                 ]
             }
@@ -24,7 +29,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:iron_block"]
+						"items": [
+							"minecraft:iron_block"
+						]
                     }
                 ]
             }
@@ -34,7 +41,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:gold_block"]
+						"items": [
+							"minecraft:gold_block"
+						]
                     }
                 ]
             }
@@ -44,7 +53,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:lapis_block"]
+						"items": [
+							"minecraft:lapis_block"
+						]
                     }
                 ]
             }
@@ -54,7 +65,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:redstone_block"]
+						"items": [
+							"minecraft:redstone_block"
+						]
                     }
                 ]
             }
@@ -64,7 +77,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:diamond_block"]
+						"items": [
+							"minecraft:diamond_block"
+						]
                     }
                 ]
             }
@@ -74,7 +89,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:emerald_block"]
+						"items": [
+							"minecraft:emerald_block"
+						]
                     }
                 ]
             }
@@ -84,7 +101,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:quartz_block"]
+						"items": [
+							"minecraft:quartz_block"
+						]
                     }
                 ]
             }
@@ -94,7 +113,69 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:netherite_block"]
+						"items": [
+							"minecraft:netherite_block"
+						]
+                    }
+                ]
+            }
+        },
+        "copper_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:copper_block"
+						]
+                    }
+                ]
+            }
+        },
+        "amethyst_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:amethyst_block"
+						]
+                    }
+                ]
+            }
+        },
+        "raw_copper_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:raw_copper_block"
+						]
+                    }
+                ]
+            }
+        },
+        "raw_iron_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:raw_iron_block"
+						]
+                    }
+                ]
+            }
+        },
+        "raw_gold_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:raw_gold_block"
+						]
                     }
                 ]
             }

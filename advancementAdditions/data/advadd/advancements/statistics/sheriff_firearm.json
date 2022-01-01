@@ -4,12 +4,12 @@
             "item": "minecraft:golden_horse_armor"
         },
         "title": {"translate":"Sheriff Firearm"},
-        "description": {"translate":"Ride 10km on a horse"},
+        "description": {"color":"#75E1FF","translate":"Ride 10km on a horse"},
 		"frame": "goal"
     },
-    "parent": "advadd:statistics/horse_training",
+    "parent": "blazeandcave:statistics/horse_training",
 	"rewards": {
-		"experience": 200
+		"function": "bc_rewards:statistics/sheriff_firearm"
     },		
     "criteria": {
         "trigger": {

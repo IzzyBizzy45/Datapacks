@@ -7,14 +7,19 @@
         "title": {"translate":"Poison Dart"},
         "description": {"translate":"Craft tipped arrows of poison"}
     },
-    "parent": "advadd:potion/gas",
+    "parent": "blazeandcave:potion/gas",
+	"rewards": {
+		"function": "bc_rewards:potion/poison_dart"
+    },	
     "criteria": {
         "normal_poison": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:tipped_arrow"],
+						"items": [
+							"minecraft:tipped_arrow"
+						],
 						"potion": "minecraft:poison"
                     }
                 ]
@@ -25,7 +30,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:tipped_arrow"],
+						"items": [
+							"minecraft:tipped_arrow"
+						],
 						"potion": "minecraft:long_poison"
                     }
                 ]
@@ -36,7 +43,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:tipped_arrow"],
+						"items": [
+							"minecraft:tipped_arrow"
+						],
 						"potion": "minecraft:strong_poison"
                     }
                 ]

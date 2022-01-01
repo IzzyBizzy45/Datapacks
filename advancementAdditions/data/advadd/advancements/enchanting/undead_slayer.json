@@ -4,10 +4,13 @@
             "item": "minecraft:rotten_flesh"
         },
         "title": {"translate":"Undead Slayer"},
-        "description": {"translate":"Obtain Smite V"},
+        "description": {"color":"#75E1FF","translate":"Obtain Smite V"},
 		"frame": "goal"
     },
-    "parent": "advadd:enchanting/needle_sharp",
+    "parent": "blazeandcave:enchanting/needle_sharp",
+    "rewards": {
+		"function": "bc_rewards:enchanting/undead_slayer"
+    },			
     "criteria": {
         "smite": {
             "trigger": "minecraft:inventory_changed",

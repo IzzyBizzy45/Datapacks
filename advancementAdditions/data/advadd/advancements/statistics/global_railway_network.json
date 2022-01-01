@@ -7,9 +7,9 @@
         "description": {"translate":"Ride 100km in a minecart"},
 		"frame": "challenge"
     },
-    "parent": "advadd:statistics/i_like_trains",
+    "parent": "blazeandcave:statistics/i_like_trains",
 	"rewards": {
-		"experience": 500
+		"function": "bc_rewards:statistics/global_railway_network"
     },		
     "criteria": {
         "trigger": {

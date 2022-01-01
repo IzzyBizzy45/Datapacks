@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spore_blossom"
+        },
+        "title": {"translate":"Particle Fan"},
+        "description": {"color":"light_purple","translate":"Obtain a Spore Blossom"},
+		"hidden": "true"
+    },
+    "parent": "blazeandcave:mining/thats_the_point",
+    "rewards": {
+		"function": "bc_rewards:mining/particle_fan"
+    },		
+    "criteria": {
+        "spore_blossom": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:spore_blossom"
+						]
+                    }
+                ]
+            }
+        }
+    }
+}

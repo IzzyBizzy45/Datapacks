@@ -6,13 +6,18 @@
         "title": {"translate":"Stayin' Frosty"},
         "description": {"translate":"Swim in lava while having the Fire Resistance effect"}
     },
-    "parent": "advadd:potion/root",
+    "parent": "blazeandcave:potion/root",
+	"rewards": {
+		"function": "bc_rewards:potion/stayin_frosty"
+    },	
     "criteria": {
         "fire_resistance": {
             "trigger": "minecraft:location",
             "conditions": {
                 "block": {
-					"block": "minecraft:lava"
+					"blocks": [
+						"minecraft:lava"
+					]
 				},
 				"player": [
 					{

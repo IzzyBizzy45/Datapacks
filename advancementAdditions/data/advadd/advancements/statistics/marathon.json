@@ -6,9 +6,9 @@
         "title": {"translate":"Marathon"},
         "description": {"translate":"Sprint 42.195km"}
     },
-    "parent": "advadd:statistics/root",
+    "parent": "blazeandcave:statistics/root",
 	"rewards": {
-		"experience": 50
+		"function": "bc_rewards:statistics/marathon"
     },		
     "criteria": {
         "trigger": {

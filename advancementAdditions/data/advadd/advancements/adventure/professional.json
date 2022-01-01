@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:loom"
+        },
+        "title": {"translate":"Professional"},
+        "description": {"color":"#75E1FF","translate":"Trade with a villager at master level"},
+		"frame": "goal"
+    },
+    "parent": "advadd:adventure/traveller",
+    "criteria": {
+        "master": {
+            "trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"nbt": "{VillagerData:{level:5}}"
+				}
+			}
+        }	
+    }
+}

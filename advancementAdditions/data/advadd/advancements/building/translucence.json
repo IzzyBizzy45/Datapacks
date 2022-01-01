@@ -4,17 +4,22 @@
             "item": "minecraft:magenta_stained_glass"
         },
         "title": {"translate":"Translucence"},
-        "description": {"translate":"Craft all 16 colors of stained glass"},
+        "description": {"color":"#75E1FF","translate":"Craft all 16 colors of stained glass"},
 		"frame": "goal"
     },
-    "parent": "advadd:building/what_a_pane",
+    "parent": "blazeandcave:building/what_a_pane",
+    "rewards": {
+		"function": "bc_rewards:building/translucence"
+    },		
     "criteria": {
         "white_stained_glass": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:white_stained_glass"]
+						"items": [
+							"minecraft:white_stained_glass"
+						]
                     }
                 ]
             }
@@ -24,7 +29,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:orange_stained_glass"]
+						"items": [
+							"minecraft:orange_stained_glass"
+						]
                     }
                 ]
             }
@@ -34,7 +41,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:magenta_stained_glass"]
+						"items": [
+							"minecraft:magenta_stained_glass"
+						]
                     }
                 ]
             }
@@ -44,7 +53,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:light_blue_stained_glass"]
+						"items": [
+							"minecraft:light_blue_stained_glass"
+						]
                     }
                 ]
             }
@@ -54,7 +65,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:yellow_stained_glass"]
+						"items": [
+							"minecraft:yellow_stained_glass"
+						]
                     }
                 ]
             }
@@ -64,7 +77,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:lime_stained_glass"]
+						"items": [
+							"minecraft:lime_stained_glass"
+						]
                     }
                 ]
             }
@@ -74,7 +89,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:pink_stained_glass"]
+						"items": [
+							"minecraft:pink_stained_glass"
+						]
                     }
                 ]
             }
@@ -84,7 +101,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:gray_stained_glass"]
+						"items": [
+							"minecraft:gray_stained_glass"
+						]
                     }
                 ]
             }
@@ -94,7 +113,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:light_gray_stained_glass"]
+						"items": [
+							"minecraft:light_gray_stained_glass"
+						]
                     }
                 ]
             }
@@ -104,7 +125,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:cyan_stained_glass"]
+						"items": [
+							"minecraft:cyan_stained_glass"
+						]
                     }
                 ]
             }
@@ -114,7 +137,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:purple_stained_glass"]
+						"items": [
+							"minecraft:purple_stained_glass"
+						]
                     }
                 ]
             }
@@ -124,7 +149,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:blue_stained_glass"]
+						"items": [
+							"minecraft:blue_stained_glass"
+						]
                     }
                 ]
             }
@@ -134,7 +161,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:brown_stained_glass"]
+						"items": [
+							"minecraft:brown_stained_glass"
+						]
                     }
                 ]
             }
@@ -144,7 +173,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:green_stained_glass"]
+						"items": [
+							"minecraft:green_stained_glass"
+						]
                     }
                 ]
             }
@@ -154,7 +185,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:red_stained_glass"]
+						"items": [
+							"minecraft:red_stained_glass"
+						]
                     }
                 ]
             }
@@ -164,7 +197,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:black_stained_glass"]
+						"items": [
+							"minecraft:black_stained_glass"
+						]
                     }
                 ]
             }

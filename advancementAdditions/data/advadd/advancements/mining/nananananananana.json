@@ -4,10 +4,12 @@
             "item": "minecraft:bat_spawn_egg"
         },
         "title": {"translate":"Nananananananana..."},
-        "description": {"translate":"Accidentally hit a bat underground"},
-		"hidden": true
+        "description": {"translate":"Accidentally hit a bat underground"}
     },
-    "parent": "advadd:mining/my_work_here_is_done",
+    "parent": "blazeandcave:mining/my_work_here_is_done",
+    "rewards": {
+        "function": "bc_rewards:mining/nananananananana"
+    },		
     "criteria": {
         "bat": {
             "trigger": "minecraft:player_hurt_entity",

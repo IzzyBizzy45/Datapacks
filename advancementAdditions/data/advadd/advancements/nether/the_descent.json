@@ -6,7 +6,10 @@
         "title": {"translate":"The Descent"},
         "description": {"translate":"Dig down into the deepest depths of the Nether"}
     },
-    "parent": "advadd:nether/nugget_in_a_biscuit",
+    "parent": "blazeandcave:nether/nugget_in_a_biscuit",
+    "rewards": {
+        "function": "bc_rewards:nether/the_descent"
+    },		
     "criteria": {
         "the_descent": {
             "trigger": "minecraft:location",

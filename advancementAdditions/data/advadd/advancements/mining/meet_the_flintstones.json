@@ -6,14 +6,19 @@
         "title": {"translate":"Meet The Flintstones"},
         "description": {"translate":"Dig up some flint from a patch of gravel"}
     },
-    "parent": "advadd:mining/moar_tools",
+    "parent": "blazeandcave:mining/moar_tools",
+    "rewards": {	
+		"function": "bc_rewards:mining/meet_the_flintstones"
+    },		
     "criteria": {
         "flint": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:flint"]
+						"items": [
+							"minecraft:flint"
+						]
                     }
                 ]
             }

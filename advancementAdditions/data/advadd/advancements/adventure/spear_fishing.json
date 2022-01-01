@@ -3,24 +3,24 @@
         "icon": {
             "item": "minecraft:arrow"
         },
-        "title": {"translate": "Spear Fishing"},
-        "description": {"translate": "Kill a Guardian with arrows"}
+        "title": {"translate":"Spear Fishing"},
+        "description": {"translate":"Kill a Guardian with arrows"}
     },
-    "parent": "advadd:adventure/sharks_with_lasers",
+    "parent": "advadd:adventure/laser_sharks",
     "criteria": {
-        "kill_with_arrow": {
+        "guardian": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
-                "entity": {
-                    "type": "minecraft:guardian"
-                },
                 "killing_blow": {
                     "is_projectile": true,
-                    "direct_entity": {
-                        "type": "minecraft:arrow"
-                    }
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                },
+                "entity": {
+                    "type": "guardian"
                 }
             }
-        }
+        }	
     }
 }

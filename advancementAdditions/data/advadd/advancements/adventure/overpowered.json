@@ -8,16 +8,15 @@
         "frame": "challenge"
     },
     "parent": "advadd:adventure/disc_jockey",
-    "rewards": {
-        "experience": 50
-    },		
     "criteria": {
         "golden_apple": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:enchanted_golden_apple"]
+						"items": [
+							"minecraft:enchanted_golden_apple"
+						]
                     }
                 ]
             }

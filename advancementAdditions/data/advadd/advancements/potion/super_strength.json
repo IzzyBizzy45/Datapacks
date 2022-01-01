@@ -6,7 +6,10 @@
         "title": {"translate":"Super Strength"},
         "description": {"translate":"Brew a Strength Potion for cheating on weightlifting"}
     },
-    "parent": "advadd:potion/performance_enhancing_drugs",
+    "parent": "blazeandcave:potion/performance_enhancing_drugs",
+	"rewards": {
+		"function": "bc_rewards:potion/super_strength"
+    },	
     "criteria": {
         "strength": {
             "trigger": "minecraft:brewed_potion",

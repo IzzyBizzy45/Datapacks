@@ -1,34 +1,25 @@
 {
-  "parent": "minecraft:adventure/root",
-  "display": {
-    "icon": {
-      "item": "minecraft:crossbow",
-      "nbt": "{Damage:0}"
+    "display": {
+        "icon": {
+            "item": "minecraft:crossbow"
+        },
+        "title": {"translate":"Ol' Betsy"},
+        "description": {"translate":"Shoot a crossbow"}
     },
-    "title": {
-      "translate": "advancements.adventure.ol_betsy.title"
+    "parent": "blazeandcave:weaponry/x_bow",
+    "rewards": {
+        "function": "bc_rewards:weaponry/ol_betsy"
     },
-    "description": {
-      "translate": "advancements.adventure.ol_betsy.description"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "shot_crossbow": {
-      "trigger": "minecraft:shot_crossbow",
-      "conditions": {
-        "item": {
-          "items": ["minecraft:crossbow"]
-        }
-      }
-    }
-  },
-  "requirements": [
-    [
-      "shot_crossbow"
-    ]
-  ]
+	"criteria": {
+		"shot_crossbow": {
+			"trigger": "minecraft:shot_crossbow",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:crossbow"
+					]
+				}
+			}
+		}
+	}
 }

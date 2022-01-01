@@ -7,15 +7,15 @@
         "description": {"translate":"Place one of every nether block in the overworld"},
 		"frame": "challenge"
     },
-    "parent": "advadd:nether/hell_botanist",
+    "parent": "blazeandcave:nether/hell_botanist",
 	"rewards": {
-		"experience": 100
+		"function": "bc_rewards:nether/spreading_corruption"
     },		
     "criteria": {
         "netherrack": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:netherrack",
+				"block": "minecraft:netherrack",
 				"location": {
 					"dimension": "overworld"
 				}
@@ -24,7 +24,7 @@
         "soul_sand": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:soul_sand",
+				"block": "minecraft:soul_sand",
 				"location": {
 					"dimension": "overworld"
 				}
@@ -33,7 +33,7 @@
         "glowstone": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:glowstone",
+				"block": "minecraft:glowstone",
 				"location": {
 					"dimension": "overworld"
 				}
@@ -42,7 +42,7 @@
         "magma_block": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:magma_block",
+				"block": "minecraft:magma_block",
 				"location": {
 					"dimension": "overworld"
 				}
@@ -51,7 +51,7 @@
         "soul_soil": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:soul_soil",
+				"block": "minecraft:soul_soil",
 				"location": {
 					"dimension": "overworld"
 				}
@@ -60,7 +60,7 @@
         "basalt": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:basalt",
+				"block": "minecraft:basalt",
 				"location": {
 					"dimension": "overworld"
 				}
@@ -69,7 +69,7 @@
         "ancient_debris": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:ancient_debris",
+				"block": "minecraft:ancient_debris",
 				"location": {
 					"dimension": "overworld"
 				}
@@ -78,7 +78,7 @@
         "crimson_nylium": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:crimson_nylium",
+				"block": "minecraft:crimson_nylium",
 				"location": {
 					"dimension": "overworld"
 				}
@@ -87,7 +87,7 @@
         "warped_nylium": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:warped_nylium",
+				"block": "minecraft:warped_nylium",
 				"location": {
 					"dimension": "overworld"
 				}
@@ -96,7 +96,7 @@
         "crimson_stem": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:crimson_stem",
+				"block": "minecraft:crimson_stem",
 				"location": {
 					"dimension": "overworld"
 				}
@@ -105,7 +105,7 @@
         "warped_stem": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:warped_stem",
+				"block": "minecraft:warped_stem",
 				"location": {
 					"dimension": "overworld"
 				}
@@ -114,7 +114,7 @@
         "nether_wart_block": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:nether_wart_block",
+				"block": "minecraft:nether_wart_block",
 				"location": {
 					"dimension": "overworld"
 				}
@@ -123,7 +123,7 @@
         "warped_wart_block": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:warped_wart_block",
+				"block": "minecraft:warped_wart_block",
 				"location": {
 					"dimension": "overworld"
 				}
@@ -132,7 +132,7 @@
         "shroomlight": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:shroomlight",
+				"block": "minecraft:shroomlight",
 				"location": {
 					"dimension": "overworld"
 				}
@@ -141,7 +141,7 @@
         "nether_quartz_ore": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:nether_quartz_ore",
+				"block": "minecraft:nether_quartz_ore",
 				"location": {
 					"dimension": "overworld"
 				}
@@ -150,7 +150,7 @@
         "nether_gold_ore": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:nether_gold_ore",
+				"block": "minecraft:nether_gold_ore",
 				"location": {
 					"dimension": "overworld"
 				}
@@ -159,7 +159,7 @@
         "soul_fire": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:soul_fire",
+				"block": "minecraft:soul_fire",
 				"location": {
 					"dimension": "overworld"
 				}
@@ -168,7 +168,7 @@
         "blackstone": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:blackstone",
+				"block": "minecraft:blackstone",
 				"location": {
 					"dimension": "overworld"
 				}

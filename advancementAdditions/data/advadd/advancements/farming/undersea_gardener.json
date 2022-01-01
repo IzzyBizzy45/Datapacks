@@ -4,12 +4,12 @@
             "item": "minecraft:dried_kelp_block"
         },
         "title": {"translate":"Undersea Gardener"},
-        "description": {"translate":"Craft a stack of dried kelp blocks"},
+        "description": {"color":"#75E1FF","translate":"Craft a stack of dried kelp blocks"},
 		"frame": "goal"
     },
-    "parent": "advadd:farming/aquatic_biofuel",
+    "parent": "blazeandcave:farming/aquatic_biofuel",
     "rewards": {
-		"experience": 50
+		"function": "bc_rewards:farming/undersea_gardener"
     },		
     "criteria": {
         "dried_kelp_block": {
@@ -17,7 +17,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:dried_kelp_block"],
+						"items": [
+							"minecraft:dried_kelp_block"
+						],
 						"count": 64
                     }
                 ]

@@ -7,6 +7,9 @@
         "description": {"translate":"Kill a shulker"}
     },
     "parent": "minecraft:end/find_end_city",
+    "rewards": {
+        "function": "bc_rewards:end/for_mother_clarence"
+    },		
     "criteria": {
         "shulker": {
             "trigger": "minecraft:player_killed_entity",

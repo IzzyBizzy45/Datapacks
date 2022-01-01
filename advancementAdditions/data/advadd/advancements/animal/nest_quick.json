@@ -9,7 +9,7 @@
     },
     "parent": "minecraft:husbandry/silk_touch_nest",
 	"rewards": {
-		"experience": 100
+		"function": "bc_rewards:animal/nest_quick"
     },		
     "criteria": {
         "bee_nest": {
@@ -17,7 +17,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:bee_nest"],
+						"items": [
+							"minecraft:bee_nest"
+						],
 						"count": 64
                     }
                 ]

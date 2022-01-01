@@ -6,7 +6,10 @@
         "title": {"translate":"Snow Fox 64"},
         "description": {"translate":"Breed two snow foxes with sweet berries"}
     },
-    "parent": "advadd:animal/what_does_the_fox_say",
+    "parent": "blazeandcave:animal/what_does_the_fox_say",
+	"rewards": {
+		"function": "bc_rewards:animal/snow_fox_64"
+    },		
     "criteria": {
         "fox": {
             "trigger": "minecraft:bred_animals",

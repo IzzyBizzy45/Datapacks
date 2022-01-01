@@ -4,12 +4,12 @@
             "item": "minecraft:podzol"
         },
         "title": {"translate":"Grass Type"},
-        "description": {"translate":"Obtain every type of grass block in your inventory"},
+        "description": {"color":"#75E1FF","translate":"Obtain every type of grass block in your inventory"},
 		"frame": "goal"
     },
-    "parent": "advadd:building/pathways",
+    "parent": "blazeandcave:building/pathways",
     "rewards": {
-		"experience": 100
+		"function": "bc_rewards:building/grass_type"
     },		
     "criteria": {
         "grass_block": {
@@ -17,7 +17,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:grass_block"]
+						"items": [
+							"minecraft:grass_block"
+						]
                     }
                 ]
             }
@@ -27,7 +29,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:podzol"]
+						"items": [
+							"minecraft:podzol"
+						]
                     }
                 ]
             }
@@ -37,7 +41,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:mycelium"]
+						"items": [
+							"minecraft:mycelium"
+						]
                     }
                 ]
             }
@@ -47,7 +53,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:crimson_nylium"]
+						"items": [
+							"minecraft:crimson_nylium"
+						]
                     }
                 ]
             }
@@ -57,7 +65,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:warped_nylium"]
+						"items": [
+							"minecraft:warped_nylium"
+						]
                     }
                 ]
             }

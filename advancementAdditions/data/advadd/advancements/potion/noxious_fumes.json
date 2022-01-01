@@ -8,13 +8,18 @@
         "description": {"translate":"Use dragon's breath to brew a lingering potion"}
     },
     "parent": "minecraft:end/dragon_breath",
+	"rewards": {
+		"function": "bc_rewards:potion/noxious_fumes"
+    },	
     "criteria": {
         "lingering_potion": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:lingering_potion"]
+						"items": [
+							"minecraft:lingering_potion"
+						]
                     }
                 ]
             }

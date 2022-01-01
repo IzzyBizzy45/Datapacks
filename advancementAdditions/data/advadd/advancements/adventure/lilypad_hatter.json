@@ -4,7 +4,7 @@
             "item": "minecraft:lily_pad"
         },
         "title": {"translate":"Lilypad Hatter"},
-        "description": {"translate":"Trade with a swamp villager"},
+        "description": {"translate":"Breed and trade with a swamp villager"},
 		"frame": "goal"
     },
     "parent": "advadd:adventure/the_tribal_villagers",

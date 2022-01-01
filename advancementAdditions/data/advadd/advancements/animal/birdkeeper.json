@@ -8,9 +8,6 @@
 		"frame": "goal"
     },
     "parent": "advadd:animal/chatterbox",
-	"rewards": {
-		"experience": 100
-    },		
     "criteria": {
         "red": {
             "trigger": "minecraft:tame_animal",

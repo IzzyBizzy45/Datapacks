@@ -4,17 +4,22 @@
             "item": "minecraft:stripped_jungle_log"
         },
         "title": {"translate":"Stripper"},
-        "description": {"translate":"Strip the bark off of all six types of logs"},
+        "description": {"color":"#75E1FF","translate":"Strip the bark off of all six types of logs"},
 		"frame": "goal"
     },
-    "parent": "advadd:building/yay_i_got_my_wood",
+    "parent": "blazeandcave:building/yay_i_got_my_wood",
+    "rewards": {
+        "function": "bc_rewards:building/stripper"
+    },		
     "criteria": {
         "stripped_oak_log": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
 				"location": {
 					"block": {
-						"blocks": ["minecraft:stripped_oak_log"]
+						"blocks": [
+							"minecraft:stripped_oak_log"
+						]
 					}
 				},
 				"item": {
@@ -27,7 +32,9 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"blocks": ["minecraft:stripped_spruce_log"]
+						"blocks": [
+							"minecraft:stripped_spruce_log"
+						]
 					}
 				},
 				"item": {
@@ -40,7 +47,9 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"blocks": ["minecraft:stripped_birch_log"]
+						"blocks": [
+							"minecraft:stripped_birch_log"
+						]
 					}
 				},
 				"item": {
@@ -53,7 +62,9 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"blocks": ["minecraft:stripped_jungle_log"]
+						"blocks": [
+							"minecraft:stripped_jungle_log"
+						]
 					}
 				},
 				"item": {
@@ -66,7 +77,9 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"blocks": ["minecraft:stripped_acacia_log"]
+						"blocks": [
+							"minecraft:stripped_acacia_log"
+						]
 					}
 				},
 				"item": {
@@ -79,7 +92,9 @@
 			"conditions": {
 				"location": {
 					"block": {
-						"blocks": ["minecraft:stripped_dark_oak_log"]
+						"blocks": [
+							"minecraft:stripped_dark_oak_log"
+						]
 					}
 				},
 				"item": {

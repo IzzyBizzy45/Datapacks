@@ -9,13 +9,18 @@
         "show_toast": false,
         "announce_to_chat": false
     },
+	"rewards": {
+		"function": "bc_rewards:redstone/root"
+    },
     "criteria": {
         "redstone": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:redstone"]
+						"items": [
+							"minecraft:redstone"
+						]
                     }
                 ]
             }

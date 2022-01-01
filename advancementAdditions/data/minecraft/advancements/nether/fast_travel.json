@@ -1,38 +1,26 @@
 {
-  "parent": "advadd:nether/limbo_walker",
-  "display": {
-    "icon": {
-      "item": "minecraft:map"
+    "display": {
+        "icon": {
+            "item": "minecraft:map"
+        },
+        "title": {"translate":"Subspace Bubble"},
+        "description": {"translate":"Use the Nether to travel 7km in the Overworld"},
+        "frame": "challenge"
     },
-    "title": {
-      "translate": "advancements.nether.fast_travel.title"
-    },
-    "description": {
-      "translate": "advancements.nether.fast_travel.description"
-    },
-    "frame": "challenge",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "rewards": {
-    "experience": 100
-  },
-  "criteria": {
-    "travelled": {
-      "trigger": "minecraft:nether_travel",
-      "conditions": {
-        "distance": {
-          "horizontal": {
-            "min": 7000.0
-          }
+    "parent": "blazeandcave:nether/limbo_walker",
+	"rewards": {
+		"function": "bc_rewards:nether/subspace_bubble"
+    },	
+    "criteria": {
+        "travelled": {
+            "trigger": "minecraft:nether_travel",
+            "conditions": {
+                "distance": {
+                    "horizontal": {
+                        "min": 7000
+                    }
+                }
+            }
         }
-      }
     }
-  },
-  "requirements": [
-    [
-      "travelled"
-    ]
-  ]
 }

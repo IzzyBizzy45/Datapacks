@@ -6,9 +6,9 @@
         "title": {"translate":"The First Night"},
         "description": {"translate":"Survive the first night in your brand new world"}
     },
-    "parent": "advadd:statistics/root",
+    "parent": "blazeandcave:statistics/root",
 	"rewards": {
-		"experience": 50
+		"function": "bc_rewards:statistics/the_first_night"
     },		
     "criteria": {
         "trigger": {

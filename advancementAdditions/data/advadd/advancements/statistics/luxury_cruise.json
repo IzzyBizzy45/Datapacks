@@ -6,9 +6,9 @@
         "title": {"translate":"Luxury Cruise"},
         "description": {"translate":"Sail 1km in a boat"}
     },
-    "parent": "advadd:statistics/root",
+    "parent": "blazeandcave:statistics/root",
 	"rewards": {
-		"experience": 50
+		"function": "bc_rewards:statistics/luxury_cruise"
     },		
     "criteria": {
         "trigger": {

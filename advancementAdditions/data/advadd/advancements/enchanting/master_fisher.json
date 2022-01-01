@@ -8,9 +8,9 @@
         "description": {"translate":"Create a fishing rod with all possible enchantments at max level"},
 		"frame": "challenge"
     },
-    "parent": "advadd:enchanting/unbreakable",
+    "parent": "blazeandcave:enchanting/unbreakable",
     "rewards": {
-        "experience": 100
+		"function": "bc_rewards:enchanting/master_fisher"
     },		
     "criteria": {
         "perfect_rod": {
@@ -18,7 +18,9 @@
             "conditions": {
 				"items": [
                     {
-                        "items": ["minecraft:fishing_rod"],
+						"items": [
+							"minecraft:fishing_rod"
+						],
 						"enchantments": [
 							{
 								"enchantment": "minecraft:lure",

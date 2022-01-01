@@ -6,7 +6,10 @@
         "title": {"translate":"Full Stomach"},
         "description": {"translate":"Fill both your hunger bar and saturation level"}
     },
-    "parent": "advadd:farming/root",
+    "parent": "blazeandcave:farming/root",
+	"rewards": {
+		"function": "bc_rewards:farming/full_stomach"
+    },		
     "criteria": {
         "ten_withers": {
             "trigger": "minecraft:impossible"

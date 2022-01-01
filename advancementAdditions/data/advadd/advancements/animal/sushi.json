@@ -6,13 +6,18 @@
         "title": {"translate":"Sushi"},
         "description": {"translate":"Eat some raw fish"}
     },
-    "parent": "advadd:animal/delicious_fish",
+    "parent": "blazeandcave:animal/delicious_fish",
+	"rewards": {
+		"function": "bc_rewards:animal/sushi"
+    },		
     "criteria": {
         "cod": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:cod"]
+					"items": [
+						"minecraft:cod"
+					]
                 }
             }
         }

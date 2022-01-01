@@ -4,12 +4,12 @@
             "item": "minecraft:piglin_spawn_egg"
         },
         "title": {"translate":"We Got a Live One!"},
-        "description": {"translate":"Bring a Piglin into the Overworld then spare it from an eternity of zombification"},
+        "description": {"color":"#75E1FF","translate":"Bring a Piglin into the Overworld then spare it from an eternity of zombification"},
 		"frame": "goal"
     },
-    "parent": "advadd:nether/cultural_misunderstandings",
+    "parent": "blazeandcave:nether/cultural_misunderstandings",
     "rewards": {
-		"experience": 50
+        "function": "bc_rewards:nether/we_got_a_live_one"
     },		
     "criteria": {
         "killed_piglin": {

@@ -7,14 +7,19 @@
         "description": {"translate":"Mine enough iron to make a stack of iron blocks"},
 		"frame": "challenge"
     },
-    "parent": "advadd:mining/iron_miner",
+    "parent": "blazeandcave:mining/iron_miner",
+    "rewards": {
+		"function": "bc_rewards:mining/master_iron_miner"
+    },		
     "criteria": {
         "iron": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:iron_block"],
+						"items": [
+							"minecraft:iron_block"
+						],
 						"count": 64
                     }
                 ]

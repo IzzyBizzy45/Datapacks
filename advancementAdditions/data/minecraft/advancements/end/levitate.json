@@ -1,38 +1,26 @@
 {
-  "parent": "advadd:end/shulker_breaker",
-  "display": {
-    "icon": {
-      "item": "minecraft:shulker_shell"
+    "display": {
+        "icon": {
+            "item": "minecraft:shulker_shell"
+        },
+        "title": {"translate":"Great View From Up Here"},
+        "description": {"translate":"Levitate up a distance of 50 metres"},
+        "frame": "challenge"
     },
-    "title": {
-      "translate": "advancements.end.levitate.title"
-    },
-    "description": {
-      "translate": "advancements.end.levitate.description"
-    },
-    "frame": "challenge",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "rewards": {
-    "experience": 50
-  },
-  "criteria": {
-    "levitated": {
-      "trigger": "minecraft:levitation",
-      "conditions": {
-        "distance": {
-          "y": {
-            "min": 50.0
-          }
+    "parent": "blazeandcave:end/shulker_breaker",
+	"rewards": {
+		"function": "bc_rewards:end/great_view_from_up_here"
+    },	
+    "criteria": {
+        "levitated": {
+            "trigger": "minecraft:levitation",
+            "conditions": {
+                "distance": {
+                    "y": {
+                        "min": 50
+                    }
+                }
+            }
         }
-      }
     }
-  },
-  "requirements": [
-    [
-      "levitated"
-    ]
-  ]
 }

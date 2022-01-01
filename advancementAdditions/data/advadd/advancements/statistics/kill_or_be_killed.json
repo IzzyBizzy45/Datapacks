@@ -7,9 +7,9 @@
         "description": {"translate":"Defeat 25,000 mobs"},
 		"frame": "challenge"
     },
-    "parent": "advadd:statistics/bloodthirsty",
+    "parent": "blazeandcave:statistics/bloodthirsty",
 	"rewards": {
-		"experience": 500
+		"function": "bc_rewards:statistics/kill_or_be_killed"
     },		
     "criteria": {
         "trigger": {

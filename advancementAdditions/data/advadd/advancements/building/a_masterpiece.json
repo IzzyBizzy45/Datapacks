@@ -6,17 +6,20 @@
         "title": {"translate":"A Masterpiece!"},
         "description": {"translate":"Put up a painting"}
     },
-    "parent": "advadd:building/its_a_sign",
+    "parent": "blazeandcave:building/its_a_sign",
+	"rewards": {
+		"function": "bc_rewards:building/a_masterpiece"
+    },		
     "criteria": {
         "painting": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": ["minecraft:painting"]
-                    }
-                ]
-            }
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:painting"
+					]
+				}
+			}
         }
     }
 }

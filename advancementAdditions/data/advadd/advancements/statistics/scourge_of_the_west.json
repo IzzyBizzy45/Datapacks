@@ -7,9 +7,9 @@
         "description": {"translate":"Ride 50km on a horse"},
 		"frame": "challenge"
     },
-    "parent": "advadd:statistics/sheriff_firearm",
+    "parent": "blazeandcave:statistics/sheriff_firearm",
 	"rewards": {
-		"experience": 500
+		"function": "bc_rewards:statistics/scourge_of_the_west"
     },		
     "criteria": {
         "trigger": {

@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_axe"
+        },
+        "title": {"translate":"Axeolotl"},
+        "description": {"translate":"Kill an Axolotl with an axe"}
+    },
+    "parent": "advadd:animal/axolittle",
+    "criteria": {
+        "axeolotl": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+					"type": "axolotl",
+					"distance": {
+						"absolute": {
+							"max": 5
+						}
+					}
+                },			
+                "player": {
+					"equipment": {
+						"mainhand": {
+							"tag": "blazeandcave:axes"
+						}
+					}
+				}
+            }
+        }
+    }
+}

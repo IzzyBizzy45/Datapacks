@@ -7,16 +7,18 @@
         "description": {"translate":"Break every single tool and weapon in the game"},
         "frame": "challenge"
     },
-    "parent": "advadd:mining/weve_broken_our_last_shovel",
+    "parent": "blazeandcave:mining/weve_broken_our_last_shovel",
     "rewards": {
-		"experience": 200
+		"function": "bc_rewards:mining/moar_broken_tools"
     },		
     "criteria": {
         "wooden_shovel": {
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:wooden_shovel"]
+					"items": [
+						"minecraft:wooden_shovel"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -27,7 +29,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:stone_shovel"]
+					"items": [
+						"minecraft:stone_shovel"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -38,7 +42,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:golden_shovel"]
+					"items": [
+						"minecraft:golden_shovel"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -49,7 +55,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:iron_shovel"]
+					"items": [
+						"minecraft:iron_shovel"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -60,7 +68,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:diamond_shovel"]
+					"items": [
+						"minecraft:diamond_shovel"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -71,7 +81,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:netherite_shovel"]
+					"items": [
+						"minecraft:netherite_shovel"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -82,7 +94,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:wooden_pickaxe"]
+					"items": [
+						"minecraft:wooden_pickaxe"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -93,7 +107,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:stone_pickaxe"]
+					"items": [
+						"minecraft:stone_pickaxe"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -104,7 +120,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:golden_pickaxe"]
+					"items": [
+						"minecraft:golden_pickaxe"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -115,7 +133,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:iron_pickaxe"]
+					"items": [
+						"minecraft:iron_pickaxe"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -126,7 +146,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:diamond_pickaxe"]
+					"items": [
+						"minecraft:diamond_pickaxe"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -137,7 +159,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:netherite_pickaxe"]
+					"items": [
+						"minecraft:netherite_pickaxe"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -148,7 +172,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:wooden_axe"]
+					"items": [
+						"minecraft:wooden_axe"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -159,7 +185,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:stone_axe"]
+					"items": [
+						"minecraft:stone_axe"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -170,7 +198,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:golden_axe"]
+					"items": [
+						"minecraft:golden_axe"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -181,7 +211,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:iron_axe"]
+					"items": [
+						"minecraft:iron_axe"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -192,7 +224,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:diamond_axe"]
+					"items": [
+						"minecraft:diamond_axe"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -203,7 +237,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:netherite_axe"]
+					"items": [
+						"minecraft:netherite_axe"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -214,7 +250,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:wooden_hoe"]
+					"items": [
+						"minecraft:wooden_hoe"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -225,7 +263,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:stone_hoe"]
+					"items": [
+						"minecraft:stone_hoe"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -236,7 +276,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:golden_hoe"]
+					"items": [
+						"minecraft:golden_hoe"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -247,7 +289,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:iron_hoe"]
+					"items": [
+						"minecraft:iron_hoe"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -258,7 +302,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:diamond_hoe"]
+					"items": [
+						"minecraft:diamond_hoe"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -269,7 +315,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:netherite_hoe"]
+					"items": [
+						"minecraft:netherite_hoe"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -280,7 +328,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:wooden_sword"]
+					"items": [
+						"minecraft:wooden_sword"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -291,7 +341,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:stone_sword"]
+					"items": [
+						"minecraft:stone_sword"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -302,7 +354,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:golden_sword"]
+					"items": [
+						"minecraft:golden_sword"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -313,7 +367,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:iron_sword"]
+					"items": [
+						"minecraft:iron_sword"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -324,7 +380,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:diamond_sword"]
+					"items": [
+						"minecraft:diamond_sword"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -335,7 +393,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:netherite_sword"]
+					"items": [
+						"minecraft:netherite_sword"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -346,7 +406,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:fishing_rod"]
+					"items": [
+						"minecraft:fishing_rod"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -357,7 +419,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:bow"]
+					"items": [
+						"minecraft:bow"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -368,7 +432,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:shield"]
+					"items": [
+						"minecraft:shield"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -379,7 +445,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:trident"]
+					"items": [
+						"minecraft:trident"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -390,7 +458,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:crossbow"]
+					"items": [
+						"minecraft:crossbow"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -401,7 +471,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:carrot_on_a_stick"]
+					"items": [
+						"minecraft:carrot_on_a_stick"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -412,7 +484,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:shears"]
+					"items": [
+						"minecraft:shears"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -423,7 +497,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:flint_and_steel"]
+					"items": [
+						"minecraft:flint_and_steel"
+					]
 				},
 				"durability": {
 					"max": 0
@@ -434,7 +510,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
 				"item": {
-					"items": ["minecraft:warped_fungus_on_a_stick"]
+					"items": [
+						"minecraft:warped_fungus_on_a_stick"
+					]
 				},
 				"durability": {
 					"max": 0

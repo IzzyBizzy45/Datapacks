@@ -6,13 +6,18 @@
         "title": {"translate":"Unmasked"},
         "description": {"translate":"Shear the Pumpkin off of a Snow Golem to unveil their true face"}
     },
-    "parent": "advadd:farming/do_you_want_to_build_a_snowman",
+    "parent": "blazeandcave:farming/olaf",
+	"rewards": {
+		"function": "bc_rewards:farming/unmasked"
+    },		
     "criteria": {
 		"shears": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:shears"]
+					"items": [
+						"minecraft:shears"
+					]
 				},
 				"entity": [
 					{

@@ -6,7 +6,10 @@
         "title": {"translate":"Atlantis"},
         "description": {"translate":"Explore some Underwater Ruins"}
     },
-    "parent": "advadd:biomes/pushed_around",
+    "parent": "blazeandcave:biomes/pushed_around",
+    "rewards": {
+        "function": "bc_rewards:biomes/atlantis"
+    },		
     "criteria": {
         "ocean_ruin": {
             "trigger": "minecraft:location",

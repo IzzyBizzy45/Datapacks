@@ -4,16 +4,21 @@
             "item": "minecraft:slime_ball"
         },
         "title": {"translate":"I'm gonna be sick!"},
-        "description": {"translate":"Slurp every kind of suspicious stew"},
+        "description": {"color":"#75E1FF","translate":"Slurp every kind of suspicious stew"},
 		"frame": "goal"
     },
-    "parent": "advadd:farming/suspicious_looking_stew",
+    "parent": "blazeandcave:farming/suspicious_looking_stew",
+	"rewards": {
+		"function": "bc_rewards:farming/im_gonna_be_sick"
+    },		
     "criteria": {
         "oxeye_daisy_stew": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:suspicious_stew"],
+					"items": [
+						"minecraft:suspicious_stew"
+					],
 					"nbt": "{Effects:[{EffectId:10b}]}"
                 }
             }
@@ -22,7 +27,9 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:suspicious_stew"],
+					"items": [
+						"minecraft:suspicious_stew"
+					],
 					"nbt": "{Effects:[{EffectId:8b}]}"
                 }
             }
@@ -31,7 +38,9 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:suspicious_stew"],
+					"items": [
+						"minecraft:suspicious_stew"
+					],
 					"nbt": "{Effects:[{EffectId:19b}]}"
                 }
             }
@@ -40,7 +49,9 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:suspicious_stew"],
+					"items": [
+						"minecraft:suspicious_stew"
+					],
 					"nbt": "{Effects:[{EffectId:20b}]}"
                 }
             }
@@ -49,7 +60,9 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:suspicious_stew"],
+					"items": [
+						"minecraft:suspicious_stew"
+					],
 					"nbt": "{Effects:[{EffectId:18b}]}"
                 }
             }
@@ -58,7 +71,9 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:suspicious_stew"],
+					"items": [
+						"minecraft:suspicious_stew"
+					],
 					"nbt": "{Effects:[{EffectId:15b}]}"
                 }
             }
@@ -67,7 +82,9 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:suspicious_stew"],
+					"items": [
+						"minecraft:suspicious_stew"
+					],
 					"nbt": "{Effects:[{EffectId:12b}]}"
                 }
             }
@@ -76,7 +93,9 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:suspicious_stew"],
+					"items": [
+						"minecraft:suspicious_stew"
+					],
 					"nbt": "{Effects:[{EffectId:23b}]}"
                 }
             }
@@ -85,7 +104,9 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:suspicious_stew"],
+					"items": [
+						"minecraft:suspicious_stew"
+					],
 					"nbt": "{Effects:[{EffectId:16b}]}"
                 }
             }

@@ -6,9 +6,9 @@
         "title": {"translate":"Spring in your step"},
         "description": {"translate":"Jump 1000 times"}
     },
-    "parent": "advadd:statistics/root",
+    "parent": "blazeandcave:statistics/root",
 	"rewards": {
-		"experience": 50
+		"function": "bc_rewards:statistics/spring_in_your_step"
     },		
     "criteria": {
         "trigger": {

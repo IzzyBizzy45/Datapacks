@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:structure_block"
         },
-        "title": {"translate":"Structure Explorer"},
+        "title": {"translate":"Raidin' Master"},
         "description": {"translate":"Discover every structure type"},
 		"frame": "challenge"
     },

@@ -8,9 +8,6 @@
 		"frame": "goal"
     },
     "parent": "advadd:animal/getting_into_a_stew",
-    "rewards": {
-		"experience": 50
-    },		
     "criteria": {
         "rabbit": {
             "trigger": "minecraft:player_killed_entity",

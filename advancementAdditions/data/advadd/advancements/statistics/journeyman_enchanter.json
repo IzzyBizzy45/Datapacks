@@ -5,12 +5,12 @@
 			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
         },
         "title": {"translate":"Journeyman Enchanter"},
-        "description": {"translate":"Enchant 50 items"},
+        "description": {"color":"#75E1FF","translate":"Enchant 50 items"},
 		"frame": "goal"
     },
-    "parent": "advadd:statistics/novice_enchanter",
+    "parent": "blazeandcave:statistics/novice_enchanter",
 	"rewards": {
-		"experience": 200
+		"function": "bc_rewards:statistics/journeyman_enchanter"
     },		
     "criteria": {
         "trigger": {

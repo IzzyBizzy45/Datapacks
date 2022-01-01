@@ -4,17 +4,22 @@
             "item": "minecraft:music_disc_pigstep"
         },
         "title": {"translate":"Wub wub wub!"},
-        "description": {"translate":"Obtain the Pigstep music disc from a Bastion Remnant"},
+        "description": {"color":"#75E1FF","translate":"Obtain the Pigstep music disc from a Bastion Remnant"},
 		"frame": "goal"
     },
-    "parent": "advadd:nether/gilty",
+    "parent": "blazeandcave:nether/gilty",
+	"rewards": {
+		"function": "bc_rewards:nether/wub_wub_wub"
+    },	
     "criteria": {
         "music_disc_pigstep": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:music_disc_pigstep"]
+						"items": [
+							"minecraft:music_disc_pigstep"
+						]
                     }
                 ]
             }

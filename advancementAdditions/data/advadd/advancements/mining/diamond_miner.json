@@ -1,20 +1,25 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_ore"
+            "item": "minecraft:deepslate_diamond_ore"
         },
         "title": {"translate":"Diamond Miner"},
-        "description": {"translate":"Mine a stack of diamonds. Good luck!"},
+        "description": {"color":"#75E1FF","translate":"Mine a stack of diamonds. Good luck!"},
 		"frame": "goal"
     },
-    "parent": "advadd:mining/diamond_clad",
+    "parent": "blazeandcave:mining/diamond_clad",
+    "rewards": {
+		"function": "bc_rewards:mining/diamond_miner"
+    },		
     "criteria": {
         "diamond": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:diamond"],
+						"items": [
+							"minecraft:diamond"
+						],
 						"count": 64
                     }
                 ]

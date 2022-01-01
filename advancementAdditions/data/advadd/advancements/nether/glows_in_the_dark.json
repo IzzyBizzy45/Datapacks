@@ -6,7 +6,10 @@
         "title": {"translate":"Glows in the Dark"},
         "description": {"translate":"Shoot a mob with a spectral arrow"}
     },
-    "parent": "advadd:nether/seeing_stars",
+    "parent": "blazeandcave:nether/seeing_stars",
+	"rewards": {
+		"function": "bc_rewards:nether/glows_in_the_dark"
+    },	
     "criteria": {
         "spectral_arrow": {
             "trigger": "minecraft:player_hurt_entity",

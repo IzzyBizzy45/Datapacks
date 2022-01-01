@@ -5,17 +5,22 @@
 			"nbt": "{display:{color:8439583}}"
         },
         "title": {"translate":"Shoe Shed"},
-        "description": {"translate":"Dye 16 pairs of leather boots each with one of the individual colors"},
+        "description": {"color":"#75E1FF","translate":"Dye 16 pairs of leather boots each with one of the individual colors"},
 		"frame": "goal"
     },
-    "parent": "advadd:animal/fashion_statement",
+    "parent": "blazeandcave:animal/fashion_statement",
+	"rewards": {
+		"function": "bc_rewards:animal/shoe_shed"
+    },		
     "criteria": {
         "white": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:leather_boots"],
+						"items": [
+							"minecraft:leather_boots"
+						],
 						"nbt": "{display:{color:16383998}}"
                     }
                 ]
@@ -26,7 +31,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:leather_boots"],
+						"items": [
+							"minecraft:leather_boots"
+						],
 						"nbt": "{display:{color:16351261}}"
                     }
                 ]
@@ -37,7 +44,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:leather_boots"],
+						"items": [
+							"minecraft:leather_boots"
+						],
 						"nbt": "{display:{color:13061821}}"
                     }
                 ]
@@ -48,7 +57,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:leather_boots"],
+						"items": [
+							"minecraft:leather_boots"
+						],
 						"nbt": "{display:{color:3847130}}"
                     }
                 ]
@@ -59,7 +70,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:leather_boots"],
+						"items": [
+							"minecraft:leather_boots"
+						],
 						"nbt": "{display:{color:16701501}}"
                     }
                 ]
@@ -70,7 +83,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:leather_boots"],
+						"items": [
+							"minecraft:leather_boots"
+						],
 						"nbt": "{display:{color:8439583}}"
                     }
                 ]
@@ -81,7 +96,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:leather_boots"],
+						"items": [
+							"minecraft:leather_boots"
+						],
 						"nbt": "{display:{color:15961002}}"
                     }
                 ]
@@ -92,7 +109,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:leather_boots"],
+						"items": [
+							"minecraft:leather_boots"
+						],
 						"nbt": "{display:{color:4673362}}"
                     }
                 ]
@@ -103,7 +122,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:leather_boots"],
+						"items": [
+							"minecraft:leather_boots"
+						],
 						"nbt": "{display:{color:10329495}}"
                     }
                 ]
@@ -114,7 +135,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:leather_boots"],
+						"items": [
+							"minecraft:leather_boots"
+						],
 						"nbt": "{display:{color:1481884}}"
                     }
                 ]
@@ -125,7 +148,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:leather_boots"],
+						"items": [
+							"minecraft:leather_boots"
+						],
 						"nbt": "{display:{color:8991416}}"
                     }
                 ]
@@ -136,7 +161,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:leather_boots"],
+						"items": [
+							"minecraft:leather_boots"
+						],
 						"nbt": "{display:{color:3949738}}"
                     }
                 ]
@@ -147,7 +174,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:leather_boots"],
+						"items": [
+							"minecraft:leather_boots"
+						],
 						"nbt": "{display:{color:8606770}}"
                     }
                 ]
@@ -158,7 +187,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:leather_boots"],
+						"items": [
+							"minecraft:leather_boots"
+						],
 						"nbt": "{display:{color:6192150}}"
                     }
                 ]
@@ -169,7 +200,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:leather_boots"],
+						"items": [
+							"minecraft:leather_boots"
+						],
 						"nbt": "{display:{color:11546150}}"
                     }
                 ]
@@ -180,7 +213,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:leather_boots"],
+						"items": [
+							"minecraft:leather_boots"
+						],
 						"nbt": "{display:{color:1908001}}"
                     }
                 ]

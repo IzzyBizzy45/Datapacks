@@ -8,16 +8,15 @@
 		"frame": "goal"
     },
     "parent": "advadd:animal/feeding_the_chickens",
-    "rewards": {
-		"experience": 50
-    },		
     "criteria": {
         "chicken": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:chicken"],
+						"items": [
+							"minecraft:chicken"
+						],
 						"count": 64
                     }
                 ]
@@ -28,7 +27,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:feather"],
+						"items": [
+							"minecraft:feather"
+						],
 						"count": 64
                     }
                 ]

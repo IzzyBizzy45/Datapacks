@@ -3,19 +3,21 @@
         "icon": {
             "item": "minecraft:filled_map"
         },
-        "title": {"translate": "Treasure Map"},
-        "description": {"translate": "Trade for a Explorer's Map"},
+        "title": {"translate":"Treasure Map"},
+        "description": {"translate":"Trade for an Explorer Map"},
         "frame": "goal"
     },
-    "parent": "advadd:adventure/mapper",
+    "parent": "advadd:adventure/mapmaker",
     "criteria": {
         "trade": {
             "trigger": "minecraft:villager_trade",
-            "conditions": {
-                "item": {
-                    "items": ["minecraft:filled_map"]
-                }
-            }
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:filled_map"
+					]
+				}
+			}
         }
     }
 }

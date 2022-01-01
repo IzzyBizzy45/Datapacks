@@ -8,9 +8,9 @@
         "description": {"translate":"Enchant 250 items"},
 		"frame": "challenge"
     },
-    "parent": "advadd:statistics/journeyman_enchanter",
+    "parent": "blazeandcave:statistics/journeyman_enchanter",
 	"rewards": {
-		"experience": 500
+		"function": "bc_rewards:statistics/elderly_enchanter"
     },		
     "criteria": {
         "trigger": {

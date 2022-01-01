@@ -4,12 +4,12 @@
             "item": "minecraft:light_gray_wool"
         },
         "title": {"translate":"Sheariously?"},
-        "description": {"translate":"Collect a stack of white wool"},
+        "description": {"color":"#75E1FF","translate":"Collect a stack of white wool"},
 		"frame": "goal"
     },
-    "parent": "advadd:animal/have_a_shearful_day",
+    "parent": "blazeandcave:animal/have_a_shearful_day",
     "rewards": {
-		"experience": 50
+		"function": "bc_rewards:animal/sheariously"
     },		
     "criteria": {
         "white_wool": {
@@ -17,7 +17,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:white_wool"],
+						"items": [
+							"minecraft:white_wool"
+						],
 						"count": 64
                     }
                 ]

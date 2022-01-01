@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:deepslate"
+        },
+        "title": {"translate":"Deep Slate Nine"},
+        "description": {"translate":"Mine deep enough that the stone darkens"}
+    },
+    "parent": "blazeandcave:mining/filthy_lich",
+    "rewards": {
+		"function": "bc_rewards:mining/deep_slate_nine"
+    },		
+    "criteria": {
+        "cobbled_deepslate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+						"items": [
+							"minecraft:cobbled_deepslate"
+						]
+                    }
+                ]
+            }
+        }
+    }
+}

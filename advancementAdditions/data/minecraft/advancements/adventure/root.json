@@ -1,34 +1,29 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:map"
+    "display": {
+        "icon": {
+            "item": "minecraft:map"
+        },
+        "title": {"translate":"Adventure"},
+        "description": {"translate":"Village, Pillage and Dungeons!"},
+        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+        "show_toast": false,
+        "announce_to_chat": false
     },
-    "title": {
-      "translate": "advancements.adventure.root.title"
+    "rewards": {
+        "function": "bc_rewards:adventure/root"
+    },		
+    "criteria": {
+        "killed_something": {
+            "trigger": "minecraft:player_killed_entity"
+        },
+        "killed_by_something": {
+            "trigger": "minecraft:entity_killed_player"
+        }
     },
-    "description": {
-      "translate": "Village, Pillage and Dungeoning!"
-    },
-    "frame": "task",
-    "show_toast": false,
-    "announce_to_chat": false,
-    "hidden": false,
-    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
-  },
-  "criteria": {
-    "killed_something": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {}
-    },
-    "killed_by_something": {
-      "trigger": "minecraft:entity_killed_player",
-      "conditions": {}
-    }
-  },
-  "requirements": [
-    [
-      "killed_something",
-      "killed_by_something"
-    ]
-  ]
+    "requirements": [
+		[
+			"killed_something", 
+			"killed_by_something"
+		]
+	]
 }

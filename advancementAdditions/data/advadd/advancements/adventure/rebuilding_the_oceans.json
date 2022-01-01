@@ -3,17 +3,22 @@
         "icon": {
             "item": "minecraft:tube_coral_block"
         },
-        "title": {"translate":"Buying back the Ocean"},
-        "description": {"translate":"Trade for a coral block from the Wandering Trader"},
+        "title": {"translate":"Rebuilding the Oceans"},
+        "description": {"color":"#75E1FF","translate":"Trade for a coral block from the Wandering Trader"},
 		"frame": "goal"
     },
-    "parent": "advadd:adventure/florist",
+    "parent": "blazeandcave:adventure/florist",
+    "rewards": {
+        "function": "bc_rewards:adventure/rebuilding_the_oceans"
+    },		
     "criteria": {
         "tube_coral_block": {
             "trigger": "minecraft:villager_trade",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:tube_coral_block"]
+					"items": [
+						"minecraft:tube_coral_block"
+					]
 				},
 				"villager": {
 					"type": "wandering_trader"
@@ -24,7 +29,9 @@
             "trigger": "minecraft:villager_trade",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:brain_coral_block"]
+					"items": [
+						"minecraft:brain_coral_block"
+					]
 				},
 				"villager": {
 					"type": "wandering_trader"
@@ -35,7 +42,9 @@
             "trigger": "minecraft:villager_trade",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:bubble_coral_block"]
+					"items": [
+						"minecraft:bubble_coral_block"
+					]
 				},
 				"villager": {
 					"type": "wandering_trader"
@@ -46,7 +55,9 @@
             "trigger": "minecraft:villager_trade",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:fire_coral_block"]
+					"items": [
+						"minecraft:fire_coral_block"
+					]
 				},
 				"villager": {
 					"type": "wandering_trader"
@@ -57,7 +68,9 @@
             "trigger": "minecraft:villager_trade",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:horn_coral_block"]
+					"items": [
+						"minecraft:horn_coral_block"
+					]
 				},
 				"villager": {
 					"type": "wandering_trader"

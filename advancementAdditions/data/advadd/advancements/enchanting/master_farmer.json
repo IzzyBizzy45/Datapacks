@@ -8,9 +8,9 @@
         "description": {"translate":"Create a hoe with all possible enchantments at max level"},
 		"frame": "challenge"
     },
-    "parent": "advadd:enchanting/master_axeman",
+    "parent": "blazeandcave:enchanting/master_axeman",
     "rewards": {
-        "experience": 100
+		"function": "bc_rewards:enchanting/master_farmer"
     },		
     "criteria": {
         "perfect_hoe_fortune": {
@@ -18,7 +18,7 @@
             "conditions": {
 				"items": [
                     {
-                        "tag": "advadd:master_hoes",
+                        "tag": "blazeandcave:master_hoes",
 						"enchantments": [
 							{
 								"enchantment": "minecraft:efficiency",
@@ -46,7 +46,7 @@
             "conditions": {
 				"items": [
                     {
-                        "tag": "advadd:master_hoes",
+                        "tag": "blazeandcave:master_hoes",
 						"enchantments": [
 							{
 								"enchantment": "minecraft:efficiency",

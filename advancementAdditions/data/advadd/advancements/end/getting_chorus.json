@@ -6,14 +6,19 @@
         "title": {"translate":"Getting Chorus"},
         "description": {"translate":"Attack a chorus tree until it collapses"}
     },
-    "parent": "advadd:end/end_bricks",
+    "parent": "blazeandcave:end/end_bricks",
+	"rewards": {
+		"function": "bc_rewards:end/getting_chorus"
+    },	
     "criteria": {
         "chorus_fruit": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:chorus_fruit"]
+						"items": [
+							"minecraft:chorus_fruit"
+						]
                     }
                 ]
             }

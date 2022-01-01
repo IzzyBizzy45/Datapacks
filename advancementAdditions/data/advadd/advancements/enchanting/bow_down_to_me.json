@@ -4,10 +4,13 @@
             "item": "minecraft:bow"
         },
         "title": {"translate":"Bow down to me!"},
-        "description": {"translate":"Obtain Power V"},
+        "description": {"color":"#75E1FF","translate":"Obtain Power V"},
 		"frame": "goal"
     },
-    "parent": "advadd:enchanting/librarian",
+    "parent": "blazeandcave:enchanting/librarian",
+    "rewards": {
+		"function": "bc_rewards:enchanting/bow_down_to_me"
+    },			
     "criteria": {
         "power": {
             "trigger": "minecraft:inventory_changed",

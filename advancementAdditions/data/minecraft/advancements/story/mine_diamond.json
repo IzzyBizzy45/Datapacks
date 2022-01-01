@@ -1,35 +1,27 @@
 {
-  "parent": "minecraft:story/iron_tools",
-  "display": {
-    "icon": {
-      "item": "minecraft:diamond"
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_ore"
+        },
+        "title": {"translate":"Diamonds!"},
+        "description": {"translate":"Acquire diamonds"}
     },
-    "title": {
-      "translate": "advancements.story.mine_diamond.title"
-    },
-    "description": {
-      "translate": "advancements.story.mine_diamond.description"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "diamond": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": ["minecraft:diamond"]
-          }
-        ]
-      }
+    "parent": "minecraft:story/iron_tools",
+    "rewards": {
+		"function": "bc_rewards:mining/diamonds"
+    },			
+    "criteria": {
+        "diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [ 
+							"minecraft:diamond"
+						]
+                    }
+                ]
+            }
+        }
     }
-  },
-  "requirements": [
-    [
-      "diamond"
-    ]
-  ]
 }

@@ -5,9 +5,12 @@
         },
         "title": {"translate":"Et tu, Brute?"},
         "description": {"translate":"Get murdered by Piglin Brutes"},
-		"hidden": true
+		"hidden": "false"
     },
-    "parent": "advadd:nether/brute_force",
+    "parent": "blazeandcave:nether/brute_force",
+    "rewards": {
+        "function": "bc_rewards:nether/et_tu_brute"
+    },		
     "criteria": {
         "piglin_brute": {
             "trigger": "minecraft:entity_killed_player",

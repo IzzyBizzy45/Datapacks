@@ -7,9 +7,9 @@
         "description": {"translate":"Ride 10km on a Strider"},
 		"frame": "challenge"
     },
-    "parent": "advadd:statistics/who_needs_boats",
+    "parent": "blazeandcave:statistics/who_needs_boats",
 	"rewards": {
-		"experience": 500
+		"function": "bc_rewards:statistics/this_ride_is_lit_yo"
     },		
     "criteria": {
         "trigger": {

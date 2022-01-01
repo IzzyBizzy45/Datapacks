@@ -7,9 +7,9 @@
         "description": {"translate":"Go 30 days without sleep"},
 		"frame": "challenge"
     },
-    "parent": "advadd:building/rainbow_dreams",
+    "parent": "blazeandcave:building/rainbow_dreams",
 	"rewards": {
-		"experience": 100
+		"function": "bc_rewards:building/insomniac"
     },		
     "criteria": {
         "trigger": {

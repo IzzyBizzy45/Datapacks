@@ -4,16 +4,19 @@
             "item": "minecraft:llama_spawn_egg"
         },
         "title": {"translate":"Llama Llama Duck King"},
-        "description": {"translate":"Tame all llama variants"},
+        "description": {"color":"#75E1FF","translate":"Tame all llama variants"},
 		"frame": "goal"
     },
-    "parent": "advadd:animal/so_i_got_that_going_for_me",
+    "parent": "blazeandcave:animal/so_i_got_that_going_for_me",
+	"rewards": {
+		"function": "bc_rewards:animal/llama_llama_duck_king"
+    },		
     "criteria": {
         "creamy": {
             "trigger": "minecraft:tame_animal",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:llama",
+                    "type": "#blazeandcave:llamas",
 					"nbt": "{Variant:0}"
                 }
 			}
@@ -22,7 +25,7 @@
             "trigger": "minecraft:tame_animal",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:llama",
+                    "type": "#blazeandcave:llamas",
 					"nbt": "{Variant:1}"
                 }
 			}
@@ -31,7 +34,7 @@
             "trigger": "minecraft:tame_animal",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:llama",
+                    "type": "#blazeandcave:llamas",
 					"nbt": "{Variant:2}"
                 }
 			}
@@ -40,7 +43,7 @@
             "trigger": "minecraft:tame_animal",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:llama",
+                    "type": "#blazeandcave:llamas",
 					"nbt": "{Variant:3}"
                 }
 			}

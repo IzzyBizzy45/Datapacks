@@ -4,14 +4,17 @@
             "item": "minecraft:target"
         },
         "title": {"translate":"Target Acquired"},
-        "description": {"translate":"Put up a Target for archery practice"}
+        "description": {"translate":"Put up a Target for archery practise"}
     },
-    "parent": "advadd:redstone/erecting_a_dispenser",
+    "parent": "blazeandcave:redstone/dispense_with_this",
+    "rewards": {
+		"function": "bc_rewards:redstone/target_acquired"
+    },			
     "criteria": {
         "target": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:target"
+				"block": "minecraft:target"
             }
         }
     }

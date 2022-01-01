@@ -1,20 +1,25 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:gold_ore"
+            "item": "minecraft:raw_gold"
         },
         "title": {"translate":"Gold Miner"},
-        "description": {"translate":"Mine a stack of gold ore"},
+        "description": {"color":"#75E1FF","translate":"Mine a stack of Raw Gold"},
 		"frame": "goal"
     },
-    "parent": "advadd:mining/gold_rush",
+    "parent": "blazeandcave:mining/living_like_kings",
+    "rewards": {
+		"function": "bc_rewards:mining/gold_miner"
+    },		
     "criteria": {
-        "gold": {
+        "raw_gold": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:gold_ore"],
+						"items": [
+							"minecraft:raw_gold"
+						],
 						"count": 64
                     }
                 ]

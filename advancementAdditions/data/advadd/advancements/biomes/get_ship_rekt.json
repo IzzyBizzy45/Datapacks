@@ -6,7 +6,10 @@
         "title": {"translate":"Get Ship-rekt!"},
         "description": {"translate":"Come across a sunken ship"}
     },
-    "parent": "advadd:biomes/atlantis",
+    "parent": "blazeandcave:biomes/atlantis",
+    "rewards": {
+        "function": "bc_rewards:biomes/get_ship_rekt"
+    },		
     "criteria": {
         "shipwreck": {
             "trigger": "minecraft:location",

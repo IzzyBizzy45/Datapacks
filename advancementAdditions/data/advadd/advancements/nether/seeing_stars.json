@@ -6,14 +6,19 @@
         "title": {"translate":"Seeing Stars"},
         "description": {"translate":"Mine some glowstone dust from the nether"}
     },
-    "parent": "advadd:nether/nugget_in_a_biscuit",
+    "parent": "blazeandcave:nether/nugget_in_a_biscuit",
+	"rewards": {
+		"function": "bc_rewards:nether/seeing_stars"
+    },	
     "criteria": {
         "glowstone_dust": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:glowstone_dust"]
+						"items": [
+							"minecraft:glowstone_dust"
+						]
                     }
                 ]
             }

@@ -7,6 +7,9 @@
         "description": {"translate":"Mine Nether Gold Ore for a pile of gold nuggets"}
     },
     "parent": "minecraft:nether/root",
+	"rewards": {
+		"function": "bc_rewards:nether/nugget_in_a_biscuit"
+    },		
     "criteria": {
         "mine_nether_gold_ore": {
             "trigger": "minecraft:location",

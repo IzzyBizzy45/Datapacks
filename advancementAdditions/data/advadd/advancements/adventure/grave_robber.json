@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:chiseled_sandstone"
         },
-        "title": {"translate":"Egyptian Grave Robber"},
+        "title": {"translate":"Grave Robber"},
         "description": {"translate":"Enter a pyramid in a desert"}
     },
     "parent": "advadd:adventure/now_youre_thinking_with_portals",

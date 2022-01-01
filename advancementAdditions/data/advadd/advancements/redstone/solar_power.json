@@ -6,14 +6,19 @@
         "title": {"translate":"Solar Power"},
         "description": {"translate":"Craft a daylight sensor"}
     },
-    "parent": "advadd:redstone/compare_and_save",
+    "parent": "blazeandcave:redstone/comparing_comparator",
+	"rewards": {
+		"function": "bc_rewards:redstone/solar_power"
+    },	
     "criteria": {
         "daylight_detector": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:daylight_detector"]
+						"items": [
+							"minecraft:daylight_detector"
+						]
                     }
                 ]
             }

@@ -7,9 +7,9 @@
         "description": {"translate":"Eat Rabbit Stew, then avoid eating for the next 3 in-game days"},
 		"frame": "challenge"
     },
-    "parent": "advadd:animal/going_down_the_rabbit_hole",
+    "parent": "blazeandcave:animal/going_down_the_rabbit_hole",
 	"rewards": {
-		"experience": 100
+		"function": "bc_rewards:animal/just_keeps_going"
     },		
     "criteria": {
         "just_keeps_going": {

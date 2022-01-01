@@ -6,9 +6,9 @@
         "title": {"translate":"Organizational Wizard"},
         "description": {"translate":"Name a Shulker Box 'Blocks' for storing your blocks"}
     },
-    "parent": "advadd:end/portable_storage",
+    "parent": "blazeandcave:end/portable_storage",
 	"rewards": {
-		"experience": 50
+		"function": "bc_rewards:end/organizational_wizard"
     },	
     "criteria": {
         "shulker_box": {

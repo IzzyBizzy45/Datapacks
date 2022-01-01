@@ -7,6 +7,9 @@
         "description": {"translate":"Slay a Piglin in battle... or an accidental incursion"}
     },
     "parent": "minecraft:nether/distract_piglin",
+    "rewards": {
+        "function": "bc_rewards:nether/cultural_misunderstandings"
+    },		
     "criteria": {
         "piglin": {
             "trigger": "minecraft:player_killed_entity",

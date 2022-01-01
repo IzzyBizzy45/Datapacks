@@ -11,7 +11,7 @@
         "beehive": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:beehive"
+				"block": "minecraft:beehive"
             }
         }
     }

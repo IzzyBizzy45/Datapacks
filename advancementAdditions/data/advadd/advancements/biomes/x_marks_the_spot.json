@@ -4,10 +4,13 @@
             "item": "minecraft:filled_map"
         },
         "title": {"translate":"X Marks the Spot"},
-        "description": {"translate":"Use a treasure map to find Buried Treasure"},
+        "description": {"color":"#75E1FF","translate":"Use a treasure map to find Buried Treasure"},
 		"frame": "goal"
     },
-    "parent": "advadd:biomes/get_ship_rekt",
+    "parent": "blazeandcave:biomes/get_ship_rekt",
+    "rewards": {
+        "function": "bc_rewards:biomes/x_marks_the_spot"
+    },		
     "criteria": {
 		"heart_of_the_sea": {
 			"trigger": "minecraft:player_generates_container_loot",

@@ -6,13 +6,16 @@
         "title": {"translate":"Echolocation"},
         "description": {"translate":"Feed a dolphin fish to have it lead you to treasure"}
     },
-    "parent": "advadd:biomes/dolphin_dasher",
+    "parent": "blazeandcave:biomes/dolphin_dasher",
+	"rewards": {
+		"function": "bc_rewards:biomes/echolocation"
+    },		
     "criteria": {
 		"echolocation": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"tag": "advadd:dolphin_feedable"
+					"tag": "blazeandcave:dolphin_feedable"
 				},
 				"entity": [
 					{

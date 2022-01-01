@@ -6,18 +6,21 @@
         "title": {"translate":"Torched!"},
         "description": {"translate":"Light up the area with some torches"}
     },
-    "parent": "advadd:building/stationary_storage",
+    "parent": "blazeandcave:building/stationary_storage",
+	"rewards": {
+		"function": "bc_rewards:building/torched"
+    },		
     "criteria": {
         "torch": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:torch"
+				"block": "minecraft:torch"
             }
         },
         "wall_torch": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:wall_torch"
+				"block": "minecraft:wall_torch"
             }
         }
     },

@@ -4,7 +4,7 @@
             "item": "minecraft:trident"
         },
         "title": {"translate":"Picador"},
-        "description": {"translate":"Hit a Ravager with a thrown trident"},
+        "description": {"color":"#75E1FF","translate":"Hit a Ravager with a thrown trident"},
 		"frame": "goal"
     },
     "parent": "advadd:adventure/i_am_ravager_hear_me_roar",

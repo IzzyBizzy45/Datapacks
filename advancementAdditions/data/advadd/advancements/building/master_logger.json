@@ -7,14 +7,19 @@
         "description": {"translate":"Cut down a full stack of logs of all types"},
 		"frame": "challenge"
     },
-    "parent": "advadd:building/stripper",
+    "parent": "blazeandcave:building/stripper",
+    "rewards": {
+        "function": "bc_rewards:building/master_logger"
+    },		
     "criteria": {
         "oak_log": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:oak_log"],
+						"items": [
+							"minecraft:oak_log"
+						],
 						"count": 64
                     }
                 ]
@@ -25,7 +30,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:spruce_log"],
+						"items": [
+							"minecraft:spruce_log"
+						],
 						"count": 64
                     }
                 ]
@@ -36,7 +43,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:birch_log"],
+						"items": [
+							"minecraft:birch_log"
+						],
 						"count": 64
                     }
                 ]
@@ -47,7 +56,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:jungle_log"],
+						"items": [
+							"minecraft:jungle_log"
+						],
 						"count": 64
                     }
                 ]
@@ -58,7 +69,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:acacia_log"],
+						"items": [
+							"minecraft:acacia_log"
+						],
 						"count": 64
                     }
                 ]
@@ -69,7 +82,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:dark_oak_log"],
+						"items": [
+							"minecraft:dark_oak_log"
+						],
 						"count": 64
                     }
                 ]

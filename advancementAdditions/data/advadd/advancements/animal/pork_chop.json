@@ -6,13 +6,18 @@
         "title": {"translate":"Pork Chop"},
         "description": {"translate":"You know kung fu, how about pork chop?"}
     },
-    "parent": "advadd:animal/bacon",
+    "parent": "blazeandcave:animal/bacon",
+	"rewards": {
+		"function": "bc_rewards:animal/pork_chop"
+    },		
     "criteria": {
         "cooked_porkchop": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": ["minecraft:cooked_porkchop"]
+					"items": [
+						"minecraft:cooked_porkchop"
+					]
                 }
             }
         }

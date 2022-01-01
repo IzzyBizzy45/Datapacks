@@ -4,17 +4,22 @@
             "item": "minecraft:spruce_sapling"
         },
         "title": {"translate":"Spruce Lee"},
-        "description": {"translate":"Craft every item made out of spruce wood"},
+        "description": {"color":"#75E1FF","translate":"Craft every item made out of spruce wood"},
 		"frame": "goal"
     },
-    "parent": "advadd:building/professor_oak",
+    "parent": "blazeandcave:building/professor_oak",
+    "rewards": {
+		"function": "bc_rewards:building/spruce_lee"
+    },		
     "criteria": {
         "spruce_planks": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:spruce_planks"]
+						"items": [
+							"minecraft:spruce_planks"
+						]
                     }
                 ]
             }
@@ -24,7 +29,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:spruce_log"]
+						"items": [
+							"minecraft:spruce_log"
+						]
                     }
                 ]
             }
@@ -34,7 +41,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:spruce_wood"]
+						"items": [
+							"minecraft:spruce_wood"
+						]
                     }
                 ]
             }
@@ -44,7 +53,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:stripped_spruce_log"]
+						"items": [
+							"minecraft:stripped_spruce_log"
+						]
                     }
                 ]
             }
@@ -54,7 +65,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:stripped_spruce_wood"]
+						"items": [
+							"minecraft:stripped_spruce_wood"
+						]
                     }
                 ]
             }
@@ -64,7 +77,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:spruce_slab"]
+						"items": [
+							"minecraft:spruce_slab"
+						]
                     }
                 ]
             }
@@ -74,7 +89,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:spruce_pressure_plate"]
+						"items": [
+							"minecraft:spruce_pressure_plate"
+						]
                     }
                 ]
             }
@@ -84,7 +101,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:spruce_fence"]
+						"items": [
+							"minecraft:spruce_fence"
+						]
                     }
                 ]
             }
@@ -94,7 +113,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:spruce_trapdoor"]
+						"items": [
+							"minecraft:spruce_trapdoor"
+						]
                     }
                 ]
             }
@@ -104,7 +125,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:spruce_fence_gate"]
+						"items": [
+							"minecraft:spruce_fence_gate"
+						]
                     }
                 ]
             }
@@ -114,7 +137,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:spruce_stairs"]
+						"items": [
+							"minecraft:spruce_stairs"
+						]
                     }
                 ]
             }
@@ -124,7 +149,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:spruce_button"]
+						"items": [
+							"minecraft:spruce_button"
+						]
                     }
                 ]
             }
@@ -134,7 +161,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:spruce_door"]
+						"items": [
+							"minecraft:spruce_door"
+						]
                     }
                 ]
             }
@@ -144,7 +173,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:spruce_boat"]
+						"items": [
+							"minecraft:spruce_boat"
+						]
                     }
                 ]
             }
@@ -154,7 +185,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:spruce_sign"]
+						"items": [
+							"minecraft:spruce_sign"
+						]
                     }
                 ]
             }

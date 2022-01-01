@@ -8,9 +8,9 @@
         "description": {"translate":"Ride 10km on a pig"},
 		"frame": "challenge"
     },
-    "parent": "advadd:statistics/snout_500",
+    "parent": "blazeandcave:statistics/snout_500",
 	"rewards": {
-		"experience": 500
+		"function": "bc_rewards:statistics/lightning_mcpig"
     },		
     "criteria": {
         "trigger": {

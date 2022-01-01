@@ -7,12 +7,17 @@
         "description": {"translate":"Craft a lead using string and a slimeball, then attach it to a mob"}
     },
     "parent": "minecraft:husbandry/root",
+    "rewards": {
+        "function": "bc_rewards:animal/lead_the_way"
+    },
 	"criteria": {
 		"lead": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:lead"]
+					"items": [
+						"minecraft:lead"
+					]
 				}
 			}
 		}

@@ -1,20 +1,25 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_ore"
+            "item": "minecraft:raw_iron"
         },
         "title": {"translate":"Iron Miner"},
-        "description": {"translate":"Mine a stack of iron ore"},
+        "description": {"color":"#75E1FF","translate":"Mine a stack of Raw Iron"},
 		"frame": "goal"
     },
-    "parent": "advadd:mining/iron_man",
+    "parent": "blazeandcave:mining/iron_man",
+    "rewards": {
+		"function": "bc_rewards:mining/iron_miner"
+    },		
     "criteria": {
-        "iron": {
+        "raw_iron": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:iron_ore"],
+						"items": [
+							"minecraft:raw_iron"
+						],
 						"count": 64
                     }
                 ]
