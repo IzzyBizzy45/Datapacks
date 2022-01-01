@@ -2,30 +2,41 @@
   "parent": "izzybizzy:recipes/root",
   "rewards": {
     "recipes": [
-      "izzybizzy:name_tag"
+      "izzybizzy:dispenser"
     ]
   },
   "criteria": {
-    "has_nametag": {
+    "has_dispenser": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:name_tag"]
+            "items": ["minecraft:dispenser"]
           }
         ]
       }
     },
+    "has_dropper": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:dropper"]
+            }
+          ]
+        }
+      },
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "izzybizzy:name_tag"
+        "recipe": "izzybizzy:dispenser"
       }
     }
   },
   "requirements": [
     [
-      "has_nametag",
+      "has_dispenser",
+      "has_droper",
       "has_the_recipe"
     ]
   ]
