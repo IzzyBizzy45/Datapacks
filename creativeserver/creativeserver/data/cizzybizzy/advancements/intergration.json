@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {"translate": "Creative Server"},
+        "description": {"translate": "This marks the server is a creative version to the current survival server. \nRead the login Message for more info"},
+        "announce_to_chat": false,
+        "hidden": true,
+        "show_toast": false
+    },
+    "parent": "izzybizzy:server/root",
+    "criteria": {
+        "auto" : {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:air"
+            }
+        }
+    }
+}

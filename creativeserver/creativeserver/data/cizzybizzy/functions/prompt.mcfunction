@@ -1,0 +1,5 @@
+tellraw @a[scores={gamemode=1..}] ["","Change your gamemode with the options below","\n",{"text":"[Survival] ","color":"#977878","clickEvent":{"action":"run_command","value":"/mode survival"}},{"text":"[Creative] ","color":"aqua","clickEvent":{"action":"run_command","value":"/mode creative"}},{"text":"[Spectator]","color":"gray","clickEvent":{"action":"run_command","value":"/mode spectator"}}]
+scoreboard players set @a[scores={gamemode=1..}] gamemode 0
+
+tellraw @a[scores={gamemode=..-1}] ["","Change your gamemode with the options below","\n",{"text":"[Survival] ","color":"#977878","clickEvent":{"action":"run_command","value":"/mode survival"}},{"text":"[Creative] ","color":"aqua","clickEvent":{"action":"run_command","value":"/mode creative"}},{"text":"[Spectator]","color":"gray","clickEvent":{"action":"run_command","value":"/mode spectator"}}]
+scoreboard players set @a[scores={gamemode=..-1}] gamemode 0
