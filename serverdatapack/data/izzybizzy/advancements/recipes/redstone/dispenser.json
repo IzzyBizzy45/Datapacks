@@ -36,7 +36,7 @@
   "requirements": [
     [
       "has_dispenser",
-      "has_droper",
+      "has_dropper",
       "has_the_recipe"
     ]
   ]

@@ -1,0 +1,51 @@
+{
+    "parent": "izzybizzy:recipes/root",
+    "rewards": {
+      "recipes": [
+        "izzybizzy:sticky_piston_honey",
+        "izzybizzy:sticky_piston_magma"
+      ]
+    },
+    "criteria": {
+      "has_piston": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:piston"]
+            }
+          ]
+        }
+      },
+      "has_stickyPiston": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "items": ["minecraft:sticky_piston"]
+              }
+            ]
+          }
+        },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "izzybizzy:sticky_piston_honey"
+        }
+      },
+      "has_the_recipe2": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "izzybizzy:sticky_piston_magma"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_piston",
+        "has_stickyPiston",
+        "has_the_recipe",
+        "has_the_recipe2"
+      ]
+    ]
+  }
