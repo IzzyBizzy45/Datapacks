@@ -1,0 +1,22 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:player_head",
+		"minecraft:wither_skeleton_skull",
+		"minecraft:skeleton_skull",
+		"minecraft:zombie_head",
+		"minecraft:creeper_head",
+		"minecraft:dragon_head",
+		"minecraft:respawn_anchor",
+		"minecraft:nether_star",
+		"minecraft:string",
+		"minecraft:gunpowder",
+		"minecraft:rotten_flesh",
+		"minecraft:spider_eye",
+		"minecraft:fermented_spider_eye",
+		"minecraft:bone",
+		"minecraft:bone_meal",
+		"minecraft:slime_ball",
+		"minecraft:phantom_membrane"
+	]
+}

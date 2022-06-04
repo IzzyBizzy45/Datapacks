@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:beacon",
+		"minecraft:enchanted_book",
+		"#minecraft:music_discs",
+		"minecraft:jukebox",
+		"minecraft:totem_of_undying"
+	]
+}
