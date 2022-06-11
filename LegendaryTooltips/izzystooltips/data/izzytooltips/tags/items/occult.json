@@ -45,6 +45,12 @@
 		"minecraft:purpur_pillar",
 		"minecraft:purpur_stairs",
 		"minecraft:purpur_slab",
-		"minecraft:dragon_breath"
+		"minecraft:dragon_breath",
+		"minecraft:recovery_compass",
+		"minecraft:sculk",
+		"minecraft:sculk_vein",
+		"minecraft:sculk_catalyst",
+		"minecraft:sculk_shrieker",
+		"minecraft:sculk_sensor"
 	]
 }

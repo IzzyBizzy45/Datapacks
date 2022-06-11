@@ -17,3 +17,9 @@ Shared Deaths
 Created to play with friends, When one player dies - every player dies. 
 
 This is pretty much finished, unless I find any issues.
+
+LegendaryTooltips
+-----------
+Requires the Legendary Tooltips mod. https://www.curseforge.com/minecraft/mc-mods/legendary-tooltips-fabric
+
+Just includes needed tags for how I like it setup
