@@ -1,0 +1,26 @@
+{
+  "parent": "izzy_vault:vault_crystal",  
+  "display": {
+      "title": {
+        "text": "The Vault"
+      },
+      "description": {
+        "text": "Enter the strange rooms of the Vault"
+      },
+      "icon": {
+        "item": "the_vault:vault_bedrock"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+        "entered_vault": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+              "to": "the_vault:the_vault"
+            }
+        }
+    }
+}

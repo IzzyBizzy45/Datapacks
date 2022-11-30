@@ -1,0 +1,171 @@
+{
+    "parent": "izzy_vault:gems/single_gem",
+    "display": {
+      "icon": {
+        "item": "the_vault:pogging_gemstone"
+      },
+      "title": {"text": "Under Pressure"},
+      "description": {"text": "Create a Jemstone"}
+    },
+    "criteria": {
+      "gorginite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "the_vault:gorgeous_gemstone"
+              ]
+            }
+          ]
+        }
+      },
+      "ashium": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "the_vault:ashium_gemstone"
+              ]
+            }
+          ]
+        }
+      },
+      "benitoite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "the_vault:benitoite_gemstone"
+              ]
+            }
+          ]
+        }
+      },
+      "bomignite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "the_vault:bomignite_gemstone"
+              ]
+            }
+          ]
+        }
+      },
+      "echo": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "the_vault:echoing_gemstone"
+              ]
+            }
+          ]
+        }
+      },
+      "petzanite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "the_vault:petzanite_gemstone"
+              ]
+            }
+          ]
+        }
+      },
+      "pogging": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "the_vault:pogging_gemstone"
+              ]
+            }
+          ]
+        }
+      },
+      "tubium": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "the_vault:tubium_jewstone"
+              ]
+            }
+          ]
+        }
+      },
+      "wutodie": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "the_vault:wutodic_gemstone"
+              ]
+            }
+          ]
+        }
+      },
+      "xeenium": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "the_vault:xeenium_gemstone"
+              ]
+            }
+          ]
+        }
+      },
+      "sparkletine": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "the_vault:sparkletine_gemstone"
+              ]
+            }
+          ]
+        }
+      },
+      "iskallium": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "the_vault:iskallic_gemstone"
+              ]
+            }
+          ]
+        }
+      },      
+      "upaline": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "the_vault:upaline_gemstone"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      ["gorginite","ashium","benitoite","bomignite","echo","petzanite","pogging","tubium","wutodie","xeenium","sparkletine","iskallium","upaline"]
+    ]
+  }
