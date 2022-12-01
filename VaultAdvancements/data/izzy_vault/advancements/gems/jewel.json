@@ -1,5 +1,5 @@
 {
-    "parent": "izzy_vault:gems/jewel",
+    "parent": "izzy_vault:gems/gemstone",
     "display": {
       "icon": {
         "item": "the_vault:pogging_jewel"
