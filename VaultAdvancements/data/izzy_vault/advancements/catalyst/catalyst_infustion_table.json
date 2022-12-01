@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:materials/vault_scrap",
+    "parent": "izzy_vault:catalyst/vault_catalyst",
     "display": {
       "icon": {
-        "item": "the_vault:vaulterite_pickaxe"
+        "item": "the_vault:catalyst_infusion_table"
       },
-      "title": {"text": "Trusty Rusty"},
-      "description": {"text": "Create yourself a Scrap Pickaxe"}
+      "title": {"text": "Making Modifiers"},
+      "description": {"text": "Create a Catalyst Infusion Table"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:vaulterite_pickaxe"
+                "the_vault:catalyst_infusion_table"
               ]
             }
           ]

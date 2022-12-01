@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:materials/vault_scrap",
+    "parent": "izzy_vault:catalyst/mote_purity",
     "display": {
       "icon": {
-        "item": "the_vault:vaulterite_pickaxe"
+        "item": "the_vault:mote_sanctity"
       },
-      "title": {"text": "Trusty Rusty"},
-      "description": {"text": "Create yourself a Scrap Pickaxe"}
+      "title": {"text": "Sacred Crystalines"},
+      "description": {"text": "Find a Mote of Sanctity"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:vaulterite_pickaxe"
+                "the_vault:mote_sanctity"
               ]
             }
           ]

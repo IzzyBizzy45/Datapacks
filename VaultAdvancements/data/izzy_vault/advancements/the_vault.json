@@ -10,16 +10,16 @@
       "icon": {
         "item": "the_vault:vault_bedrock"
       },
-      "frame": "goal",
+      "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
     "criteria": {
         "entered_vault": {
-            "trigger": "minecraft:changed_dimension",
+            "trigger": "minecraft:enter_block",
             "conditions": {
-              "to": "the_vault:the_vault"
+              "block": "the_vault:vault_portal"
             }
         }
     }

@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:materials/vault_scrap",
+    "parent": "izzy_vault:materials/eternal_soul",
     "display": {
       "icon": {
-        "item": "the_vault:vaulterite_pickaxe"
+        "item": "the_vault:infused_eternal_soul"
       },
-      "title": {"text": "Trusty Rusty"},
-      "description": {"text": "Create yourself a Scrap Pickaxe"}
+      "title": {"text": "Redeeming Souls"},
+      "description": {"text": "Create a Infused Eternal Soul"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:vaulterite_pickaxe"
+                "the_vault:infused_eternal_soul"
               ]
             }
           ]

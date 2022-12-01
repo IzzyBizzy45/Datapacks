@@ -1,116 +1,32 @@
 {
-    "parent": "izzy_vault:gems/jewel",
+    "parent": "izzy_vault:gems/cluster",
     "display": {
       "icon": {
-        "item": "the_vault:pogging_jewel"
+        "item": "the_vault:chunk_iskallium"
       },
-      "title": {"text": "Bejeweled"},
-      "description": {"text": "Create or Find a Jewel"}
+      "title": {"text": "Chunked and Clumped"},
+      "description": {"text": "Chunk your clusters of a Unique vault gem together"}
     },
     "criteria": {
+      "iskallium": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "the_vault:chunk_iskallium"
+              ]
+            }
+          ]
+        }
+      },
       "gorginite": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "the_vault:gorgeous_jewel"
-              ]
-            }
-          ]
-        }
-      },
-      "ashium": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "the_vault:ash_jewel"
-              ]
-            }
-          ]
-        }
-      },
-      "benitoite": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "the_vault:benite_jewel"
-              ]
-            }
-          ]
-        }
-      },
-      "bomignite": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "the_vault:bombing_jewel"
-              ]
-            }
-          ]
-        }
-      },
-      "echo": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "the_vault:echoing_jewel"
-              ]
-            }
-          ]
-        }
-      },
-      "petzanite": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "the_vault:petzan_jewel"
-              ]
-            }
-          ]
-        }
-      },
-      "pogging": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "the_vault:pogging_jewel"
-              ]
-            }
-          ]
-        }
-      },
-      "tubium": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "the_vault:tubic_jewel"
-              ]
-            }
-          ]
-        }
-      },
-      "xeenium": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "the_vault:xen_jewel"
+                "the_vault:chunk_gorginite"
               ]
             }
           ]
@@ -122,31 +38,79 @@
           "items": [
             {
               "items": [
-                "the_vault:sparking_jewel"
+                "the_vault:chunk_sparkletine"
               ]
             }
           ]
         }
       },
-      "iskallium": {
+      "ashium": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "the_vault:iskallic_jewel"
+                "the_vault:chunk_ashium"
               ]
             }
           ]
         }
-      },      
+      },
+      "bomignite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "the_vault:chunk_bomignite"
+              ]
+            }
+          ]
+        }
+      },
+      "tubium": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "the_vault:chunk_tubium"
+              ]
+            }
+          ]
+        }
+      },
       "upaline": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "the_vault:upal_jewel"
+                "the_vault:chunk_upaline"
+              ]
+            }
+          ]
+        }
+      },
+      "petzanite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "the_vault:chunk_petzanite"
+              ]
+            }
+          ]
+        }
+      },
+      "xeenium": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "the_vault:chunk_xenium"
               ]
             }
           ]
@@ -154,6 +118,6 @@
       }
     },
     "requirements": [
-      ["gorginite","ashium","benitoite","bomignite","echo","petzanite","pogging","tubium","xeenium","sparkletine","iskallium","upaline"]
+        ["iskallium","gorginite","sparkletine","ashium","bomignite","tubium","upaline","petzanite","xeenium"]
     ]
   }

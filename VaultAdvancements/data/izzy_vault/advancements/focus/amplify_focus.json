@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:materials/vault_scrap",
+    "parent": "izzy_vault:focus/wild_focus",
     "display": {
       "icon": {
-        "item": "the_vault:vaulterite_pickaxe"
+        "item": "the_vault:amplifying_focus"
       },
-      "title": {"text": "Trusty Rusty"},
-      "description": {"text": "Create yourself a Scrap Pickaxe"}
+      "title": {"text": "Let's Amp it Up"},
+      "description": {"text": "Find a Amplifying Focus"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:vaulterite_pickaxe"
+                "the_vault:amplifying_focus"
               ]
             }
           ]

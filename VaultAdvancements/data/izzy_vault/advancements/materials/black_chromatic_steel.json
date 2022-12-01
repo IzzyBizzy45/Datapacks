@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:the_vault",
+    "parent": "izzy_vault:materials/chromatic_steel",
     "display": {
       "icon": {
-        "item": "the_vault:vault_scrap"
+        "item": "the_vault:black_chromatic_steel_ingot"
       },
-      "title": {"text": "Scraps of the Vaulting Age"},
-      "description": {"text": "Find some Vault Scrap"},
+      "title": {"text": "Dark Mode Steel"},
+      "description": {"text": "Create a Ingot of Black Chromatic Steel"},
       "announce_to_chat": false
     },
     "criteria": {
@@ -15,7 +15,7 @@
           "items": [
             {
               "items": [
-                "the_vault:vault_scrap"
+                "the_vault:black_chromatic_steel_ingot"
               ]
             }
           ]

@@ -1,159 +1,160 @@
 {
-    "parent": "izzy_vault:gems/jewel",
+    "parent": "izzy_vault:items/shard_pouch",
     "display": {
       "icon": {
-        "item": "the_vault:pogging_jewel"
+        "item": "the_vault:unknown_item"
       },
-      "title": {"text": "Bejeweled"},
-      "description": {"text": "Create or Find a Jewel"}
+      "title": {"text": "Waiting for a Good Deal"},
+      "description": {"text": "Earn 5000 Soul Shards in a Single Pouch"},
+      "hidden": true,
+      "frame": "challenge"
     },
     "criteria": {
-      "gorginite": {
+      "95": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "the_vault:gorgeous_jewel"
-              ]
+                "the_vault:shard_pouch"
+              ],
+              "nbt": "{Inventory:{StackSize:4995}}"
             }
           ]
         }
       },
-      "ashium": {
+      "96": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "the_vault:ash_jewel"
-              ]
+                "the_vault:shard_pouch"
+              ],
+              "nbt": "{Inventory:{StackSize:4996}}"
             }
           ]
         }
       },
-      "benitoite": {
+      "97": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "the_vault:benite_jewel"
-              ]
+                "the_vault:shard_pouch"
+              ],
+              "nbt": "{Inventory:{StackSize:4997}}"
             }
           ]
         }
       },
-      "bomignite": {
+      "98": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "the_vault:bombing_jewel"
-              ]
+                "the_vault:shard_pouch"
+              ],
+              "nbt": "{Inventory:{StackSize:4998}}"
             }
           ]
         }
       },
-      "echo": {
+      "99": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "the_vault:echoing_jewel"
-              ]
+                "the_vault:shard_pouch"
+              ],
+              "nbt": "{Inventory:{StackSize:4999}}"
             }
           ]
         }
       },
-      "petzanite": {
+      "00": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "the_vault:petzan_jewel"
-              ]
+                "the_vault:shard_pouch"
+              ],
+              "nbt": "{Inventory:{StackSize:5000}}"
             }
           ]
         }
       },
-      "pogging": {
+      "01": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "the_vault:pogging_jewel"
-              ]
+                "the_vault:shard_pouch"
+              ],
+              "nbt": "{Inventory:{StackSize:5001}}"
             }
           ]
         }
       },
-      "tubium": {
+      "02": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "the_vault:tubic_jewel"
-              ]
+                "the_vault:shard_pouch"
+              ],
+              "nbt": "{Inventory:{StackSize:5002}}"
             }
           ]
         }
       },
-      "xeenium": {
+      "03": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "the_vault:xen_jewel"
-              ]
+                "the_vault:shard_pouch"
+              ],
+              "nbt": "{Inventory:{StackSize:5003}}"
             }
           ]
         }
       },
-      "sparkletine": {
+      "04": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "the_vault:sparking_jewel"
-              ]
+                "the_vault:shard_pouch"
+              ],
+              "nbt": "{Inventory:{StackSize:5004}}"
             }
           ]
         }
       },
-      "iskallium": {
+      "05": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "the_vault:iskallic_jewel"
-              ]
-            }
-          ]
-        }
-      },      
-      "upaline": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "the_vault:upal_jewel"
-              ]
+                "the_vault:shard_pouch"
+              ],
+              "nbt": "{Inventory:{StackSize:5005}}"
             }
           ]
         }
       }
     },
     "requirements": [
-      ["gorginite","ashium","benitoite","bomignite","echo","petzanite","pogging","tubium","xeenium","sparkletine","iskallium","upaline"]
+        ["95","96","97","98","99","00","01","02","03","04","05"]
     ]
   }

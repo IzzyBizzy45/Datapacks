@@ -1,5 +1,5 @@
 {
-  "parent": "the_vault:main/root",
+  "parent": "izzy_vault:the_vault",
   "display": {
     "title": {
       "text": "Was that iskall laughing?!"

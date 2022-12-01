@@ -1,11 +1,12 @@
 {
-    "parent": "izzy_vault:materials/vault_scrap",
+    "parent": "izzy_vault:materials/vault_dust",
     "display": {
       "icon": {
-        "item": "the_vault:vaulterite_pickaxe"
+        "item": "the_vault:vault_essence"
       },
-      "title": {"text": "Trusty Rusty"},
-      "description": {"text": "Create yourself a Scrap Pickaxe"}
+      "title": {"text": "Essential Essences"},
+      "description": {"text": "Find some Vault Essence"},
+      "announce_to_chat": false
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +15,7 @@
           "items": [
             {
               "items": [
-                "the_vault:vaulterite_pickaxe"
+                "the_vault:vault_essence"
               ]
             }
           ]

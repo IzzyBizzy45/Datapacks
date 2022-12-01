@@ -32,6 +32,7 @@
             }
           ]
         }
+
       },
       "alexandrite": {
         "trigger": "minecraft:inventory_changed",
@@ -195,7 +196,7 @@
           "items": [
             {
               "items": [
-                "the_vault:gem_xeenium"
+                "the_vault:gem_xenium"
               ]
             }
           ]

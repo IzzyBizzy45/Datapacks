@@ -1,0 +1,40 @@
+{
+    "parent": "izzy_vault:the_vault",
+    "display": {
+      "icon": {
+        "item": "the_vault:vault_crate"
+      },
+      "title": {"text": "A Live Unboxing"},
+      "description": {"text": "Open a Crate after Completing a Vault"},
+      "frame": "challenge"
+    },
+    "criteria": {
+      "boss": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "block": "the_vault:vault_crate"
+        }
+      },
+      "cake": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "block": "the_vault:vault_crate_cake"
+        }
+      },
+      "scav": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "block": "the_vault:vault_crate_scavenger"
+        }
+      },
+      "monolith": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "block": "the_vault:vault_crate_monolith"
+        }
+      }
+    },
+    "requirements": [
+        ["boss","cake","scav","monolith"]
+    ]
+  }

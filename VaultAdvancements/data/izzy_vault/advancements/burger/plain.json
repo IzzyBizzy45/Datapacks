@@ -2,24 +2,23 @@
     "parent": "izzy_vault:the_vault",
     "display": {
       "icon": {
-        "item": "the_vault:vault_scrap"
+        "item": "the_vault:plain_burger"
       },
-      "title": {"text": "Scraps of the Vaulting Age"},
-      "description": {"text": "Find some Vault Scrap"},
-      "announce_to_chat": false
+      "title": {"text": "Tasty Treat"},
+      "description": {"text": "Craft a Hamburger"}
     },
     "criteria": {
-      "craft_item": {
+      "craft_plain_burger": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "the_vault:vault_scrap"
+                "the_vault:plain_burger"
               ]
             }
           ]
         }
       }
     }
-  }
+}

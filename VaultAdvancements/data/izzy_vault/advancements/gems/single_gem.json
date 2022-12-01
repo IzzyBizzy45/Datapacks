@@ -5,7 +5,8 @@
         "item": "the_vault:gem_benitoite"
       },
       "title": {"text": "All Gemmed Up"},
-      "description": {"text": "Find a vault gem"}
+      "description": {"text": "Find a vault gem"},
+      "announce_to_chat": false
     },
     "criteria": {
       "benitoite": {
@@ -194,7 +195,7 @@
           "items": [
             {
               "items": [
-                "the_vault:gem_xeenium"
+                "the_vault:gem_xenium"
               ]
             }
           ]
