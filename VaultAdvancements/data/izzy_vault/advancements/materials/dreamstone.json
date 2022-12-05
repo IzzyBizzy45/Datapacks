@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:materials/vault_nugget",
+    "parent": "izzy_vault:materials/vault_dust",
     "display": {
       "icon": {
-        "item": "the_vault:vault_plating"
+        "item": "the_vault:dreamstone"
       },
-      "title": {"text": "Sturdy Sheets"},
-      "description": {"text": "Find some Vault Plating"},
+      "title": {"text": "I must be Dreaming"},
+      "description": {"text": "Find a Dreamstone"},
       "announce_to_chat": false
     },
     "criteria": {
@@ -15,7 +15,7 @@
           "items": [
             {
               "items": [
-                "the_vault:vault_plating"
+                "the_vault:dreamstone"
               ]
             }
           ]

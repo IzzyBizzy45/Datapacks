@@ -5,7 +5,8 @@
         "item": "the_vault:chromatic_steel_ingot"
       },
       "title": {"text": "Steel with a Furnace"},
-      "description": {"text": "Create a Ingot of Chromatic Steel"}
+      "description": {"text": "Create or Find an Ingot of Chromatic Steel"},
+      "announce_to_chat": false
     },
     "criteria": {
       "craft_item": {

@@ -5,8 +5,7 @@
         "item": "the_vault:black_chromatic_steel_ingot"
       },
       "title": {"text": "Dark Mode Steel"},
-      "description": {"text": "Create a Ingot of Black Chromatic Steel"},
-      "announce_to_chat": false
+      "description": {"text": "Create an Ingot of Black Chromatic Steel"}
     },
     "criteria": {
       "craft_item": {

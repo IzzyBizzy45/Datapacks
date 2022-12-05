@@ -1,12 +1,11 @@
 {
-    "parent": "izzy_vault:materials/vault_nugget",
+    "parent": "izzy_vault:materials/vault_essence",
     "display": {
       "icon": {
-        "item": "the_vault:vault_plating"
+        "item": "the_vault:red_vault_essence"
       },
-      "title": {"text": "Sturdy Sheets"},
-      "description": {"text": "Find some Vault Plating"},
-      "announce_to_chat": false
+      "title": {"text": "Red Makes it Go Fast"},
+      "description": {"text": "Craft Red Vault Essence"}
     },
     "criteria": {
       "craft_item": {
@@ -15,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:vault_plating"
+                "the_vault:red_vault_essence"
               ]
             }
           ]

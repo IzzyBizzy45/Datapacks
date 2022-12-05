@@ -1,12 +1,11 @@
 {
-    "parent": "izzy_vault:materials/vault_nugget",
+    "parent": "izzy_vault:materials/red_vault_essence",
     "display": {
       "icon": {
-        "item": "the_vault:vault_plating"
+        "item": "the_vault:respec_flask"
       },
-      "title": {"text": "Sturdy Sheets"},
-      "description": {"text": "Find some Vault Plating"},
-      "announce_to_chat": false
+      "title": {"text": "Specialized Regret"},
+      "description": {"text": "Craft a Choice Flask"}
     },
     "criteria": {
       "craft_item": {
@@ -15,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:vault_plating"
+                "the_vault:respec_flask"
               ]
             }
           ]

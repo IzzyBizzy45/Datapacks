@@ -5,7 +5,8 @@
         "item": "the_vault:magnetite"
       },
       "title": {"text": "Strange Attractions"},
-      "description": {"text": "Find some Raw Magnetite"}
+      "description": {"text": "Find some Raw Magnetite"},
+      "announce_to_chat": false
     },
     "criteria": {
       "craft_item": {

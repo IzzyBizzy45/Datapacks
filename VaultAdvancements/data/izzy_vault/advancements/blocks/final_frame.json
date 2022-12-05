@@ -1,0 +1,26 @@
+{
+    "parent": "izzy_vault:items/all_vault_arifact",
+    "display": {
+      "icon": {
+        "item": "the_vault:final_vault_frame"
+      },
+      "title": {"text": "To End it All"},
+      "description": {"text": "Obtain your Final Vault Frame"},
+      "frame": "challenge",
+      "hidden": true
+    },
+    "criteria": {
+      "craft_item": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "the_vault:final_vault_frame"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
