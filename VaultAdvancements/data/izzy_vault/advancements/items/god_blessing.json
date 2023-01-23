@@ -1,11 +1,12 @@
 {
-    "parent": "izzy_vault:items/blank_seal",
+    "parent": "izzy_vault:blocks/altar",
     "display": {
       "icon": {
-        "item": "the_vault:crystal_seal_executioner"
+        "item": "the_vault:god_blessing",
+        "nbt": "{type:'velara'}"
       },
-      "title": {"text": "Fighting for your life"},
-      "description": {"text": "Create yourself a Seal of the Executioner"}
+      "title": {"text": "Brownie Points"},
+      "description": {"text": "Get a God Blessing"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +15,7 @@
           "items": [
             {
               "items": [
-                "the_vault:crystal_seal_executioner"
+                "the_vault:god_blessing"
               ]
             }
           ]

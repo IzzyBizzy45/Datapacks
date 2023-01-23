@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:items/blank_seal",
+    "parent": "izzy_vault:gems/pog",
     "display": {
       "icon": {
-        "item": "the_vault:crystal_seal_executioner"
+        "item": "the_vault:infinite_water_bucket"
       },
-      "title": {"text": "Fighting for your life"},
-      "description": {"text": "Create yourself a Seal of the Executioner"}
+      "title": {"text": "Lifetime Supply"},
+      "description": {"text": "Create yourself a Infinite Water Bucket"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:crystal_seal_executioner"
+                "the_vault:infinite_water_bucket"
               ]
             }
           ]

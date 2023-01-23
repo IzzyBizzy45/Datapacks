@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:items/blank_seal",
+    "parent": "izzy_vault:catalyst/vault_catalyst",
     "display": {
       "icon": {
-        "item": "the_vault:crystal_seal_executioner"
+        "item": "the_vault:banished_soul"
       },
-      "title": {"text": "Fighting for your life"},
-      "description": {"text": "Create yourself a Seal of the Executioner"}
+      "title": {"text": "Is this Easy Mode?"},
+      "description": {"text": "Create a Banished Soul"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:crystal_seal_executioner"
+                "the_vault:banished_soul"
               ]
             }
           ]

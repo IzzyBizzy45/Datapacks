@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:items/blank_seal",
+    "parent": "izzy_vault:the_vault",
     "display": {
       "icon": {
-        "item": "the_vault:crystal_seal_executioner"
+        "item": "the_vault:vault_compass"
       },
-      "title": {"text": "Fighting for your life"},
-      "description": {"text": "Create yourself a Seal of the Executioner"}
+      "title": {"text": "The way back home"},
+      "description": {"text": "Create a Vault Compass"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:crystal_seal_executioner"
+                "the_vault:vault_compass"
               ]
             }
           ]

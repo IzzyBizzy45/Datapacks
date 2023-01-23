@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:items/blank_seal",
+    "parent": "izzy_vault:gems/gemstone",
     "display": {
       "icon": {
-        "item": "the_vault:crystal_seal_executioner"
+        "item": "the_vault:wutodic_silver_ingot"
       },
-      "title": {"text": "Fighting for your life"},
-      "description": {"text": "Create yourself a Seal of the Executioner"}
+      "title": {"text": "Bar of Gems"},
+      "description": {"text": "Craft a Wutodic Silver Ingot"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:crystal_seal_executioner"
+                "the_vault:wutodic_silver_ingot"
               ]
             }
           ]

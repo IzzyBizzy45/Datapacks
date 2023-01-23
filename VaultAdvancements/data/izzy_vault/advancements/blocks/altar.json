@@ -1,0 +1,63 @@
+{
+    "parent": "izzy_vault:the_vault",
+    "display": {
+      "icon": {
+        "item": "the_vault:xp_altar"
+      },
+      "title": {"text": "Are you Ready for a Sacrifice?!"},
+      "description": {"text": "Interact with an Altar"}
+    },
+    "criteria": {
+      "xp_altar": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "location": {
+            "block": {
+              "blocks": [
+                "the_vault:xp_altar"
+              ]
+            }
+          }
+        }
+      },
+      "blood_altar": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "location": {
+            "block": {
+              "blocks": [
+                "the_vault:blood_altar"
+              ]
+            }
+          }
+        }
+      },
+      "soul_altar": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "location": {
+            "block": {
+              "blocks": [
+                "the_vault:soul_altar"
+              ]
+            }
+          }
+        }
+      },
+      "time_altar": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "location": {
+            "block": {
+              "blocks": [
+                "the_vault:time_altar"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+        ["xp_altar","blood_altar","soul_altar","time_altar"]
+    ]
+  }

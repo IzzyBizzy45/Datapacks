@@ -1,0 +1,72 @@
+{
+    "parent": "izzy_vault:items/god_blessing",
+    "display": {
+      "icon": {
+        "item": "the_vault:god_blessing",
+        "nbt": "{type:'tenos'}"
+      },
+      "title": {"text": "May the Gods smile upon you"},
+      "description": {"text": "Gain all of the God's blessings"},
+      "frame": "goal"
+    },
+    "criteria": {
+      "wendarr": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+                "items": [
+                    "the_vault:god_blessing"
+                ],
+                "nbt": "{type:'wendarr'}"
+            }
+          ]
+        }
+      },
+      "velara": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+                "items": [
+                    "the_vault:god_blessing"
+                ],
+                "nbt": "{type:'velara'}"
+            }
+          ]
+        }
+      },
+      "tenos": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+                "items": [
+                    "the_vault:god_blessing"
+                ],
+                "nbt": "{type:'tenos'}"
+            }
+          ]
+        }
+      },
+      "idona": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+                "items": [
+                    "the_vault:god_blessing"
+                ],
+                "nbt": "{type:'idona'}"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+        ["wendarr"],
+        ["velara"],
+        ["tenos"],
+        ["idona"]
+    ]
+  }
