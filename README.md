@@ -23,3 +23,7 @@ LegendaryTooltips
 Requires the Legendary Tooltips mod. https://www.curseforge.com/minecraft/mc-mods/legendary-tooltips-fabric
 
 Just includes needed tags for how I like it setup
+
+VaultAdvancements
+-----------
+Wanted Advancements in [Vault Hunters](https://www.curseforge.com/minecraft/modpacks/vault-hunters-1-18-2), so I made them. You can download them in the #fan-art chat of their official discord
