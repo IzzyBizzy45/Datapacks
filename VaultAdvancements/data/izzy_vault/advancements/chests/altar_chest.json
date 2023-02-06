@@ -1,5 +1,5 @@
 {
-    "parent": "izzy_vault:chests/ornate_chest",
+    "parent": "izzy_vault:chests/living_chest",
     "display": {
       "icon": {
         "item": "the_vault:altar_chest_placeable"

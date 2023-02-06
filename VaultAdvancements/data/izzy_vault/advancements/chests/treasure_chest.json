@@ -1,5 +1,5 @@
 {
-    "parent": "izzy_vault:chests/living_chest",
+    "parent": "izzy_vault:chests/altar_chest",
     "display": {
       "icon": {
         "item": "the_vault:treasure_chest_placeable"

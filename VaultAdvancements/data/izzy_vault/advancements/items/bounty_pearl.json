@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:materials/black_chromatic_steel",
+    "parent": "izzy_vault:blocks/bounty",
     "display": {
       "icon": {
-        "item": "the_vault:black_chromatic_pickaxe"
+        "item": "the_vault:bounty_pearl"
       },
-      "title": {"text": "Solid Built Pickaxes"},
-      "description": {"text": "Create a Pickaxe made of Black Chromatic Steel"}
+      "title": {"text": "This one is too complicated"},
+      "description": {"text": "Find a Bounty Pearl"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:black_chromatic_pickaxe"
+                "the_vault:bounty_pearl"
               ]
             }
           ]

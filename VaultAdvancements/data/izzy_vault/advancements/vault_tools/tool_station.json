@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:picks/scrap_pick",
+    "parent": "izzy_vault:the_vault",
     "display": {
       "icon": {
-        "item": "the_vault:tool_vise"
+        "item": "the_vault:tool_station"
       },
-      "title": {"text": "Not So Rusty Anymore"},
-      "description": {"text": "Create yourself a Tool Vise"}
+      "title": {"text": "An Entire Workshop"},
+      "description": {"text": "Make a Tool Station"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:tool_vise"
+                "the_vault:tool_station"
               ]
             }
           ]

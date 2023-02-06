@@ -1,11 +1,12 @@
 {
-    "parent": "izzy_vault:magnets/magnet",
+    "parent": "izzy_vault:items/vault_gear",
     "display": {
       "icon": {
-        "item": "the_vault:magnet_modification_table"
+        "item": "the_vault:old_notes"
       },
-      "title": {"text": "Fine Tuning Attraction"},
-      "description": {"text": "Make a Magnet Modification Table"}
+      "title": {"text": "Notes that are Old"},
+      "description": {"text": "Find some Old Notes"},
+      "frame": "challenge"
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +15,7 @@
           "items": [
             {
               "items": [
-                "the_vault:magnet_modification_table"
+                "the_vault:old_notes"
               ]
             }
           ]

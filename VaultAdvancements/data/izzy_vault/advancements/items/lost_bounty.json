@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:materials/vault_ingot",
+    "parent": "izzy_vault:blocks/bounty",
     "display": {
       "icon": {
-        "item": "the_vault:vault_pickaxe"
+        "item": "the_vault:lost_bounty"
       },
-      "title": {"text": "Better than Netherite"},
-      "description": {"text": "Create yourself a Vault Pickaxe"}
+      "title": {"text": "Our Task will be Legendary"},
+      "description": {"text": "Find a Lost Bounty"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:vault_pickaxe"
+                "the_vault:lost_bounty"
               ]
             }
           ]
