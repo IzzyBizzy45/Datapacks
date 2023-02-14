@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:items/blank_seal",
+    "parent": "izzy_vault:focus/chaos_focus",
     "display": {
       "icon": {
-        "item": "the_vault:crystal_seal_cake"
+        "item": "the_vault:waning_focus"
       },
-      "title": {"text": "Gluttonous Fortune"},
-      "description": {"text": "Create yourself a Seal of the Cake"}
+      "title": {"text": "My Faith is Waning"},
+      "description": {"text": "Find a Waning Focus"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:crystal_seal_cake"
+                "the_vault:waning_focus"
               ]
             }
           ]

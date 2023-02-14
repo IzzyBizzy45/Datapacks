@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:items/blank_seal",
+    "parent": "izzy_vault:focus/faceted_focus",
     "display": {
       "icon": {
-        "item": "the_vault:crystal_seal_cake"
+        "item": "the_vault:waxing_focus"
       },
-      "title": {"text": "Gluttonous Fortune"},
-      "description": {"text": "Create yourself a Seal of the Cake"}
+      "title": {"text": "Almost the Full Moon"},
+      "description": {"text": "Find a Waxing Focus"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:crystal_seal_cake"
+                "the_vault:waxing_focus"
               ]
             }
           ]
