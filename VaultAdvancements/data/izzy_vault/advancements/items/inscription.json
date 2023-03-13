@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:items/vault_gear",
+    "parent": "izzy_vault:items/architect",
     "display": {
       "icon": {
-        "item": "the_vault:transmog_table"
+        "item": "the_vault:inscription"
       },
-      "title": {"text": "An Entire Wardrobe"},
-      "description": {"text": "Create yourself a Transmogrification Table"}
+      "title": {"text": "Building Instructions"},
+      "description": {"text": "Create or find an Inscription"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:transmog_table"
+                "the_vault:inscription"
               ]
             }
           ]

@@ -5,8 +5,7 @@
         "item": "minecraft:cake"
       },
       "title": {"text": "MMMmm, Tasty"},
-      "description": {"text": "Eat a Cake in a Cake Vault"},
-      "frame": "goal"
+      "description": {"text": "Eat a Cake in a Cake Vault"}
     },
     "criteria": {
       "iskallium": {

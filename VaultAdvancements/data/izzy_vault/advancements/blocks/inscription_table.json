@@ -1,11 +1,12 @@
 {
-    "parent": "izzy_vault:items/vault_gear",
+    "parent": "izzy_vault:items/inscription",
     "display": {
       "icon": {
-        "item": "the_vault:transmog_table"
+        "item": "the_vault:inscription_table"
       },
-      "title": {"text": "An Entire Wardrobe"},
-      "description": {"text": "Create yourself a Transmogrification Table"}
+      "title": {"text": "Building the Building Blocks"},
+      "description": {"text": "Create an Inscription Table"},
+      "frame": "goal"
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +15,7 @@
           "items": [
             {
               "items": [
-                "the_vault:transmog_table"
+                "the_vault:inscription_table"
               ]
             }
           ]

@@ -1,11 +1,12 @@
 {
-    "parent": "izzy_vault:items/vault_gear",
+    "parent": "izzy_vault:gems/gemstone",
     "display": {
       "icon": {
-        "item": "the_vault:transmog_table"
+        "item": "the_vault:silver_scrap"
       },
-      "title": {"text": "An Entire Wardrobe"},
-      "description": {"text": "Create yourself a Transmogrification Table"}
+      "title": {"text": "Shiny Scraps"},
+      "description": {"text": "Find some Silver Scrap"},
+      "announce_to_chat": false
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +15,7 @@
           "items": [
             {
               "items": [
-                "the_vault:transmog_table"
+                "the_vault:wutodic_silver_ingot"
               ]
             }
           ]

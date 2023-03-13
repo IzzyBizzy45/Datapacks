@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:items/vault_gear",
+    "parent": "izzy_vault:items/blank_seal",
     "display": {
       "icon": {
-        "item": "the_vault:transmog_table"
+        "item": "the_vault:crystal_seal_sage"
       },
-      "title": {"text": "An Entire Wardrobe"},
-      "description": {"text": "Create yourself a Transmogrification Table"}
+      "title": {"text": "Glorb Glorb Glorb"},
+      "description": {"text": "Create yourself a Seal of the Sage"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:transmog_table"
+                "the_vault:crystal_seal_sage"
               ]
             }
           ]

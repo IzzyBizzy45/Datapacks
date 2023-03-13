@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:items/vault_gear",
+    "parent": "izzy_vault:catalyst/infused_catalyst",
     "display": {
       "icon": {
-        "item": "the_vault:transmog_table"
+        "item": "the_vault:vault_catalyst_chaos"
       },
-      "title": {"text": "An Entire Wardrobe"},
-      "description": {"text": "Create yourself a Transmogrification Table"}
+      "title": {"text": "Thriving in the Madness"},
+      "description": {"text": "Find a Chaos Catalyst"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:transmog_table"
+                "the_vault:vault_catalyst_chaos"
               ]
             }
           ]

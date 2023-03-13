@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:gems/gemstone",
+    "parent": "izzy_vault:blocks/trans_table",
     "display": {
       "icon": {
-        "item": "the_vault:wutodic_silver_ingot"
+        "item": "the_vault:wardrobe"
       },
-      "title": {"text": "Bar of Gems"},
-      "description": {"text": "Craft a Wutodic Silver Ingot"}
+      "title": {"text": "Behold, My Stuff!"},
+      "description": {"text": "Create a Wardrobe"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:wutodic_silver_ingot"
+                "the_vault:wardrobe"
               ]
             }
           ]

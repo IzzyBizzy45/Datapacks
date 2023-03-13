@@ -32,9 +32,15 @@
         "conditions": {
           "block": "the_vault:vault_crate_monolith"
         }
+      },
+      "elixir": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "block": "the_vault:vault_crate_elixir"
+        }
       }
     },
     "requirements": [
-        ["boss","cake","scav","monolith"]
+        ["boss","cake","scav","monolith", "elixir"]
     ]
   }

@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:items/vault_gear",
+    "parent": "izzy_vault:the_vault",
     "display": {
       "icon": {
-        "item": "the_vault:transmog_table"
+        "item": "the_vault:augment"
       },
-      "title": {"text": "An Entire Wardrobe"},
-      "description": {"text": "Create yourself a Transmogrification Table"}
+      "title": {"text": "Come back anytime!"},
+      "description": {"text": "Find a Augment"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:transmog_table"
+                "the_vault:augment"
               ]
             }
           ]

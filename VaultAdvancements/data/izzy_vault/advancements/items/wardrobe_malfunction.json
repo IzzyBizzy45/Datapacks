@@ -1,0 +1,193 @@
+{
+    "parent": "izzy_vault:items/vault_gear",
+    "display": {
+      "icon": {
+        "item": "the_vault:chestplate"
+      },
+      "title": {"text": "Wardrobe Malfunction"},
+      "description": {"text": "Break a Vault Item"},
+      "frame": "challenge",
+      "hidden": true
+    },
+    "criteria": {
+        "sword": {
+          "trigger": "minecraft:item_durability_changed",
+          "conditions": {
+            "durability": {
+                "min": 0,
+                "max": 1
+            },
+            "items": [
+              {
+                "items": [
+                  "the_vault:sword"
+                ]
+              }
+            ]
+          }
+        },
+        "axe": {
+          "trigger": "minecraft:item_durability_changed",
+          "conditions": {
+            "durability": {
+                "min": 0,
+                "max": 1
+            },
+            "items": [
+              {
+                "items": [
+                  "the_vault:axe"
+                ]
+              }
+            ]
+          }
+        },
+        "helmet": {
+          "trigger": "minecraft:item_durability_changed",
+          "conditions": {
+            "durability": {
+                "min": 0,
+                "max": 1
+            },
+            "items": [
+              {
+                "items": [
+                  "the_vault:helmet"
+                ]
+              }
+            ]
+          }
+        },
+        "chestplate": {
+          "trigger": "minecraft:item_durability_changed",
+          "conditions": {
+            "durability": {
+                "min": 0,
+                "max": 1
+            },
+            "items": [
+              {
+                "items": [
+                  "the_vault:chestplate"
+                ]
+              }
+            ]
+          }
+        },
+        "leggings": {
+          "trigger": "minecraft:item_durability_changed",
+          "conditions": {
+            "durability": {
+                "min": 0,
+                "max": 1
+            },
+            "items": [
+              {
+                "items": [
+                  "the_vault:leggings"
+                ]
+              }
+            ]
+          }
+        },
+        "boots": {
+          "trigger": "minecraft:item_durability_changed",
+          "conditions": {
+            "durability": {
+                "min": 0,
+                "max": 1
+            },
+            "items": [
+              {
+                "items": [
+                  "the_vault:boots"
+                ]
+              }
+            ]
+          }
+        },
+        "shield": {
+          "trigger": "minecraft:item_durability_changed",
+          "conditions": {
+            "durability": {
+                "min": 0,
+                "max": 1
+            },
+            "items": [
+              {
+                "items": [
+                  "the_vault:shield"
+                ]
+              }
+            ]
+          }
+        },
+        "idol_benevolent": {
+          "trigger": "minecraft:item_durability_changed",
+          "conditions": {
+            "durability": {
+                "min": 0,
+                "max": 1
+            },
+            "items": [
+              {
+                "items": [
+                  "the_vault:idol_benevolent"
+                ]
+              }
+            ]
+          }
+        },
+        "idol_omniscient": {
+          "trigger": "minecraft:item_durability_changed",
+          "conditions": {
+            "durability": {
+                "min": 0,
+                "max": 1
+            },
+            "items": [
+              {
+                "items": [
+                  "the_vault:idol_omniscient"
+                ]
+              }
+            ]
+          }
+        },
+        "idol_timekeeper": {
+          "trigger": "minecraft:item_durability_changed",
+          "conditions": {
+            "durability": {
+                "min": 0,
+                "max": 1
+            },
+            "items": [
+              {
+                "items": [
+                  "the_vault:idol_timekeeper"
+                ]
+              }
+            ]
+          }
+        },
+        "idol_malevolence": {
+          "trigger": "minecraft:item_durability_changed",
+          "conditions": {
+            "durability": {
+                "min": 0,
+                "max": 1
+            },
+            "items": [
+              {
+                "items": [
+                  "the_vault:idol_malevolence"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "requirements": [
+          ["sword","axe","helmet","chestplate","leggings","boots","shield","idol_benevolent","idol_omniscient","idol_timekeeper","idol_malevolence"]
+      ]
+  }

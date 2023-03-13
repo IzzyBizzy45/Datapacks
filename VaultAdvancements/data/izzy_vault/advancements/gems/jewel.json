@@ -1,5 +1,5 @@
 {
-    "parent": "izzy_vault:gems/wutodic_silver_ingot",
+    "parent": "izzy_vault:materials/silver_scrap",
     "display": {
       "icon": {
         "item": "the_vault:jewel"
