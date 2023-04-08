@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "title": {"translate": "UHC Mode"},
+        "description": {"translate": "No Healing Enabled"},
+        "announce_to_chat": false,
+        "hidden": true,
+        "show_toast": false
+    },
+    "parent": "izzybizzy:server/root",
+    "criteria": {
+        "auto" : {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:air"
+            }
+        }
+    }
+}
