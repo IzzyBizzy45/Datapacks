@@ -1,11 +1,12 @@
 {
-    "parent": "izzy_vault:materials/vault_essence",
+    "parent": "izzy_vault:items/regret_orb",
     "display": {
       "icon": {
-        "item": "the_vault:skill_shard"
+        "item": "the_vault:neuralizer"
       },
-      "title": {"text": "Skill Crystal"},
-      "description": {"text": "Craft a Skill Shard"}
+      "title": {"text": "Look Directly at the Light"},
+      "description": {"text": "Create yourself a Neuralizer"},
+      "frame": "goal"
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +15,7 @@
           "items": [
             {
               "items": [
-                "the_vault:skill_shard"
+                "the_vault:neuralizer"
               ]
             }
           ]
