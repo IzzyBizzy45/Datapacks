@@ -5,7 +5,7 @@
         "item": "the_vault:gemstone"
       },
       "title": {"text": "Under Pressure"},
-      "description": {"text": "Find a Jemstone"}
+      "description": {"text": "Find a Gemstone"}
     },
     "criteria": {
       "gorginite": {
