@@ -5,7 +5,7 @@
         "item": "the_vault:unidentified_treasure_key"
       },
       "title": {"text": "Doors in the Walls"},
-      "description": {"text": "Open a Treasure Door with a Gemmed Key"},
+      "description": ["",{"text": "I wonder if they're in the floor too","italic": true},{"text": "\nOpen a Treasure Door with a Gemmed Key"}],
       "frame": "challenge"
     },
     "criteria": {

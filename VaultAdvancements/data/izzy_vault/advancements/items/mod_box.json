@@ -1,5 +1,5 @@
 {
-    "parent": "izzy_vault:items/pandora_box",
+    "parent": "izzy_vault:items/goodie_box",
     "display": {
       "icon": {
         "item": "the_vault:mod_box"

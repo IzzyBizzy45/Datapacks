@@ -5,7 +5,7 @@
         "item": "the_vault:unidentified_artifact"
       },
       "title": {"text": "Lost Knowledge"},
-      "description": {"text": "Find a Unidentified Artifact"},
+      "description": ["",{"text": "Soon to be found knowledge","italic": true},{"text": "\nFind a Unidentified Artifact"}],
       "frame": "challenge",
       "hidden": true
     },

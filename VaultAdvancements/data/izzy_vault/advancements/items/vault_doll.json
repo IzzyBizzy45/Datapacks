@@ -2,12 +2,11 @@
     "parent": "izzy_vault:the_vault",
     "display": {
       "icon": {
-        "item": "the_vault:angel_block"
+        "item": "the_vault:vault_doll"
       },
-      "title": {"text": "Gravity is no more"},
-      "description": ["",{"text": "After all, it was only a harness","italic": true},{"text": "\nCreate an Angel Block"}],
-      "hidden": true,
-      "frame": "challenge"
+      "title": {"text": "ITS SO CUTE AND SQUISHY"},
+      "description": ["",{"text":"And I want to keep it forever","color":"dark_aqua","italic":true},{"text":"\nCreate a Vault Doll"}],
+      "hidden": true
     },
     "criteria": {
       "craft_item": {
@@ -16,7 +15,7 @@
           "items": [
             {
               "items": [
-                "the_vault:angel_block"
+                "the_vault:vault_doll"
               ]
             }
           ]

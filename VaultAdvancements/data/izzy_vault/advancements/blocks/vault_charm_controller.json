@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:items/goodie_box",
+    "parent": "izzy_vault:the_vault",
     "display": {
       "icon": {
-        "item": "the_vault:pandoras_box"
+        "item": "the_vault:vault_charm_controller"
       },
-      "title": {"text": "???????"},
-      "description": {"text": "Find a Pandora's Box"}
+      "title": {"text": "What is this Junk!?!"},
+      "description": {"text": "Create an Junk Controller"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:pandoras_box"
+                "the_vault:vault_charm_controller"
               ]
             }
           ]

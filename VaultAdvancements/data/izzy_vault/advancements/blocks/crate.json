@@ -5,7 +5,7 @@
         "item": "the_vault:vault_crate"
       },
       "title": {"text": "A Live Unboxing"},
-      "description": {"text": "Open a Crate after Completing a Vault"},
+      "description": ["",{"text": "More goodies?","italic": true},{"text": "\nOpen a Crate after Completing a Vault"}],
       "frame": "challenge"
     },
     "criteria": {

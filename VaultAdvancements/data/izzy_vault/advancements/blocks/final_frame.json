@@ -5,7 +5,7 @@
         "item": "the_vault:final_vault_frame"
       },
       "title": {"text": "To End it All"},
-      "description": {"text": "Obtain your Final Vault Frame"},
+      "description": ["",{"text": "Once and for all","italic": true},{"text": "\nObtain your Final Vault Frame"}],
       "frame": "challenge",
       "hidden": true
     },

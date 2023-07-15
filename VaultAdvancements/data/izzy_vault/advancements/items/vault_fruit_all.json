@@ -5,7 +5,7 @@
         "item": "the_vault:sweet_kiwi"
       },
       "title": {"text": "A Fruit Salad"},
-      "description": {"text": "Collect all Vault Fruit"},
+      "description": ["",{"text":"And It's Yummy Yummy","italic":true},{"text": "\nCollect all Vault Fruit"}],
       "frame": "challenge",
       "hidden": true
     },

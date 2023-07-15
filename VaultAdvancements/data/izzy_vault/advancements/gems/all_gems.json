@@ -5,7 +5,7 @@
         "item": "the_vault:gem_echo"
       },
       "title": {"text": "Infinity Gems"},
-      "description": {"text": "Find yourself all the vault gems"},
+      "description": ["",{"text": "Gems sounds better than stones","italic": true},{"text": "\nFind yourself all the vault gems"}],
       "frame": "challenge"
     },
     "criteria": {

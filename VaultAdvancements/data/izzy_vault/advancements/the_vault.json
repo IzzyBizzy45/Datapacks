@@ -4,9 +4,7 @@
       "title": {
         "text": "The Vault"
       },
-      "description": {
-        "text": "Enter the strange rooms of the Vault"
-      },
+      "description": ["",{"text": "Someone said there'd be music","italic": true},{"text": "\nEnter the strange rooms of the Vault"}],
       "icon": {
         "item": "the_vault:vault_bedrock"
       },

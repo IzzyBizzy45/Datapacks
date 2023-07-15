@@ -5,7 +5,7 @@
         "item": "the_vault:vault_platinum"
       },
       "title": {"text": "Scouge McDuck"},
-      "description": {"text": "Hold a Stack of Vault Platinum"},
+      "description": ["",{"text": "You're gonna swim with it right?","italic": true},{"text": "\nHold a Stack of Vault Platinum"}],
       "hidden": true,
       "frame": "challenge"
     },

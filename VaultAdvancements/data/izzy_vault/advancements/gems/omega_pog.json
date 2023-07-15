@@ -5,7 +5,7 @@
         "item": "the_vault:omega_pog"
       },
       "title": {"text": "OMEGA RARITY GEM"},
-      "description": {"text": "Obtain an Omega Pog"},
+      "description": ["",{"text": "You could watch the colours for hours","italic": true},{"text": "\nObtain an Omega Pog"}],
       "frame": "challenge"
     },
     "criteria": {

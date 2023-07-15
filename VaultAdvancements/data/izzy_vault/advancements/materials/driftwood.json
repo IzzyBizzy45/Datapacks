@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:items/infused_eternal_soul",
+    "parent": "izzy_vault:materials/vault_dust",
     "display": {
       "icon": {
-        "item": "the_vault:loot_statue"
+        "item": "the_vault:driftwood"
       },
-      "title": {"text": "Free Stuff"},
-      "description": {"text": "Create a Statue"}
+      "title": {"text": "Is this even Wood?"},
+      "description": {"text": "Find some driftwood"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:loot_statue"
+                "the_vault:driftwood"
               ]
             }
           ]

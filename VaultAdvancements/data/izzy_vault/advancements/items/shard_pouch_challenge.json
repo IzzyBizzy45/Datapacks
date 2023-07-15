@@ -5,7 +5,7 @@
         "item": "the_vault:unknown_item"
       },
       "title": {"text": "Waiting for a Good Deal"},
-      "description": {"text": "Earn 5000 Soul Shards in a Single Pouch"},
+      "description": ["",{"text":"And you'll probably keep waiting...","italic":true},{"text": "\nEarn 5000 Soul Shards in a Single Pouch"}],
       "hidden": true,
       "frame": "challenge"
     },
