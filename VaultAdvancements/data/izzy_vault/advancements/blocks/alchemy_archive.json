@@ -4,7 +4,7 @@
       "icon": {
         "item": "the_vault:alchemy_archive"
       },
-      "title": {"text": "Potionomics"},
+      "title": {"text": "A New Brew"},
       "description": {"text": "Interact with a Alchemy Archive"},
       "frame": "goal"
     },

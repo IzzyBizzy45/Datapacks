@@ -1,5 +1,5 @@
 {
-    "parent": "izzy_vault:items/hunter",
+    "parent": "izzy_vault:objectives/hunter",
     "display": {
       "icon": {
         "item": "the_vault:scavenger_altar"

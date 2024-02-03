@@ -1,11 +1,13 @@
 {
-    "parent": "izzy_vault:items/architect",
+    "parent": "izzy_vault:soul/ascension_forge",
     "display": {
       "icon": {
-        "item": "the_vault:inscription"
+        "item": "the_vault:title_scroll"
       },
-      "title": {"text": "Building Instructions"},
-      "description": {"text": "Create or find an Inscription"}
+      "title": {"text": "Henceforth I shall be known as"},
+      "description": {"text": "Obtain a Title Scroll"},
+      "hidden": true,
+      "frame": "goal"
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +16,7 @@
           "items": [
             {
               "items": [
-                "the_vault:inscription"
+                "the_vault:title_scroll"
               ]
             }
           ]

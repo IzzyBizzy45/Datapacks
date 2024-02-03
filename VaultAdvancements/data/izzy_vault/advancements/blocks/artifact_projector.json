@@ -1,11 +1,12 @@
 {
-    "parent": "izzy_vault:blocks/black_market",
+    "parent": "izzy_vault:items/vault_artifact",
     "display": {
       "icon": {
-        "item": "the_vault:vault_diffuser"
+        "item": "the_vault:artifact_projector_block"
       },
-      "title": {"text": "Selling for a profit"},
-      "description": {"text": "Create a Vault Soul Diffuser"}
+      "title": {"text": "Projecting the story"},
+      "description": {"text": "Create the Artifact Tome"},
+      "frame": "goal"
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +15,7 @@
           "items": [
             {
               "items": [
-                "the_vault:vault_diffuser"
+                "the_vault:artifact_projector_block"
               ]
             }
           ]

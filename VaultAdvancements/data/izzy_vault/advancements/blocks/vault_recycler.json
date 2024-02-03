@@ -1,5 +1,5 @@
 {
-    "parent": "izzy_vault:items/vault_gear",
+    "parent": "izzy_vault:blocks/vault_forge",
     "display": {
       "icon": {
         "item": "the_vault:vault_recycler"

@@ -1,123 +1,108 @@
 {
-    "parent": "izzy_vault:the_vault",
+    "parent": "izzy_vault:soul/soul_plaque_1",
     "display": {
       "icon": {
-        "item": "the_vault:chestplate"
+        "item": "the_vault:soul_plaque",
+        "nbt": "{CustomModelData:2}"
       },
-      "title": {"text": "The Next Best thing"},
-      "description": {"text": "Find or create a vault gear piece"}
+      "title": {"text": "Soul Plaque - Level 2"},
+      "description":{"text": "Recieve a Soul Plaque level 2 or above (3 completions or more)"},
+      "announce_to_chat": false
     },
     "criteria": {
-      "sword": {
+      "2": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "the_vault:sword"
-              ]
+                "the_vault:soul_plaque"
+              ],
+              "nbt": "{CustomModelData:2}"
             }
           ]
         }
       },
-      "axe": {
+      "3": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "the_vault:axe"
-              ]
+                "the_vault:soul_plaque"
+              ],
+              "nbt": "{CustomModelData:3}"
             }
           ]
         }
       },
-      "helmet": {
+      "4": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "the_vault:helmet"
-              ]
+                "the_vault:soul_plaque"
+              ],
+              "nbt": "{CustomModelData:4}"
             }
           ]
         }
       },
-      "chestplate": {
+      "5": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "the_vault:chestplate"
-              ]
+                "the_vault:soul_plaque"
+              ],
+              "nbt": "{CustomModelData:5}"
             }
           ]
         }
       },
-      "leggings": {
+      "6": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "the_vault:leggings"
-              ]
+                "the_vault:soul_plaque"
+              ],
+              "nbt": "{CustomModelData:6}"
             }
           ]
         }
       },
-      "boots": {
+      "7": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "the_vault:boots"
-              ]
+                "the_vault:soul_plaque"
+              ],
+              "nbt": "{CustomModelData:7}"
             }
           ]
         }
       },
-      "shield": {
+      "8": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
               "items": [
-                "the_vault:shield"
-              ]
-            }
-          ]
-        }
-      },
-      "wand": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "the_vault:wand"
-              ]
-            }
-          ]
-        }
-      },
-      "focus": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "the_vault:focus"
-              ]
+                "the_vault:soul_plaque"
+              ],
+              "nbt": "{CustomModelData:8}"
             }
           ]
         }
       }
     },
     "requirements": [
-        ["sword","axe","helmet","chestplate","leggings","boots","shield","wand", "focus"]
+        ["2","3","4","5","6","7","8"]
     ]
   }

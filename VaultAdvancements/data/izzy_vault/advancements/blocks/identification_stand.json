@@ -1,5 +1,5 @@
 {
-    "parent": "izzy_vault:items/vault_gear",
+    "parent": "izzy_vault:blocks/vault_enchanter",
     "display": {
       "icon": {
         "item": "the_vault:identification_stand"

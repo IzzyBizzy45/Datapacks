@@ -1,11 +1,12 @@
 {
-    "parent": "izzy_vault:items/blank_seal",
+    "parent": "izzy_vault:materials/vault_dust",
     "display": {
       "icon": {
-        "item": "the_vault:crystal_seal_architect"
+        "item": "the_vault:empty_flask"
       },
-      "title": {"text": "Making it Yourself"},
-      "description": {"text": "Create yourself a Seal of the Architect"}
+      "title": {"text": "Empty Bottle of Sorrows"},
+      "description": {"text": "Find an Empty Flask"},
+      "announce_to_chat": false
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +15,7 @@
           "items": [
             {
               "items": [
-                "the_vault:crystal_seal_architect"
+                "the_vault:empty_flask"
               ]
             }
           ]

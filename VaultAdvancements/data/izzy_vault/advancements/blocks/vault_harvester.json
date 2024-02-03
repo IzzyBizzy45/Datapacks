@@ -1,11 +1,12 @@
 {
-    "parent": "izzy_vault:items/blank_seal",
+    "parent": "izzy_vault:blocks/vault_diffuser",
     "display": {
       "icon": {
-        "item": "the_vault:crystal_seal_cake"
+        "item": "the_vault:vault_harvester"
       },
-      "title": {"text": "Gluttonous Fortune"},
-      "description": {"text": "Create yourself a Seal of the Cake"}
+      "title": {"text": "Flash Sale Kiosk"},
+      "description": {"text": "Create a Vault Soul Harvester"},
+      "frame": "goal"
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +15,7 @@
           "items": [
             {
               "items": [
-                "the_vault:crystal_seal_cake"
+                "the_vault:vault_harvester"
               ]
             }
           ]

@@ -5,7 +5,7 @@
         "item": "the_vault:old_notes"
       },
       "title": {"text": "Notes that are Old"},
-      "description": ["",{"text": "Extremely Old","italic": true},{"text": "\nFind some Old Notes"}],
+      "description": ["",{"text": "These are indeed old","italic": true},{"text": "\nFind some Old Notes"}],
       "frame": "challenge"
     },
     "criteria": {

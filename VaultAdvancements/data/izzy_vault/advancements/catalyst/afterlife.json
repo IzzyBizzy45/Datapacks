@@ -2,10 +2,10 @@
     "parent": "izzy_vault:catalyst/vault_catalyst",
     "display": {
       "icon": {
-        "item": "the_vault:soul_flame"
+        "item": "the_vault:wardens_pearl"
       },
       "title": {"text": "Keep Inventory Cheats"},
-      "description": {"text": "Create yourself a Soul Flame"}
+      "description": {"text": "Create yourself a Warden's Pearl"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:soul_flame"
+                "the_vault:wardens_pearl"
               ]
             }
           ]

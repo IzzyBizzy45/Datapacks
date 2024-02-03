@@ -1,12 +1,11 @@
 {
-    "parent": "izzy_vault:items/god_blessing",
+    "parent": "izzy_vault:blocks/altar",
     "display": {
       "icon": {
-        "item": "the_vault:god_blessing",
-        "nbt": "{type:'tenos'}"
+        "item": "the_vault:majestic_charm"
       },
-      "title": {"text": "May the Gods smile upon you"},
-      "description": {"text": "Gain all of the God's blessings"},
+      "title": {"text": "Pledging to the Gods"},
+      "description": {"text": "Obtain a Charm of any variety"},
       "frame": "goal"
     },
     "criteria": {
@@ -16,9 +15,8 @@
           "items": [
             {
                 "items": [
-                    "the_vault:god_blessing"
-                ],
-                "nbt": "{type:'wendarr'}"
+                    "the_vault:small_charm"
+                ]
             }
           ]
         }
@@ -29,9 +27,8 @@
           "items": [
             {
                 "items": [
-                    "the_vault:god_blessing"
-                ],
-                "nbt": "{type:'velara'}"
+                    "the_vault:large_charm"
+                ]
             }
           ]
         }
@@ -42,9 +39,8 @@
           "items": [
             {
                 "items": [
-                    "the_vault:god_blessing"
-                ],
-                "nbt": "{type:'tenos'}"
+                    "the_vault:grand_charm"
+                ]
             }
           ]
         }
@@ -55,18 +51,14 @@
           "items": [
             {
                 "items": [
-                    "the_vault:god_blessing"
-                ],
-                "nbt": "{type:'idona'}"
+                    "the_vault:majestic_charm"
+                ]
             }
           ]
         }
       }
     },
     "requirements": [
-        ["wendarr"],
-        ["velara"],
-        ["tenos"],
-        ["idona"]
+        ["wendarr","velara","tenos","idona"]
     ]
   }

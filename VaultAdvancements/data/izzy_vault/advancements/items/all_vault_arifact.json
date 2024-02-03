@@ -1,8 +1,9 @@
 {
-    "parent": "izzy_vault:items/vault_artifact",
+    "parent": "izzy_vault:blocks/artifact_projector",
     "display": {
       "icon": {
-        "item": "the_vault:unidentified_artifact"
+        "item": "the_vault:vault_artifact",
+        "nbt": "{CustomModelData:11}"
       },
       "title": {"text": "The Story of a Lifetime"},
       "description": ["",{"text": "And I hope they keep telling more","italic": true},{"text": "\nFind all Artifacts"}],

@@ -1,11 +1,12 @@
 {
-    "parent": "izzy_vault:items/cake",
+    "parent": "izzy_vault:objectives/braziers",
     "display": {
       "icon": {
-        "item": "minecraft:cake"
+        "item": "minecraft:campfire"
       },
-      "title": {"text": "MMMmm, Tasty"},
-      "description": {"text": "Eat a Cake in a Cake Vault"}
+      "title": {"text": "Positives and Negatives"},
+      "description": {"text": "Light a Brazier"},
+      "frame": "goal"
     },
     "criteria": {
       "iskallium": {
@@ -14,7 +15,7 @@
           "location": {
             "block": {
               "blocks": [
-                "the_vault:cake"
+                "the_vault:monolith"
               ]
             }
           }

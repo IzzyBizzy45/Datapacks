@@ -5,7 +5,7 @@
         "item": "the_vault:regret_orb"
       },
       "title": {"text": "Turning Back Time"},
-      "description": {"text": "Craft a Orb of Regrets"}
+      "description": {"text": "Craft a Orb of Regret"}
     },
     "criteria": {
       "craft_item": {

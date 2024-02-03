@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:items/all_vault_arifact",
+    "parent": "izzy_vault:objectives/paradox_crate",
     "display": {
       "icon": {
-        "item": "the_vault:final_vault_frame"
+        "item": "the_vault:paradoxical_gem"
       },
-      "title": {"text": "To End it All"},
-      "description": ["",{"text": "Once and for all","italic": true},{"text": "\nObtain your Final Vault Frame"}],
+      "title": {"text": "Dividing by 0"},
+      "description": ["",{"text": "Mafs","italic": true},{"text": "\nCreate a Paradoxical Gem"}],
       "frame": "challenge",
       "hidden": true
     },
@@ -16,7 +16,7 @@
           "items": [
             {
               "items": [
-                "the_vault:final_vault_frame"
+                "the_vault:paradoxical_gem"
               ]
             }
           ]

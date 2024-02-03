@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:blocks/black_market",
+    "parent": "izzy_vault:objectives/blank_seal",
     "display": {
       "icon": {
-        "item": "the_vault:vault_diffuser"
+        "item": "the_vault:crystal_seal_sage"
       },
-      "title": {"text": "Selling for a profit"},
-      "description": {"text": "Create a Vault Soul Diffuser"}
+      "title": {"text": "Glorb Glorb Glorb"},
+      "description": {"text": "Create yourself a Seal of the Sage"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:vault_diffuser"
+                "the_vault:crystal_seal_sage"
               ]
             }
           ]

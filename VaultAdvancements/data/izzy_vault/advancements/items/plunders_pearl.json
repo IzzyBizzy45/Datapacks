@@ -1,11 +1,12 @@
 {
-    "parent": "izzy_vault:items/blank_seal",
+    "parent": "izzy_vault:items/bounty_pearl",
     "display": {
       "icon": {
-        "item": "the_vault:crystal_seal_hunter"
+        "item": "the_vault:plunderer_pearl"
       },
-      "title": {"text": "Lost and Found"},
-      "description": {"text": "Create yourself a Seal of the Hunter"}
+      "title": {"text": "Making your own Plundering Bounty"},
+      "description": {"text": "Create yourself a Plunderer Pearl"},
+      "frame": "goal"
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +15,7 @@
           "items": [
             {
               "items": [
-                "the_vault:crystal_seal_hunter"
+                "the_vault:plunderer_pearl"
               ]
             }
           ]

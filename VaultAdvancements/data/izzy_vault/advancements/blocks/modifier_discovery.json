@@ -1,5 +1,5 @@
 {
-    "parent": "izzy_vault:blocks/enhancement_altar",
+    "parent": "izzy_vault:blocks/modifier_workbench",
     "display": {
       "icon": {
         "item": "the_vault:modifier_discovery"

@@ -1,5 +1,5 @@
 {
-    "parent": "izzy_vault:vault_tools/tool",
+    "parent": "izzy_vault:items/tool",
     "display": {
       "icon": {
         "item": "the_vault:wutodic_mass"

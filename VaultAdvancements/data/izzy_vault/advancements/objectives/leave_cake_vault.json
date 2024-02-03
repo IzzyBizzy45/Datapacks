@@ -1,12 +1,11 @@
 {
-    "parent": "izzy_vault:blocks/eat_cake",
+    "parent": "izzy_vault:objectives/eat_cake",
     "display": {
       "icon": {
         "item": "the_vault:crake_pedestal"
       },
       "title": {"text": "Too much Cake for me"},
-      "description": {"text": "Interact with a Crake Pedestal in a Vault"},
-      "frame": "goal"
+      "description": {"text": "Interact with a Crake Pedestal in a Vault"}
     },
     "criteria": {
         "iskallium": {

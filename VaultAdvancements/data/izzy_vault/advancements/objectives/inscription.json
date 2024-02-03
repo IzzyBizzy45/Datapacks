@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:materials/vault_essence",
+    "parent": "izzy_vault:objectives/architect",
     "display": {
       "icon": {
-        "item": "the_vault:red_vault_essence"
+        "item": "the_vault:inscription"
       },
-      "title": {"text": "Red Makes it Go Fast"},
-      "description": {"text": "Craft Red Vault Essence"}
+      "title": {"text": "Building Instructions"},
+      "description": {"text": "Create or find an Inscription"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:red_vault_essence"
+                "the_vault:inscription"
               ]
             }
           ]

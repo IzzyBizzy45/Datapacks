@@ -1,5 +1,5 @@
 {
-    "parent": "izzy_vault:items/inscription",
+    "parent": "izzy_vault:objectives/inscription",
     "display": {
       "icon": {
         "item": "the_vault:inscription_table"

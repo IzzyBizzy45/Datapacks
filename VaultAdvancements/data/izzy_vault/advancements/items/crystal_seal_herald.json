@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:the_vault",
+    "parent": "izzy_vault:items/all_vault_arifact",
     "display": {
       "icon": {
-        "item": "the_vault:unidentified_artifact"
+        "item": "the_vault:crystal_seal_herald"
       },
-      "title": {"text": "Lost Knowledge"},
-      "description": ["",{"text": "Soon to be found knowledge","italic": true},{"text": "\nFind a Unidentified Artifact"}],
+      "title": {"text": "To End it All"},
+      "description": ["",{"text": "Once and for all","italic": true},{"text": "\nObtain a Seal of the Herald"}],
       "frame": "challenge",
       "hidden": true
     },
@@ -16,7 +16,7 @@
           "items": [
             {
               "items": [
-                "the_vault:unidentified_artifact"
+                "the_vault:crystal_seal_herald"
               ]
             }
           ]

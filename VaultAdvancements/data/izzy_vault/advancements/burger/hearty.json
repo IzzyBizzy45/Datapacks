@@ -5,7 +5,7 @@
         "item": "the_vault:spicy_hearty_burger"
       },
       "title": {"text": "It was too cold before"},
-      "description": {"text": "Craft a Spicy Hearty Burger"}
+      "description": {"text": "Purchase a Spicy Hearty Burger"}
     },
     "criteria": {
       "craft_spicy_hearty_burger": {

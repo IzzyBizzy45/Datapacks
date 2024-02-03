@@ -1,5 +1,5 @@
 {
-    "parent": "izzy_vault:vault_tools/tool_station",
+    "parent": "izzy_vault:blocks/tool_station",
     "display": {
       "icon": {
         "item": "the_vault:tool",

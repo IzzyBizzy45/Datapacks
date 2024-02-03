@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:items/blank_seal",
+    "parent": "izzy_vault:soul/soul_flame",
     "display": {
       "icon": {
-        "item": "the_vault:crystal_seal_sage"
+        "item": "the_vault:ember"
       },
-      "title": {"text": "Glorb Glorb Glorb"},
-      "description": {"text": "Create yourself a Seal of the Sage"}
+      "title": {"text": "Weirdly Cold to Touch"},
+      "description": {"text": "Obtain some Embers"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:crystal_seal_sage"
+                "the_vault:ember"
               ]
             }
           ]

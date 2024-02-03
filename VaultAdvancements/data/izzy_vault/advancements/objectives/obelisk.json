@@ -1,5 +1,5 @@
 {
-    "parent": "izzy_vault:items/executioner",
+    "parent": "izzy_vault:objectives/executioner",
     "display": {
       "icon": {
         "item": "the_vault:obelisk"

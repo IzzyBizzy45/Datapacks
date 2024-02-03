@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:blocks/black_market",
+    "parent": "izzy_vault:objectives/paradox_build",
     "display": {
       "icon": {
-        "item": "the_vault:vault_diffuser"
+        "item": "the_vault:crystal_seal_ordinator_run"
       },
-      "title": {"text": "Selling for a profit"},
-      "description": {"text": "Create a Vault Soul Diffuser"}
+      "title": {"text": "The Tailored Experience"},
+      "description": {"text": "Obtain a Seal of the Ordinator"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:vault_diffuser"
+                "the_vault:crystal_seal_ordinator_run"
               ]
             }
           ]

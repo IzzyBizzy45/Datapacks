@@ -1,5 +1,5 @@
 {
-    "parent": "izzy_vault:materials/red_vault_essence",
+    "parent": "izzy_vault:materials/empty_flask",
     "display": {
       "icon": {
         "item": "the_vault:respec_flask"
