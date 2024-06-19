@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:objectives/blank_seal",
+    "parent": "izzy_vault:blocks/crystal_workbench",
     "display": {
       "icon": {
         "item": "the_vault:crystal_seal_ordinator_build"
       },
       "title": {"text": "Super Minecraft Maker"},
-      "description": {"text": "Obtain a Seal of the Creator"}
+      "description": {"text": "Obtain a Architect's Vault Rock"}
     },
     "criteria": {
       "craft_item": {

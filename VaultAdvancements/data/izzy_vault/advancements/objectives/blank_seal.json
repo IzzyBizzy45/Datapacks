@@ -1,5 +1,5 @@
 {
-    "parent": "izzy_vault:the_vault",
+    "parent": "izzy_vault:blocks/crystal_workbench",
     "display": {
       "icon": {
         "item": "the_vault:crystal_seal_empty"

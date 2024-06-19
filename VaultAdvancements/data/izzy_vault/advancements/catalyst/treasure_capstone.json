@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:catalyst/mote_purity",
+    "parent": "izzy_vault:catalyst/dungeon_capstone",
     "display": {
       "icon": {
-        "item": "the_vault:mote_sanctity"
+        "item": "the_vault:capstone_treasure_hunter"
       },
-      "title": {"text": "Sacred Crystalines"},
-      "description": {"text": "Find a Mote of Sanctity"}
+      "title": {"text": "Hunting for the very best"},
+      "description": {"text": "Find yourself a Treasure Capstone"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:mote_sanctity"
+                "the_vault:capstone_treasure_hunter"
               ]
             }
           ]

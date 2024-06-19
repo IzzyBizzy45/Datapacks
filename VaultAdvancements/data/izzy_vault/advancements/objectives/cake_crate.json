@@ -16,18 +16,6 @@
           "block": "the_vault:vault_crate_cake"
         }
       },
-      "crake_open": {
-        "trigger": "minecraft:item_used_on_block",
-        "conditions": {
-          "location": {
-            "block": {
-              "blocks": [
-                "the_vault:vault_crate_cake"
-              ]
-            }
-          }
-        }
-      },
       "crake_touch": {
         "trigger": "minecraft:item_used_on_block",
           "conditions": {
@@ -43,7 +31,6 @@
     },
     "requirements": [
         ["crake_place"],
-        ["crake_open"],
         ["crake_touch"]
     ]
   }

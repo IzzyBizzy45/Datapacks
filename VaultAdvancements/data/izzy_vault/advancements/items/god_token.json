@@ -6,7 +6,7 @@
         "nbt": "{type:'velara'}"
       },
       "title": {"text": "Brownie Points"},
-      "description": {"text": "Get a God Token"}
+      "description": {"text": "Get a God Capstone"}
     },
     "criteria": {
       "craft_item": {

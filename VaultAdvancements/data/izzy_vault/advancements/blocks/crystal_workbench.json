@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:catalyst/mote_clarity",
+    "parent": "izzy_vault:the_vault",
     "display": {
       "icon": {
-        "item": "the_vault:mote_purity"
+        "item": "the_vault:crystal_workbench"
       },
-      "title": {"text": "Pure Streams"},
-      "description": {"text": "Find a Mote of Purity"}
+      "title": {"text": "A Crystal to My Specifications"},
+      "description": {"text": "Create a Crystal Workbench"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:mote_purity"
+                "the_vault:crystal_workbench"
               ]
             }
           ]

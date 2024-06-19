@@ -16,18 +16,6 @@
           "block": "the_vault:vault_crate_scavenger"
         }
       },
-      "crake_open": {
-        "trigger": "minecraft:item_used_on_block",
-        "conditions": {
-          "location": {
-            "block": {
-              "blocks": [
-                "the_vault:vault_crate_scavenger"
-              ]
-            }
-          }
-        }
-      },
       "altar": {
         "trigger": "minecraft:item_used_on_block",
         "conditions": {
@@ -46,7 +34,6 @@
     },
     "requirements": [
         ["crake_place"],
-        ["crake_open"],
         ["altar"]
     ]
   }

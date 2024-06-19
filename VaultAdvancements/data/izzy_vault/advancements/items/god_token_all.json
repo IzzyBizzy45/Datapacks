@@ -6,7 +6,7 @@
         "nbt": "{type:'tenos'}"
       },
       "title": {"text": "May the Gods smile upon you"},
-      "description": ["",{"text": "No favourites here~!","italic": true},{"text": "\nGain all of the Gods Tokens"}],
+      "description": ["",{"text": "No favourites here~!","italic": true},{"text": "\nGain all of the God's Capstones"}],
       "frame": "challenge",
       "hidden": true
     },

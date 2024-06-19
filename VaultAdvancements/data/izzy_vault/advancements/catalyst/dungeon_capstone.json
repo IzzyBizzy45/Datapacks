@@ -1,11 +1,11 @@
 {
-    "parent": "izzy_vault:catalyst/vault_catalyst",
+    "parent": "izzy_vault:catalyst/afterlife",
     "display": {
       "icon": {
-        "item": "the_vault:mote_clarity"
+        "item": "the_vault:capstone_dungeon_hunter"
       },
-      "title": {"text": "Clear Vision"},
-      "description": {"text": "Find or Create a Mote of Clarity"}
+      "title": {"text": "More Loot comes with more Battles"},
+      "description": {"text": "Find yourself a Dungeon Capstone"}
     },
     "criteria": {
       "craft_item": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "the_vault:mote_clarity"
+                "the_vault:capstone_dungeon_hunter"
               ]
             }
           ]
